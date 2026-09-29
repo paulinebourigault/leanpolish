@@ -1,0 +1,464 @@
+{
+  "layout": "B",
+  "partition_rule": {
+    "l2_detections": [
+      "l2_detection"
+    ],
+    "rejected_pairs": [
+      "rejected_attempt"
+    ],
+    "training_pairs": [
+      "dead_code_removal",
+      "l2_replacement",
+      "tactic_replacement",
+      "warning_cleanup"
+    ]
+  },
+  "provenance": {
+    "build_commit": "97b93d7178331d06c3a3152062092029389f2126",
+    "build_repo": "https://github.com/paulinebourigault/leanpolish",
+    "lean_toolchain": "leanprover/lean4:v4.21.0",
+    "mathlib_revision": "308445d7985027f538e281e18df29ca16ede2ba3",
+    "note": "Per-row commit_sha and timestamp fields are intentionally null; use this provenance block (and the per-shard provenance below) as the canonical source.",
+    "schema_notes": {
+      "edit_width": "Per-row int; equals len(original) - len(replacement). For substitution edits (e.g., Lean.Parser.*) this is the local byte savings of the rewrite. For deletion edits (kind starts with 'cleanup_' or equals 'dead_have'), the replacement is the empty string and edit_width equals len(original). Prefer this field over the per-row 'savings' field for RL reward shaping; 'savings' is heterogeneous across kinds and 'bytes_original'/'bytes_shortened' are whole-file counters that repeat across rows of the same file.",
+      "union_schema_normalisation": "Within each shard, training_pairs and rejected_pairs share a single union schema; fields not produced by a given pipeline are emitted as JSON null. Required for HuggingFace parquet auto-conversion.",
+      "always_null_dropped": "Per-split union schema. Columns that were 100% null within a split have been dropped from that split's files (no information loss). Training: err_msg/wall_ms are not emitted (training rows are accepted; failure metadata is by definition rejected-only). Rejected: failed_attempts/failed_tactics are not emitted (these are only populated for the winning attempt of a tournament). See per-split feature schemas in README dataset_info.",
+      "dropped_per_split": {
+        "mathlib/training_pairs": [
+          "err_msg",
+          "wall_ms"
+        ],
+        "mathlib/rejected_pairs": [
+          "failed_attempts",
+          "failed_tactics"
+        ],
+        "goedel/training_pairs": [
+          "err_msg",
+          "wall_ms"
+        ],
+        "goedel/rejected_pairs": [
+          "failed_attempts",
+          "failed_tactics"
+        ],
+        "minif2f/training_pairs": [
+          "err_msg",
+          "wall_ms"
+        ],
+        "minif2f/rejected_pairs": [
+          "failed_attempts",
+          "failed_tactics"
+        ],
+        "putnam_bench/training_pairs": [
+          "err_msg",
+          "wall_ms"
+        ],
+        "putnam_bench/rejected_pairs": [
+          "failed_attempts",
+          "failed_tactics"
+        ],
+        "putnam_verified/training_pairs": [
+          "err_msg",
+          "wall_ms"
+        ],
+        "putnam_verified/rejected_pairs": [
+          "failed_attempts",
+          "failed_tactics"
+        ],
+        "putnam2025_per_file/training_pairs": [],
+        "putnam2025_per_file/rejected_pairs": [
+          "failed_tactics"
+        ],
+        "putnam2025_pool/training_pairs": [
+          "err_msg",
+          "wall_ms"
+        ],
+        "putnam2025_pool/rejected_pairs": [
+          "failed_attempts",
+          "failed_tactics"
+        ]
+      }
+    },
+    "schema_version": "1.0"
+  },
+  "shards": {
+    "goedel": {
+      "l2_detections": {
+        "gzip_bytes": 311110,
+        "jsonl_bytes": 3518408,
+        "jsonl_sha256": "5539ce9399d9b51a93b116980f352a681439525966207287f24416841c9b8426",
+        "rows": 4112
+      },
+      "provenance": {
+        "build_commit": "97b93d7178331d06c3a3152062092029389f2126",
+        "build_timestamp_utc": "2026-04-30T08:41:11Z",
+        "corpus": {
+          "license": "see upstream dataset card",
+          "name": "Goedel-LM Lean Workbook proofs",
+          "revision": null,
+          "url": "https://huggingface.co/datasets/Goedel-LM/Lean-workbook-proofs",
+          "version": "HF dataset Goedel-LM/Lean-workbook-proofs (29,750 upstream proofs ingested; 29,985 optimizer attempts after pool expansion, of which 29,676 verified and 11,367 accepted -- see analysis/corpus_stats_v2.json)"
+        },
+        "lean_toolchain": "leanprover/lean4:v4.21.0",
+        "mathlib_revision": "308445d7985027f538e281e18df29ca16ede2ba3"
+      },
+      "rejected_pairs": {
+        "gzip_bytes": 4942213,
+        "jsonl_bytes": 107389749,
+        "jsonl_sha256": "d73712248a370213b9e7d9b23fec8010bf02b680bd685a6587d0813390d61d01",
+        "rows": 28525
+      },
+      "training_pairs": {
+        "gzip_bytes": 5503225,
+        "jsonl_bytes": 48398402,
+        "jsonl_sha256": "7f41d324279491e4292c2fd19d6374052077aa4793c2eb500a8d4d73b9e46660",
+        "rows": 20822
+      }
+    },
+    "mathlib": {
+      "l2_detections": {
+        "gzip_bytes": 388544,
+        "jsonl_bytes": 3467492,
+        "jsonl_sha256": "81acbf29d7bd56958142e0b20a928c60264b35cfeff5a774eedad4d8c722f201",
+        "rows": 3664
+      },
+      "provenance": {
+        "build_commit": "97b93d7178331d06c3a3152062092029389f2126",
+        "build_timestamp_utc": "2026-04-30T08:42:32Z",
+        "corpus": {
+          "license": "Apache-2.0",
+          "name": "Mathlib4",
+          "revision": "308445d7985027f538e281e18df29ca16ede2ba3",
+          "url": "https://github.com/leanprover-community/mathlib4",
+          "version": "v4.21.0"
+        },
+        "lean_toolchain": "leanprover/lean4:v4.21.0",
+        "mathlib_revision": "308445d7985027f538e281e18df29ca16ede2ba3"
+      },
+      "rejected_pairs": {
+        "gzip_bytes": 17303914,
+        "jsonl_bytes": 1033122705,
+        "jsonl_sha256": "e11ee01ca430d04e74e8d48256e5b4108e1c7c531049c3fa1ea21604586b0061",
+        "rows": 26912
+      },
+      "training_pairs": {
+        "gzip_bytes": 26924044,
+        "jsonl_bytes": 2330119325,
+        "jsonl_sha256": "7fef46cb65b88a1844512b256c9b1cb4370acab34f3ba6207d0a82dbd231d8ce",
+        "rows": 6695
+      },
+      "files_sharded": {
+        "training_pairs": [
+          {
+            "name": "training_pairs_00.jsonl.gz",
+            "gzip_bytes": 2332042,
+            "jsonl_sha256": "c507da50176a9f9e3aa8d67f3ec9ed3d81b096cd90e41fe96b1deb9e10ad2e7a",
+            "jsonl_bytes": 187048724,
+            "rows": 670
+          },
+          {
+            "name": "training_pairs_01.jsonl.gz",
+            "gzip_bytes": 9054407,
+            "jsonl_sha256": "5a5ac2d32dedd37a9ced4a40665d8869509d34e741382c4e92163caaf2a938cf",
+            "jsonl_bytes": 969576139,
+            "rows": 670
+          },
+          {
+            "name": "training_pairs_02.jsonl.gz",
+            "gzip_bytes": 8754415,
+            "jsonl_sha256": "8b8fbdf7003d1b35044970393c9aacd9638f101526409ceb6d51646abeb227a7",
+            "jsonl_bytes": 832757380,
+            "rows": 670
+          },
+          {
+            "name": "training_pairs_03.jsonl.gz",
+            "gzip_bytes": 1145292,
+            "jsonl_sha256": "4bf09b5ba10925dc5d4a26425b4b347c76c16c6cafeed34c88826e40b1e03b44",
+            "jsonl_bytes": 63036440,
+            "rows": 670
+          },
+          {
+            "name": "training_pairs_04.jsonl.gz",
+            "gzip_bytes": 374062,
+            "jsonl_sha256": "af86699728af8df1b98a62ffb4eacc2367c85a3ab0393e264d22c2bf2919db59",
+            "jsonl_bytes": 3286775,
+            "rows": 670
+          },
+          {
+            "name": "training_pairs_05.jsonl.gz",
+            "gzip_bytes": 519952,
+            "jsonl_sha256": "bd7b5b67c9df8901b5da86e0d8290cab874315dd13b71144b33c20f31a1589ca",
+            "jsonl_bytes": 14469424,
+            "rows": 670
+          },
+          {
+            "name": "training_pairs_06.jsonl.gz",
+            "gzip_bytes": 1007998,
+            "jsonl_sha256": "69136f7d83361bdec37d3a786d1a4e8d78fde4b7663e7f78b788780f44fcde9c",
+            "jsonl_bytes": 52115381,
+            "rows": 670
+          },
+          {
+            "name": "training_pairs_07.jsonl.gz",
+            "gzip_bytes": 481939,
+            "jsonl_sha256": "f93d31427ce9808a8b77957f37203f7977d805424f0b06b52918d747fba053c4",
+            "jsonl_bytes": 6456200,
+            "rows": 670
+          },
+          {
+            "name": "training_pairs_08.jsonl.gz",
+            "gzip_bytes": 1336142,
+            "jsonl_sha256": "6f2ec4272525b687a37a2da176552e8d0e4230b5381f6a44c230de98d48544c3",
+            "jsonl_bytes": 74415134,
+            "rows": 670
+          },
+          {
+            "name": "training_pairs_09.jsonl.gz",
+            "gzip_bytes": 1917795,
+            "jsonl_sha256": "ab191e74aea0886d5dd7c8192eb9a93749fa7343ee1223bc9bf0722aa5732ffc",
+            "jsonl_bytes": 126957728,
+            "rows": 665
+          }
+        ],
+        "rejected_pairs": [
+          {
+            "name": "rejected_pairs_00.jsonl.gz",
+            "gzip_bytes": 2320053,
+            "jsonl_sha256": "7b1d472f922123359b8cd9d9f697fb57494704f4e110d5d3074c9c53d5009994",
+            "jsonl_bytes": 130981015,
+            "rows": 2692
+          },
+          {
+            "name": "rejected_pairs_01.jsonl.gz",
+            "gzip_bytes": 1709981,
+            "jsonl_sha256": "946c471d8e7f027dfaf04b85a1337fc74f65639db1ed527e3f73b2031d012141",
+            "jsonl_bytes": 91438923,
+            "rows": 2691
+          },
+          {
+            "name": "rejected_pairs_02.jsonl.gz",
+            "gzip_bytes": 1319453,
+            "jsonl_sha256": "120ed03378004d7467bdc2337c6231403702b6df24377c24727adf2ff77724c8",
+            "jsonl_bytes": 63679888,
+            "rows": 2692
+          },
+          {
+            "name": "rejected_pairs_03.jsonl.gz",
+            "gzip_bytes": 3500075,
+            "jsonl_sha256": "0ea64d3e9fba485e4234902c2025b6892bb72c1470832b234c9bc03b90bbc983",
+            "jsonl_bytes": 245111163,
+            "rows": 2691
+          },
+          {
+            "name": "rejected_pairs_04.jsonl.gz",
+            "gzip_bytes": 501758,
+            "jsonl_sha256": "5d68c916de7a7ab57becb8f3e1b6628e9f942bea3516d95c270a8256025eaa81",
+            "jsonl_bytes": 8851892,
+            "rows": 2692
+          },
+          {
+            "name": "rejected_pairs_05.jsonl.gz",
+            "gzip_bytes": 622809,
+            "jsonl_sha256": "73703ab0b92da8648410fbf2a0fe09d949cb5417a5eadf388033e89bb3af9636",
+            "jsonl_bytes": 14612012,
+            "rows": 2691
+          },
+          {
+            "name": "rejected_pairs_06.jsonl.gz",
+            "gzip_bytes": 2173759,
+            "jsonl_sha256": "5b4e3fb8798e03ffd2c4dca165c3725a088d587a4ca99bbf23ad46a910f61fc8",
+            "jsonl_bytes": 153985406,
+            "rows": 2692
+          },
+          {
+            "name": "rejected_pairs_07.jsonl.gz",
+            "gzip_bytes": 683312,
+            "jsonl_sha256": "4f438afb0389bf145524ae14612f7204c149d42b838ce5bed2da2fc72df8dd9e",
+            "jsonl_bytes": 16935169,
+            "rows": 2691
+          },
+          {
+            "name": "rejected_pairs_08.jsonl.gz",
+            "gzip_bytes": 2283806,
+            "jsonl_sha256": "6087fc14bb628d8a1a11acc981803ef9a1fac776326d024dd80f0436bce7f1fd",
+            "jsonl_bytes": 130884781,
+            "rows": 2692
+          },
+          {
+            "name": "rejected_pairs_09.jsonl.gz",
+            "gzip_bytes": 2188908,
+            "jsonl_sha256": "f0e495bd7923b2883cb27f5391c55b886ce27d2700f9db93243ac30b4e30ba57",
+            "jsonl_bytes": 176642456,
+            "rows": 2688
+          }
+        ]
+      },
+      "sharding_note": "training_pairs and rejected_pairs are split into 10 chunks each (training_pairs_00..09.jsonl.gz / rejected_pairs_00..09.jsonl.gz) because the monolithic files exceeded HuggingFace's per-file viewer processing budget (~2.3 GB plain JSONL each). Concatenating all training_pairs_*.jsonl.gz reproduces the original training_pairs.jsonl.gz byte stream (line-by-line). Each chunk preserves the union schema."
+    },
+    "minif2f": {
+      "l2_detections": {
+        "gzip_bytes": 90002,
+        "jsonl_bytes": 1015682,
+        "jsonl_sha256": "3d2f1ec111712c392e4410267b0c0d80ca4b1b034216142cae01d40a2e5693b1",
+        "rows": 954
+      },
+      "provenance": {
+        "build_commit": "97b93d7178331d06c3a3152062092029389f2126",
+        "build_timestamp_utc": "2026-04-30T08:43:21Z",
+        "corpus": {
+          "license": "MIT",
+          "name": "miniF2F (Lean4 verified subset)",
+          "revision": "97b93d7178331d06c3a3152062092029389f2126",
+          "url": "https://github.com/openai/miniF2F",
+          "version": "embedded snapshot in optimizer build_commit"
+        },
+        "lean_toolchain": "leanprover/lean4:v4.21.0",
+        "mathlib_revision": "308445d7985027f538e281e18df29ca16ede2ba3"
+      },
+      "rejected_pairs": {
+        "gzip_bytes": 340687,
+        "jsonl_bytes": 10263578,
+        "jsonl_sha256": "611458503f081863f71a5b94c5d0e7b258fcec043cba9b4740e1d444faf44d54",
+        "rows": 3753
+      },
+      "training_pairs": {
+        "gzip_bytes": 306666,
+        "jsonl_bytes": 3232180,
+        "jsonl_sha256": "08cf7c580d4913dac7b36b1813c24743129fc1f0ac992b6a64ce28b8b78c50b7",
+        "rows": 1184
+      }
+    },
+    "putnam2025_per_file": {
+      "l2_detections": {
+        "gzip_bytes": 1450,
+        "jsonl_bytes": 11898,
+        "jsonl_sha256": "71ceee1c320b74170094e8997d656252700f98a549657ccf075036a0eaed8940",
+        "rows": 12
+      },
+      "provenance": {
+        "build_commit": "97b93d7178331d06c3a3152062092029389f2126",
+        "build_timestamp_utc": "2026-04-30T08:43:22Z",
+        "corpus": {
+          "license": "see top-level LICENSE",
+          "name": "Putnam 2025 (per-file optimizer runs, AxiomProver candidates)",
+          "revision": "97b93d7178331d06c3a3152062092029389f2126",
+          "url": "https://github.com/paulinebourigault/leanpolish",
+          "version": "embedded snapshot in optimizer build_commit"
+        },
+        "lean_toolchain": "leanprover/lean4:v4.21.0",
+        "mathlib_revision": "308445d7985027f538e281e18df29ca16ede2ba3"
+      },
+      "rejected_pairs": {
+        "gzip_bytes": 12354,
+        "jsonl_bytes": 346688,
+        "jsonl_sha256": "269bc263dc270b789c8b0b9429638547a852d6aa2432f67328954d9d714871e8",
+        "rows": 147
+      },
+      "training_pairs": {
+        "gzip_bytes": 71214,
+        "jsonl_bytes": 525224,
+        "jsonl_sha256": "3428ef8cef4c44030e54241d733972f954224448609879a5f60034884e384564",
+        "rows": 142
+      }
+    },
+    "putnam2025_pool": {
+      "l2_detections": {
+        "gzip_bytes": 1616,
+        "jsonl_bytes": 10974,
+        "jsonl_sha256": "7e679013e996c380bef52b32c7c0ac9c1b58c802b62fb2c263b4085ae31f52cf",
+        "rows": 12
+      },
+      "provenance": {
+        "build_commit": "97b93d7178331d06c3a3152062092029389f2126",
+        "build_timestamp_utc": "2026-04-30T08:43:22Z",
+        "corpus": {
+          "license": "see top-level LICENSE",
+          "name": "Putnam 2025 (pooled orchestrator output, AxiomProver candidates)",
+          "revision": "97b93d7178331d06c3a3152062092029389f2126",
+          "url": "https://github.com/paulinebourigault/leanpolish",
+          "version": "embedded snapshot in optimizer build_commit"
+        },
+        "lean_toolchain": "leanprover/lean4:v4.21.0",
+        "mathlib_revision": "308445d7985027f538e281e18df29ca16ede2ba3"
+      },
+      "rejected_pairs": {
+        "gzip_bytes": 12456,
+        "jsonl_bytes": 217395,
+        "jsonl_sha256": "0ee4e386794bc2a2439b8c9127ff2c2f2dc84d40ac2301e6656a6ebc8324e752",
+        "rows": 75
+      },
+      "training_pairs": {
+        "gzip_bytes": 79117,
+        "jsonl_bytes": 537539,
+        "jsonl_sha256": "e14ff1ce6911bfce76a070e09d9ac32fcec6907a593f7ab3b5d8463f02af6530",
+        "rows": 125
+      }
+    },
+    "putnam_bench": {
+      "l2_detections": {
+        "gzip_bytes": 463218,
+        "jsonl_bytes": 4960108,
+        "jsonl_sha256": "8f79cde6499e801b00cc0db78a14998c15ffd9addc20310d0a975511dcd7d87e",
+        "rows": 3570
+      },
+      "provenance": {
+        "build_commit": "97b93d7178331d06c3a3152062092029389f2126",
+        "build_timestamp_utc": "2026-04-30T08:43:22Z",
+        "corpus": {
+          "license": "Apache-2.0",
+          "name": "PutnamBench (Lean4 subset)",
+          "revision": "97b93d7178331d06c3a3152062092029389f2126",
+          "url": "https://github.com/trishullab/PutnamBench",
+          "version": "embedded snapshot in optimizer build_commit"
+        },
+        "lean_toolchain": "leanprover/lean4:v4.21.0",
+        "mathlib_revision": "308445d7985027f538e281e18df29ca16ede2ba3"
+      },
+      "rejected_pairs": {
+        "gzip_bytes": 494890,
+        "jsonl_bytes": 18118403,
+        "jsonl_sha256": "867b2914e41e8f1c2df8f43d22f581326f08e38bd33436fd1731205630bfba2f",
+        "rows": 5930
+      },
+      "training_pairs": {
+        "gzip_bytes": 498672,
+        "jsonl_bytes": 7962201,
+        "jsonl_sha256": "2f3a97a23bbb52fc63de9def0712e62a1d6b21c52392fd0aa2227b0013875f95",
+        "rows": 4354
+      }
+    },
+    "putnam_verified": {
+      "l2_detections": {
+        "gzip_bytes": 13071,
+        "jsonl_bytes": 143350,
+        "jsonl_sha256": "8941a745f9b8ee77b05588802674cfdd8e224b9af92a89988ab3a5b56d186cc6",
+        "rows": 144
+      },
+      "provenance": {
+        "build_commit": "97b93d7178331d06c3a3152062092029389f2126",
+        "build_timestamp_utc": "2026-04-30T08:43:23Z",
+        "corpus": {
+          "license": "Apache-2.0",
+          "name": "PutnamBench (kernel-verified subset)",
+          "revision": "97b93d7178331d06c3a3152062092029389f2126",
+          "url": "https://github.com/trishullab/PutnamBench",
+          "version": "embedded snapshot in optimizer build_commit"
+        },
+        "lean_toolchain": "leanprover/lean4:v4.21.0",
+        "mathlib_revision": "308445d7985027f538e281e18df29ca16ede2ba3"
+      },
+      "rejected_pairs": {
+        "gzip_bytes": 25015,
+        "jsonl_bytes": 760577,
+        "jsonl_sha256": "50632729220ab869700aec0356b4247b9ddf2ff405547d600fa9909a9ad9c6e6",
+        "rows": 254
+      },
+      "training_pairs": {
+        "gzip_bytes": 23236,
+        "jsonl_bytes": 219259,
+        "jsonl_sha256": "d85c7d3a7d48386b683523e1c589ad73a058678f179aaaa70692b9ba4fe3011c",
+        "rows": 80
+      }
+    }
+  }
+}

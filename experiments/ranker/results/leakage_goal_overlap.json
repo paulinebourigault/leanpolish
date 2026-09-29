@@ -1,0 +1,33 @@
+{
+  "train_goal_hashes": 5536,
+  "goedel_val": {
+    "sites": 779,
+    "sites_goal_seen_in_train": 57,
+    "pct": 7.317073170731708
+  },
+  "minif2f": {
+    "sites": 4777,
+    "sites_goal_seen_in_train": 0,
+    "pct": 0.0
+  },
+  "putnam_verified": {
+    "sites": 392,
+    "sites_goal_seen_in_train": 0,
+    "pct": 0.0
+  },
+  "cm_minif2f": {
+    "sites": 4982,
+    "sites_goal_seen_in_train": 0,
+    "pct": 0.0
+  },
+  "cm_putnam_verified": {
+    "sites": 412,
+    "sites_goal_seen_in_train": 0,
+    "pct": 0.0
+  },
+  "cm_axiom": {
+    "sites": 1247,
+    "sites_goal_seen_in_train": 0,
+    "pct": 0.0
+  }
+}

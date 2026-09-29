@@ -1,0 +1,11 @@
+.lake/
+.venv/
+__pycache__/
+*.pyc
+# local optimizer outputs (run from leanpolish/)
+/leanpolish/logs/
+/leanpolish/reports/
+/leanpolish/shards/
+/leanpolish/goedel_workbook/
+/leanpolish/mathlib_optimization/
+/leanpolish/goedel_optimization/

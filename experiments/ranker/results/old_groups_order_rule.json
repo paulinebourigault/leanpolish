@@ -1,0 +1,28 @@
+{
+  "old_first_success_groups_order_rule": {
+    "minif2f": {
+      "groups": 654,
+      "menu_first_top1": 0.0,
+      "menu_last_top1": 1.0
+    },
+    "putnam2025_per_file": {
+      "groups": 25,
+      "menu_first_top1": 0.0,
+      "menu_last_top1": 1.0
+    },
+    "putnam_verified": {
+      "groups": 39,
+      "menu_first_top1": 0.0,
+      "menu_last_top1": 1.0
+    },
+    "pooled": {
+      "groups": 718,
+      "menu_first_top1": 0.0,
+      "menu_last_top1": 1.0,
+      "unmapped_candidates": 0
+    }
+  },
+  "pool_stats_eval": {},
+  "selection": {},
+  "missing_model_scores": 0
+}

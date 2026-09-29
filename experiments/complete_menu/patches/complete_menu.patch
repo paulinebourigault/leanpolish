@@ -1,0 +1,297 @@
+--- a/LeanPolish.lean
++++ b/LeanPolish.lean
+@@ -374,6 +374,92 @@
+       IO.println s!"[WARN] checkAutomations exception: {msg.take 120}"
+     return none
+ 
++/-- v2 (`--complete-menu`): one record per automation-menu entry tried on a goal. -/
++structure MenuOutcome where
++  menuIdx  : Nat
++  menuName : String          -- menu entry, e.g. "norm_num", "simp?"
++  tac      : String          -- candidate text (for simp?: the squeezed `simp only [...]`)
++  valid    : Bool            -- closed the goal (no errors, no sorry, no mvar leakage)
++  timedOut : Bool            -- hit the 5 s CancelToken budget (slow tactics only)
++  skipped  : Bool            -- not run: menu text not strictly shorter than the original span
++  goalType : String
++  termSize : Nat
++  err      : String
++  wallMs   : Nat
++  deriving Inhabited
++
++/-- The automation menu in the SAME order as `checkAutomations`.
++    Second component: run under a 5 s `withTimeoutMs` budget (same as v1). -/
++def automationMenu : Array (String × Bool) :=
++  #[("rfl", false), ("ring", false), ("abel", false), ("norm_num", false),
++    ("norm_cast", false), ("positivity", false), ("decide", true),
++    ("linarith", false), ("omega", false), ("field_simp", true),
++    ("contradiction", false), ("ext", false), ("gcongr", false),
++    ("tauto", true), ("simp?", true)]
++
++/-- v2 complete-menu variant of `checkAutomations`: tries EVERY menu entry
++    (no early exit) with the same per-tactic timeouts, and returns every
++    outcome.  Length guard: a menu entry is run only if its text is strictly
++    shorter than the original span (v1 used hand-set thresholds that coincide
++    with this rule for every entry except `positivity`, where v1 required
++    span > 11 instead of > 10).  For `simp?` the entry runs when span > 4 as
++    in v1; a valid squeeze whose text is not shorter is kept and labelled
++    `rejected_length` by the caller.  Selection is done by the caller. -/
++def checkAutomationsAll (goal : MVarId) (ti : TacticInfo) (origLen : Nat)
++    (timeoutAll : Bool := false) : MetaM (Array MenuOutcome) := do
++  let outRef ← IO.mkRef (#[] : Array MenuOutcome)
++  try
++    withMCtx ti.mctxBefore do
++      TermElabM.run' do
++        let goalType ← goal.getType
++        unless ← Meta.isProp goalType do
++          return
++        let mut idx : Nat := 0
++        for (name, slow0) in automationMenu do
++          -- --menu-timeout-all: put EVERY entry (not only the 4 slow ones) under the
++          -- 5 s CancelToken budget; guards against a "fast" tactic hanging on a goal
++          -- that first-success mode would never have reached.
++          let slow := slow0 || timeoutAll
++          let i := idx
++          idx := idx + 1
++          let runnable := if name == "simp?" then origLen > 4 else name.length < origLen
++          if !runnable then
++            outRef.modify (·.push (MenuOutcome.mk (i) (name) (name) (false) (false) (true) ("") (0) ("skipped: not shorter than original") (0)))
++            continue
++          if slow then
++            let infoRef ← IO.mkRef (none : Option (Bool × String × String × Nat × String × Nat))
++            let t0 ← IO.monoMsNow
++            try
++              let _ ← withTimeoutMs 5000 do
++                let r ← runTacticString goal name ti.mctxBefore
++                infoRef.set (some r)
++            catch e =>
++              let msg ← try e.toMessageData.toString catch _ => pure "<exception>"
++              infoRef.set (some (false, "", "", 0, (msg.take 200).map (fun c => if c == '\n' then ' ' else c), 0))
++            let outerDt := (← IO.monoMsNow) - t0
++            match ← infoRef.get with
++            | some (suc, gt, tryThis, ts, em, dt) =>
++              let tacText := if name == "simp?" then (if suc && tryThis != "" then tryThis else "simp?") else name
++              -- simp? that "succeeds" without a squeeze suggestion is treated as invalid (v1: never emitted)
++              let suc' := suc && (name != "simp?" || tryThis != "")
++              let em' := if suc && !suc' then "simp? produced no squeeze suggestion" else em
++              outRef.modify (·.push (MenuOutcome.mk (i) (name) (tacText) (suc') (false) (false) (gt) (ts) (em') (dt)))
++            | none =>
++              outRef.modify (·.push (MenuOutcome.mk (i) (name) (name) (false) (true) (false) ("") (0) ("timeout (5000ms)") (outerDt)))
++          else
++            try
++              let (suc, gt, _, ts, em, dt) ← runTacticString goal name ti.mctxBefore
++              outRef.modify (·.push (MenuOutcome.mk (i) (name) (name) (suc) (false) (false) (gt) (ts) (em) (dt)))
++            catch e =>
++              let msg ← try e.toMessageData.toString catch _ => pure "<exception>"
++              outRef.modify (·.push (MenuOutcome.mk (i) (name) (name) (false) (false) (false) ("") (0) ((msg.take 200).map (fun c => if c == '\n' then ' ' else c)) (0)))
++        -- terminate the loop so the outer `catch` below binds to the outer `try`
++        pure ()
++  catch e => do
++    let msg ← try e.toMessageData.toString catch _ => pure "<unknown>"
++    IO.println s!"[WARN] checkAutomationsAll exception: {msg.take 120}"
++  outRef.get
++
+ def stripMVarArgs (e : Expr) : Expr :=
+   e.replace (fun sub => if sub.getAppFn.isMVar then some sub.getAppFn else none)
+ 
+@@ -830,6 +916,11 @@
+   isPropSafe  : Bool := false  -- True if proof irrelevance guarantees this edit is safe
+   -- (tacName, errMsg, wallMs) tried before the winner that failed on this goal
+   failedTactics : Array (String × String × Nat) := #[]
++  -- v2 (--complete-menu only): every other menu candidate tried on this goal,
++  -- as (candidateText, outcomeLabel, errMsg, wallMs).  outcomeLabel ∈
++  -- {valid_not_chosen, rejected_kernel, timeout, rejected_quality, rejected_length}.
++  -- Empty in default (first-success) mode, so default output is unchanged.
++  menuSiblings : Array (String × String × String × Nat) := #[]
+   deriving Inhabited
+ 
+ -- ═══════════════════════════════════════════════════════════════════════════
+@@ -846,6 +937,8 @@
+   skipCleanup    : Bool := false  -- skip warning-guided cleanup (Phase 3)
+   noQualityGate  : Bool := false  -- accept shortest valid tactic regardless of specificity tier
+   noG3           : Bool := false  -- §3.3 ablation: disable G3 generalization gate in L2
++  menuTimeoutAll : Bool := false  -- v2 option: 5 s budget on every menu entry (complete-menu only)
++  completeMenu   : Bool := false  -- v2: try the WHOLE automation menu, pick shortest quality-passing success
+   memTrace       : Bool := false  -- emit [MEMTRACE] lines at phase boundaries (Linux /proc/self/status)
+   blockLocal     : Bool := false  -- W2: advisory per-candidate one-command pre-check.
+                                    -- Currently does not drop candidates: every survivor is forwarded
+@@ -2386,9 +2479,91 @@
+                   let failedTacticsRef ← IO.mkRef (#[] : Array (String × String × Nat))
+                   -- First try deterministic automations (fast, highest quality)
+                   -- Per-goal timeout is already inside checkAutomations (30s withTimeoutMs).
+-                  let canShorten? ← try
+-                    MetaM.run' (checkAutomations mainGoal ti origSpan failedTacticsRef)
+-                  catch _ => pure none
++                  -- v2 (--complete-menu): all non-chosen menu candidates with outcome labels
++                  let menuSibsRef ← IO.mkRef (#[] : Array (String × String × String × Nat))
++                  let canShorten? ← if !cfg.completeMenu then
++                      try
++                        MetaM.run' (checkAutomations mainGoal ti origSpan failedTacticsRef)
++                      catch _ => pure none
++                    else do
++                      let outs ← try MetaM.run' (checkAutomationsAll mainGoal ti origSpan cfg.menuTimeoutAll)
++                                 catch _ => pure #[]
++                      let origTextCM := fileData.extract ⟨startPos.byteIdx⟩ ⟨endPos.byteIdx⟩
++                      let envCM ← getEnv
++                      let wrapCM := fun (t : String) =>
++                        if kind == "Lean.Parser.Term.byTactic" then s!"by {t}" else t
++                      -- usable = valid AND strictly shorter than the original span
++                      let usable := fun (o : MenuOutcome) => o.valid && o.tac.length < origSpan
++                      let qualOk := fun (o : MenuOutcome) =>
++                        cfg.noQualityGate || isQualityUpgrade origTextCM (wrapCM o.tac) (some envCM)
++                      -- shortest usable+quality-passing candidate; ties → earliest in menu order
++                      let mut best : Option MenuOutcome := none
++                      for o in outs do
++                        if usable o && qualOk o then
++                          match best with
++                          | none => best := some o
++                          | some b => if o.tac.length < b.tac.length then best := some o
++                      let bestIdx : Option Nat := best.map (·.menuIdx)
++                      -- what v1 (first success) would have picked: earliest usable entry
++                      let v1Pick := outs.find? usable
++                      let mut candJson : Array Lean.Json := #[]
++                      for o in outs do
++                        let q := usable o && qualOk o
++                        let label :=
++                          if o.skipped then "skipped_length"
++                          else if bestIdx == some o.menuIdx then "chosen"
++                          else if o.timedOut then "timeout"
++                          else if !o.valid then "rejected_kernel"
++                          else if !(o.tac.length < origSpan) then "rejected_length"
++                          else if !q then "rejected_quality"
++                          else "valid_not_chosen"
++                        if !o.skipped && bestIdx != some o.menuIdx then
++                          menuSibsRef.modify (·.push (wrapCM o.tac, label, o.err, o.wallMs))
++                          if label == "rejected_kernel" || label == "timeout" then
++                            failedTacticsRef.modify (·.push (o.tac, o.err, o.wallMs))
++                        candJson := candJson.push (Lean.Json.mkObj
++                          [("menu_idx", Lean.toJson o.menuIdx), ("menu_name", Lean.toJson o.menuName),
++                           ("tac", Lean.toJson o.tac), ("final_tac", Lean.toJson (wrapCM o.tac)),
++                           ("len", Lean.toJson o.tac.length), ("valid", Lean.toJson o.valid),
++                           ("timed_out", Lean.toJson o.timedOut), ("skipped", Lean.toJson o.skipped),
++                           ("quality_ok", Lean.toJson q), ("outcome", Lean.toJson label),
++                           ("err", Lean.toJson o.err), ("wall_ms", Lean.toJson o.wallMs)])
++                      let v1QualOk := match v1Pick with
++                        | some o => qualOk o
++                        | none => false
++                      -- goal (pretty target + full goal state) for ranker training/eval
++                      let (poolGPretty, poolGState) ← try
++                          MetaM.run' (withMCtx ti.mctxBefore do
++                            let mvarDecl ← mainGoal.getDecl
++                            withLCtx mvarDecl.lctx mvarDecl.localInstances do
++                              let ty ← instantiateMVars mvarDecl.type
++                              let prettyTy ← Meta.ppExpr ty
++                              let goalFmt ← Meta.ppGoal mainGoal
++                              return (toString prettyTy, toString goalFmt))
++                        catch _ => pure ("", "")
++                      emitJsonLine "[MENU_POOL]"
++                        [("file", Lean.toJson path),
++                         ("goal_pretty", Lean.toJson poolGPretty),
++                         ("goal_state", Lean.toJson poolGState),
++                         ("start_byte", Lean.toJson startPos.byteIdx),
++                         ("end_byte", Lean.toJson endPos.byteIdx),
++                         ("kind", Lean.toJson kind),
++                         ("orig_span", Lean.toJson origSpan),
++                         ("original", Lean.toJson origTextCM),
++                         ("chosen_idx", match bestIdx with | some i => Lean.toJson i | none => Lean.Json.null),
++                         ("chosen_tac", match best with | some b => Lean.toJson (wrapCM b.tac) | none => Lean.Json.null),
++                         ("v1_pick_idx", match v1Pick with | some o => Lean.toJson o.menuIdx | none => Lean.Json.null),
++                         ("v1_pick_quality_ok", Lean.toJson v1QualOk),
++                         ("candidates", Lean.Json.arr candJson)]
++                      -- exact? fallback is only reached when no menu entry is usable
++                      -- (valid and shorter), exactly as in v1.
++                      if best.isNone && outs.any usable then
++                        -- usable candidates exist but none passes the quality gate:
++                        -- v1 also produced no edit here (it returned the first usable
++                        -- entry, which then failed the gate). Signal "no edit, no exact?".
++                        pure (some ("", "", 0))
++                      else
++                        pure (best.map fun b => (b.tac, b.goalType, b.termSize))
+                   -- L3: If no deterministic automation found, try exact? (bounded)
+                   let finalCandidate ← match canShorten? with
+                     | some r => pure (some r)
+@@ -2403,7 +2578,7 @@
+                         try
+                           MetaM.run' (checkExactQuestion mainGoal ti origSpan)
+                         catch _ => pure none
+-                  if let some (shortTac, gt, ts) := finalCandidate then
++                  if let some (shortTac, gt, ts) := finalCandidate.filter (fun (t, _, _) => t != "") then
+                     let mut finalTac := shortTac
+                     -- For byTactic nodes, the replacement must include `by `
+                     if kind == "Lean.Parser.Term.byTactic" then
+@@ -2439,6 +2614,7 @@
+                               return (toString prettyTy, toString goalFmt))
+                         catch _ => pure ("", "")
+                         let failedTacs ← failedTacticsRef.get
++                        let menuSibs ← menuSibsRef.get
+                         candsRef.modify (fun l => {
+                           startPos := startPos.byteIdx
+                           endPos   := endPos.byteIdx
+@@ -2450,6 +2626,7 @@
+                           termSize := ts
+                           isPropSafe := false
+                           failedTactics := failedTacs
++                          menuSiblings := menuSibs
+                         } :: l)
+           return acc
+         | _ => return acc
+@@ -3659,9 +3836,22 @@
+            [("failed_tactics",   failedTacticsJson),
+             ("failed_attempts",  failedAttemptsJson),
+             ("outcome",          Lean.toJson "accepted"),
+-            ("rank_in_attempt",  Lean.toJson (1 : Nat))])
++            ("rank_in_attempt",  Lean.toJson (1 : Nat))] ++
++           (if cfg.completeMenu then
++              [("menu_mode", Lean.toJson "complete"),
++               ("menu_siblings", Lean.Json.arr (c.menuSiblings.map fun (t, lab, em, dt) =>
++                  Lean.Json.mkObj [("tac", Lean.toJson t), ("outcome", Lean.toJson lab),
++                                   ("err", Lean.toJson em), ("wall_ms", Lean.toJson dt)]))]
++            else []))
++        -- v2: in complete-menu mode every non-chosen menu candidate becomes a
++        -- sibling row with an explicit outcome label (valid_not_chosen,
++        -- rejected_kernel, timeout, rejected_quality, rejected_length).
++        -- Default mode: unchanged (only tried-before-the-winner failures).
++        let sibRows : Array (String × String × String × Nat) :=
++          if cfg.completeMenu then c.menuSiblings
++          else c.failedTactics.map fun (t, em, dt) => (t, "rejected", em, dt)
+         let mut rank : Nat := 2
+-        for (t, em, dt) in c.failedTactics do
++        for (t, lab, em, dt) in sibRows do
+           let rejectedFields : List (String × Lean.Json) :=
+             [("original",         Lean.toJson origTac),
+              ("replacement",      Lean.toJson t),
+@@ -3684,7 +3874,7 @@
+              ("lines_original",   Lean.toJson linesOrig),
+              ("lines_shortened",  Lean.toJson linesShort),
+              ("attempt_id",       Lean.toJson attemptId),
+-             ("outcome",          Lean.toJson "rejected"),
++             ("outcome",          Lean.toJson lab),
+              ("rank_in_attempt",  Lean.toJson rank),
+              ("err_msg",          Lean.toJson em),
+              ("wall_ms",          Lean.toJson dt),
+@@ -3782,6 +3972,8 @@
+     noQualityGate := flags.contains "--no-quality-gate"
+     noG3          := flags.contains "--no-g3"
+     memTrace      := flags.contains "--mem-trace"
++    completeMenu  := flags.contains "--complete-menu"
++    menuTimeoutAll := flags.contains "--menu-timeout-all"
+     blockLocal    := flags.contains "--block-local"
+     workerMode    := flags.contains "--worker"
+   }
+@@ -3789,13 +3981,15 @@
+   let activeFlags := flags.filter (fun f =>
+     f == "--skip-phase1" || f == "--skip-l2" || f == "--skip-dead-code" ||
+     f == "--skip-cleanup" || f == "--no-quality-gate" || f == "--no-g3" ||
+-    f == "--mem-trace" || f == "--block-local" || f == "--worker")
++    f == "--mem-trace" || f == "--block-local" || f == "--worker" ||
++    f == "--complete-menu" || f == "--menu-timeout-all")
+   if !activeFlags.isEmpty then
+     IO.println s!"[ABLATION] Active flags: {activeFlags}"
+   -- Check for unknown flags
+   let knownFlags := ["--skip-phase1", "--skip-l2", "--skip-dead-code",
+                       "--skip-cleanup", "--no-quality-gate", "--no-g3",
+-                      "--mem-trace", "--block-local", "--worker"]
++                      "--mem-trace", "--block-local", "--worker",
++                      "--complete-menu", "--menu-timeout-all"]
+   for f in flags do
+     if !knownFlags.contains f then
+       IO.eprintln s!"[WARN] Unknown flag: {f} (ignored)"

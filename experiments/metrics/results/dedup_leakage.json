@@ -1,0 +1,117 @@
+{
+  "sizes": {
+    "goedel": 5193,
+    "mathlib": 6490,
+    "putnam_bench_train": 561,
+    "minif2f": 696,
+    "putnam_verified": 38,
+    "putnam2025": 55
+  },
+  "overlaps": {
+    "goedel__vs__mathlib": {
+      "size_a": 5193,
+      "size_b": 6490,
+      "intersection": 10,
+      "union": 11673,
+      "jaccard": 0.0008566778034781119
+    },
+    "goedel__vs__putnam_bench_train": {
+      "size_a": 5193,
+      "size_b": 561,
+      "intersection": 6,
+      "union": 5748,
+      "jaccard": 0.0010438413361169101
+    },
+    "goedel__vs__minif2f": {
+      "size_a": 5193,
+      "size_b": 696,
+      "intersection": 9,
+      "union": 5880,
+      "jaccard": 0.001530612244897959
+    },
+    "goedel__vs__putnam_verified": {
+      "size_a": 5193,
+      "size_b": 38,
+      "intersection": 1,
+      "union": 5230,
+      "jaccard": 0.00019120458891013384
+    },
+    "goedel__vs__putnam2025": {
+      "size_a": 5193,
+      "size_b": 55,
+      "intersection": 1,
+      "union": 5247,
+      "jaccard": 0.0001905850962454736
+    },
+    "mathlib__vs__putnam_bench_train": {
+      "size_a": 6490,
+      "size_b": 561,
+      "intersection": 3,
+      "union": 7048,
+      "jaccard": 0.0004256526674233825
+    },
+    "mathlib__vs__minif2f": {
+      "size_a": 6490,
+      "size_b": 696,
+      "intersection": 2,
+      "union": 7184,
+      "jaccard": 0.00027839643652561246
+    },
+    "mathlib__vs__putnam_verified": {
+      "size_a": 6490,
+      "size_b": 38,
+      "intersection": 1,
+      "union": 6527,
+      "jaccard": 0.00015320974413972729
+    },
+    "mathlib__vs__putnam2025": {
+      "size_a": 6490,
+      "size_b": 55,
+      "intersection": 2,
+      "union": 6543,
+      "jaccard": 0.0003056701818737582
+    },
+    "putnam_bench_train__vs__minif2f": {
+      "size_a": 561,
+      "size_b": 696,
+      "intersection": 4,
+      "union": 1253,
+      "jaccard": 0.0031923383878691143
+    },
+    "putnam_bench_train__vs__putnam_verified": {
+      "size_a": 561,
+      "size_b": 38,
+      "intersection": 8,
+      "union": 591,
+      "jaccard": 0.01353637901861252
+    },
+    "putnam_bench_train__vs__putnam2025": {
+      "size_a": 561,
+      "size_b": 55,
+      "intersection": 1,
+      "union": 615,
+      "jaccard": 0.0016260162601626016
+    },
+    "minif2f__vs__putnam_verified": {
+      "size_a": 696,
+      "size_b": 38,
+      "intersection": 1,
+      "union": 733,
+      "jaccard": 0.001364256480218281
+    },
+    "minif2f__vs__putnam2025": {
+      "size_a": 696,
+      "size_b": 55,
+      "intersection": 1,
+      "union": 750,
+      "jaccard": 0.0013333333333333333
+    },
+    "putnam_verified__vs__putnam2025": {
+      "size_a": 38,
+      "size_b": 55,
+      "intersection": 1,
+      "union": 92,
+      "jaccard": 0.010869565217391304
+    }
+  }
+}

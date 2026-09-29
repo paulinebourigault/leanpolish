@@ -1,0 +1,56 @@
+{
+  "corpora": {
+    "goedel": {
+      "source": "goedel_workbook",
+      "files_with_linter_report": 29750,
+      "files_linter_accepted": 235,
+      "bytes_original": 41411545,
+      "bytes_shortened": 41404113,
+      "bytes_saved": 7432,
+      "bytes_reduction_pct": 0.0179,
+      "tokens_original": 13637822,
+      "tokens_shortened": 13636522,
+      "tokens_saved": 1300,
+      "tokens_reduction_pct": 0.0095
+    },
+    "putnam_bench": {
+      "source": "putnam_bench_proofs",
+      "files_with_linter_report": 437,
+      "files_linter_accepted": 7,
+      "bytes_original": 1763011,
+      "bytes_shortened": 1762774,
+      "bytes_saved": 237,
+      "bytes_reduction_pct": 0.0134,
+      "tokens_original": 494702,
+      "tokens_shortened": 494668,
+      "tokens_saved": 34,
+      "tokens_reduction_pct": 0.0069
+    },
+    "putnam2025": {
+      "source": "Putnam2025_AxiomProver",
+      "files_with_linter_report": 24,
+      "files_linter_accepted": 0,
+      "bytes_original": 537799,
+      "bytes_shortened": 537799,
+      "bytes_saved": 0,
+      "bytes_reduction_pct": 0.0,
+      "tokens_original": 143027,
+      "tokens_shortened": 143027,
+      "tokens_saved": 0,
+      "tokens_reduction_pct": 0.0
+    },
+    "mathlib": {
+      "source": "mathlib_optimization",
+      "files_with_linter_report": 5789,
+      "files_linter_accepted": 0,
+      "bytes_original": 72338292,
+      "bytes_shortened": 72338292,
+      "bytes_saved": 0,
+      "bytes_reduction_pct": 0.0,
+      "tokens_original": 16693277,
+      "tokens_shortened": 16693277,
+      "tokens_saved": 0,
+      "tokens_reduction_pct": 0.0
+    }
+  }
+}

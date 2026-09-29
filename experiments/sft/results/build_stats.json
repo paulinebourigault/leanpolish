@@ -1,0 +1,55 @@
+{
+  "seed": 42,
+  "eval_goal_hashes": 2383,
+  "train_filter_counts": {
+    "goedel_total": 20822,
+    "drop_exact_duplicate_triple": 9842,
+    "drop_nonpositive_width": 27,
+    "drop_goal_overlap_with_eval": 112,
+    "mathlib_total": 6695
+  },
+  "train_rows_kept": 17536,
+  "train_files": 10307,
+  "val_files": 210,
+  "sft_train_rows": 17099,
+  "sft_val_rows": 437,
+  "train_type_dist": {
+    "warning_cleanup": 752,
+    "tactic_replacement": 13273,
+    "dead_code_removal": 3373,
+    "l2_replacement": 138
+  },
+  "eval": {
+    "minif2f": {
+      "reference_rows": 1184,
+      "eval_sites": 1184,
+      "skipped_types": 0,
+      "files": 308,
+      "type_dist": {
+        "dead_code_removal": 436,
+        "tactic_replacement": 747,
+        "l2_replacement": 1
+      }
+    },
+    "putnam_verified": {
+      "reference_rows": 80,
+      "eval_sites": 80,
+      "skipped_types": 0,
+      "files": 16,
+      "type_dist": {
+        "tactic_replacement": 43,
+        "dead_code_removal": 37
+      }
+    },
+    "putnam2025_per_file": {
+      "reference_rows": 142,
+      "eval_sites": 142,
+      "skipped_types": 0,
+      "files": 10,
+      "type_dist": {
+        "tactic_replacement": 57,
+        "dead_code_removal": 85
+      }
+    }
+  }
+}

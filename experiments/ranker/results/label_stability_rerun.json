@@ -1,0 +1,16 @@
+{
+  "files_rerun": 120,
+  "sites_rerun": 695,
+  "sites_common": 694,
+  "sites_only_in_production_for_rerun_files": 0,
+  "sites_only_in_rerun": 1,
+  "sites": 694,
+  "same_chosen": 694,
+  "cands": 9920,
+  "valid_agree": 9920,
+  "timeouts_a": 5,
+  "timeouts_b": 3,
+  "valid_agreement": 1.0,
+  "chosen_agreement": 1.0,
+  "flips": {}
+}

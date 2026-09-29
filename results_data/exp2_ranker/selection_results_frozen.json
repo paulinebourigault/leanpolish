@@ -1,0 +1,30 @@
+{
+  "minif2f": {
+    "greedy": 28.0,
+    "random_of_4": 343.25,
+    "shortest_of_4": 967.0,
+    "ranker_of_4": 563.0,
+    "oracle_of_4": 1099.0
+  },
+  "putnam_verified": {
+    "greedy": 0.0,
+    "random_of_4": 0.0,
+    "shortest_of_4": 0.0,
+    "ranker_of_4": 0.0,
+    "oracle_of_4": 0.0
+  },
+  "putnam2025_per_file": {
+    "greedy": 0.0,
+    "random_of_4": 0.0,
+    "shortest_of_4": 0.0,
+    "ranker_of_4": 0.0,
+    "oracle_of_4": 0.0
+  },
+  "pooled": {
+    "greedy": 28.0,
+    "random_of_4": 343.25,
+    "shortest_of_4": 967.0,
+    "ranker_of_4": 563.0,
+    "oracle_of_4": 1099.0
+  }
+}

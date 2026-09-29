@@ -1,0 +1,806 @@
+{
+  "meta": {
+    "n_candidates": 2812,
+    "models": [
+      "fewshot_deepseek",
+      "fewshot_qwen"
+    ],
+    "policy": "success iff exact fresh `lake env lean` pass of the spliced file (verify_pair.verify_row) AND strictly shorter by count_appL; all other candidates contribute zero",
+    "total_pending_unverified": 0
+  },
+  "results": {
+    "fewshot_deepseek/ALL": {
+      "sites": 1406,
+      "files": 334,
+      "valid_shorter@1": 0.39260312944523473,
+      "valid_shorter@1_ci95": [
+        0.3392171910974674,
+        0.4447632711621234
+      ],
+      "n_success": 552,
+      "savings_appL": 9484,
+      "savings_appL_ci95": [
+        7438,
+        11863
+      ],
+      "teacher_savings_appL": 30102,
+      "recovery_pct_of_teacher": 31.506212211813168,
+      "exact_match@1": 0.35988620199146515,
+      "deletion_outputs": 1103,
+      "output_shapes": {
+        "lean_checked": 1277,
+        "not_shorter": 129
+      },
+      "lean_verdicts": {
+        "pass": 552,
+        "fail": 725
+      },
+      "pending_unverified": 0,
+      "original_file_tokens": 246355,
+      "savings_pct_of_corpus": 3.849729049542327
+    },
+    "fewshot_deepseek/minif2f": {
+      "sites": 1184,
+      "files": 308,
+      "valid_shorter@1": 0.36908783783783783,
+      "valid_shorter@1_ci95": [
+        0.3160333642261353,
+        0.4206896551724138
+      ],
+      "n_success": 437,
+      "savings_appL": 7379,
+      "savings_appL_ci95": [
+        5732,
+        9237
+      ],
+      "teacher_savings_appL": 27306,
+      "recovery_pct_of_teacher": 27.023364828242876,
+      "exact_match@1": 0.3327702702702703,
+      "deletion_outputs": 923,
+      "output_shapes": {
+        "lean_checked": 1083,
+        "not_shorter": 101
+      },
+      "lean_verdicts": {
+        "pass": 437,
+        "fail": 646
+      },
+      "pending_unverified": 0,
+      "original_file_tokens": 121961,
+      "savings_pct_of_corpus": 6.0502947663597375
+    },
+    "fewshot_deepseek/putnam_verified": {
+      "sites": 80,
+      "files": 16,
+      "valid_shorter@1": 0.4875,
+      "valid_shorter@1_ci95": [
+        0.25806451612903225,
+        0.6818181818181818
+      ],
+      "n_success": 39,
+      "savings_appL": 969,
+      "savings_appL_ci95": [
+        277,
+        1921
+      ],
+      "teacher_savings_appL": 1338,
+      "recovery_pct_of_teacher": 72.42152466367713,
+      "exact_match@1": 0.4625,
+      "deletion_outputs": 66,
+      "output_shapes": {
+        "lean_checked": 71,
+        "not_shorter": 9
+      },
+      "lean_verdicts": {
+        "fail": 32,
+        "pass": 39
+      },
+      "pending_unverified": 0,
+      "original_file_tokens": 16026,
+      "savings_pct_of_corpus": 6.046424560089854
+    },
+    "fewshot_deepseek/putnam2025_per_file": {
+      "sites": 142,
+      "files": 10,
+      "valid_shorter@1": 0.5352112676056338,
+      "valid_shorter@1_ci95": [
+        0.2631578947368421,
+        0.7557251908396947
+      ],
+      "n_success": 76,
+      "savings_appL": 1136,
+      "savings_appL_ci95": [
+        404,
+        2084
+      ],
+      "teacher_savings_appL": 1458,
+      "recovery_pct_of_teacher": 77.91495198902606,
+      "exact_match@1": 0.528169014084507,
+      "deletion_outputs": 114,
+      "output_shapes": {
+        "lean_checked": 123,
+        "not_shorter": 19
+      },
+      "lean_verdicts": {
+        "fail": 47,
+        "pass": 76
+      },
+      "pending_unverified": 0,
+      "original_file_tokens": 108368,
+      "savings_pct_of_corpus": 1.0482799350361731
+    },
+    "fewshot_deepseek/family:deletion": {
+      "sites": 558,
+      "files": 141,
+      "valid_shorter@1": 0.9229390681003584,
+      "valid_shorter@1_ci95": [
+        0.8977469670710572,
+        0.947986577181208
+      ],
+      "n_success": 515,
+      "savings_appL": 9314,
+      "savings_appL_ci95": [
+        7506,
+        11163
+      ],
+      "teacher_savings_appL": 10171,
+      "recovery_pct_of_teacher": 91.57408317766198,
+      "exact_match@1": 0.9068100358422939,
+      "deletion_outputs": 506,
+      "output_shapes": {
+        "lean_checked": 543,
+        "not_shorter": 15
+      },
+      "lean_verdicts": {
+        "pass": 515,
+        "fail": 28
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_deepseek/minif2f/family:deletion": {
+      "sites": 436,
+      "files": 122,
+      "valid_shorter@1": 0.9220183486238532,
+      "valid_shorter@1_ci95": [
+        0.8910411622276029,
+        0.9484304932735426
+      ],
+      "n_success": 402,
+      "savings_appL": 7213,
+      "savings_appL_ci95": [
+        5811,
+        8719
+      ],
+      "teacher_savings_appL": 7944,
+      "recovery_pct_of_teacher": 90.7980866062437,
+      "exact_match@1": 0.9036697247706422,
+      "deletion_outputs": 394,
+      "output_shapes": {
+        "lean_checked": 424,
+        "not_shorter": 12
+      },
+      "lean_verdicts": {
+        "pass": 402,
+        "fail": 22
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_deepseek/putnam_verified/family:deletion": {
+      "sites": 37,
+      "files": 9,
+      "valid_shorter@1": 1.0,
+      "valid_shorter@1_ci95": [
+        1.0,
+        1.0
+      ],
+      "n_success": 37,
+      "savings_appL": 965,
+      "savings_appL_ci95": [
+        332,
+        1766
+      ],
+      "teacher_savings_appL": 965,
+      "recovery_pct_of_teacher": 100.0,
+      "exact_match@1": 1.0,
+      "deletion_outputs": 37,
+      "output_shapes": {
+        "lean_checked": 37
+      },
+      "lean_verdicts": {
+        "pass": 37
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_deepseek/putnam2025_per_file/family:deletion": {
+      "sites": 85,
+      "files": 10,
+      "valid_shorter@1": 0.8941176470588236,
+      "valid_shorter@1_ci95": [
+        0.851063829787234,
+        0.9615384615384616
+      ],
+      "n_success": 76,
+      "savings_appL": 1136,
+      "savings_appL_ci95": [
+        386,
+        2149
+      ],
+      "teacher_savings_appL": 1262,
+      "recovery_pct_of_teacher": 90.01584786053883,
+      "exact_match@1": 0.8823529411764706,
+      "deletion_outputs": 75,
+      "output_shapes": {
+        "lean_checked": 82,
+        "not_shorter": 3
+      },
+      "lean_verdicts": {
+        "pass": 76,
+        "fail": 6
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_deepseek/family:tactic": {
+      "sites": 847,
+      "files": 292,
+      "valid_shorter@1": 0.043683589138134596,
+      "valid_shorter@1_ci95": [
+        0.025755879059350503,
+        0.06544202066590127
+      ],
+      "n_success": 37,
+      "savings_appL": 170,
+      "savings_appL_ci95": [
+        96,
+        256
+      ],
+      "teacher_savings_appL": 19931,
+      "recovery_pct_of_teacher": 0.8529426521499173,
+      "exact_match@1": 0.0,
+      "deletion_outputs": 596,
+      "output_shapes": {
+        "lean_checked": 733,
+        "not_shorter": 114
+      },
+      "lean_verdicts": {
+        "fail": 696,
+        "pass": 37
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_deepseek/minif2f/family:tactic": {
+      "sites": 747,
+      "files": 273,
+      "valid_shorter@1": 0.04685408299866131,
+      "valid_shorter@1_ci95": [
+        0.026281208935611037,
+        0.07040229885057471
+      ],
+      "n_success": 35,
+      "savings_appL": 166,
+      "savings_appL_ci95": [
+        88,
+        249
+      ],
+      "teacher_savings_appL": 19362,
+      "recovery_pct_of_teacher": 0.8573494473711394,
+      "exact_match@1": 0.0,
+      "deletion_outputs": 528,
+      "output_shapes": {
+        "lean_checked": 658,
+        "not_shorter": 89
+      },
+      "lean_verdicts": {
+        "fail": 623,
+        "pass": 35
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_deepseek/putnam_verified/family:tactic": {
+      "sites": 43,
+      "files": 12,
+      "valid_shorter@1": 0.046511627906976744,
+      "valid_shorter@1_ci95": [
+        0.0,
+        0.11764705882352941
+      ],
+      "n_success": 2,
+      "savings_appL": 4,
+      "savings_appL_ci95": [
+        0,
+        11
+      ],
+      "teacher_savings_appL": 373,
+      "recovery_pct_of_teacher": 1.0723860589812333,
+      "exact_match@1": 0.0,
+      "deletion_outputs": 29,
+      "output_shapes": {
+        "lean_checked": 34,
+        "not_shorter": 9
+      },
+      "lean_verdicts": {
+        "fail": 32,
+        "pass": 2
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_deepseek/putnam2025_per_file/family:tactic": {
+      "sites": 57,
+      "files": 7,
+      "valid_shorter@1": 0.0,
+      "valid_shorter@1_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_success": 0,
+      "savings_appL": 0,
+      "savings_appL_ci95": [
+        0,
+        0
+      ],
+      "teacher_savings_appL": 196,
+      "recovery_pct_of_teacher": 0.0,
+      "exact_match@1": 0.0,
+      "deletion_outputs": 39,
+      "output_shapes": {
+        "lean_checked": 41,
+        "not_shorter": 16
+      },
+      "lean_verdicts": {
+        "fail": 41
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_deepseek/family:other": {
+      "sites": 1,
+      "files": 1,
+      "valid_shorter@1": 0.0,
+      "valid_shorter@1_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_success": 0,
+      "savings_appL": 0,
+      "savings_appL_ci95": [
+        0,
+        0
+      ],
+      "teacher_savings_appL": 0,
+      "recovery_pct_of_teacher": null,
+      "exact_match@1": 0.0,
+      "deletion_outputs": 1,
+      "output_shapes": {
+        "lean_checked": 1
+      },
+      "lean_verdicts": {
+        "fail": 1
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_deepseek/minif2f/family:other": {
+      "sites": 1,
+      "files": 1,
+      "valid_shorter@1": 0.0,
+      "valid_shorter@1_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_success": 0,
+      "savings_appL": 0,
+      "savings_appL_ci95": [
+        0,
+        0
+      ],
+      "teacher_savings_appL": 0,
+      "recovery_pct_of_teacher": null,
+      "exact_match@1": 0.0,
+      "deletion_outputs": 1,
+      "output_shapes": {
+        "lean_checked": 1
+      },
+      "lean_verdicts": {
+        "fail": 1
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_qwen/ALL": {
+      "sites": 1406,
+      "files": 334,
+      "valid_shorter@1": 0.4822190611664296,
+      "valid_shorter@1_ci95": [
+        0.43444530643910007,
+        0.5305676855895196
+      ],
+      "n_success": 678,
+      "savings_appL": 10886,
+      "savings_appL_ci95": [
+        8775,
+        13140
+      ],
+      "teacher_savings_appL": 30102,
+      "recovery_pct_of_teacher": 36.163710052488206,
+      "exact_match@1": 0.39473684210526316,
+      "deletion_outputs": 1007,
+      "output_shapes": {
+        "lean_checked": 1262,
+        "not_shorter": 108,
+        "noop": 36
+      },
+      "lean_verdicts": {
+        "pass": 678,
+        "fail": 584
+      },
+      "pending_unverified": 0,
+      "original_file_tokens": 246355,
+      "savings_pct_of_corpus": 4.418826490227517
+    },
+    "fewshot_qwen/minif2f": {
+      "sites": 1184,
+      "files": 308,
+      "valid_shorter@1": 0.46875,
+      "valid_shorter@1_ci95": [
+        0.4189307624890447,
+        0.5168439716312057
+      ],
+      "n_success": 555,
+      "savings_appL": 8754,
+      "savings_appL_ci95": [
+        7023,
+        10754
+      ],
+      "teacher_savings_appL": 27306,
+      "recovery_pct_of_teacher": 32.05888815644913,
+      "exact_match@1": 0.36993243243243246,
+      "deletion_outputs": 843,
+      "output_shapes": {
+        "lean_checked": 1070,
+        "not_shorter": 89,
+        "noop": 25
+      },
+      "lean_verdicts": {
+        "pass": 555,
+        "fail": 515
+      },
+      "pending_unverified": 0,
+      "original_file_tokens": 121961,
+      "savings_pct_of_corpus": 7.177704348111281
+    },
+    "fewshot_qwen/putnam_verified": {
+      "sites": 80,
+      "files": 16,
+      "valid_shorter@1": 0.4875,
+      "valid_shorter@1_ci95": [
+        0.25,
+        0.6727272727272727
+      ],
+      "n_success": 39,
+      "savings_appL": 954,
+      "savings_appL_ci95": [
+        281,
+        1846
+      ],
+      "teacher_savings_appL": 1338,
+      "recovery_pct_of_teacher": 71.30044843049328,
+      "exact_match@1": 0.45,
+      "deletion_outputs": 58,
+      "output_shapes": {
+        "lean_checked": 65,
+        "not_shorter": 9,
+        "noop": 6
+      },
+      "lean_verdicts": {
+        "fail": 26,
+        "pass": 39
+      },
+      "pending_unverified": 0,
+      "original_file_tokens": 16026,
+      "savings_pct_of_corpus": 5.95282665668289
+    },
+    "fewshot_qwen/putnam2025_per_file": {
+      "sites": 142,
+      "files": 10,
+      "valid_shorter@1": 0.5915492957746479,
+      "valid_shorter@1_ci95": [
+        0.3669724770642202,
+        0.7738095238095238
+      ],
+      "n_success": 84,
+      "savings_appL": 1178,
+      "savings_appL_ci95": [
+        423,
+        2141
+      ],
+      "teacher_savings_appL": 1458,
+      "recovery_pct_of_teacher": 80.79561042524006,
+      "exact_match@1": 0.5704225352112676,
+      "deletion_outputs": 106,
+      "output_shapes": {
+        "not_shorter": 10,
+        "lean_checked": 127,
+        "noop": 5
+      },
+      "lean_verdicts": {
+        "pass": 84,
+        "fail": 43
+      },
+      "pending_unverified": 0,
+      "original_file_tokens": 108368,
+      "savings_pct_of_corpus": 1.087036763620257
+    },
+    "fewshot_qwen/family:deletion": {
+      "sites": 558,
+      "files": 141,
+      "valid_shorter@1": 0.956989247311828,
+      "valid_shorter@1_ci95": [
+        0.9363057324840764,
+        0.975103734439834
+      ],
+      "n_success": 534,
+      "savings_appL": 9736,
+      "savings_appL_ci95": [
+        7953,
+        11711
+      ],
+      "teacher_savings_appL": 10171,
+      "recovery_pct_of_teacher": 95.7231344017304,
+      "exact_match@1": 0.953405017921147,
+      "deletion_outputs": 532,
+      "output_shapes": {
+        "lean_checked": 558
+      },
+      "lean_verdicts": {
+        "pass": 534,
+        "fail": 24
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_qwen/minif2f/family:deletion": {
+      "sites": 436,
+      "files": 122,
+      "valid_shorter@1": 0.9655963302752294,
+      "valid_shorter@1_ci95": [
+        0.9458874458874459,
+        0.9824561403508771
+      ],
+      "n_success": 421,
+      "savings_appL": 7658,
+      "savings_appL_ci95": [
+        6285,
+        9150
+      ],
+      "teacher_savings_appL": 7944,
+      "recovery_pct_of_teacher": 96.39979859013091,
+      "exact_match@1": 0.9610091743119266,
+      "deletion_outputs": 419,
+      "output_shapes": {
+        "lean_checked": 436
+      },
+      "lean_verdicts": {
+        "pass": 421,
+        "fail": 15
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_qwen/putnam_verified/family:deletion": {
+      "sites": 37,
+      "files": 9,
+      "valid_shorter@1": 0.972972972972973,
+      "valid_shorter@1_ci95": [
+        0.8947368421052632,
+        1.0
+      ],
+      "n_success": 36,
+      "savings_appL": 918,
+      "savings_appL_ci95": [
+        294,
+        1661
+      ],
+      "teacher_savings_appL": 965,
+      "recovery_pct_of_teacher": 95.12953367875647,
+      "exact_match@1": 0.972972972972973,
+      "deletion_outputs": 36,
+      "output_shapes": {
+        "lean_checked": 37
+      },
+      "lean_verdicts": {
+        "pass": 36,
+        "fail": 1
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_qwen/putnam2025_per_file/family:deletion": {
+      "sites": 85,
+      "files": 10,
+      "valid_shorter@1": 0.9058823529411765,
+      "valid_shorter@1_ci95": [
+        0.8561643835616438,
+        1.0
+      ],
+      "n_success": 77,
+      "savings_appL": 1160,
+      "savings_appL_ci95": [
+        422,
+        2143
+      ],
+      "teacher_savings_appL": 1262,
+      "recovery_pct_of_teacher": 91.9175911251981,
+      "exact_match@1": 0.9058823529411765,
+      "deletion_outputs": 77,
+      "output_shapes": {
+        "lean_checked": 85
+      },
+      "lean_verdicts": {
+        "pass": 77,
+        "fail": 8
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_qwen/family:tactic": {
+      "sites": 847,
+      "files": 292,
+      "valid_shorter@1": 0.17001180637544275,
+      "valid_shorter@1_ci95": [
+        0.13895486935866982,
+        0.20173267326732675
+      ],
+      "n_success": 144,
+      "savings_appL": 1150,
+      "savings_appL_ci95": [
+        783,
+        1592
+      ],
+      "teacher_savings_appL": 19931,
+      "recovery_pct_of_teacher": 5.769906176308264,
+      "exact_match@1": 0.02715466351829988,
+      "deletion_outputs": 474,
+      "output_shapes": {
+        "lean_checked": 703,
+        "not_shorter": 108,
+        "noop": 36
+      },
+      "lean_verdicts": {
+        "pass": 144,
+        "fail": 559
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_qwen/minif2f/family:tactic": {
+      "sites": 747,
+      "files": 273,
+      "valid_shorter@1": 0.17938420348058903,
+      "valid_shorter@1_ci95": [
+        0.1481994459833795,
+        0.21456953642384105
+      ],
+      "n_success": 134,
+      "savings_appL": 1096,
+      "savings_appL_ci95": [
+        723,
+        1563
+      ],
+      "teacher_savings_appL": 19362,
+      "recovery_pct_of_teacher": 5.660572254932342,
+      "exact_match@1": 0.025435073627844713,
+      "deletion_outputs": 423,
+      "output_shapes": {
+        "lean_checked": 633,
+        "not_shorter": 89,
+        "noop": 25
+      },
+      "lean_verdicts": {
+        "pass": 134,
+        "fail": 499
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_qwen/putnam_verified/family:tactic": {
+      "sites": 43,
+      "files": 12,
+      "valid_shorter@1": 0.06976744186046512,
+      "valid_shorter@1_ci95": [
+        0.0,
+        0.21428571428571427
+      ],
+      "n_success": 3,
+      "savings_appL": 36,
+      "savings_appL_ci95": [
+        0,
+        104
+      ],
+      "teacher_savings_appL": 373,
+      "recovery_pct_of_teacher": 9.651474530831099,
+      "exact_match@1": 0.0,
+      "deletion_outputs": 22,
+      "output_shapes": {
+        "lean_checked": 28,
+        "not_shorter": 9,
+        "noop": 6
+      },
+      "lean_verdicts": {
+        "fail": 25,
+        "pass": 3
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_qwen/putnam2025_per_file/family:tactic": {
+      "sites": 57,
+      "files": 7,
+      "valid_shorter@1": 0.12280701754385964,
+      "valid_shorter@1_ci95": [
+        0.0,
+        0.2222222222222222
+      ],
+      "n_success": 7,
+      "savings_appL": 18,
+      "savings_appL_ci95": [
+        0,
+        48
+      ],
+      "teacher_savings_appL": 196,
+      "recovery_pct_of_teacher": 9.183673469387756,
+      "exact_match@1": 0.07017543859649122,
+      "deletion_outputs": 29,
+      "output_shapes": {
+        "not_shorter": 10,
+        "lean_checked": 42,
+        "noop": 5
+      },
+      "lean_verdicts": {
+        "fail": 35,
+        "pass": 7
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_qwen/family:other": {
+      "sites": 1,
+      "files": 1,
+      "valid_shorter@1": 0.0,
+      "valid_shorter@1_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_success": 0,
+      "savings_appL": 0,
+      "savings_appL_ci95": [
+        0,
+        0
+      ],
+      "teacher_savings_appL": 0,
+      "recovery_pct_of_teacher": null,
+      "exact_match@1": 0.0,
+      "deletion_outputs": 1,
+      "output_shapes": {
+        "lean_checked": 1
+      },
+      "lean_verdicts": {
+        "fail": 1
+      },
+      "pending_unverified": 0
+    },
+    "fewshot_qwen/minif2f/family:other": {
+      "sites": 1,
+      "files": 1,
+      "valid_shorter@1": 0.0,
+      "valid_shorter@1_ci95": [
+        0.0,
+        0.0
+      ],
+      "n_success": 0,
+      "savings_appL": 0,
+      "savings_appL_ci95": [
+        0,
+        0
+      ],
+      "teacher_savings_appL": 0,
+      "recovery_pct_of_teacher": null,
+      "exact_match@1": 0.0,
+      "deletion_outputs": 1,
+      "output_shapes": {
+        "lean_checked": 1
+      },
+      "lean_verdicts": {
+        "fail": 1
+      },
+      "pending_unverified": 0
+    }
+  }
+}

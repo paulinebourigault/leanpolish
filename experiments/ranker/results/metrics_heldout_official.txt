@@ -1,0 +1,95 @@
+== miniF2F
+  random                                        top1 8.0 top1_2p 8.6 valid@1 23.0 sav 14.1 AUROC 50.0 within 50.0
+  menu_first                                    top1 9.2 top1_2p 14.2 valid@1 9.2 sav 6.6 AUROC 42.5 within 41.4
+  menu_last                                     top1 0.0 top1_2p 0.0 valid@1 20.7 sav 3.7 AUROC 57.5 within 58.6
+  shortest                                      top1 4.6 top1_2p 7.1 valid@1 4.6 sav 3.3 AUROC 42.7 within 41.3
+  ref:first_success(verifier)                   top1 77.9 top1_2p 63.5 valid@1 100.0 sav 99.1 AUROC 100.0 within 100.0
+  tactic_prior(train)                           top1 25.5 top1_2p 34.3 valid@1 32.6 sav 38.9 AUROC 65.5 within 70.2
+  lp_dsp7b                                      top1 22.8 top1_2p 17.7 valid@1 51.6 sav 49.4 AUROC 66.1 within 68.6
+  lp_dsp7b_sum                                  top1 34.6 top1_2p 30.9 valid@1 59.7 sav 63.7 AUROC 63.4 within 67.2
+  lp_qwen32b                                    top1 22.9 top1_2p 16.9 valid@1 55.3 sav 48.7 AUROC 63.1 within 65.6
+  lp_qwen32b_sum                                top1 26.7 top1_2p 20.3 valid@1 55.0 sav 56.1 AUROC 59.6 within 62.2
+  lp_qwen7b                                     top1 24.5 top1_2p 17.9 valid@1 53.3 sav 47.3 AUROC 60.5 within 63.3
+  lp_qwen7b_sum                                 top1 30.2 top1_2p 27.0 valid@1 53.4 sav 50.3 AUROC 55.7 within 57.2
+  rk_full                                       top1 70.8 top1_2p 74.8 valid@1 84.1 sav 80.0 AUROC 97.0 within 96.3
+  rk_full[valid-head,shortest-if-p>0.5]         top1 61.3 top1_2p 66.1 valid@1 79.3 sav 73.3 AUROC 97.0 within 96.3
+  rk_nogoal                                     top1 49.8 top1_2p 53.0 valid@1 66.1 sav 67.4 AUROC 90.9 within 91.3
+  rk_nogoal[valid-head,shortest-if-p>0.5]       top1 40.2 top1_2p 45.5 valid@1 56.0 sav 48.6 AUROC 90.9 within 91.3
+  oracle                                        top1 100.0 top1_2p 100.0 valid@1 100.0 sav 100.0 AUROC 100.0 within 100.0
+== PutnamBench-verified
+  random                                        top1 8.8 top1_2p 9.8 valid@1 20.1 sav 13.6 AUROC 50.0 within 50.0
+  menu_first                                    top1 2.1 top1_2p 2.4 valid@1 2.1 sav 0.1 AUROC 34.9 within 32.3
+  menu_last                                     top1 0.0 top1_2p 0.0 valid@1 12.9 sav 12.8 AUROC 65.1 within 67.7
+  shortest                                      top1 1.1 top1_2p 1.2 valid@1 1.1 sav 0.0 AUROC 44.7 within 39.4
+  ref:first_success(verifier)                   top1 65.7 top1_2p 42.9 valid@1 100.0 sav 97.5 AUROC 100.0 within 100.0
+  tactic_prior(train)                           top1 12.9 top1_2p 21.4 valid@1 14.3 sav 17.2 AUROC 61.4 within 65.9
+  lp_dsp7b                                      top1 32.1 top1_2p 19.0 valid@1 46.4 sav 51.2 AUROC 65.5 within 67.3
+  lp_dsp7b_sum                                  top1 47.1 top1_2p 36.9 valid@1 57.1 sav 66.9 AUROC 64.2 within 65.1
+  lp_qwen32b                                    top1 34.3 top1_2p 20.2 valid@1 56.4 sav 59.9 AUROC 64.1 within 66.4
+  lp_qwen32b_sum                                top1 40.0 top1_2p 31.0 valid@1 54.3 sav 64.5 AUROC 60.4 within 60.9
+  lp_qwen7b                                     top1 32.9 top1_2p 20.2 valid@1 50.0 sav 55.4 AUROC 58.8 within 63.0
+  lp_qwen7b_sum                                 top1 37.1 top1_2p 26.2 valid@1 45.7 sav 47.4 AUROC 53.7 within 52.8
+  rk_full                                       top1 75.0 top1_2p 79.8 valid@1 80.7 sav 74.9 AUROC 97.6 within 96.9
+  rk_full[valid-head,shortest-if-p>0.5]         top1 57.5 top1_2p 67.9 valid@1 66.1 sav 45.7 AUROC 97.6 within 96.9
+  rk_nogoal                                     top1 47.9 top1_2p 53.6 valid@1 58.6 sav 50.2 AUROC 90.6 within 91.0
+  rk_nogoal[valid-head,shortest-if-p>0.5]       top1 50.4 top1_2p 58.3 valid@1 60.7 sav 66.0 AUROC 90.6 within 91.0
+  oracle                                        top1 100.0 top1_2p 100.0 valid@1 100.0 sav 100.0 AUROC 100.0 within 100.0
+== AxiomProver-Putnam2025
+  random                                        top1 9.5 top1_2p 8.8 valid@1 32.6 sav 20.2 AUROC 50.0 within 50.0
+  menu_first                                    top1 35.2 top1_2p 45.1 valid@1 35.2 sav 39.4 AUROC 40.7 within 36.4
+  menu_last                                     top1 0.0 top1_2p 0.0 valid@1 48.2 sav 3.8 AUROC 59.3 within 63.6
+  shortest                                      top1 17.6 top1_2p 22.6 valid@1 17.6 sav 19.7 AUROC 44.0 within 36.5
+  ref:first_success(verifier)                   top1 75.1 top1_2p 64.0 valid@1 100.0 sav 97.3 AUROC 100.0 within 100.0
+  tactic_prior(train)                           top1 4.7 top1_2p 2.9 valid@1 19.0 sav 22.4 AUROC 60.2 within 63.8
+  lp_dsp7b                                      top1 33.2 top1_2p 21.7 valid@1 68.4 sav 24.5 AUROC 70.3 within 72.7
+  lp_dsp7b_sum                                  top1 49.2 top1_2p 42.0 valid@1 72.7 sav 55.8 AUROC 65.5 within 62.4
+  lp_qwen32b                                    top1 28.1 top1_2p 20.0 valid@1 69.2 sav 17.1 AUROC 68.3 within 67.2
+  lp_qwen32b_sum                                top1 34.8 top1_2p 29.1 valid@1 62.1 sav 33.2 AUROC 62.4 within 55.3
+  lp_qwen7b                                     top1 30.4 top1_2p 19.4 valid@1 68.0 sav 11.3 AUROC 66.2 within 66.8
+  lp_qwen7b_sum                                 top1 27.7 top1_2p 16.0 valid@1 49.4 sav 17.4 AUROC 59.8 within 50.0
+  rk_full                                       top1 62.1 top1_2p 58.3 valid@1 77.5 sav 69.3 AUROC 95.5 within 93.8
+  rk_full[valid-head,shortest-if-p>0.5]         top1 48.8 top1_2p 42.9 valid@1 70.4 sav 62.4 AUROC 95.5 within 93.8
+  rk_nogoal                                     top1 62.5 top1_2p 57.7 valid@1 81.8 sav 67.8 AUROC 92.3 within 91.4
+  rk_nogoal[valid-head,shortest-if-p>0.5]       top1 38.3 top1_2p 42.0 valid@1 54.9 sav 51.1 AUROC 92.3 within 91.4
+  oracle                                        top1 100.0 top1_2p 100.0 valid@1 100.0 sav 100.0 AUROC 100.0 within 100.0
+== pooled
+  random                                        top1 8.2 top1_2p 8.7 valid@1 23.8 sav 14.2 AUROC 50.0 within 50.0
+  menu_first                                    top1 11.6 top1_2p 17.2 valid@1 11.6 sav 7.4 AUROC 41.9 within 40.1
+  menu_last                                     top1 0.0 top1_2p 0.0 valid@1 23.1 sav 4.0 AUROC 58.1 within 59.9
+  shortest                                      top1 5.8 top1_2p 8.6 valid@1 5.8 sav 3.7 AUROC 43.3 within 40.5
+  ref:first_success(verifier)                   top1 76.9 top1_2p 62.4 valid@1 100.0 sav 99.0 AUROC 100.0 within 100.0
+  tactic_prior(train)                           top1 22.6 top1_2p 29.8 valid@1 30.1 sav 37.5 AUROC 64.6 within 69.0
+  lp_dsp7b                                      top1 24.5 top1_2p 18.3 valid@1 53.1 sav 48.7 AUROC 66.6 within 69.1
+  lp_dsp7b_sum                                  top1 36.9 top1_2p 32.6 valid@1 61.0 sav 63.6 AUROC 64.0 within 66.4
+  lp_qwen32b                                    top1 24.1 top1_2p 17.5 valid@1 56.8 sav 48.1 AUROC 63.9 within 65.8
+  lp_qwen32b_sum                                top1 28.3 top1_2p 22.0 valid@1 55.7 sav 55.6 AUROC 60.2 within 61.1
+  lp_qwen7b                                     top1 25.6 top1_2p 18.2 valid@1 54.6 sav 46.4 AUROC 61.1 within 63.8
+  lp_qwen7b_sum                                 top1 30.3 top1_2p 25.6 valid@1 52.5 sav 49.1 AUROC 56.2 within 55.9
+  rk_full                                       top1 70.1 top1_2p 73.1 valid@1 83.2 sav 79.4 AUROC 96.8 within 96.0
+  rk_full[valid-head,shortest-if-p>0.5]         top1 59.8 top1_2p 63.4 valid@1 77.6 sav 71.9 AUROC 96.8 within 96.0
+  rk_nogoal                                     top1 51.0 top1_2p 53.6 valid@1 67.3 sav 66.7 AUROC 91.0 within 91.3
+  rk_nogoal[valid-head,shortest-if-p>0.5]       top1 40.6 top1_2p 45.8 valid@1 56.2 sav 49.4 AUROC 91.0 within 91.3
+  oracle                                        top1 100.0 top1_2p 100.0 valid@1 100.0 sav 100.0 AUROC 100.0 within 100.0
+{
+ "minif2f": {
+  "groups": 654,
+  "menu_first_top1": 0.0,
+  "menu_last_top1": 1.0
+ },
+ "putnam2025_per_file": {
+  "groups": 25,
+  "menu_first_top1": 0.0,
+  "menu_last_top1": 1.0
+ },
+ "putnam_verified": {
+  "groups": 39,
+  "menu_first_top1": 0.0,
+  "menu_last_top1": 1.0
+ },
+ "pooled": {
+  "groups": 718,
+  "menu_first_top1": 0.0,
+  "menu_last_top1": 1.0,
+  "unmapped_candidates": 0
+ }
+}

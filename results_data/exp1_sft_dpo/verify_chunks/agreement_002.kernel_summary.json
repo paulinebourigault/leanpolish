@@ -1,0 +1,10 @@
+{
+  "input": "results/verify_chunks/agreement_002.jsonl",
+  "output": "results/verify_chunks/agreement_002.kernel_verified.jsonl",
+  "verifier_version": "v0.1.0",
+  "total_rows": 30,
+  "verdicts": {
+    "pass": 30
+  },
+  "elapsed_sec": 73
+}

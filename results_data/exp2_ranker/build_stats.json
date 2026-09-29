@@ -1,0 +1,128 @@
+{
+  "seed": 42,
+  "shard_counts": {
+    "minif2f": {
+      "accepted_rows": 1184,
+      "rejected_rows": 3753,
+      "accepted_without_rejected_sibling": 530,
+      "rejected_without_accepted_winner": 0,
+      "usable_groups": 654
+    },
+    "putnam_verified": {
+      "accepted_rows": 80,
+      "rejected_rows": 254,
+      "accepted_without_rejected_sibling": 41,
+      "rejected_without_accepted_winner": 0,
+      "usable_groups": 39
+    },
+    "putnam2025_per_file": {
+      "accepted_rows": 142,
+      "rejected_rows": 147,
+      "accepted_without_rejected_sibling": 117,
+      "rejected_without_accepted_winner": 0,
+      "usable_groups": 25
+    },
+    "goedel": {
+      "accepted_rows": 20822,
+      "accepted_rows_skipped": 8976,
+      "rejected_rows": 28525,
+      "accepted_without_rejected_sibling": 5917,
+      "rejected_without_accepted_winner": 2,
+      "usable_groups": 5929
+    },
+    "mathlib": {
+      "accepted_rows": 6695,
+      "rejected_rows": 26912,
+      "accepted_without_rejected_sibling": 2605,
+      "rejected_without_accepted_winner": 0,
+      "usable_groups": 4090
+    }
+  },
+  "eval_goal_hashes": 2383,
+  "train_groups_dropped_goal_overlap_with_eval": 161,
+  "train_groups": 9858,
+  "train_pairs": 54375,
+  "train_reason_dist": {
+    "tactic_failed": 23311,
+    "unsolved_goals": 17100,
+    "no_progress": 6820,
+    "other": 92,
+    "parse_error": 7047,
+    "unspecified": 4,
+    "kernel": 1
+  },
+  "train_negatives_per_group": {
+    "1": 1303,
+    "2": 73,
+    "3": 3257,
+    "4": 1210,
+    "5": 478,
+    "6": 9,
+    "7": 1134,
+    "8": 429,
+    "9": 264,
+    "10": 17,
+    "11": 60,
+    "12": 163,
+    "13": 1223,
+    "14": 130,
+    "15": 108
+  },
+  "eval": {
+    "minif2f": {
+      "groups": 654,
+      "reason_dist": {
+        "tactic_failed": 1748,
+        "unsolved_goals": 1602,
+        "no_progress": 402,
+        "other": 1
+      },
+      "negatives_per_group": {
+        "1": 131,
+        "3": 63,
+        "4": 150,
+        "5": 1,
+        "7": 142,
+        "8": 54,
+        "9": 23,
+        "11": 6,
+        "12": 7,
+        "13": 55,
+        "15": 22
+      }
+    },
+    "putnam_verified": {
+      "groups": 39,
+      "reason_dist": {
+        "tactic_failed": 118,
+        "unsolved_goals": 98,
+        "no_progress": 38
+      },
+      "negatives_per_group": {
+        "1": 7,
+        "4": 16,
+        "7": 4,
+        "8": 1,
+        "9": 1,
+        "13": 6,
+        "15": 4
+      }
+    },
+    "putnam2025_per_file": {
+      "groups": 25,
+      "reason_dist": {
+        "unspecified": 147
+      },
+      "negatives_per_group": {
+        "1": 2,
+        "3": 7,
+        "4": 5,
+        "5": 2,
+        "7": 3,
+        "8": 2,
+        "12": 1,
+        "15": 3
+      }
+    }
+  }
+}

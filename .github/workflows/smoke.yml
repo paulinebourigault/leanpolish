@@ -1,0 +1,69 @@
+name: smoke
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+
+defaults:
+  run:
+    working-directory: leanpolish
+
+jobs:
+  regression-smoke:
+    name: regression smoke (12 committed fixtures)
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install elan / Lean toolchain
+        run: |
+          curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh \
+            | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+
+      - name: Pin Lean toolchain
+        working-directory: leanpolish
+        run: cat lean-toolchain && lean --version
+
+      - name: Cache Lake build
+        uses: actions/cache@v4
+        with:
+          path: |
+            leanpolish/.lake/build
+            leanpolish/.lake/packages
+          key: lake-${{ runner.os }}-${{ hashFiles('leanpolish/lake-manifest.json', 'leanpolish/lean-toolchain') }}
+          restore-keys: |
+            lake-${{ runner.os }}-
+
+      - name: Prepare smoke log
+        run: : > smoke.log
+
+      - name: Fetch Mathlib cache
+        run: lake exe cache get 2>&1 | tee -a smoke.log
+
+      - name: Build LeanPolish
+        run: lake build LeanPolish 2>&1 | tee -a smoke.log
+
+      - name: Run smoke regression (12 committed fixtures)
+        env:
+          REGRESSION_TIMEOUT_S: "900"
+          REGRESSION_TOLERANCE_PCT: "5"
+        run: |
+          python3 run_regression_smoke.py --workers 4 --timeout 900 \
+            --tolerance-pct 5 --baseline regression_baseline_ci.json | tee -a smoke.log
+          tail -3 smoke.log | grep -q "12 pass, 0 fail, 0 error"
+
+      - name: Upload smoke log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-log
+          path: leanpolish/smoke.log
+          if-no-files-found: ignore
+          retention-days: 30

@@ -1,0 +1,10 @@
+{
+  "sites_total": 13290,
+  "no_run_candidates": 73,
+  "sites_with_valid": 9236,
+  "zero_valid_sites_used": 3981,
+  "sites_used": 13217,
+  "samples": 191321,
+  "pos_valid": 33553,
+  "pos_best": 8953
+}

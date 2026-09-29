@@ -1,0 +1,10 @@
+{
+  "input": "verify_chunks_refmatch/chunk_013.jsonl",
+  "output": "verify_chunks_refmatch/chunk_013.kernel_verified.jsonl",
+  "verifier_version": "v0.1.0",
+  "total_rows": 80,
+  "verdicts": {
+    "pass": 80
+  },
+  "elapsed_sec": 94
+}

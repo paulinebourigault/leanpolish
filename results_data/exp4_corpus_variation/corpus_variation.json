@@ -1,0 +1,569 @@
+{
+  "corpora": {
+    "mathlib": {
+      "accepted_edits": 6695,
+      "rejected_rows": 26912,
+      "rejected_to_accepted_ratio": 4.019716206123973,
+      "files_shortened": 2233,
+      "unique_source_files": 2233,
+      "file_meta_mismatches": 0,
+      "bytes_original_sum": 36384563,
+      "bytes_shortened_sum": 36208057,
+      "tokens_original_sum": 7520933,
+      "tokens_shortened_sum": 7481353,
+      "lines_original_sum": 580625,
+      "lines_shortened_sum": 578106,
+      "byte_reduction_touched_pct": 0.48511232634565377,
+      "token_reduction_touched_pct": 0.5262644940461509,
+      "line_reduction_touched_pct": 0.4338428417653391,
+      "full_corpus": {
+        "files": 5793,
+        "tokens_original": 13590246,
+        "source": "RunOptimizer/analysis/headline_v3.json (full-corpus Appendix-L retokenization)",
+        "denominator_implied_from_paper": false,
+        "token_reduction_pct": 0.2912382895791585,
+        "accepted_edits_per_1k_tokens": 0.49263273085711623,
+        "attempted_sites_per_1k_tokens": 0.49263273085711623,
+        "bytes_original": 72338292,
+        "byte_reduction_pct": 0.24400078453607946,
+        "lines_original": 1051733,
+        "line_reduction_pct": 0.2395094572481799
+      },
+      "accepted_edits_per_shortened_file": 2.99820868786386,
+      "accepted_edits_per_1k_tokens_touched": 0.8901821090548208,
+      "attempted_sites": 6695,
+      "rejected_only_sites": 0,
+      "attempted_sites_per_1k_tokens_touched": 0.8901821090548208,
+      "edit_savings_bytes_median": 14,
+      "edit_savings_bytes_p90": 65.0,
+      "edit_savings_bytes_sum": 176506,
+      "edit_types": {
+        "tactic_replacement": {
+          "count": 6600,
+          "count_share_pct": 98.58103061986557,
+          "saved_bytes": 170436,
+          "saved_bytes_share_pct": 96.56102342130013
+        },
+        "dead_code_removal": {
+          "count": 94,
+          "count_share_pct": 1.40403286034354,
+          "saved_bytes": 6065,
+          "saved_bytes_share_pct": 3.4361438138080294
+        },
+        "warning_cleanup": {
+          "count": 0,
+          "count_share_pct": 0.0,
+          "saved_bytes": 0,
+          "saved_bytes_share_pct": 0.0
+        },
+        "l2_replacement": {
+          "count": 1,
+          "count_share_pct": 0.014936519790888725,
+          "saved_bytes": 5,
+          "saved_bytes_share_pct": 0.0028327648918450364
+        }
+      },
+      "l2_detection_rows": 3664,
+      "l2_detection_files": 1035,
+      "paper_token_reduction_pct": 0.29
+    },
+    "goedel": {
+      "accepted_edits": 20822,
+      "rejected_rows": 28525,
+      "rejected_to_accepted_ratio": 1.3699452502161176,
+      "files_shortened": 10052,
+      "unique_source_files": 10052,
+      "file_meta_mismatches": 0,
+      "bytes_original_sum": 13720500,
+      "bytes_shortened_sum": 9234389,
+      "tokens_original_sum": 1208984,
+      "tokens_shortened_sum": 966968,
+      "lines_original_sum": 112110,
+      "lines_shortened_sum": 80518,
+      "byte_reduction_touched_pct": 32.696410480667616,
+      "token_reduction_touched_pct": 20.018130926463872,
+      "line_reduction_touched_pct": 28.179466595308178,
+      "full_corpus": {
+        "files": 29752,
+        "tokens_original": 4336135,
+        "source": "RunOptimizer/analysis/headline_v3.json (full-corpus Appendix-L retokenization)",
+        "denominator_implied_from_paper": false,
+        "token_reduction_pct": 5.581376041105731,
+        "accepted_edits_per_1k_tokens": 4.801972263317447,
+        "attempted_sites_per_1k_tokens": 4.802433503569422,
+        "bytes_original": 41411974,
+        "byte_reduction_pct": 10.832883745169935,
+        "lines_original": 313157,
+        "line_reduction_pct": 10.088230504187996
+      },
+      "accepted_edits_per_shortened_file": 2.0714285714285716,
+      "accepted_edits_per_1k_tokens_touched": 17.222725859068444,
+      "attempted_sites": 20824,
+      "rejected_only_sites": 2,
+      "attempted_sites_per_1k_tokens_touched": 17.224380140680108,
+      "edit_savings_bytes_median": 44.0,
+      "edit_savings_bytes_p90": 793.0,
+      "edit_savings_bytes_sum": 4637503,
+      "edit_types": {
+        "tactic_replacement": {
+          "count": 7387,
+          "count_share_pct": 35.476899433291706,
+          "saved_bytes": 4108735,
+          "saved_bytes_share_pct": 88.59800198512
+        },
+        "dead_code_removal": {
+          "count": 4203,
+          "count_share_pct": 20.185380847180866,
+          "saved_bytes": 213457,
+          "saved_bytes_share_pct": 4.602843383605358
+        },
+        "warning_cleanup": {
+          "count": 8976,
+          "count_share_pct": 43.10825088848333,
+          "saved_bytes": 296768,
+          "saved_bytes_share_pct": 6.399305833333154
+        },
+        "l2_replacement": {
+          "count": 256,
+          "count_share_pct": 1.229468831044088,
+          "saved_bytes": 18543,
+          "saved_bytes_share_pct": 0.3998487979414784
+        }
+      },
+      "l2_detection_rows": 4112,
+      "l2_detection_files": 1710,
+      "paper_token_reduction_pct": 5.63
+    },
+    "minif2f": {
+      "accepted_edits": 1184,
+      "rejected_rows": 3753,
+      "rejected_to_accepted_ratio": 3.1697635135135136,
+      "files_shortened": 308,
+      "unique_source_files": 308,
+      "file_meta_mismatches": 0,
+      "bytes_original_sum": 499932,
+      "bytes_shortened_sum": 385010,
+      "tokens_original_sum": 121961,
+      "tokens_shortened_sum": 94342,
+      "lines_original_sum": 14234,
+      "lines_shortened_sum": 10699,
+      "byte_reduction_touched_pct": 22.987526303577287,
+      "token_reduction_touched_pct": 22.64576380974246,
+      "line_reduction_touched_pct": 24.83490234649431,
+      "full_corpus": {
+        "files": 339,
+        "tokens_original": 130278,
+        "source": "implied: shard tokens_saved / paper 21.2% (339 processed files; sources absent locally)",
+        "denominator_implied_from_paper": true,
+        "token_reduction_pct": 21.20004912571578,
+        "accepted_edits_per_1k_tokens": 9.088257418750672,
+        "attempted_sites_per_1k_tokens": 9.088257418750672
+      },
+      "accepted_edits_per_shortened_file": 3.844155844155844,
+      "accepted_edits_per_1k_tokens_touched": 9.708021416682381,
+      "attempted_sites": 1184,
+      "rejected_only_sites": 0,
+      "attempted_sites_per_1k_tokens_touched": 9.708021416682381,
+      "edit_savings_bytes_median": 48.0,
+      "edit_savings_bytes_p90": 197.80000000000018,
+      "edit_savings_bytes_sum": 114922,
+      "edit_types": {
+        "tactic_replacement": {
+          "count": 747,
+          "count_share_pct": 63.09121621621622,
+          "saved_bytes": 87236,
+          "saved_bytes_share_pct": 75.90887732549034
+        },
+        "dead_code_removal": {
+          "count": 436,
+          "count_share_pct": 36.82432432432432,
+          "saved_bytes": 27689,
+          "saved_bytes_share_pct": 24.093733140738934
+        },
+        "warning_cleanup": {
+          "count": 0,
+          "count_share_pct": 0.0,
+          "saved_bytes": 0,
+          "saved_bytes_share_pct": 0.0
+        },
+        "l2_replacement": {
+          "count": 1,
+          "count_share_pct": 0.08445945945945946,
+          "saved_bytes": -3,
+          "saved_bytes_share_pct": -0.0026104662292685474
+        }
+      },
+      "l2_detection_rows": 954,
+      "l2_detection_files": 163,
+      "paper_token_reduction_pct": 21.2
+    },
+    "putnam_bench": {
+      "accepted_edits": 4354,
+      "rejected_rows": 5930,
+      "rejected_to_accepted_ratio": 1.361966008268259,
+      "files_shortened": 352,
+      "unique_source_files": 352,
+      "file_meta_mismatches": 0,
+      "bytes_original_sum": 1016814,
+      "bytes_shortened_sum": 844375,
+      "tokens_original_sum": 283512,
+      "tokens_shortened_sum": 244480,
+      "lines_original_sum": 26708,
+      "lines_shortened_sum": 21220,
+      "byte_reduction_touched_pct": 16.95875548527066,
+      "token_reduction_touched_pct": 13.767318490928075,
+      "line_reduction_touched_pct": 20.548150366931257,
+      "full_corpus": null,
+      "accepted_edits_per_shortened_file": 12.369318181818182,
+      "accepted_edits_per_1k_tokens_touched": 15.357374643754056,
+      "attempted_sites": 4354,
+      "rejected_only_sites": 0,
+      "attempted_sites_per_1k_tokens_touched": 15.357374643754056,
+      "edit_savings_bytes_median": 20.0,
+      "edit_savings_bytes_p90": 78.0,
+      "edit_savings_bytes_sum": 193800,
+      "edit_types": {
+        "tactic_replacement": {
+          "count": 1014,
+          "count_share_pct": 23.28892971979789,
+          "saved_bytes": 82122,
+          "saved_bytes_share_pct": 42.37461300309597
+        },
+        "dead_code_removal": {
+          "count": 762,
+          "count_share_pct": 17.501148369315572,
+          "saved_bytes": 62078,
+          "saved_bytes_share_pct": 32.03199174406605
+        },
+        "warning_cleanup": {
+          "count": 2576,
+          "count_share_pct": 59.163987138263664,
+          "saved_bytes": 49588,
+          "saved_bytes_share_pct": 25.587203302373577
+        },
+        "l2_replacement": {
+          "count": 2,
+          "count_share_pct": 0.045934772622875514,
+          "saved_bytes": 12,
+          "saved_bytes_share_pct": 0.006191950464396285
+        }
+      },
+      "l2_detection_rows": 3570,
+      "l2_detection_files": 364
+    },
+    "putnam_verified": {
+      "accepted_edits": 80,
+      "rejected_rows": 254,
+      "rejected_to_accepted_ratio": 3.175,
+      "files_shortened": 16,
+      "unique_source_files": 16,
+      "file_meta_mismatches": 0,
+      "bytes_original_sum": 61555,
+      "bytes_shortened_sum": 56321,
+      "tokens_original_sum": 16026,
+      "tokens_shortened_sum": 14667,
+      "lines_original_sum": 1532,
+      "lines_shortened_sum": 1382,
+      "byte_reduction_touched_pct": 8.50296482820242,
+      "token_reduction_touched_pct": 8.479970048670909,
+      "line_reduction_touched_pct": 9.7911227154047,
+      "full_corpus": {
+        "files": 19,
+        "tokens_original": 16573,
+        "source": "implied: shard tokens_saved / paper 8.2% (19 processed files; sources absent locally)",
+        "denominator_implied_from_paper": true,
+        "token_reduction_pct": 8.200084474748085,
+        "accepted_edits_per_1k_tokens": 4.827128461956193,
+        "attempted_sites_per_1k_tokens": 4.827128461956193
+      },
+      "accepted_edits_per_shortened_file": 5.0,
+      "accepted_edits_per_1k_tokens_touched": 4.99188818170473,
+      "attempted_sites": 80,
+      "rejected_only_sites": 0,
+      "attempted_sites_per_1k_tokens_touched": 4.99188818170473,
+      "edit_savings_bytes_median": 51.0,
+      "edit_savings_bytes_p90": 105.80000000000015,
+      "edit_savings_bytes_sum": 5234,
+      "edit_types": {
+        "tactic_replacement": {
+          "count": 43,
+          "count_share_pct": 53.75,
+          "saved_bytes": 1946,
+          "saved_bytes_share_pct": 37.179977072984336
+        },
+        "dead_code_removal": {
+          "count": 37,
+          "count_share_pct": 46.25,
+          "saved_bytes": 3288,
+          "saved_bytes_share_pct": 62.820022927015664
+        },
+        "warning_cleanup": {
+          "count": 0,
+          "count_share_pct": 0.0,
+          "saved_bytes": 0,
+          "saved_bytes_share_pct": 0.0
+        },
+        "l2_replacement": {
+          "count": 0,
+          "count_share_pct": 0.0,
+          "saved_bytes": 0,
+          "saved_bytes_share_pct": 0.0
+        }
+      },
+      "l2_detection_rows": 144,
+      "l2_detection_files": 14,
+      "paper_token_reduction_pct": 8.2
+    },
+    "putnam2025_per_file": {
+      "accepted_edits": 142,
+      "rejected_rows": 147,
+      "rejected_to_accepted_ratio": 1.0352112676056338,
+      "files_shortened": 10,
+      "unique_source_files": 10,
+      "file_meta_mismatches": 0,
+      "bytes_original_sum": 419609,
+      "bytes_shortened_sum": 413222,
+      "tokens_original_sum": 108368,
+      "tokens_shortened_sum": 106622,
+      "lines_original_sum": 8315,
+      "lines_shortened_sum": 8182,
+      "byte_reduction_touched_pct": 1.5221313174884237,
+      "token_reduction_touched_pct": 1.6111767311383436,
+      "line_reduction_touched_pct": 1.5995189416716775,
+      "full_corpus": {
+        "files": 26,
+        "tokens_original": 122421,
+        "source": "RunOptimizer/analysis/headline_v3.json (full-corpus Appendix-L retokenization) ('putnam2025' family entry)",
+        "denominator_implied_from_paper": false,
+        "token_reduction_pct": 1.4262258926164628,
+        "accepted_edits_per_1k_tokens": 1.1599317110626444,
+        "attempted_sites_per_1k_tokens": 1.1599317110626444,
+        "bytes_original": 537799,
+        "byte_reduction_pct": 1.187618422496137,
+        "lines_original": 9550,
+        "line_reduction_pct": 1.3926701570680629
+      },
+      "accepted_edits_per_shortened_file": 14.2,
+      "accepted_edits_per_1k_tokens_touched": 1.3103499187952163,
+      "attempted_sites": 142,
+      "rejected_only_sites": 0,
+      "attempted_sites_per_1k_tokens_touched": 1.3103499187952163,
+      "edit_savings_bytes_median": 37.5,
+      "edit_savings_bytes_p90": 78.0,
+      "edit_savings_bytes_sum": 6387,
+      "edit_types": {
+        "tactic_replacement": {
+          "count": 57,
+          "count_share_pct": 40.140845070422536,
+          "saved_bytes": 1108,
+          "saved_bytes_share_pct": 17.347737591983716
+        },
+        "dead_code_removal": {
+          "count": 85,
+          "count_share_pct": 59.859154929577464,
+          "saved_bytes": 5279,
+          "saved_bytes_share_pct": 82.65226240801628
+        },
+        "warning_cleanup": {
+          "count": 0,
+          "count_share_pct": 0.0,
+          "saved_bytes": 0,
+          "saved_bytes_share_pct": 0.0
+        },
+        "l2_replacement": {
+          "count": 0,
+          "count_share_pct": 0.0,
+          "saved_bytes": 0,
+          "saved_bytes_share_pct": 0.0
+        }
+      },
+      "l2_detection_rows": 12,
+      "l2_detection_files": 1
+    },
+    "putnam2025_pool": {
+      "accepted_edits": 125,
+      "rejected_rows": 75,
+      "rejected_to_accepted_ratio": 0.6,
+      "files_shortened": 10,
+      "unique_source_files": 10,
+      "file_meta_mismatches": 0,
+      "bytes_original_sum": 417229,
+      "bytes_shortened_sum": 410804,
+      "tokens_original_sum": 104035,
+      "tokens_shortened_sum": 102331,
+      "lines_original_sum": 8094,
+      "lines_shortened_sum": 7956,
+      "byte_reduction_touched_pct": 1.5399217216444687,
+      "token_reduction_touched_pct": 1.6379103186427644,
+      "line_reduction_touched_pct": 1.704966641957005,
+      "full_corpus": null,
+      "accepted_edits_per_shortened_file": 12.5,
+      "accepted_edits_per_1k_tokens_touched": 1.2015187196616524,
+      "attempted_sites": 125,
+      "rejected_only_sites": 0,
+      "attempted_sites_per_1k_tokens_touched": 1.2015187196616524,
+      "edit_savings_bytes_median": 38,
+      "edit_savings_bytes_p90": 88.0,
+      "edit_savings_bytes_sum": 6425,
+      "edit_types": {
+        "tactic_replacement": {
+          "count": 51,
+          "count_share_pct": 40.8,
+          "saved_bytes": 1611,
+          "saved_bytes_share_pct": 25.07392996108949
+        },
+        "dead_code_removal": {
+          "count": 74,
+          "count_share_pct": 59.199999999999996,
+          "saved_bytes": 4814,
+          "saved_bytes_share_pct": 74.92607003891051
+        },
+        "warning_cleanup": {
+          "count": 0,
+          "count_share_pct": 0.0,
+          "saved_bytes": 0,
+          "saved_bytes_share_pct": 0.0
+        },
+        "l2_replacement": {
+          "count": 0,
+          "count_share_pct": 0.0,
+          "saved_bytes": 0,
+          "saved_bytes_share_pct": 0.0
+        }
+      },
+      "l2_detection_rows": 12,
+      "l2_detection_files": 1
+    },
+    "putnam2025_union": {
+      "accepted_edits": 151,
+      "rejected_rows": 153,
+      "rejected_to_accepted_ratio": 1.0132450331125828,
+      "files_shortened": 11,
+      "unique_source_files": 11,
+      "file_meta_mismatches": 4,
+      "bytes_original_sum": 480816,
+      "bytes_shortened_sum": 473630,
+      "tokens_original_sum": 120610,
+      "tokens_shortened_sum": 118678,
+      "lines_original_sum": 9404,
+      "lines_shortened_sum": 9250,
+      "byte_reduction_touched_pct": 1.494542610894812,
+      "token_reduction_touched_pct": 1.6018572257690076,
+      "line_reduction_touched_pct": 1.637601020842195,
+      "full_corpus": {
+        "files": 26,
+        "tokens_original": 122421,
+        "source": "RunOptimizer/analysis/headline_v3.json (full-corpus Appendix-L retokenization) ('putnam2025' family entry)",
+        "denominator_implied_from_paper": false,
+        "token_reduction_pct": 1.5781606096993164,
+        "accepted_edits_per_1k_tokens": 1.2334485096511218,
+        "attempted_sites_per_1k_tokens": 1.2334485096511218,
+        "bytes_original": 537799,
+        "byte_reduction_pct": 1.336186939730271,
+        "lines_original": 9550,
+        "line_reduction_pct": 1.612565445026178
+      },
+      "accepted_edits_per_shortened_file": 13.727272727272727,
+      "accepted_edits_per_1k_tokens_touched": 1.251969156786336,
+      "attempted_sites": 151,
+      "rejected_only_sites": 0,
+      "attempted_sites_per_1k_tokens_touched": 1.251969156786336,
+      "edit_savings_bytes_median": 37,
+      "edit_savings_bytes_p90": 83.0,
+      "edit_savings_bytes_sum": 7248,
+      "edit_types": {
+        "tactic_replacement": {
+          "count": 66,
+          "count_share_pct": 43.70860927152318,
+          "saved_bytes": 1969,
+          "saved_bytes_share_pct": 27.166114790286976
+        },
+        "dead_code_removal": {
+          "count": 85,
+          "count_share_pct": 56.29139072847682,
+          "saved_bytes": 5279,
+          "saved_bytes_share_pct": 72.83388520971302
+        },
+        "warning_cleanup": {
+          "count": 0,
+          "count_share_pct": 0.0,
+          "saved_bytes": 0,
+          "saved_bytes_share_pct": 0.0
+        },
+        "l2_replacement": {
+          "count": 0,
+          "count_share_pct": 0.0,
+          "saved_bytes": 0,
+          "saved_bytes_share_pct": 0.0
+        }
+      },
+      "l2_detection_rows": 24,
+      "l2_detection_files": 1,
+      "paper_token_reduction_pct": 1.43,
+      "_note": "union of putnam2025_per_file + putnam2025_pool; accepted edits deduped by (file, start_byte, end_byte, replacement); rejected rows deduped by the same key; file-level sums over the union of unique files"
+    }
+  },
+  "correlations": {
+    "spearman_families_full": {
+      "rho": 0.9999999999999998,
+      "n": 5,
+      "corpora": [
+        "mathlib",
+        "goedel",
+        "minif2f",
+        "putnam_verified",
+        "putnam2025_union"
+      ]
+    },
+    "spearman_families_touched": {
+      "rho": 0.8999999999999998,
+      "n": 5,
+      "corpora": [
+        "mathlib",
+        "goedel",
+        "minif2f",
+        "putnam_verified",
+        "putnam2025_union"
+      ]
+    },
+    "spearman_all_touched": {
+      "rho": 0.8571428571428571,
+      "n": 8,
+      "corpora": [
+        "mathlib",
+        "goedel",
+        "minif2f",
+        "putnam_bench",
+        "putnam_verified",
+        "putnam2025_per_file",
+        "putnam2025_pool",
+        "putnam2025_union"
+      ]
+    },
+    "spearman_attempted_sites_full": {
+      "rho": 0.9999999999999998,
+      "n": 5,
+      "corpora": [
+        "mathlib",
+        "goedel",
+        "minif2f",
+        "putnam_verified",
+        "putnam2025_union"
+      ]
+    }
+  },
+  "sanity": [
+    "Accepted rows per corpus match the dataset card exactly: `mathlib` 6,695, `goedel` 20,822, `minif2f` 1,184, `putnam_bench` 4,354, `putnam_verified` 80, `putnam2025_per_file` 142, `putnam2025_pool` 125. Only `*.jsonl.gz` shard files are read; `.pre-dedup` / `.pre-global-dedup` backups and uncompressed `.jsonl` copies in the shard directories are excluded (globbing them would break these counts).",
+    "Accepted total = 33,402 (card: 33,402); rejected total = 65,596 (card: 65,596).",
+    "File-level metric fields are repeated consistently across all rows of a file in every corpus (0 mismatches).",
+    "Every unique file path in every shard has >= 1 accepted edit (unique files == files shortened), i.e. the release contains no untouched files; full-corpus denominators must therefore come from the run-side aggregates (see below).",
+    "Rejected rows are siblings at accepted sites: rejected attempt_ids not covered by any accepted row = `mathlib` 0, `goedel` 2, `minif2f` 0, `putnam_bench` 0, `putnam_verified` 0, `putnam2025_per_file` 0, `putnam2025_pool` 0; the attempted-site metric therefore nearly equals accepted-edit density in every corpus.",
+    "Shard-derived touched-file sums reproduce `analysis/headline_v4.json` exactly for mathlib / goedel / minif2f / putnam2025 (e.g. mathlib 7,520,933 tokens, 39,580 saved; goedel 1,208,984 / 242,016; putnam2025 union 120,610 / 1,932); putnam_bench differs slightly from v4 (4,354 vs 4,434 pairs) because v4 predates the final dedup of the shipped shard.",
+    "`mathlib`: reproduced full-corpus token reduction = 0.291% vs paper 0.29% (denominator 13,590,246 tokens from headline_v3).",
+    "`goedel`: reproduced full-corpus token reduction = 5.581% vs paper 5.63% (denominator 4,336,135 tokens from headline_v3).",
+    "`minif2f`: paper 21.20% uses a 339-file denominator absent on this host; shard-conditional value 22.65% bounds it from above and the implied full-corpus token count is 130,278.",
+    "`putnam_verified`: paper 8.20% uses a 19-file denominator absent on this host; shard-conditional value 8.48% bounds it from above and the implied full-corpus token count is 16,573.",
+    "`putnam2025_union`: reproduced full-corpus token reduction = 1.578% vs paper 1.43% (denominator 122,421 tokens from headline_v3).",
+    "`goedel` reproduces at 5.58% vs paper 5.63% because the shipped shard is post-dedup (242,016 saved tokens vs 243,981 pre-dedup in headline_v3); `putnam2025_union` gives 1.58% vs paper 1.43% because the paper number is the per-file config alone (1,746 saved tokens -> 1.426%, reproduced exactly by `putnam2025_per_file`), while the union adds pool-only edits (1,932 saved tokens)."
+  ]
+}

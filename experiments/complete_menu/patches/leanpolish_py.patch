@@ -1,0 +1,50 @@
+--- a/leanpolish.py
++++ b/leanpolish.py
+@@ -997,6 +997,7 @@
+                f"--threads={threads}", "--run", "LeanPolish.lean", *extra] + rel_paths
+     timeout_total = timeout_per_file * len(chunk_files) + 120
+ 
++    _t_chunk0 = time.monotonic()
+     output_lines = []
+     proc = None
+     try:
+@@ -1045,6 +1046,19 @@
+         return [{"source_file": str(f), "error": str(e)} for f in chunk_files]
+ 
+     output = "\n".join(output_lines)
++    # v2 eval: optionally dump the raw Lean stdout (incl. [MENU_POOL] lines)
++    # and the chunk wall-clock (= per-file wall with --chunk-size 1).
++    _rawdir = os.environ.get("LEANPOLISH_RAWLOG_DIR")
++    if _rawdir:
++        try:
++            os.makedirs(_rawdir, exist_ok=True)
++            _tag = rel_paths[0].replace("/", "__")
++            with open(os.path.join(_rawdir, _tag + ".log"), "w") as _fh:
++                _fh.write(f"[CHUNK_FILES] {json.dumps(rel_paths)}\n")
++                _fh.write(f"[CHUNK_WALL_S] {time.monotonic() - _t_chunk0:.1f}\n")
++                _fh.write(output)
++        except OSError:
++            pass
+     sections = split_multi_file_output(output)
+ 
+     results = []
+@@ -1357,6 +1371,10 @@
+         help="Ablation: accept shortest valid tactic regardless of specificity tier.")
+     parser.add_argument("--no-g3", action="store_true",
+         help="Ablation: disable §3.3 G3 generalization gate inside L2.")
++    parser.add_argument("--complete-menu", action="store_true",
++        help="v2: try the whole automation menu and keep the shortest quality-passing success.")
++    parser.add_argument("--menu-timeout-all", action="store_true",
++        help="v2 option: 5 s budget on every menu entry (use with --complete-menu).")
+     args = parser.parse_args()
+ 
+     # Resolve presets. Explicit user flags (anything that survived as a
+@@ -1382,6 +1400,8 @@
+         ("--skip-cleanup",    "skip_cleanup"),
+         ("--no-quality-gate", "no_quality_gate"),
+         ("--no-g3",           "no_g3"),
++        ("--complete-menu",   "complete_menu"),
++        ("--menu-timeout-all", "menu_timeout_all"),
+     ]:
+         if getattr(args, attr, False):
+             extra_lean_args.append(flag)

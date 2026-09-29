@@ -1,0 +1,38 @@
+{
+  "goedel": {
+    "files_sampled": 1500,
+    "files_failed": 4,
+    "files_with_l2_group": 68,
+    "bytes_original_sum": 2078146,
+    "bytes_shortened_sum": 479396,
+    "bytes_saved_sum": 1598750,
+    "savings_pct": 0.7693155341347528,
+    "l2_groups_total": 86,
+    "l2_antiun_applied_total": 10,
+    "l2_g3_rejected_total": 6,
+    "g3_veto_rate": 0.06976744186046512,
+    "g3_reason_examples_top10": {
+      "g3_no_generalization_1ge1": 6,
+      "g3_no_generalization_2ge2": 6,
+      "g3_no_generalization_4ge4": 2
+    }
+  },
+  "mathlib": {
+    "files_sampled": 250,
+    "files_failed": 17,
+    "files_with_l2_group": 28,
+    "bytes_original_sum": 2717345,
+    "bytes_shortened_sum": 1438724,
+    "bytes_saved_sum": 1278621,
+    "savings_pct": 0.470540546010904,
+    "l2_groups_total": 49,
+    "l2_antiun_applied_total": 1,
+    "l2_g3_rejected_total": 0,
+    "g3_veto_rate": 0.0,
+    "g3_reason_examples_top10": {
+      "g3_no_generalization_15ge15": 1,
+      "g3_no_generalization_8ge6": 1,
+      "g3_no_generalization_0ge0": 1
+    }
+  }
+}

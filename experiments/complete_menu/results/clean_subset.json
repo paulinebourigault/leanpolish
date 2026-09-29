@@ -1,0 +1,47 @@
+{
+ "PutnamBench-verified (19)": {
+  "files": 13,
+  "A_tokens": 9965,
+  "fs_saved": 1281,
+  "cm_saved": 1287,
+  "files_differing": 2,
+  "fs_pct": 12.854992473657802,
+  "cm_pct": 12.915203211239337
+ },
+ "Putnam 2025 AxiomProver (12), rerun": {
+  "files": 0,
+  "A_tokens": 0,
+  "fs_saved": 0,
+  "cm_saved": 0,
+  "files_differing": 0,
+  "fs_pct": null,
+  "cm_pct": null
+ },
+ "Putnam 2025 AxiomProver (12), first run": {
+  "files": 1,
+  "A_tokens": 6862,
+  "fs_saved": 119,
+  "cm_saved": 119,
+  "files_differing": 0,
+  "fs_pct": 1.7341882832993296,
+  "cm_pct": 1.7341882832993296
+ },
+ "miniF2F-verified (351)": {
+  "files": 314,
+  "A_tokens": 106202,
+  "fs_saved": 25027,
+  "cm_saved": 25038,
+  "files_differing": 2,
+  "fs_pct": 23.565469576844126,
+  "cm_pct": 23.575827197227923
+ },
+ "Mathlib sample (300, seed 0)": {
+  "files": 272,
+  "A_tokens": 540322,
+  "fs_saved": 1666,
+  "cm_saved": 1732,
+  "files_differing": 12,
+  "fs_pct": 0.3083346597029179,
+  "cm_pct": 0.3205495982025533
+ }
+}

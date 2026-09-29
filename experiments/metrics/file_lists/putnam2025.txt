@@ -1,0 +1,12 @@
+Putnam2025_AxiomProver/A1/solution.lean
+Putnam2025_AxiomProver/A2/solution.lean
+Putnam2025_AxiomProver/A3/solution.lean
+Putnam2025_AxiomProver/A4/solution.lean
+Putnam2025_AxiomProver/A5/solution.lean
+Putnam2025_AxiomProver/A6/solution.lean
+Putnam2025_AxiomProver/B1/solution.lean
+Putnam2025_AxiomProver/B2/solution.lean
+Putnam2025_AxiomProver/B3/solution.lean
+Putnam2025_AxiomProver/B4/solution.lean
+Putnam2025_AxiomProver/B5/solution.lean
+Putnam2025_AxiomProver/B6/solution.lean

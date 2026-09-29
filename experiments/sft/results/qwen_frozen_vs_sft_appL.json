@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "n_candidates": 14060,
+    "n_sites": 2812,
+    "screen_verdict_dist": {
+      "fail": 7482,
+      "pass": 740,
+      "noop": 40,
+      "matches_reference": 5797,
+      "introduces_sorry": 1
+    },
+    "exact_lane_candidates": 740,
+    "policy": "edit applied iff kernel-valid AND strictly appL-token-shorter; all other candidates contribute zero savings"
+  },
+  "results": {
+    "frozen_qwen/minif2f": {
+      "sites": 1184,
+      "valid@1": 0.01097972972972973,
+      "valid_shorter@1": 0.0059121621621621625,
+      "valid@4": 0.19763513513513514,
+      "valid_shorter@4": 0.1570945945945946,
+      "savings@1": 188,
+      "savings@4": 3820,
+      "savings@1_pct_of_corpus": 0.15414763735948378,
+      "savings@4_pct_of_corpus": 3.1321488016661063,
+      "exact_match@1": 0.0,
+      "novel_valid_shorter@1": 0.0059121621621621625,
+      "novel_valid_shorter@4": 0.02195945945945946,
+      "beats_reference@1": 0.0008445945945945946,
+      "beats_reference@4": 0.0016891891891891893,
+      "files_with_improvement@1": 6,
+      "median_savings_given_improvement@1": 10,
+      "valid@1_ci95": [
+        0.005319148936170213,
+        0.01759014951627089
+      ],
+      "valid_shorter@1_ci95": [
+        0.0016501650165016502,
+        0.011214953271028037
+      ],
+      "valid@4_ci95": [
+        0.17023096663815226,
+        0.22564935064935066
+      ],
+      "valid_shorter@4_ci95": [
+        0.1318359375,
+        0.1855421686746988
+      ],
+      "savings@1_ci95": [
+        20,
+        468
+      ],
+      "savings@4_ci95": [
+        2717,
+        5176
+      ]
+    },
+    "frozen_qwen/putnam2025_per_file": {
+      "sites": 142,
+      "valid@1": 0.014084507042253521,
+      "valid_shorter@1": 0.014084507042253521,
+      "valid@4": 0.16901408450704225,
+      "valid_shorter@4": 0.14084507042253522,
+      "savings@1": 28,
+      "savings@4": 304,
+      "savings@1_pct_of_corpus": 0.025837885722722574,
+      "savings@4_pct_of_corpus": 0.28052561641813084,
+      "exact_match@1": 0.014084507042253521,
+      "novel_valid_shorter@1": 0.0,
+      "novel_valid_shorter@4": 0.007042253521126761,
+      "beats_reference@1": 0.0,
+      "beats_reference@4": 0.0,
+      "files_with_improvement@1": 2,
+      "median_savings_given_improvement@1": 23,
+      "valid@1_ci95": [
+        0.0,
+        0.03205128205128205
+      ],
+      "valid_shorter@1_ci95": [
+        0.0,
+        0.03205128205128205
+      ],
+      "valid@4_ci95": [
+        0.06481481481481481,
+        0.27011494252873564
+      ],
+      "valid_shorter@4_ci95": [
+        0.037383177570093455,
+        0.22439024390243903
+      ],
+      "savings@1_ci95": [
+        0,
+        74
+      ],
+      "savings@4_ci95": [
+        50,
+        652
+      ]
+    },
+    "frozen_qwen/putnam_verified": {
+      "sites": 80,
+      "valid@1": 0.0,
+      "valid_shorter@1": 0.0,
+      "valid@4": 0.2875,
+      "valid_shorter@4": 0.225,
+      "savings@1": 0,
+      "savings@4": 607,
+      "savings@1_pct_of_corpus": 0.0,
+      "savings@4_pct_of_corpus": 3.7875951578684637,
+      "exact_match@1": 0.0,
+      "novel_valid_shorter@1": 0.0,
+      "novel_valid_shorter@4": 0.0,
+      "beats_reference@1": 0.0,
+      "beats_reference@4": 0.0,
+      "files_with_improvement@1": 0,
+      "median_savings_given_improvement@1": null,
+      "valid@1_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_shorter@1_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid@4_ci95": [
+        0.16666666666666666,
+        0.3951612903225806
+      ],
+      "valid_shorter@4_ci95": [
+        0.08620689655172414,
+        0.35135135135135137
+      ],
+      "savings@1_ci95": [
+        0,
+        0
+      ],
+      "savings@4_ci95": [
+        138,
+        1183
+      ]
+    },
+    "sft_qwen/minif2f": {
+      "sites": 1184,
+      "valid@1": 0.893581081081081,
+      "valid_shorter@1": 0.8445945945945946,
+      "valid@4": 0.9265202702702703,
+      "valid_shorter@4": 0.8766891891891891,
+      "savings@1": 25171,
+      "savings@4": 26013,
+      "savings@1_pct_of_corpus": 20.638564787104073,
+      "savings@4_pct_of_corpus": 21.328949418256656,
+      "exact_match@1": 0.8023648648648649,
+      "novel_valid_shorter@1": 0.08868243243243243,
+      "novel_valid_shorter@4": 0.14695945945945946,
+      "beats_reference@1": 0.0,
+      "beats_reference@4": 0.0,
+      "files_with_improvement@1": 295,
+      "median_savings_given_improvement@1": 12,
+      "valid@1_ci95": [
+        0.8712306438467807,
+        0.9157446808510639
+      ],
+      "valid_shorter@1_ci95": [
+        0.8117738187451587,
+        0.8767693588676103
+      ],
+      "valid@4_ci95": [
+        0.908541846419327,
+        0.9450171821305842
+      ],
+      "valid_shorter@4_ci95": [
+        0.8449074074074074,
+        0.905090595340811
+      ],
+      "savings@1_ci95": [
+        22137,
+        28683
+      ],
+      "savings@4_ci95": [
+        22890,
+        29518
+      ]
+    },
+    "sft_qwen/putnam2025_per_file": {
+      "sites": 142,
+      "valid@1": 0.9084507042253521,
+      "valid_shorter@1": 0.7676056338028169,
+      "valid@4": 0.9154929577464789,
+      "valid_shorter@4": 0.7746478873239436,
+      "savings@1": 1374,
+      "savings@4": 1379,
+      "savings@1_pct_of_corpus": 1.267901963679315,
+      "savings@4_pct_of_corpus": 1.2725158718440868,
+      "exact_match@1": 0.8661971830985915,
+      "novel_valid_shorter@1": 0.035211267605633804,
+      "novel_valid_shorter@4": 0.06338028169014084,
+      "beats_reference@1": 0.0,
+      "beats_reference@4": 0.0,
+      "files_with_improvement@1": 10,
+      "median_savings_given_improvement@1": 9,
+      "valid@1_ci95": [
+        0.8181818181818182,
+        0.9745222929936306
+      ],
+      "valid_shorter@1_ci95": [
+        0.5528455284552846,
+        0.9289617486338798
+      ],
+      "valid@4_ci95": [
+        0.83,
+        0.9758454106280193
+      ],
+      "valid_shorter@4_ci95": [
+        0.5660377358490566,
+        0.9290780141843972
+      ],
+      "savings@1_ci95": [
+        566,
+        2470
+      ],
+      "savings@4_ci95": [
+        573,
+        2475
+      ]
+    },
+    "sft_qwen/putnam_verified": {
+      "sites": 80,
+      "valid@1": 0.9125,
+      "valid_shorter@1": 0.825,
+      "valid@4": 0.9375,
+      "valid_shorter@4": 0.85,
+      "savings@1": 1299,
+      "savings@4": 1316,
+      "savings@1_pct_of_corpus": 8.105578435043055,
+      "savings@4_pct_of_corpus": 8.21165605890428,
+      "exact_match@1": 0.825,
+      "novel_valid_shorter@1": 0.0375,
+      "novel_valid_shorter@4": 0.0625,
+      "beats_reference@1": 0.0,
+      "beats_reference@4": 0.0,
+      "files_with_improvement@1": 14,
+      "median_savings_given_improvement@1": 12,
+      "valid@1_ci95": [
+        0.8181818181818182,
+        0.9696969696969697
+      ],
+      "valid_shorter@1_ci95": [
+        0.6851851851851852,
+        0.9315068493150684
+      ],
+      "valid@4_ci95": [
+        0.8571428571428571,
+        0.9846153846153847
+      ],
+      "valid_shorter@4_ci95": [
+        0.723404255319149,
+        0.95
+      ],
+      "savings@1_ci95": [
+        522,
+        2462
+      ],
+      "savings@4_ci95": [
+        542,
+        2484
+      ]
+    }
+  }
+}

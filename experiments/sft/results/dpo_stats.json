@@ -1,0 +1,14 @@
+{
+  "winners_surviving_filters": 18403,
+  "attempts_with_pairs": 9912,
+  "pair_counts": {
+    "pairs_hard": 16839,
+    "over_max_neg": 36126,
+    "no_surviving_winner": 791,
+    "pairs_easy": 1681
+  },
+  "reason_classes": {
+    "kernel_or_tactic": 16839,
+    "easy_parse": 1681
+  }
+}

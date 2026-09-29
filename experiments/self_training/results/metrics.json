@@ -1,0 +1,2528 @@
+{
+ "description": "Verified self-improvement (one round expert iteration), LeanPolish neural editor. See README.md.",
+ "training_data": {
+  "selected_files": 1000,
+  "train_sites_nonteacher": 5472,
+  "unique_shorter_candidates": 3539,
+  "exact_verified_candidates": 410,
+  "new_edits_naive": 372,
+  "new_edits_deletion": 2,
+  "new_edits_filter_compliant": 225,
+  "new_edits_sel": 223,
+  "replay_rows": 372,
+  "appL_tokens_saved_naive_per_site_sum": 3678,
+  "appL_tokens_selected_files_total": 665731,
+  "full_stats": {
+   "sites": 5472,
+   "sites_with_gen": 5472,
+   "cands_total": 27360,
+   "cands_shorter": 12779,
+   "unique_shorter": 3539,
+   "verdict_screen_reject": 3117,
+   "cands_not_shorter": 11160,
+   "verdict_pass": 410,
+   "cands_same_as_original": 3421,
+   "verdict_fail": 9,
+   "verdict_baseline_broken": 3,
+   "verified_unique_candidates": 410,
+   "sites_with_verified": 373,
+   "drop_goal_overlap_heldout": 1,
+   "sites_with_verified_nondel_compliant": 223,
+   "sites_where_naive_pick_is_deletion_but_sel_has_edit": 0,
+   "new_edits": 372,
+   "new_edits_deletion": 2,
+   "new_edits_nondeletion": 370,
+   "new_edits_compliant": 225,
+   "new_edits_nondeletion_compliant": 223,
+   "saving_appL_total": 3678,
+   "saving_appL_deletion": 27,
+   "saving_appL_nondel_compliant": 3371,
+   "files_with_new_edits": 214,
+   "screen_verdicts": {
+    "fail_goals_differ": 1081,
+    "fail": 2025,
+    "pass": 419,
+    "fail_delete_closing": 11,
+    "chunk_baseline_fail": 3
+   },
+   "new_edits_release_rows": 372,
+   "r2_naive_rows": 744,
+   "r2_naive_new": 372,
+   "r2_sel_rows": 595,
+   "r2_sel_new": 223,
+   "replay_rows": 372
+  }
+ },
+ "eval_main_continued_round2": {
+  "n_verified_pass_keys": 2736,
+  "groups": {
+   "beyond_teacher|ALL|ALL": {
+    "n_sites": 8208,
+    "n_files": 31,
+    "r1:saving@1": 2636,
+    "r1:saving@1_ci": [
+     1636,
+     3880
+    ],
+    "r1:saving@5": 2969,
+    "r1:saving@5_ci": [
+     1862,
+     4326
+    ],
+    "r1:sites_with_verified@5": 963,
+    "r2naive:saving@1": 2724,
+    "r2naive:saving@1_ci": [
+     1714,
+     3957
+    ],
+    "r2naive-r1:saving@1": 88,
+    "r2naive-r1:saving@1_ci": [
+     -84,
+     251
+    ],
+    "r2naive:saving@5": 3101,
+    "r2naive:saving@5_ci": [
+     1919,
+     4485
+    ],
+    "r2naive-r1:saving@5": 132,
+    "r2naive-r1:saving@5_ci": [
+     -68,
+     342
+    ],
+    "r2naive:sites_with_verified@5": 992,
+    "r2sel:saving@1": 2580,
+    "r2sel:saving@1_ci": [
+     1624,
+     3738
+    ],
+    "r2sel-r1:saving@1": -56,
+    "r2sel-r1:saving@1_ci": [
+     -265,
+     145
+    ],
+    "r2sel:saving@5": 3024,
+    "r2sel:saving@5_ci": [
+     1893,
+     4389
+    ],
+    "r2sel-r1:saving@5": 55,
+    "r2sel-r1:saving@5_ci": [
+     -161,
+     286
+    ],
+    "r2sel:sites_with_verified@5": 990
+   },
+   "beyond_teacher|ALL|nonteacher": {
+    "n_sites": 8208,
+    "n_files": 31,
+    "r1:saving@1": 2636,
+    "r1:saving@1_ci": [
+     1636,
+     3880
+    ],
+    "r1:saving@5": 2969,
+    "r1:saving@5_ci": [
+     1862,
+     4326
+    ],
+    "r1:sites_with_verified@5": 963,
+    "r2naive:saving@1": 2724,
+    "r2naive:saving@1_ci": [
+     1714,
+     3957
+    ],
+    "r2naive-r1:saving@1": 88,
+    "r2naive-r1:saving@1_ci": [
+     -84,
+     251
+    ],
+    "r2naive:saving@5": 3101,
+    "r2naive:saving@5_ci": [
+     1919,
+     4485
+    ],
+    "r2naive-r1:saving@5": 132,
+    "r2naive-r1:saving@5_ci": [
+     -68,
+     342
+    ],
+    "r2naive:sites_with_verified@5": 992,
+    "r2sel:saving@1": 2580,
+    "r2sel:saving@1_ci": [
+     1624,
+     3738
+    ],
+    "r2sel-r1:saving@1": -56,
+    "r2sel-r1:saving@1_ci": [
+     -265,
+     145
+    ],
+    "r2sel:saving@5": 3024,
+    "r2sel:saving@5_ci": [
+     1893,
+     4389
+    ],
+    "r2sel-r1:saving@5": 55,
+    "r2sel-r1:saving@5_ci": [
+     -161,
+     286
+    ],
+    "r2sel:sites_with_verified@5": 990
+   },
+   "beyond_teacher|putnam2025|ALL": {
+    "n_sites": 7331,
+    "n_files": 12,
+    "r1:saving@1": 2064,
+    "r1:saving@1_ci": [
+     1329,
+     2835
+    ],
+    "r1:saving@5": 2356,
+    "r1:saving@5_ci": [
+     1572,
+     3157
+    ],
+    "r1:sites_with_verified@5": 774,
+    "r2naive:saving@1": 2141,
+    "r2naive:saving@1_ci": [
+     1419,
+     2917
+    ],
+    "r2naive-r1:saving@1": 77,
+    "r2naive-r1:saving@1_ci": [
+     -79,
+     230
+    ],
+    "r2naive:saving@5": 2471,
+    "r2naive:saving@5_ci": [
+     1668,
+     3304
+    ],
+    "r2naive-r1:saving@5": 115,
+    "r2naive-r1:saving@5_ci": [
+     -71,
+     322
+    ],
+    "r2naive:sites_with_verified@5": 799,
+    "r2sel:saving@1": 2011,
+    "r2sel:saving@1_ci": [
+     1350,
+     2711
+    ],
+    "r2sel-r1:saving@1": -53,
+    "r2sel-r1:saving@1_ci": [
+     -240,
+     139
+    ],
+    "r2sel:saving@5": 2392,
+    "r2sel:saving@5_ci": [
+     1618,
+     3212
+    ],
+    "r2sel-r1:saving@5": 36,
+    "r2sel-r1:saving@5_ci": [
+     -163,
+     251
+    ],
+    "r2sel:sites_with_verified@5": 799
+   },
+   "beyond_teacher|putnam2025|nonteacher": {
+    "n_sites": 7331,
+    "n_files": 12,
+    "r1:saving@1": 2064,
+    "r1:saving@1_ci": [
+     1329,
+     2835
+    ],
+    "r1:saving@5": 2356,
+    "r1:saving@5_ci": [
+     1572,
+     3157
+    ],
+    "r1:sites_with_verified@5": 774,
+    "r2naive:saving@1": 2141,
+    "r2naive:saving@1_ci": [
+     1419,
+     2917
+    ],
+    "r2naive-r1:saving@1": 77,
+    "r2naive-r1:saving@1_ci": [
+     -79,
+     230
+    ],
+    "r2naive:saving@5": 2471,
+    "r2naive:saving@5_ci": [
+     1668,
+     3304
+    ],
+    "r2naive-r1:saving@5": 115,
+    "r2naive-r1:saving@5_ci": [
+     -71,
+     322
+    ],
+    "r2naive:sites_with_verified@5": 799,
+    "r2sel:saving@1": 2011,
+    "r2sel:saving@1_ci": [
+     1350,
+     2711
+    ],
+    "r2sel-r1:saving@1": -53,
+    "r2sel-r1:saving@1_ci": [
+     -240,
+     139
+    ],
+    "r2sel:saving@5": 2392,
+    "r2sel:saving@5_ci": [
+     1618,
+     3212
+    ],
+    "r2sel-r1:saving@5": 36,
+    "r2sel-r1:saving@5_ci": [
+     -163,
+     251
+    ],
+    "r2sel:sites_with_verified@5": 799
+   },
+   "beyond_teacher|putnam_verified|ALL": {
+    "n_sites": 877,
+    "n_files": 19,
+    "r1:saving@1": 572,
+    "r1:saving@1_ci": [
+     353,
+     828
+    ],
+    "r1:saving@5": 613,
+    "r1:saving@5_ci": [
+     392,
+     865
+    ],
+    "r1:sites_with_verified@5": 189,
+    "r2naive:saving@1": 583,
+    "r2naive:saving@1_ci": [
+     363,
+     834
+    ],
+    "r2naive-r1:saving@1": 11,
+    "r2naive-r1:saving@1_ci": [
+     -43,
+     64
+    ],
+    "r2naive:saving@5": 630,
+    "r2naive:saving@5_ci": [
+     403,
+     886
+    ],
+    "r2naive-r1:saving@5": 17,
+    "r2naive-r1:saving@5_ci": [
+     -15,
+     47
+    ],
+    "r2naive:sites_with_verified@5": 193,
+    "r2sel:saving@1": 569,
+    "r2sel:saving@1_ci": [
+     327,
+     854
+    ],
+    "r2sel-r1:saving@1": -3,
+    "r2sel-r1:saving@1_ci": [
+     -83,
+     78
+    ],
+    "r2sel:saving@5": 632,
+    "r2sel:saving@5_ci": [
+     386,
+     924
+    ],
+    "r2sel-r1:saving@5": 19,
+    "r2sel-r1:saving@5_ci": [
+     -43,
+     89
+    ],
+    "r2sel:sites_with_verified@5": 191
+   },
+   "beyond_teacher|putnam_verified|nonteacher": {
+    "n_sites": 877,
+    "n_files": 19,
+    "r1:saving@1": 572,
+    "r1:saving@1_ci": [
+     353,
+     828
+    ],
+    "r1:saving@5": 613,
+    "r1:saving@5_ci": [
+     392,
+     865
+    ],
+    "r1:sites_with_verified@5": 189,
+    "r2naive:saving@1": 583,
+    "r2naive:saving@1_ci": [
+     363,
+     834
+    ],
+    "r2naive-r1:saving@1": 11,
+    "r2naive-r1:saving@1_ci": [
+     -43,
+     64
+    ],
+    "r2naive:saving@5": 630,
+    "r2naive:saving@5_ci": [
+     403,
+     886
+    ],
+    "r2naive-r1:saving@5": 17,
+    "r2naive-r1:saving@5_ci": [
+     -15,
+     47
+    ],
+    "r2naive:sites_with_verified@5": 193,
+    "r2sel:saving@1": 569,
+    "r2sel:saving@1_ci": [
+     327,
+     854
+    ],
+    "r2sel-r1:saving@1": -3,
+    "r2sel-r1:saving@1_ci": [
+     -83,
+     78
+    ],
+    "r2sel:saving@5": 632,
+    "r2sel:saving@5_ci": [
+     386,
+     924
+    ],
+    "r2sel-r1:saving@5": 19,
+    "r2sel-r1:saving@5_ci": [
+     -43,
+     89
+    ],
+    "r2sel:sites_with_verified@5": 191
+   },
+   "teacher|ALL|ALL": {
+    "n_sites": 1406,
+    "n_files": 334,
+    "r1:vs@1": 84.78,
+    "r1:vs@1_ci": [
+     81.16,
+     88.15
+    ],
+    "r1:vs@5": 86.34,
+    "r1:vs@5_ci": [
+     83.0,
+     89.48
+    ],
+    "r2naive:vs@1": 83.21,
+    "r2naive:vs@1_ci": [
+     79.84,
+     86.45
+    ],
+    "r2naive-r1:vs@1": -1.56,
+    "r2naive-r1:vs@1_ci": [
+     -2.58,
+     -0.61
+    ],
+    "r2naive:vs@5": 85.14,
+    "r2naive:vs@5_ci": [
+     81.88,
+     88.22
+    ],
+    "r2naive-r1:vs@5": -1.21,
+    "r2naive-r1:vs@5_ci": [
+     -1.93,
+     -0.46
+    ],
+    "r2sel:vs@1": 82.22,
+    "r2sel:vs@1_ci": [
+     78.36,
+     85.7
+    ],
+    "r2sel-r1:vs@1": -2.56,
+    "r2sel-r1:vs@1_ci": [
+     -3.74,
+     -1.46
+    ],
+    "r2sel:vs@5": 84.35,
+    "r2sel:vs@5_ci": [
+     80.8,
+     87.74
+    ],
+    "r2sel-r1:vs@5": -1.99,
+    "r2sel-r1:vs@5_ci": [
+     -3.03,
+     -0.99
+    ]
+   },
+   "teacher|ALL|deletion": {
+    "n_sites": 558,
+    "n_files": 141,
+    "r1:vs@1": 100.0,
+    "r1:vs@1_ci": [
+     100.0,
+     100.0
+    ],
+    "r1:vs@5": 100.0,
+    "r1:vs@5_ci": [
+     100.0,
+     100.0
+    ],
+    "r2naive:vs@1": 99.1,
+    "r2naive:vs@1_ci": [
+     98.02,
+     99.83
+    ],
+    "r2naive-r1:vs@1": -0.9,
+    "r2naive-r1:vs@1_ci": [
+     -1.98,
+     -0.17
+    ],
+    "r2naive:vs@5": 99.28,
+    "r2naive:vs@5_ci": [
+     98.51,
+     99.84
+    ],
+    "r2naive-r1:vs@5": -0.72,
+    "r2naive-r1:vs@5_ci": [
+     -1.49,
+     -0.16
+    ],
+    "r2sel:vs@1": 99.82,
+    "r2sel:vs@1_ci": [
+     99.43,
+     100.0
+    ],
+    "r2sel-r1:vs@1": -0.18,
+    "r2sel-r1:vs@1_ci": [
+     -0.57,
+     0.0
+    ],
+    "r2sel:vs@5": 99.82,
+    "r2sel:vs@5_ci": [
+     99.43,
+     100.0
+    ],
+    "r2sel-r1:vs@5": -0.18,
+    "r2sel-r1:vs@5_ci": [
+     -0.57,
+     0.0
+    ]
+   },
+   "teacher|ALL|other": {
+    "n_sites": 1,
+    "n_files": 1,
+    "r1:vs@1": 0.0,
+    "r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r1:vs@5": 0.0,
+    "r1:vs@5_ci": [
+     0.0,
+     0.0
+    ],
+    "r2naive:vs@1": 0.0,
+    "r2naive:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2naive-r1:vs@1": 0.0,
+    "r2naive-r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2naive:vs@5": 0.0,
+    "r2naive:vs@5_ci": [
+     0.0,
+     0.0
+    ],
+    "r2naive-r1:vs@5": 0.0,
+    "r2naive-r1:vs@5_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel:vs@1": 0.0,
+    "r2sel:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel-r1:vs@1": 0.0,
+    "r2sel-r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel:vs@5": 0.0,
+    "r2sel:vs@5_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel-r1:vs@5": 0.0,
+    "r2sel-r1:vs@5_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "teacher|ALL|tactic": {
+    "n_sites": 847,
+    "n_files": 292,
+    "r1:vs@1": 74.85,
+    "r1:vs@1_ci": [
+     69.94,
+     79.59
+    ],
+    "r1:vs@5": 77.45,
+    "r1:vs@5_ci": [
+     72.79,
+     82.1
+    ],
+    "r2naive:vs@1": 72.85,
+    "r2naive:vs@1_ci": [
+     68.25,
+     77.42
+    ],
+    "r2naive-r1:vs@1": -2.01,
+    "r2naive-r1:vs@1_ci": [
+     -3.6,
+     -0.48
+    ],
+    "r2naive:vs@5": 75.91,
+    "r2naive:vs@5_ci": [
+     71.26,
+     80.44
+    ],
+    "r2naive-r1:vs@5": -1.53,
+    "r2naive-r1:vs@5_ci": [
+     -2.74,
+     -0.46
+    ],
+    "r2sel:vs@1": 70.72,
+    "r2sel:vs@1_ci": [
+     65.55,
+     75.62
+    ],
+    "r2sel-r1:vs@1": -4.13,
+    "r2sel-r1:vs@1_ci": [
+     -6.05,
+     -2.2
+    ],
+    "r2sel:vs@5": 74.26,
+    "r2sel:vs@5_ci": [
+     69.55,
+     79.03
+    ],
+    "r2sel-r1:vs@5": -3.19,
+    "r2sel-r1:vs@5_ci": [
+     -4.94,
+     -1.57
+    ]
+   },
+   "teacher|minif2f|ALL": {
+    "n_sites": 1184,
+    "n_files": 308,
+    "r1:vs@1": 85.64,
+    "r1:vs@1_ci": [
+     82.1,
+     89.04
+    ],
+    "r1:vs@5": 87.42,
+    "r1:vs@5_ci": [
+     84.18,
+     90.55
+    ],
+    "r2naive:vs@1": 84.29,
+    "r2naive:vs@1_ci": [
+     80.98,
+     87.57
+    ],
+    "r2naive-r1:vs@1": -1.35,
+    "r2naive-r1:vs@1_ci": [
+     -2.44,
+     -0.25
+    ],
+    "r2naive:vs@5": 86.23,
+    "r2naive:vs@5_ci": [
+     83.01,
+     89.38
+    ],
+    "r2naive-r1:vs@5": -1.18,
+    "r2naive-r1:vs@5_ci": [
+     -1.96,
+     -0.44
+    ],
+    "r2sel:vs@1": 83.11,
+    "r2sel:vs@1_ci": [
+     79.23,
+     86.68
+    ],
+    "r2sel-r1:vs@1": -2.53,
+    "r2sel-r1:vs@1_ci": [
+     -3.91,
+     -1.3
+    ],
+    "r2sel:vs@5": 85.39,
+    "r2sel:vs@5_ci": [
+     81.94,
+     88.65
+    ],
+    "r2sel-r1:vs@5": -2.03,
+    "r2sel-r1:vs@5_ci": [
+     -3.16,
+     -0.92
+    ]
+   },
+   "teacher|minif2f|deletion": {
+    "n_sites": 436,
+    "n_files": 122,
+    "r1:vs@1": 100.0,
+    "r1:vs@1_ci": [
+     100.0,
+     100.0
+    ],
+    "r1:vs@5": 100.0,
+    "r1:vs@5_ci": [
+     100.0,
+     100.0
+    ],
+    "r2naive:vs@1": 99.31,
+    "r2naive:vs@1_ci": [
+     98.15,
+     100.0
+    ],
+    "r2naive-r1:vs@1": -0.69,
+    "r2naive-r1:vs@1_ci": [
+     -1.85,
+     0.0
+    ],
+    "r2naive:vs@5": 99.54,
+    "r2naive:vs@5_ci": [
+     98.85,
+     100.0
+    ],
+    "r2naive-r1:vs@5": -0.46,
+    "r2naive-r1:vs@5_ci": [
+     -1.15,
+     0.0
+    ],
+    "r2sel:vs@1": 100.0,
+    "r2sel:vs@1_ci": [
+     100.0,
+     100.0
+    ],
+    "r2sel-r1:vs@1": 0.0,
+    "r2sel-r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel:vs@5": 100.0,
+    "r2sel:vs@5_ci": [
+     100.0,
+     100.0
+    ],
+    "r2sel-r1:vs@5": 0.0,
+    "r2sel-r1:vs@5_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "teacher|minif2f|other": {
+    "n_sites": 1,
+    "n_files": 1,
+    "r1:vs@1": 0.0,
+    "r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r1:vs@5": 0.0,
+    "r1:vs@5_ci": [
+     0.0,
+     0.0
+    ],
+    "r2naive:vs@1": 0.0,
+    "r2naive:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2naive-r1:vs@1": 0.0,
+    "r2naive-r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2naive:vs@5": 0.0,
+    "r2naive:vs@5_ci": [
+     0.0,
+     0.0
+    ],
+    "r2naive-r1:vs@5": 0.0,
+    "r2naive-r1:vs@5_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel:vs@1": 0.0,
+    "r2sel:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel-r1:vs@1": 0.0,
+    "r2sel-r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel:vs@5": 0.0,
+    "r2sel:vs@5_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel-r1:vs@5": 0.0,
+    "r2sel-r1:vs@5_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "teacher|minif2f|tactic": {
+    "n_sites": 747,
+    "n_files": 273,
+    "r1:vs@1": 77.38,
+    "r1:vs@1_ci": [
+     72.42,
+     81.99
+    ],
+    "r1:vs@5": 80.19,
+    "r1:vs@5_ci": [
+     75.73,
+     84.5
+    ],
+    "r2naive:vs@1": 75.64,
+    "r2naive:vs@1_ci": [
+     71.1,
+     80.0
+    ],
+    "r2naive-r1:vs@1": -1.74,
+    "r2naive-r1:vs@1_ci": [
+     -3.41,
+     -0.13
+    ],
+    "r2naive:vs@5": 78.58,
+    "r2naive:vs@5_ci": [
+     74.04,
+     82.67
+    ],
+    "r2naive-r1:vs@5": -1.61,
+    "r2naive-r1:vs@5_ci": [
+     -2.9,
+     -0.51
+    ],
+    "r2sel:vs@1": 73.36,
+    "r2sel:vs@1_ci": [
+     68.35,
+     78.08
+    ],
+    "r2sel-r1:vs@1": -4.02,
+    "r2sel-r1:vs@1_ci": [
+     -6.11,
+     -1.95
+    ],
+    "r2sel:vs@5": 76.97,
+    "r2sel:vs@5_ci": [
+     72.22,
+     81.48
+    ],
+    "r2sel-r1:vs@5": -3.21,
+    "r2sel-r1:vs@5_ci": [
+     -5.0,
+     -1.55
+    ]
+   },
+   "teacher|putnam2025_per_file|ALL": {
+    "n_sites": 142,
+    "n_files": 10,
+    "r1:vs@1": 78.17,
+    "r1:vs@1_ci": [
+     54.55,
+     94.15
+    ],
+    "r1:vs@5": 78.17,
+    "r1:vs@5_ci": [
+     54.55,
+     94.15
+    ],
+    "r2naive:vs@1": 76.76,
+    "r2naive:vs@1_ci": [
+     55.14,
+     92.68
+    ],
+    "r2naive-r1:vs@1": -1.41,
+    "r2naive-r1:vs@1_ci": [
+     -4.73,
+     1.99
+    ],
+    "r2naive:vs@5": 78.17,
+    "r2naive:vs@5_ci": [
+     56.25,
+     93.94
+    ],
+    "r2naive-r1:vs@5": 0.0,
+    "r2naive-r1:vs@5_ci": [
+     -1.58,
+     2.68
+    ],
+    "r2sel:vs@1": 76.06,
+    "r2sel:vs@1_ci": [
+     53.27,
+     92.09
+    ],
+    "r2sel-r1:vs@1": -2.11,
+    "r2sel-r1:vs@1_ci": [
+     -5.88,
+     0.0
+    ],
+    "r2sel:vs@5": 78.17,
+    "r2sel:vs@5_ci": [
+     55.56,
+     93.72
+    ],
+    "r2sel-r1:vs@5": 0.0,
+    "r2sel-r1:vs@5_ci": [
+     -2.22,
+     1.85
+    ]
+   },
+   "teacher|putnam2025_per_file|deletion": {
+    "n_sites": 85,
+    "n_files": 10,
+    "r1:vs@1": 100.0,
+    "r1:vs@1_ci": [
+     100.0,
+     100.0
+    ],
+    "r1:vs@5": 100.0,
+    "r1:vs@5_ci": [
+     100.0,
+     100.0
+    ],
+    "r2naive:vs@1": 100.0,
+    "r2naive:vs@1_ci": [
+     100.0,
+     100.0
+    ],
+    "r2naive-r1:vs@1": 0.0,
+    "r2naive-r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2naive:vs@5": 100.0,
+    "r2naive:vs@5_ci": [
+     100.0,
+     100.0
+    ],
+    "r2naive-r1:vs@5": 0.0,
+    "r2naive-r1:vs@5_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel:vs@1": 100.0,
+    "r2sel:vs@1_ci": [
+     100.0,
+     100.0
+    ],
+    "r2sel-r1:vs@1": 0.0,
+    "r2sel-r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2sel:vs@5": 100.0,
+    "r2sel:vs@5_ci": [
+     100.0,
+     100.0
+    ],
+    "r2sel-r1:vs@5": 0.0,
+    "r2sel-r1:vs@5_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "teacher|putnam2025_per_file|tactic": {
+    "n_sites": 57,
+    "n_files": 7,
+    "r1:vs@1": 45.61,
+    "r1:vs@1_ci": [
+     24.39,
+     72.0
+    ],
+    "r1:vs@5": 45.61,
+    "r1:vs@5_ci": [
+     24.39,
+     72.0
+    ],
+    "r2naive:vs@1": 42.11,
+    "r2naive:vs@1_ci": [
+     25.93,
+     63.64
+    ],
+    "r2naive-r1:vs@1": -3.51,
+    "r2naive-r1:vs@1_ci": [
+     -13.56,
+     4.0
+    ],
+    "r2naive:vs@5": 45.61,
+    "r2naive:vs@5_ci": [
+     26.32,
+     72.97
+    ],
+    "r2naive-r1:vs@5": 0.0,
+    "r2naive-r1:vs@5_ci": [
+     -6.98,
+     5.17
+    ],
+    "r2sel:vs@1": 40.35,
+    "r2sel:vs@1_ci": [
+     21.21,
+     62.5
+    ],
+    "r2sel-r1:vs@1": -5.26,
+    "r2sel-r1:vs@1_ci": [
+     -15.0,
+     0.0
+    ],
+    "r2sel:vs@5": 45.61,
+    "r2sel:vs@5_ci": [
+     24.39,
+     67.44
+    ],
+    "r2sel-r1:vs@5": 0.0,
+    "r2sel-r1:vs@5_ci": [
+     -5.13,
+     3.51
+    ]
+   },
+   "teacher|putnam_verified|ALL": {
+    "n_sites": 80,
+    "n_files": 16,
+    "r1:vs@1": 83.75,
+    "r1:vs@1_ci": [
+     72.73,
+     93.75
+    ],
+    "r1:vs@5": 85.0,
+    "r1:vs@5_ci": [
+     74.58,
+     94.34
+    ],
+    "r2naive:vs@1": 78.75,
+    "r2naive:vs@1_ci": [
+     66.27,
+     90.0
+    ],
+    "r2naive-r1:vs@1": -5.0,
+    "r2naive-r1:vs@1_ci": [
+     -10.26,
+     -1.52
+    ],
+    "r2naive:vs@5": 81.25,
+    "r2naive:vs@5_ci": [
+     70.77,
+     92.19
+    ],
+    "r2naive-r1:vs@5": -3.75,
+    "r2naive-r1:vs@5_ci": [
+     -7.14,
+     0.0
+    ],
+    "r2sel:vs@1": 80.0,
+    "r2sel:vs@1_ci": [
+     68.75,
+     92.98
+    ],
+    "r2sel-r1:vs@1": -3.75,
+    "r2sel-r1:vs@1_ci": [
+     -6.09,
+     0.0
+    ],
+    "r2sel:vs@5": 80.0,
+    "r2sel:vs@5_ci": [
+     68.75,
+     92.98
+    ],
+    "r2sel-r1:vs@5": -5.0,
+    "r2sel-r1:vs@5_ci": [
+     -8.77,
+     0.0
+    ]
+   },
+   "teacher|putnam_verified|deletion": {
+    "n_sites": 37,
+    "n_files": 9,
+    "r1:vs@1": 100.0,
+    "r1:vs@1_ci": [
+     100.0,
+     100.0
+    ],
+    "r1:vs@5": 100.0,
+    "r1:vs@5_ci": [
+     100.0,
+     100.0
+    ],
+    "r2naive:vs@1": 94.59,
+    "r2naive:vs@1_ci": [
+     85.71,
+     100.0
+    ],
+    "r2naive-r1:vs@1": -5.41,
+    "r2naive-r1:vs@1_ci": [
+     -14.29,
+     0.0
+    ],
+    "r2naive:vs@5": 94.59,
+    "r2naive:vs@5_ci": [
+     85.71,
+     100.0
+    ],
+    "r2naive-r1:vs@5": -5.41,
+    "r2naive-r1:vs@5_ci": [
+     -14.29,
+     0.0
+    ],
+    "r2sel:vs@1": 97.3,
+    "r2sel:vs@1_ci": [
+     94.92,
+     100.0
+    ],
+    "r2sel-r1:vs@1": -2.7,
+    "r2sel-r1:vs@1_ci": [
+     -5.08,
+     0.0
+    ],
+    "r2sel:vs@5": 97.3,
+    "r2sel:vs@5_ci": [
+     94.92,
+     100.0
+    ],
+    "r2sel-r1:vs@5": -2.7,
+    "r2sel-r1:vs@5_ci": [
+     -5.08,
+     0.0
+    ]
+   },
+   "teacher|putnam_verified|tactic": {
+    "n_sites": 43,
+    "n_files": 12,
+    "r1:vs@1": 69.77,
+    "r1:vs@1_ci": [
+     54.17,
+     88.37
+    ],
+    "r1:vs@5": 72.09,
+    "r1:vs@5_ci": [
+     55.26,
+     88.89
+    ],
+    "r2naive:vs@1": 65.12,
+    "r2naive:vs@1_ci": [
+     48.84,
+     84.0
+    ],
+    "r2naive-r1:vs@1": -4.65,
+    "r2naive-r1:vs@1_ci": [
+     -12.12,
+     0.0
+    ],
+    "r2naive:vs@5": 69.77,
+    "r2naive:vs@5_ci": [
+     54.17,
+     88.37
+    ],
+    "r2naive-r1:vs@5": -2.33,
+    "r2naive-r1:vs@5_ci": [
+     -5.56,
+     0.0
+    ],
+    "r2sel:vs@1": 65.12,
+    "r2sel:vs@1_ci": [
+     50.0,
+     87.5
+    ],
+    "r2sel-r1:vs@1": -4.65,
+    "r2sel-r1:vs@1_ci": [
+     -7.25,
+     0.0
+    ],
+    "r2sel:vs@5": 65.12,
+    "r2sel:vs@5_ci": [
+     50.0,
+     87.5
+    ],
+    "r2sel-r1:vs@5": -6.98,
+    "r2sel-r1:vs@5_ci": [
+     -11.76,
+     0.0
+    ]
+   }
+  },
+  "posthoc_compliance": {
+   "r1|teacher|greedy": {
+    "n_successful_unique": 634,
+    "n_compliant": 612,
+    "compliance_rate": 96.5,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      15
+     ],
+     [
+      "norm_num->omega",
+      7
+     ]
+    ]
+   },
+   "r1|teacher|all5": {
+    "n_successful_unique": 762,
+    "n_compliant": 729,
+    "compliance_rate": 95.7,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      25
+     ],
+     [
+      "norm_num->omega",
+      7
+     ],
+     [
+      "norm_cast->linarith",
+      1
+     ]
+    ]
+   },
+   "r1|beyond_teacher|greedy": {
+    "n_successful_unique": 870,
+    "n_compliant": 276,
+    "compliance_rate": 31.7,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "exact->norm_cast",
+      266
+     ],
+     [
+      "exact->tauto",
+      112
+     ],
+     [
+      "rw->tauto",
+      43
+     ],
+     [
+      "exact->omega",
+      33
+     ],
+     [
+      "exact->linarith",
+      32
+     ],
+     [
+      "exact->norm_num",
+      19
+     ],
+     [
+      "rw->omega",
+      18
+     ],
+     [
+      "rw->norm_cast",
+      10
+     ],
+     [
+      "exact->positivity",
+      9
+     ],
+     [
+      "rw->linarith",
+      7
+     ],
+     [
+      "rw->norm_num",
+      7
+     ],
+     [
+      "exact->exact",
+      6
+     ]
+    ]
+   },
+   "r1|beyond_teacher|all5": {
+    "n_successful_unique": 1061,
+    "n_compliant": 348,
+    "compliance_rate": 32.8,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "exact->norm_cast",
+      294
+     ],
+     [
+      "exact->tauto",
+      118
+     ],
+     [
+      "exact->linarith",
+      65
+     ],
+     [
+      "rw->tauto",
+      48
+     ],
+     [
+      "exact->omega",
+      40
+     ],
+     [
+      "exact->norm_num",
+      22
+     ],
+     [
+      "rw->omega",
+      18
+     ],
+     [
+      "rw->linarith",
+      17
+     ],
+     [
+      "exact->exact",
+      16
+     ],
+     [
+      "rw->norm_num",
+      14
+     ],
+     [
+      "rw->norm_cast",
+      11
+     ],
+     [
+      "exact->positivity",
+      10
+     ]
+    ]
+   },
+   "r2naive|teacher|greedy": {
+    "n_successful_unique": 617,
+    "n_compliant": 595,
+    "compliance_rate": 96.4,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      19
+     ],
+     [
+      "norm_num->omega",
+      3
+     ]
+    ]
+   },
+   "r2naive|teacher|all5": {
+    "n_successful_unique": 719,
+    "n_compliant": 691,
+    "compliance_rate": 96.1,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      25
+     ],
+     [
+      "norm_num->omega",
+      3
+     ]
+    ]
+   },
+   "r2naive|beyond_teacher|greedy": {
+    "n_successful_unique": 897,
+    "n_compliant": 306,
+    "compliance_rate": 34.1,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "exact->norm_cast",
+      258
+     ],
+     [
+      "exact->tauto",
+      150
+     ],
+     [
+      "exact->linarith",
+      38
+     ],
+     [
+      "rw->tauto",
+      26
+     ],
+     [
+      "exact->norm_num",
+      16
+     ],
+     [
+      "rw->omega",
+      15
+     ],
+     [
+      "rw->norm_cast",
+      10
+     ],
+     [
+      "exact->omega",
+      10
+     ],
+     [
+      "exact->positivity",
+      9
+     ],
+     [
+      "rw->linarith",
+      8
+     ],
+     [
+      "exact->gcongr",
+      6
+     ],
+     [
+      "rw->norm_num",
+      6
+     ]
+    ]
+   },
+   "r2naive|beyond_teacher|all5": {
+    "n_successful_unique": 1086,
+    "n_compliant": 408,
+    "compliance_rate": 37.6,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "exact->norm_cast",
+      275
+     ],
+     [
+      "exact->tauto",
+      154
+     ],
+     [
+      "exact->linarith",
+      65
+     ],
+     [
+      "rw->tauto",
+      36
+     ],
+     [
+      "rw->linarith",
+      19
+     ],
+     [
+      "exact->norm_num",
+      17
+     ],
+     [
+      "rw->omega",
+      15
+     ],
+     [
+      "rw->norm_cast",
+      12
+     ],
+     [
+      "exact->positivity",
+      11
+     ],
+     [
+      "exact->omega",
+      10
+     ],
+     [
+      "rw->norm_num",
+      9
+     ],
+     [
+      "exact->gcongr",
+      6
+     ]
+    ]
+   },
+   "r2sel|teacher|greedy": {
+    "n_successful_unique": 599,
+    "n_compliant": 579,
+    "compliance_rate": 96.7,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      19
+     ],
+     [
+      "norm_num->omega",
+      1
+     ]
+    ]
+   },
+   "r2sel|teacher|all5": {
+    "n_successful_unique": 701,
+    "n_compliant": 675,
+    "compliance_rate": 96.3,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      24
+     ],
+     [
+      "norm_num->field_simp",
+      1
+     ],
+     [
+      "norm_num->omega",
+      1
+     ]
+    ]
+   },
+   "r2sel|beyond_teacher|greedy": {
+    "n_successful_unique": 877,
+    "n_compliant": 318,
+    "compliance_rate": 36.3,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "exact->norm_cast",
+      282
+     ],
+     [
+      "exact->tauto",
+      94
+     ],
+     [
+      "exact->linarith",
+      41
+     ],
+     [
+      "rw->tauto",
+      33
+     ],
+     [
+      "exact->norm_num",
+      15
+     ],
+     [
+      "rw->linarith",
+      11
+     ],
+     [
+      "rw->norm_num",
+      11
+     ],
+     [
+      "rw->norm_cast",
+      9
+     ],
+     [
+      "rw->omega",
+      9
+     ],
+     [
+      "exact->omega",
+      8
+     ],
+     [
+      "exact->positivity",
+      8
+     ],
+     [
+      "nomatch->norm_cast",
+      5
+     ]
+    ]
+   },
+   "r2sel|beyond_teacher|all5": {
+    "n_successful_unique": 1087,
+    "n_compliant": 415,
+    "compliance_rate": 38.2,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "exact->norm_cast",
+      299
+     ],
+     [
+      "exact->tauto",
+      100
+     ],
+     [
+      "exact->linarith",
+      84
+     ],
+     [
+      "rw->tauto",
+      34
+     ],
+     [
+      "rw->linarith",
+      21
+     ],
+     [
+      "exact->norm_num",
+      17
+     ],
+     [
+      "rw->norm_cast",
+      15
+     ],
+     [
+      "rw->norm_num",
+      15
+     ],
+     [
+      "exact->omega",
+      10
+     ],
+     [
+      "exact->positivity",
+      9
+     ],
+     [
+      "rw->omega",
+      9
+     ],
+     [
+      "exact->exact",
+      8
+     ]
+    ]
+   }
+  }
+ },
+ "eval_teacher_tactic_incl_frombase_secondary": {
+  "n_verified_pass_keys": 870,
+  "groups": {
+   "teacher|ALL|ALL": {
+    "n_sites": 847,
+    "n_files": 292,
+    "r1:vs@1": 74.85,
+    "r1:vs@1_ci": [
+     69.94,
+     79.59
+    ],
+    "r1:vs@5": 77.45,
+    "r1:vs@5_ci": [
+     72.79,
+     82.1
+    ],
+    "r2naive:vs@1": 72.85,
+    "r2naive:vs@1_ci": [
+     68.25,
+     77.42
+    ],
+    "r2naive-r1:vs@1": -2.01,
+    "r2naive-r1:vs@1_ci": [
+     -3.6,
+     -0.48
+    ],
+    "r2naive:vs@5": 75.91,
+    "r2naive:vs@5_ci": [
+     71.26,
+     80.44
+    ],
+    "r2naive-r1:vs@5": -1.53,
+    "r2naive-r1:vs@5_ci": [
+     -2.74,
+     -0.46
+    ],
+    "r2sel:vs@1": 70.72,
+    "r2sel:vs@1_ci": [
+     65.55,
+     75.62
+    ],
+    "r2sel-r1:vs@1": -4.13,
+    "r2sel-r1:vs@1_ci": [
+     -6.05,
+     -2.2
+    ],
+    "r2sel:vs@5": 74.26,
+    "r2sel:vs@5_ci": [
+     69.55,
+     79.03
+    ],
+    "r2sel-r1:vs@5": -3.19,
+    "r2sel-r1:vs@5_ci": [
+     -4.94,
+     -1.57
+    ],
+    "r2bnaive:vs@1": 74.26,
+    "r2bnaive:vs@1_ci": [
+     69.52,
+     78.97
+    ],
+    "r2bnaive-r1:vs@1": -0.59,
+    "r2bnaive-r1:vs@1_ci": [
+     -2.14,
+     0.89
+    ],
+    "r2bnaive:vs@5": 77.69,
+    "r2bnaive:vs@5_ci": [
+     73.12,
+     82.09
+    ],
+    "r2bnaive-r1:vs@5": 0.24,
+    "r2bnaive-r1:vs@5_ci": [
+     -0.98,
+     1.32
+    ],
+    "r2bsel:vs@1": 72.85,
+    "r2bsel:vs@1_ci": [
+     68.32,
+     77.5
+    ],
+    "r2bsel-r1:vs@1": -2.01,
+    "r2bsel-r1:vs@1_ci": [
+     -3.54,
+     -0.57
+    ],
+    "r2bsel:vs@5": 75.91,
+    "r2bsel:vs@5_ci": [
+     71.32,
+     80.51
+    ],
+    "r2bsel-r1:vs@5": -1.53,
+    "r2bsel-r1:vs@5_ci": [
+     -2.87,
+     -0.33
+    ]
+   },
+   "teacher|ALL|tactic": {
+    "n_sites": 847,
+    "n_files": 292,
+    "r1:vs@1": 74.85,
+    "r1:vs@1_ci": [
+     69.94,
+     79.59
+    ],
+    "r1:vs@5": 77.45,
+    "r1:vs@5_ci": [
+     72.79,
+     82.1
+    ],
+    "r2naive:vs@1": 72.85,
+    "r2naive:vs@1_ci": [
+     68.25,
+     77.42
+    ],
+    "r2naive-r1:vs@1": -2.01,
+    "r2naive-r1:vs@1_ci": [
+     -3.6,
+     -0.48
+    ],
+    "r2naive:vs@5": 75.91,
+    "r2naive:vs@5_ci": [
+     71.26,
+     80.44
+    ],
+    "r2naive-r1:vs@5": -1.53,
+    "r2naive-r1:vs@5_ci": [
+     -2.74,
+     -0.46
+    ],
+    "r2sel:vs@1": 70.72,
+    "r2sel:vs@1_ci": [
+     65.55,
+     75.62
+    ],
+    "r2sel-r1:vs@1": -4.13,
+    "r2sel-r1:vs@1_ci": [
+     -6.05,
+     -2.2
+    ],
+    "r2sel:vs@5": 74.26,
+    "r2sel:vs@5_ci": [
+     69.55,
+     79.03
+    ],
+    "r2sel-r1:vs@5": -3.19,
+    "r2sel-r1:vs@5_ci": [
+     -4.94,
+     -1.57
+    ],
+    "r2bnaive:vs@1": 74.26,
+    "r2bnaive:vs@1_ci": [
+     69.52,
+     78.97
+    ],
+    "r2bnaive-r1:vs@1": -0.59,
+    "r2bnaive-r1:vs@1_ci": [
+     -2.14,
+     0.89
+    ],
+    "r2bnaive:vs@5": 77.69,
+    "r2bnaive:vs@5_ci": [
+     73.12,
+     82.09
+    ],
+    "r2bnaive-r1:vs@5": 0.24,
+    "r2bnaive-r1:vs@5_ci": [
+     -0.98,
+     1.32
+    ],
+    "r2bsel:vs@1": 72.85,
+    "r2bsel:vs@1_ci": [
+     68.32,
+     77.5
+    ],
+    "r2bsel-r1:vs@1": -2.01,
+    "r2bsel-r1:vs@1_ci": [
+     -3.54,
+     -0.57
+    ],
+    "r2bsel:vs@5": 75.91,
+    "r2bsel:vs@5_ci": [
+     71.32,
+     80.51
+    ],
+    "r2bsel-r1:vs@5": -1.53,
+    "r2bsel-r1:vs@5_ci": [
+     -2.87,
+     -0.33
+    ]
+   },
+   "teacher|minif2f|ALL": {
+    "n_sites": 747,
+    "n_files": 273,
+    "r1:vs@1": 77.38,
+    "r1:vs@1_ci": [
+     72.42,
+     81.99
+    ],
+    "r1:vs@5": 80.19,
+    "r1:vs@5_ci": [
+     75.73,
+     84.5
+    ],
+    "r2naive:vs@1": 75.64,
+    "r2naive:vs@1_ci": [
+     71.1,
+     80.0
+    ],
+    "r2naive-r1:vs@1": -1.74,
+    "r2naive-r1:vs@1_ci": [
+     -3.41,
+     -0.13
+    ],
+    "r2naive:vs@5": 78.58,
+    "r2naive:vs@5_ci": [
+     74.04,
+     82.67
+    ],
+    "r2naive-r1:vs@5": -1.61,
+    "r2naive-r1:vs@5_ci": [
+     -2.9,
+     -0.51
+    ],
+    "r2sel:vs@1": 73.36,
+    "r2sel:vs@1_ci": [
+     68.35,
+     78.08
+    ],
+    "r2sel-r1:vs@1": -4.02,
+    "r2sel-r1:vs@1_ci": [
+     -6.11,
+     -1.95
+    ],
+    "r2sel:vs@5": 76.97,
+    "r2sel:vs@5_ci": [
+     72.22,
+     81.48
+    ],
+    "r2sel-r1:vs@5": -3.21,
+    "r2sel-r1:vs@5_ci": [
+     -5.0,
+     -1.55
+    ],
+    "r2bnaive:vs@1": 76.71,
+    "r2bnaive:vs@1_ci": [
+     71.72,
+     81.42
+    ],
+    "r2bnaive-r1:vs@1": -0.67,
+    "r2bnaive-r1:vs@1_ci": [
+     -2.44,
+     1.03
+    ],
+    "r2bnaive:vs@5": 80.05,
+    "r2bnaive:vs@5_ci": [
+     75.38,
+     84.35
+    ],
+    "r2bnaive-r1:vs@5": -0.13,
+    "r2bnaive-r1:vs@5_ci": [
+     -1.3,
+     0.94
+    ],
+    "r2bsel:vs@1": 75.37,
+    "r2bsel:vs@1_ci": [
+     70.78,
+     79.8
+    ],
+    "r2bsel-r1:vs@1": -2.01,
+    "r2bsel-r1:vs@1_ci": [
+     -3.86,
+     -0.35
+    ],
+    "r2bsel:vs@5": 78.45,
+    "r2bsel:vs@5_ci": [
+     73.93,
+     82.76
+    ],
+    "r2bsel-r1:vs@5": -1.74,
+    "r2bsel-r1:vs@5_ci": [
+     -3.23,
+     -0.44
+    ]
+   },
+   "teacher|minif2f|tactic": {
+    "n_sites": 747,
+    "n_files": 273,
+    "r1:vs@1": 77.38,
+    "r1:vs@1_ci": [
+     72.42,
+     81.99
+    ],
+    "r1:vs@5": 80.19,
+    "r1:vs@5_ci": [
+     75.73,
+     84.5
+    ],
+    "r2naive:vs@1": 75.64,
+    "r2naive:vs@1_ci": [
+     71.1,
+     80.0
+    ],
+    "r2naive-r1:vs@1": -1.74,
+    "r2naive-r1:vs@1_ci": [
+     -3.41,
+     -0.13
+    ],
+    "r2naive:vs@5": 78.58,
+    "r2naive:vs@5_ci": [
+     74.04,
+     82.67
+    ],
+    "r2naive-r1:vs@5": -1.61,
+    "r2naive-r1:vs@5_ci": [
+     -2.9,
+     -0.51
+    ],
+    "r2sel:vs@1": 73.36,
+    "r2sel:vs@1_ci": [
+     68.35,
+     78.08
+    ],
+    "r2sel-r1:vs@1": -4.02,
+    "r2sel-r1:vs@1_ci": [
+     -6.11,
+     -1.95
+    ],
+    "r2sel:vs@5": 76.97,
+    "r2sel:vs@5_ci": [
+     72.22,
+     81.48
+    ],
+    "r2sel-r1:vs@5": -3.21,
+    "r2sel-r1:vs@5_ci": [
+     -5.0,
+     -1.55
+    ],
+    "r2bnaive:vs@1": 76.71,
+    "r2bnaive:vs@1_ci": [
+     71.72,
+     81.42
+    ],
+    "r2bnaive-r1:vs@1": -0.67,
+    "r2bnaive-r1:vs@1_ci": [
+     -2.44,
+     1.03
+    ],
+    "r2bnaive:vs@5": 80.05,
+    "r2bnaive:vs@5_ci": [
+     75.38,
+     84.35
+    ],
+    "r2bnaive-r1:vs@5": -0.13,
+    "r2bnaive-r1:vs@5_ci": [
+     -1.3,
+     0.94
+    ],
+    "r2bsel:vs@1": 75.37,
+    "r2bsel:vs@1_ci": [
+     70.78,
+     79.8
+    ],
+    "r2bsel-r1:vs@1": -2.01,
+    "r2bsel-r1:vs@1_ci": [
+     -3.86,
+     -0.35
+    ],
+    "r2bsel:vs@5": 78.45,
+    "r2bsel:vs@5_ci": [
+     73.93,
+     82.76
+    ],
+    "r2bsel-r1:vs@5": -1.74,
+    "r2bsel-r1:vs@5_ci": [
+     -3.23,
+     -0.44
+    ]
+   },
+   "teacher|putnam2025_per_file|ALL": {
+    "n_sites": 57,
+    "n_files": 7,
+    "r1:vs@1": 45.61,
+    "r1:vs@1_ci": [
+     24.39,
+     72.0
+    ],
+    "r1:vs@5": 45.61,
+    "r1:vs@5_ci": [
+     24.39,
+     72.0
+    ],
+    "r2naive:vs@1": 42.11,
+    "r2naive:vs@1_ci": [
+     25.93,
+     63.64
+    ],
+    "r2naive-r1:vs@1": -3.51,
+    "r2naive-r1:vs@1_ci": [
+     -13.56,
+     4.0
+    ],
+    "r2naive:vs@5": 45.61,
+    "r2naive:vs@5_ci": [
+     26.32,
+     72.97
+    ],
+    "r2naive-r1:vs@5": 0.0,
+    "r2naive-r1:vs@5_ci": [
+     -6.98,
+     5.17
+    ],
+    "r2sel:vs@1": 40.35,
+    "r2sel:vs@1_ci": [
+     21.21,
+     62.5
+    ],
+    "r2sel-r1:vs@1": -5.26,
+    "r2sel-r1:vs@1_ci": [
+     -15.0,
+     0.0
+    ],
+    "r2sel:vs@5": 45.61,
+    "r2sel:vs@5_ci": [
+     24.39,
+     67.44
+    ],
+    "r2sel-r1:vs@5": 0.0,
+    "r2sel-r1:vs@5_ci": [
+     -5.13,
+     3.51
+    ],
+    "r2bnaive:vs@1": 47.37,
+    "r2bnaive:vs@1_ci": [
+     28.57,
+     74.36
+    ],
+    "r2bnaive-r1:vs@1": 1.75,
+    "r2bnaive-r1:vs@1_ci": [
+     0.0,
+     6.52
+    ],
+    "r2bnaive:vs@5": 52.63,
+    "r2bnaive:vs@5_ci": [
+     33.33,
+     80.0
+    ],
+    "r2bnaive-r1:vs@5": 7.02,
+    "r2bnaive-r1:vs@5_ci": [
+     3.85,
+     10.64
+    ],
+    "r2bsel:vs@1": 42.11,
+    "r2bsel:vs@1_ci": [
+     21.95,
+     66.67
+    ],
+    "r2bsel-r1:vs@1": -3.51,
+    "r2bsel-r1:vs@1_ci": [
+     -10.0,
+     0.0
+    ],
+    "r2bsel:vs@5": 47.37,
+    "r2bsel:vs@5_ci": [
+     21.95,
+     76.32
+    ],
+    "r2bsel-r1:vs@5": 1.75,
+    "r2bsel-r1:vs@5_ci": [
+     -7.32,
+     5.49
+    ]
+   },
+   "teacher|putnam2025_per_file|tactic": {
+    "n_sites": 57,
+    "n_files": 7,
+    "r1:vs@1": 45.61,
+    "r1:vs@1_ci": [
+     24.39,
+     72.0
+    ],
+    "r1:vs@5": 45.61,
+    "r1:vs@5_ci": [
+     24.39,
+     72.0
+    ],
+    "r2naive:vs@1": 42.11,
+    "r2naive:vs@1_ci": [
+     25.93,
+     63.64
+    ],
+    "r2naive-r1:vs@1": -3.51,
+    "r2naive-r1:vs@1_ci": [
+     -13.56,
+     4.0
+    ],
+    "r2naive:vs@5": 45.61,
+    "r2naive:vs@5_ci": [
+     26.32,
+     72.97
+    ],
+    "r2naive-r1:vs@5": 0.0,
+    "r2naive-r1:vs@5_ci": [
+     -6.98,
+     5.17
+    ],
+    "r2sel:vs@1": 40.35,
+    "r2sel:vs@1_ci": [
+     21.21,
+     62.5
+    ],
+    "r2sel-r1:vs@1": -5.26,
+    "r2sel-r1:vs@1_ci": [
+     -15.0,
+     0.0
+    ],
+    "r2sel:vs@5": 45.61,
+    "r2sel:vs@5_ci": [
+     24.39,
+     67.44
+    ],
+    "r2sel-r1:vs@5": 0.0,
+    "r2sel-r1:vs@5_ci": [
+     -5.13,
+     3.51
+    ],
+    "r2bnaive:vs@1": 47.37,
+    "r2bnaive:vs@1_ci": [
+     28.57,
+     74.36
+    ],
+    "r2bnaive-r1:vs@1": 1.75,
+    "r2bnaive-r1:vs@1_ci": [
+     0.0,
+     6.52
+    ],
+    "r2bnaive:vs@5": 52.63,
+    "r2bnaive:vs@5_ci": [
+     33.33,
+     80.0
+    ],
+    "r2bnaive-r1:vs@5": 7.02,
+    "r2bnaive-r1:vs@5_ci": [
+     3.85,
+     10.64
+    ],
+    "r2bsel:vs@1": 42.11,
+    "r2bsel:vs@1_ci": [
+     21.95,
+     66.67
+    ],
+    "r2bsel-r1:vs@1": -3.51,
+    "r2bsel-r1:vs@1_ci": [
+     -10.0,
+     0.0
+    ],
+    "r2bsel:vs@5": 47.37,
+    "r2bsel:vs@5_ci": [
+     21.95,
+     76.32
+    ],
+    "r2bsel-r1:vs@5": 1.75,
+    "r2bsel-r1:vs@5_ci": [
+     -7.32,
+     5.49
+    ]
+   },
+   "teacher|putnam_verified|ALL": {
+    "n_sites": 43,
+    "n_files": 12,
+    "r1:vs@1": 69.77,
+    "r1:vs@1_ci": [
+     54.17,
+     88.37
+    ],
+    "r1:vs@5": 72.09,
+    "r1:vs@5_ci": [
+     55.26,
+     88.89
+    ],
+    "r2naive:vs@1": 65.12,
+    "r2naive:vs@1_ci": [
+     48.84,
+     84.0
+    ],
+    "r2naive-r1:vs@1": -4.65,
+    "r2naive-r1:vs@1_ci": [
+     -12.12,
+     0.0
+    ],
+    "r2naive:vs@5": 69.77,
+    "r2naive:vs@5_ci": [
+     54.17,
+     88.37
+    ],
+    "r2naive-r1:vs@5": -2.33,
+    "r2naive-r1:vs@5_ci": [
+     -5.56,
+     0.0
+    ],
+    "r2sel:vs@1": 65.12,
+    "r2sel:vs@1_ci": [
+     50.0,
+     87.5
+    ],
+    "r2sel-r1:vs@1": -4.65,
+    "r2sel-r1:vs@1_ci": [
+     -7.25,
+     0.0
+    ],
+    "r2sel:vs@5": 65.12,
+    "r2sel:vs@5_ci": [
+     50.0,
+     87.5
+    ],
+    "r2sel-r1:vs@5": -6.98,
+    "r2sel-r1:vs@5_ci": [
+     -11.76,
+     0.0
+    ],
+    "r2bnaive:vs@1": 67.44,
+    "r2bnaive:vs@1_ci": [
+     51.06,
+     88.24
+    ],
+    "r2bnaive-r1:vs@1": -2.33,
+    "r2bnaive-r1:vs@1_ci": [
+     -5.97,
+     0.0
+    ],
+    "r2bnaive:vs@5": 69.77,
+    "r2bnaive:vs@5_ci": [
+     51.85,
+     88.89
+    ],
+    "r2bnaive-r1:vs@5": -2.33,
+    "r2bnaive-r1:vs@5_ci": [
+     -5.97,
+     0.0
+    ],
+    "r2bsel:vs@1": 69.77,
+    "r2bsel:vs@1_ci": [
+     54.17,
+     88.37
+    ],
+    "r2bsel-r1:vs@1": 0.0,
+    "r2bsel-r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2bsel:vs@5": 69.77,
+    "r2bsel:vs@5_ci": [
+     54.17,
+     88.37
+    ],
+    "r2bsel-r1:vs@5": -2.33,
+    "r2bsel-r1:vs@5_ci": [
+     -5.56,
+     0.0
+    ]
+   },
+   "teacher|putnam_verified|tactic": {
+    "n_sites": 43,
+    "n_files": 12,
+    "r1:vs@1": 69.77,
+    "r1:vs@1_ci": [
+     54.17,
+     88.37
+    ],
+    "r1:vs@5": 72.09,
+    "r1:vs@5_ci": [
+     55.26,
+     88.89
+    ],
+    "r2naive:vs@1": 65.12,
+    "r2naive:vs@1_ci": [
+     48.84,
+     84.0
+    ],
+    "r2naive-r1:vs@1": -4.65,
+    "r2naive-r1:vs@1_ci": [
+     -12.12,
+     0.0
+    ],
+    "r2naive:vs@5": 69.77,
+    "r2naive:vs@5_ci": [
+     54.17,
+     88.37
+    ],
+    "r2naive-r1:vs@5": -2.33,
+    "r2naive-r1:vs@5_ci": [
+     -5.56,
+     0.0
+    ],
+    "r2sel:vs@1": 65.12,
+    "r2sel:vs@1_ci": [
+     50.0,
+     87.5
+    ],
+    "r2sel-r1:vs@1": -4.65,
+    "r2sel-r1:vs@1_ci": [
+     -7.25,
+     0.0
+    ],
+    "r2sel:vs@5": 65.12,
+    "r2sel:vs@5_ci": [
+     50.0,
+     87.5
+    ],
+    "r2sel-r1:vs@5": -6.98,
+    "r2sel-r1:vs@5_ci": [
+     -11.76,
+     0.0
+    ],
+    "r2bnaive:vs@1": 67.44,
+    "r2bnaive:vs@1_ci": [
+     51.06,
+     88.24
+    ],
+    "r2bnaive-r1:vs@1": -2.33,
+    "r2bnaive-r1:vs@1_ci": [
+     -5.97,
+     0.0
+    ],
+    "r2bnaive:vs@5": 69.77,
+    "r2bnaive:vs@5_ci": [
+     51.85,
+     88.89
+    ],
+    "r2bnaive-r1:vs@5": -2.33,
+    "r2bnaive-r1:vs@5_ci": [
+     -5.97,
+     0.0
+    ],
+    "r2bsel:vs@1": 69.77,
+    "r2bsel:vs@1_ci": [
+     54.17,
+     88.37
+    ],
+    "r2bsel-r1:vs@1": 0.0,
+    "r2bsel-r1:vs@1_ci": [
+     0.0,
+     0.0
+    ],
+    "r2bsel:vs@5": 69.77,
+    "r2bsel:vs@5_ci": [
+     54.17,
+     88.37
+    ],
+    "r2bsel-r1:vs@5": -2.33,
+    "r2bsel-r1:vs@5_ci": [
+     -5.56,
+     0.0
+    ]
+   }
+  },
+  "posthoc_compliance": {
+   "r1|teacher|greedy": {
+    "n_successful_unique": 634,
+    "n_compliant": 612,
+    "compliance_rate": 96.5,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      15
+     ],
+     [
+      "norm_num->omega",
+      7
+     ]
+    ]
+   },
+   "r1|teacher|all5": {
+    "n_successful_unique": 762,
+    "n_compliant": 729,
+    "compliance_rate": 95.7,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      25
+     ],
+     [
+      "norm_num->omega",
+      7
+     ],
+     [
+      "norm_cast->linarith",
+      1
+     ]
+    ]
+   },
+   "r2naive|teacher|greedy": {
+    "n_successful_unique": 617,
+    "n_compliant": 595,
+    "compliance_rate": 96.4,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      19
+     ],
+     [
+      "norm_num->omega",
+      3
+     ]
+    ]
+   },
+   "r2naive|teacher|all5": {
+    "n_successful_unique": 719,
+    "n_compliant": 691,
+    "compliance_rate": 96.1,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      25
+     ],
+     [
+      "norm_num->omega",
+      3
+     ]
+    ]
+   },
+   "r2sel|teacher|greedy": {
+    "n_successful_unique": 599,
+    "n_compliant": 579,
+    "compliance_rate": 96.7,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      19
+     ],
+     [
+      "norm_num->omega",
+      1
+     ]
+    ]
+   },
+   "r2sel|teacher|all5": {
+    "n_successful_unique": 701,
+    "n_compliant": 675,
+    "compliance_rate": 96.3,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      24
+     ],
+     [
+      "norm_num->field_simp",
+      1
+     ],
+     [
+      "norm_num->omega",
+      1
+     ]
+    ]
+   },
+   "r2bnaive|teacher|greedy": {
+    "n_successful_unique": 629,
+    "n_compliant": 607,
+    "compliance_rate": 96.5,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      12
+     ],
+     [
+      "norm_num->omega",
+      10
+     ]
+    ]
+   },
+   "r2bnaive|teacher|all5": {
+    "n_successful_unique": 741,
+    "n_compliant": 713,
+    "compliance_rate": 96.2,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      18
+     ],
+     [
+      "norm_num->omega",
+      10
+     ]
+    ]
+   },
+   "r2bsel|teacher|greedy": {
+    "n_successful_unique": 617,
+    "n_compliant": 595,
+    "compliance_rate": 96.4,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      15
+     ],
+     [
+      "norm_num->omega",
+      7
+     ]
+    ]
+   },
+   "r2bsel|teacher|all5": {
+    "n_successful_unique": 728,
+    "n_compliant": 699,
+    "compliance_rate": 96.0,
+    "n_deletion": 0,
+    "noncompliant_swaps": [
+     [
+      "norm_num->linarith",
+      22
+     ],
+     [
+      "norm_num->omega",
+      7
+     ]
+    ]
+   }
+  }
+ }
+}

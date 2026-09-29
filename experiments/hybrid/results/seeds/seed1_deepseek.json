@@ -1,0 +1,74 @@
+{
+ "minif2f": {
+  "sites": 1184,
+  "vs": 1027,
+  "fail": 94,
+  "not_shorter": 63,
+  "vs_pct": 86.74,
+  "vs_pct_upper": 86.74
+ },
+ "minif2f/deletion": {
+  "sites": 436,
+  "vs": 436,
+  "vs_pct": 100.0,
+  "vs_pct_upper": 100.0
+ },
+ "minif2f/lemma": {
+  "sites": 1,
+  "not_shorter": 1,
+  "vs_pct": 0.0,
+  "vs_pct_upper": 0.0
+ },
+ "minif2f/tactic": {
+  "sites": 747,
+  "vs": 591,
+  "fail": 94,
+  "not_shorter": 62,
+  "vs_pct": 79.12,
+  "vs_pct_upper": 79.12
+ },
+ "putnam2025_per_file": {
+  "sites": 142,
+  "not_shorter": 24,
+  "vs": 113,
+  "fail": 5,
+  "vs_pct": 79.58,
+  "vs_pct_upper": 79.58
+ },
+ "putnam2025_per_file/deletion": {
+  "sites": 85,
+  "vs": 85,
+  "vs_pct": 100.0,
+  "vs_pct_upper": 100.0
+ },
+ "putnam2025_per_file/tactic": {
+  "sites": 57,
+  "not_shorter": 24,
+  "vs": 28,
+  "fail": 5,
+  "vs_pct": 49.12,
+  "vs_pct_upper": 49.12
+ },
+ "putnam_verified": {
+  "sites": 80,
+  "vs": 68,
+  "not_shorter": 10,
+  "fail": 2,
+  "vs_pct": 85.0,
+  "vs_pct_upper": 85.0
+ },
+ "putnam_verified/deletion": {
+  "sites": 37,
+  "vs": 37,
+  "vs_pct": 100.0,
+  "vs_pct_upper": 100.0
+ },
+ "putnam_verified/tactic": {
+  "sites": 43,
+  "vs": 31,
+  "not_shorter": 10,
+  "fail": 2,
+  "vs_pct": 72.09,
+  "vs_pct_upper": 72.09
+ }
+}

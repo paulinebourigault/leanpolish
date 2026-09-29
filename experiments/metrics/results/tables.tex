@@ -1,0 +1,68 @@
+% ---- Table 1 (tab:corpora) replacement: token columns under the Lean-aware counter (A) ----
+\begin{tabular}{lrrrrrrr}
+\toprule
+Source (generator) & Input files & Files & Accepted & Failed siblings & Tok.\ red.\ (\%) & Density & tok/edit \\
+\midrule
+Mathlib v4.21.0 subset (human) & 5{,}789 & 2{,}233 & 6{,}695 & 26{,}912 & 0.27 & 0.46 & 5.9 \\
+Goedel-Workbook (Goedel-Prover-V2) & 29{,}750 & 10{,}052 & 20{,}822 & 28{,}525 & 5.48 & 4.72 & 11.6 \\
+PutnamBench sample (Goedel-Prover-V2) & 437 & 352 & 4{,}354 & 5{,}930 & 8.14 & 9.10 & 8.9 \\
+miniF2F verified (Goedel-Prover-V2) & 351 & 308 & 1{,}184 & 3{,}753 & 19.72 & 8.45 & 23.3 \\
+PutnamBench verified (Goedel-Prover-V2) & 19 & 16 & 80 & 254 & 6.14 & 3.62 & 17.0 \\
+Putnam 2025 (AxiomProver) & 12 & 10 & 142 / 125 & 147 / 75 & 1.31 & 1.06 & 12.3 \\
+\midrule
+Total (distinct files) & & 12{,}972 & 33{,}402 & 65{,}596 & & & \\
+\bottomrule
+\end{tabular}
+% Input files = every input file of the corpus (list in experiments/metrics/file_lists/); files the optimizer
+% did not shorten (incl. optimizer timeouts/errors) count 0. Density = accepted edits on input files per 1,000
+% original tokens; tok/edit = whole-file tokens saved / accepted edits on input files. Putnam 2025: sequential config.
+
+% ---- tab:linter, LeanPolish column (A); linter column NOT recomputed (see experiments/metrics/README.md) ----
+\begin{tabular}{lrrr}
+\toprule
+Input proofs (files shortened / total) & \LP{} & \texttt{unusedTactic} linter & ProofOptimizer (ref.) \\
+\midrule
+miniF2F, Goedel-Prover-V2 (308/351) & 19.7 & 0.002 & 87.9 \\
+PutnamBench, Goedel-Prover-V2 (16/19) & 6.1 & 0.000 & 57.2 \\
+Goedel-Workbook & 5.48 & 0.010 & --- \\
+Mathlib v4.21.0 subset & 0.27 & 0.000 & --- \\
+Putnam 2025, AxiomProver & 1.31 & 0.000 & --- \\
+\bottomrule
+\end{tabular}
+
+% ---- Appendix B/T/L table, LeanPolish columns (T = Lean-aware counter A; B,L exact denominators) ----
+\begin{tabular}{lrrr}
+\toprule
+Corpus & B & T & L \\
+\midrule
+miniF2F (Goedel-V2 verified) & 19.83 & 19.72 & 21.59 \\
+PutnamBench (Goedel-V2 verified) & 6.22 & 6.14 & 7.29 \\
+Mathlib v4.21.0 & 0.24 & 0.27 & 0.18 \\
+Goedel-Workbook & 10.66 & 5.48 & 12.05 \\
+PutnamBench (Goedel sample) & 8.82 & 8.14 & 11.39 \\
+Putnam 2025 / AxiomProver & 1.21 & 1.31 & 1.20 \\
+\bottomrule
+\end{tabular}
+% L = non-blank lines. Goedel/PutnamBench-sample B and L come from reconstructed texts (cleanup rows carry no span; see experiments/metrics/README.md).
+
+% ---- tab:hybrid, LeanPolish / hybrid (DeepSeek) lanes, counter A [counter B in brackets]; same input sets ----
+\begin{tabular}{lrrrrr}
+\toprule
+Proofs & Files & \LP{} & Hybrid greedy & Hybrid best-of-5 & Hybrid best-of-5, filter \\
+\midrule
+Putnam 2025, AxiomProver & 12 & 1.31 [1.06] & 3.42 [2.58] & 3.65 [2.77] & 2.38 [1.84] \\
+PutnamBench, Goedel-Prover-V2 & 19 & 6.14 [5.80] & 8.88 [8.14] & 9.02 [8.26] & 8.04 [7.33] \\
+miniF2F, Goedel-Prover-V2 & 351 & 19.72 [19.73] & 21.53 [21.31] & 21.65 [21.43] & 20.69 [20.54] \\
+\bottomrule
+\end{tabular}
+
+% ---- tab:sft rows under counter A (rates: see experiments/metrics/README.md; 4-shot rates/savings from fewshot_results_port.md) ----
+Reference (pipeline) & 94.6 & 91.6 & 27{,}622 && 88.8 & 79.1 & 1{,}359 && 84.5 & 61.4 & 1{,}746 \\
+Delete rule (no model) & 36.8 & 0.0 & 8{,}122 && 46.3 & 0.0 & 975 && 59.9 & 0.0 & 1{,}500 \\
+DeepSeek-Prover-V2-7B, frozen & 0.1 & 0.1 & 28 && 0.0 & 0.0 & 0 && 0.0 & 0.0 & 0 \\
+Qwen2.5-Coder-7B, frozen & 0.5 & 0.8 & 189 && 0.0 & 0.0 & 0 && 1.4 & 0.0 & 32 \\
+DeepSeek-Prover-V2-7B, 4-shot & 36.9 & 4.7 & 7{,}539 && 48.8 & 4.7 & 979 && 53.5 & 0.0 & 1{,}350 \\
+Qwen2.5-Coder-7B, 4-shot & 46.9 & 17.9 & 9{,}046 && 48.8 & 7.0 & 964 && 59.2 & 12.3 & 1{,}401 \\
+DeepSeek-Prover-V2-7B, SFT & 86.7 & 79.0 & 26{,}163 && 86.3 & 74.4 & 1{,}337 && 79.6 & 49.1 & 1{,}666 \\
+Qwen2.5-Coder-7B, SFT & 84.5 & 75.5 & 25{,}317 && 82.5 & 67.4 & 1{,}316 && 76.8 & 42.1 & 1{,}648 \\
+DeepSeek-Prover-V2-7B, DPO & 84.5 & 75.6 & 25{,}614 && 85.0 & 72.1 & 1{,}333 && 73.2 & 33.3 & 1{,}618 \\

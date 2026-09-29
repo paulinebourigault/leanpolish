@@ -1,0 +1,7082 @@
+[
+ {
+  "file": "aime_1983_p1.lean",
+  "base": {
+   "saved": 134,
+   "wall": 148.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 134,
+   "wall": 141.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "aime_1983_p2.lean",
+  "base": {
+   "saved": 30,
+   "wall": 29.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 30,
+   "wall": 20.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "aime_1983_p9.lean",
+  "base": {
+   "saved": 65,
+   "wall": 31.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 65,
+   "wall": 51.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "aime_1984_p1.lean",
+  "base": {
+   "saved": 248,
+   "wall": 55.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 248,
+   "wall": 59.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "aime_1988_p4.lean",
+  "base": {
+   "saved": 84,
+   "wall": 29.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 84,
+   "wall": 22.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "aime_1989_p8.lean",
+  "base": {
+   "saved": 178,
+   "wall": 3.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 178,
+   "wall": 6.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "aime_1990_p15.lean",
+  "base": {
+   "saved": 95,
+   "wall": 25.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 95,
+   "wall": 32.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "aime_1990_p4.lean",
+  "base": {
+   "saved": 93,
+   "wall": 34.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 93,
+   "wall": 39.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_2complexrootspoly_xsqp49eqxp7itxpn7i.lean",
+  "base": {
+   "saved": 85,
+   "wall": 20.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 85,
+   "wall": 18.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_2rootsintpoly_am10tap11eqasqpam110.lean",
+  "base": {
+   "saved": 56,
+   "wall": 4.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 56,
+   "wall": 5.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_2rootspoly_apatapbeq2asqp2ab.lean",
+  "base": {
+   "saved": 178,
+   "wall": 4.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 178,
+   "wall": 8.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_2varlineareq_fp3zeq11_3tfm1m5zeqn68_feqn10_zeq7.lean",
+  "base": {
+   "saved": 188,
+   "wall": 28.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 188,
+   "wall": 39.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_2varlineareq_xpeeq7_2xpeeq3_eeq11_xeqn4.lean",
+  "base": {
+   "saved": 43,
+   "wall": 28.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 43,
+   "wall": 25.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_3rootspoly_amdtamctambeqnasqmbpctapcbtdpasqmbpctapcbta.lean",
+  "base": {
+   "saved": 42,
+   "wall": 13.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 42,
+   "wall": 17.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_9onxpypzleqsum2onxpy.lean",
+  "base": {
+   "saved": 66,
+   "wall": 21.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 66,
+   "wall": 30.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_absapbon1pabsapbleqsumabsaon1pabsa.lean",
+  "base": {
+   "saved": 211,
+   "wall": 30.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 211,
+   "wall": 47.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1.lean",
+  "base": {
+   "saved": 60,
+   "wall": 56.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 60,
+   "wall": 53.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1_linter.lean",
+  "base": {
+   "saved": 65,
+   "wall": 55.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 65,
+   "wall": 64.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x.lean",
+  "base": {
+   "saved": 50,
+   "wall": 37.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 50,
+   "wall": 29.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4.lean",
+  "base": {
+   "saved": 391,
+   "wall": 125.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 391,
+   "wall": 106.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_amgm_sumasqdivbgeqsuma.lean",
+  "base": {
+   "saved": 194,
+   "wall": 31.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 194,
+   "wall": 43.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_amgm_sumasqdivbsqgeqsumbdiva.lean",
+  "base": {
+   "saved": 386,
+   "wall": 95.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 386,
+   "wall": 99.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_apb4leq8ta4pb4.lean",
+  "base": {
+   "saved": 0,
+   "wall": 16.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 13.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_apbon2pownleqapownpbpowon2.lean",
+  "base": {
+   "saved": 216,
+   "wall": 57.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 216,
+   "wall": 61.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_apbpceq2_abpbcpcaeq1_aleq1on3anbleq1ancleq4on3.lean",
+  "base": {
+   "saved": 192,
+   "wall": 44.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 192,
+   "wall": 53.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_binomnegdiscrineq_10alt28asqp1.lean",
+  "base": {
+   "saved": 18,
+   "wall": 20.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 18,
+   "wall": 18.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_bleqa_apbon2msqrtableqambsqon8b.lean",
+  "base": {
+   "saved": 196,
+   "wall": 90.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 196,
+   "wall": 144.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_manipexpr_2erprsqpesqeqnrpnesq.lean",
+  "base": {
+   "saved": 85,
+   "wall": 21.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 85,
+   "wall": 23.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_manipexpr_apbeq2cceqiacpbceqm2.lean",
+  "base": {
+   "saved": 30,
+   "wall": 26.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 30,
+   "wall": 47.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_others_exirrpowirrrat.lean",
+  "base": {
+   "saved": 17,
+   "wall": 36.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 17,
+   "wall": 35.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_sqineq_2at2pclta2c2p41pc.lean",
+  "base": {
+   "saved": 0,
+   "wall": 17.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 18.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_sqineq_2unitcircatblt1.lean",
+  "base": {
+   "saved": 0,
+   "wall": 14.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 22.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_sqineq_36azm9asqle36zsq.lean",
+  "base": {
+   "saved": 28,
+   "wall": 15.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 28,
+   "wall": 17.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_sqineq_36azm9asqle36zsq_linter.lean",
+  "base": {
+   "saved": 31,
+   "wall": 14.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 31,
+   "wall": 20.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_sqineq_4bap1lt4bsqpap1sq.lean",
+  "base": {
+   "saved": 0,
+   "wall": 15.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 15.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_sqineq_at2malt1.lean",
+  "base": {
+   "saved": 15,
+   "wall": 15.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 15,
+   "wall": 18.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_sqineq_unitcircatbpabsamblt1.lean",
+  "base": {
+   "saved": 146,
+   "wall": 23.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 146,
+   "wall": 31.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_sqineq_unitcircatbpabsamblt1_linter.lean",
+  "base": {
+   "saved": 146,
+   "wall": 27.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 146,
+   "wall": 33.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_sqineq_unitcircatbpamblt1.lean",
+  "base": {
+   "saved": 75,
+   "wall": 24.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 75,
+   "wall": 18.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "algebra_xmysqpymzsqpzmxsqeqxyz_xpypzp6dvdx3y3z3.lean",
+  "base": {
+   "saved": 219,
+   "wall": 25.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 219,
+   "wall": 23.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12_2000_p1.lean",
+  "base": {
+   "saved": 0,
+   "wall": 1920.5,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 1920.4,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12_2000_p11.lean",
+  "base": {
+   "saved": 34,
+   "wall": 47.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 34,
+   "wall": 45.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12_2000_p12.lean",
+  "base": {
+   "saved": 0,
+   "wall": 92.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 101.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12_2000_p15.lean",
+  "base": {
+   "saved": 247,
+   "wall": 44.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 247,
+   "wall": 52.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12_2000_p20.lean",
+  "base": {
+   "saved": 309,
+   "wall": 154.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 309,
+   "wall": 164.6,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12_2000_p5.lean",
+  "base": {
+   "saved": 11,
+   "wall": 15.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 11,
+   "wall": 16.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12_2000_p6.lean",
+  "base": {
+   "saved": 16,
+   "wall": 17.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 16,
+   "wall": 17.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12_2001_p2.lean",
+  "base": {
+   "saved": 184,
+   "wall": 24.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 184,
+   "wall": 30.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12_2001_p21.lean",
+  "base": {
+   "saved": 91,
+   "wall": 224.0,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 91,
+   "wall": 192.2,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12_2001_p9.lean",
+  "base": {
+   "saved": 44,
+   "wall": 21.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 44,
+   "wall": 19.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2002_p1.lean",
+  "base": {
+   "saved": 269,
+   "wall": 32.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 269,
+   "wall": 38.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2002_p12.lean",
+  "base": {
+   "saved": 305,
+   "wall": 81.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 305,
+   "wall": 87.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2002_p13.lean",
+  "base": {
+   "saved": 93,
+   "wall": 202.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 65,
+   "wall": 241.3,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": -28
+ },
+ {
+  "file": "amc12a_2002_p6.lean",
+  "base": {
+   "saved": 7,
+   "wall": 17.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 7,
+   "wall": 17.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2003_p1.lean",
+  "base": {
+   "saved": 0,
+   "wall": 1261.0,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 1260.4,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2003_p25.lean",
+  "base": {
+   "saved": 16,
+   "wall": 15.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 16,
+   "wall": 16.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2003_p5.lean",
+  "base": {
+   "saved": 326,
+   "wall": 1320.8,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 326,
+   "wall": 1381.3,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2008_p15.lean",
+  "base": {
+   "saved": 94,
+   "wall": 29.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 94,
+   "wall": 63.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2008_p2.lean",
+  "base": {
+   "saved": 123,
+   "wall": 33.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 123,
+   "wall": 13.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2008_p4.lean",
+  "base": {
+   "saved": 0,
+   "wall": 146.8,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 148.2,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2008_p8.lean",
+  "base": {
+   "saved": 37,
+   "wall": 66.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 37,
+   "wall": 43.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2009_p2.lean",
+  "base": {
+   "saved": 42,
+   "wall": 11.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 42,
+   "wall": 5.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2009_p5.lean",
+  "base": {
+   "saved": 2,
+   "wall": 40.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 2,
+   "wall": 20.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2009_p6.lean",
+  "base": {
+   "saved": 64,
+   "wall": 113.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 43,
+   "wall": 134.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": -21
+ },
+ {
+  "file": "amc12a_2009_p7.lean",
+  "base": {
+   "saved": 84,
+   "wall": 145.2,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 90,
+   "wall": 132.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 6
+ },
+ {
+  "file": "amc12a_2009_p9.lean",
+  "base": {
+   "saved": 10,
+   "wall": 22.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 10,
+   "wall": 20.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2010_p11.lean",
+  "base": {
+   "saved": 171,
+   "wall": 147.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 171,
+   "wall": 132.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2011_p18.lean",
+  "base": {
+   "saved": 4,
+   "wall": 130.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 4,
+   "wall": 114.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2013_p4.lean",
+  "base": {
+   "saved": 607,
+   "wall": 17.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 607,
+   "wall": 32.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2013_p4_corrected.lean",
+  "base": {
+   "saved": 545,
+   "wall": 7.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 545,
+   "wall": 16.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2013_p7.lean",
+  "base": {
+   "saved": 20,
+   "wall": 21.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 20,
+   "wall": 27.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2013_p8.lean",
+  "base": {
+   "saved": 44,
+   "wall": 23.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 44,
+   "wall": 24.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2015_p10.lean",
+  "base": {
+   "saved": 118,
+   "wall": 73.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 118,
+   "wall": 85.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2016_p2.lean",
+  "base": {
+   "saved": 240,
+   "wall": 161.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 240,
+   "wall": 1761.8,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2016_p3.lean",
+  "base": {
+   "saved": 90,
+   "wall": 20.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 90,
+   "wall": 38.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2017_p2.lean",
+  "base": {
+   "saved": 36,
+   "wall": 26.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 36,
+   "wall": 29.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2020_p7.lean",
+  "base": {
+   "saved": 19,
+   "wall": 1734.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 19,
+   "wall": 1742.0,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2021_p18.lean",
+  "base": {
+   "saved": 194,
+   "wall": 35.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 194,
+   "wall": 37.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2021_p3.lean",
+  "base": {
+   "saved": 267,
+   "wall": 13.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 267,
+   "wall": 22.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2021_p7.lean",
+  "base": {
+   "saved": 145,
+   "wall": 21.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 145,
+   "wall": 21.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12a_2021_p9.lean",
+  "base": {
+   "saved": 55,
+   "wall": 12.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 55,
+   "wall": 12.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2002_p19.lean",
+  "base": {
+   "saved": 156,
+   "wall": 1685.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 156,
+   "wall": 1682.4,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2002_p2.lean",
+  "base": {
+   "saved": 53,
+   "wall": 10.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 53,
+   "wall": 11.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2002_p3.lean",
+  "base": {
+   "saved": 107,
+   "wall": 1680.7,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 107,
+   "wall": 1696.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2002_p6.lean",
+  "base": {
+   "saved": 15,
+   "wall": 31.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 15,
+   "wall": 26.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2002_p7.lean",
+  "base": {
+   "saved": 119,
+   "wall": 1688.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 91,
+   "wall": 1684.3,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": -28
+ },
+ {
+  "file": "amc12b_2003_p17.lean",
+  "base": {
+   "saved": 213,
+   "wall": 1657.8,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 213,
+   "wall": 1659.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2003_p6.lean",
+  "base": {
+   "saved": 82,
+   "wall": 81.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 82,
+   "wall": 1661.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2003_p9.lean",
+  "base": {
+   "saved": 22,
+   "wall": 1081.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 22,
+   "wall": 344.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2004_p3.lean",
+  "base": {
+   "saved": 104,
+   "wall": 59.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 104,
+   "wall": 360.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2020_p13.lean",
+  "base": {
+   "saved": 218,
+   "wall": 186.4,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 136,
+   "wall": 191.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": -82
+ },
+ {
+  "file": "amc12b_2020_p2.lean",
+  "base": {
+   "saved": 73,
+   "wall": 333.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 73,
+   "wall": 30.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2020_p22.lean",
+  "base": {
+   "saved": 55,
+   "wall": 182.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 74,
+   "wall": 134.7,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 19
+ },
+ {
+  "file": "amc12b_2020_p5.lean",
+  "base": {
+   "saved": 53,
+   "wall": 77.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 53,
+   "wall": 98.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2021_p18.lean",
+  "base": {
+   "saved": 106,
+   "wall": 90.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 106,
+   "wall": 122.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2021_p3.lean",
+  "base": {
+   "saved": 288,
+   "wall": 77.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 288,
+   "wall": 133.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2021_p4.lean",
+  "base": {
+   "saved": 10,
+   "wall": 53.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 10,
+   "wall": 77.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "amc12b_2021_p9.lean",
+  "base": {
+   "saved": 195,
+   "wall": 118.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 195,
+   "wall": 85.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "imo_1959_p1.lean",
+  "base": {
+   "saved": 23,
+   "wall": 24.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 23,
+   "wall": 42.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "imo_1960_p2.lean",
+  "base": {
+   "saved": 359,
+   "wall": 140.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 359,
+   "wall": 181.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "imo_1961_p1.lean",
+  "base": {
+   "saved": 127,
+   "wall": 55.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 127,
+   "wall": 65.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "imo_1963_p5.lean",
+  "base": {
+   "saved": 412,
+   "wall": 143.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 136,
+   "wall": 151.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": -276
+ },
+ {
+  "file": "imo_1964_p1_1.lean",
+  "base": {
+   "saved": 33,
+   "wall": 130.2,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 33,
+   "wall": 91.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "imo_1964_p1_2.lean",
+  "base": {
+   "saved": 42,
+   "wall": 48.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 42,
+   "wall": 44.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "imo_1964_p2.lean",
+  "base": {
+   "saved": 33,
+   "wall": 29.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 33,
+   "wall": 19.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "imo_1974_p5.lean",
+  "base": {
+   "saved": 124,
+   "wall": 1080.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 124,
+   "wall": 76.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "imo_1979_p1.lean",
+  "base": {
+   "saved": 0,
+   "wall": 67.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 72.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "imo_1981_p6.lean",
+  "base": {
+   "saved": 208,
+   "wall": 1057.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 208,
+   "wall": 1108.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "induction_11div10tonmn1ton.lean",
+  "base": {
+   "saved": 13,
+   "wall": 22.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 13,
+   "wall": 29.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "induction_12dvd4expnp1p20.lean",
+  "base": {
+   "saved": 11,
+   "wall": 23.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 11,
+   "wall": 21.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "induction_1pxpownlt1pnx.lean",
+  "base": {
+   "saved": 59,
+   "wall": 992.7,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 74.1,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "delta": -59
+ },
+ {
+  "file": "induction_divisibility_3div2tooddnp1.lean",
+  "base": {
+   "saved": 59,
+   "wall": 1027.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 59,
+   "wall": 1044.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "induction_divisibility_3divnto3m2n.lean",
+  "base": {
+   "saved": 6,
+   "wall": 989.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 6,
+   "wall": 26.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "induction_divisibility_9div10tonm1.lean",
+  "base": {
+   "saved": 0,
+   "wall": 1003.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 16.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "induction_prod1p1onk3le3m1onn.lean",
+  "base": {
+   "saved": 186,
+   "wall": 1016.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 186,
+   "wall": 1011.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "induction_seq_mul2pnp1.lean",
+  "base": {
+   "saved": 107,
+   "wall": 87.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 107,
+   "wall": 1010.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "induction_sum2kp1npqsqm1.lean",
+  "base": {
+   "saved": 18,
+   "wall": 111.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 2,
+   "wall": 1005.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": -16
+ },
+ {
+  "file": "induction_sum_1oktkp1.lean",
+  "base": {
+   "saved": 0,
+   "wall": 66.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 996.2,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "induction_sum_odd.lean",
+  "base": {
+   "saved": 19,
+   "wall": 27.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 19,
+   "wall": 100.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "induction_sumkexp3eqsumksq.lean",
+  "base": {
+   "saved": 98,
+   "wall": 140.8,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 91,
+   "wall": 179.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": -7
+ },
+ {
+  "file": "mathd_algebra_10.lean",
+  "base": {
+   "saved": 73,
+   "wall": 26.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 73,
+   "wall": 34.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_101.lean",
+  "base": {
+   "saved": 9,
+   "wall": 24.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 9,
+   "wall": 23.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_104.lean",
+  "base": {
+   "saved": 116,
+   "wall": 11.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 116,
+   "wall": 30.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_107.lean",
+  "base": {
+   "saved": 60,
+   "wall": 17.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 60,
+   "wall": 22.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_109.lean",
+  "base": {
+   "saved": 130,
+   "wall": 12.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 130,
+   "wall": 12.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_11.lean",
+  "base": {
+   "saved": 83,
+   "wall": 27.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 83,
+   "wall": 40.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_110.lean",
+  "base": {
+   "saved": 0,
+   "wall": 18.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 38.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_113.lean",
+  "base": {
+   "saved": 0,
+   "wall": 26.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 28.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_114.lean",
+  "base": {
+   "saved": 38,
+   "wall": 26.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 38,
+   "wall": 28.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_116.lean",
+  "base": {
+   "saved": 13,
+   "wall": 19.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 8,
+   "wall": 33.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": -5
+ },
+ {
+  "file": "mathd_algebra_119.lean",
+  "base": {
+   "saved": 207,
+   "wall": 8.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 207,
+   "wall": 22.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_123.lean",
+  "base": {
+   "saved": 172,
+   "wall": 28.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 172,
+   "wall": 21.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_125.lean",
+  "base": {
+   "saved": 205,
+   "wall": 13.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 205,
+   "wall": 17.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_126.lean",
+  "base": {
+   "saved": 32,
+   "wall": 22.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 32,
+   "wall": 17.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_129.lean",
+  "base": {
+   "saved": 8,
+   "wall": 35.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 8,
+   "wall": 26.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_13.lean",
+  "base": {
+   "saved": 0,
+   "wall": 67.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 78.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_131.lean",
+  "base": {
+   "saved": 182,
+   "wall": 145.4,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 182,
+   "wall": 149.4,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_132.lean",
+  "base": {
+   "saved": 62,
+   "wall": 25.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 62,
+   "wall": 37.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_137.lean",
+  "base": {
+   "saved": 12,
+   "wall": 31.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 12,
+   "wall": 55.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_139.lean",
+  "base": {
+   "saved": 11,
+   "wall": 32.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 11,
+   "wall": 35.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_140.lean",
+  "base": {
+   "saved": 12,
+   "wall": 41.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 12,
+   "wall": 36.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_141.lean",
+  "base": {
+   "saved": 59,
+   "wall": 29.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 59,
+   "wall": 29.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_142.lean",
+  "base": {
+   "saved": 144,
+   "wall": 10.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 144,
+   "wall": 14.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_143.lean",
+  "base": {
+   "saved": 20,
+   "wall": 18.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 20,
+   "wall": 32.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_144.lean",
+  "base": {
+   "saved": 644,
+   "wall": 37.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 644,
+   "wall": 43.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_148.lean",
+  "base": {
+   "saved": 5,
+   "wall": 22.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 5,
+   "wall": 23.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_149.lean",
+  "base": {
+   "saved": 54,
+   "wall": 20.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 54,
+   "wall": 37.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_15.lean",
+  "base": {
+   "saved": 11,
+   "wall": 21.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 11,
+   "wall": 24.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_151.lean",
+  "base": {
+   "saved": 17,
+   "wall": 40.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 17,
+   "wall": 39.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_153.lean",
+  "base": {
+   "saved": 109,
+   "wall": 30.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 109,
+   "wall": 33.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_156.lean",
+  "base": {
+   "saved": 0,
+   "wall": 70.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 27,
+   "wall": 84.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 27
+ },
+ {
+  "file": "mathd_algebra_159.lean",
+  "base": {
+   "saved": 20,
+   "wall": 26.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 20,
+   "wall": 16.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_160.lean",
+  "base": {
+   "saved": 125,
+   "wall": 7.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 125,
+   "wall": 18.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_170.lean",
+  "base": {
+   "saved": 24,
+   "wall": 22.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 24,
+   "wall": 40.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_171.lean",
+  "base": {
+   "saved": 10,
+   "wall": 27.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 10,
+   "wall": 19.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_176.lean",
+  "base": {
+   "saved": 75,
+   "wall": 11.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 75,
+   "wall": 21.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_181.lean",
+  "base": {
+   "saved": 15,
+   "wall": 36.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 15,
+   "wall": 23.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_182.lean",
+  "base": {
+   "saved": 30,
+   "wall": 15.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 30,
+   "wall": 24.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_185.lean",
+  "base": {
+   "saved": 79,
+   "wall": 33.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 79,
+   "wall": 36.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_188.lean",
+  "base": {
+   "saved": 0,
+   "wall": 17.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 28.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_190.lean",
+  "base": {
+   "saved": 43,
+   "wall": 10.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 43,
+   "wall": 14.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_192.lean",
+  "base": {
+   "saved": 0,
+   "wall": 25.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 33.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_196.lean",
+  "base": {
+   "saved": 31,
+   "wall": 25.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 31,
+   "wall": 50.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_206.lean",
+  "base": {
+   "saved": 94,
+   "wall": 68.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 94,
+   "wall": 135.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_209.lean",
+  "base": {
+   "saved": 15,
+   "wall": 36.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 15,
+   "wall": 22.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_214.lean",
+  "base": {
+   "saved": 47,
+   "wall": 36.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 47,
+   "wall": 26.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_215.lean",
+  "base": {
+   "saved": 30,
+   "wall": 30.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 30,
+   "wall": 39.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_22.lean",
+  "base": {
+   "saved": 69,
+   "wall": 45.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 69,
+   "wall": 54.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_224.lean",
+  "base": {
+   "saved": 225,
+   "wall": 48.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 225,
+   "wall": 116.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_234.lean",
+  "base": {
+   "saved": 21,
+   "wall": 19.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 21,
+   "wall": 30.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_24.lean",
+  "base": {
+   "saved": 100,
+   "wall": 13.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 100,
+   "wall": 8.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_245.lean",
+  "base": {
+   "saved": 157,
+   "wall": 75.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 157,
+   "wall": 94.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_246.lean",
+  "base": {
+   "saved": 17,
+   "wall": 68.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 17,
+   "wall": 29.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_247.lean",
+  "base": {
+   "saved": 56,
+   "wall": 22.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 56,
+   "wall": 21.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_251.lean",
+  "base": {
+   "saved": 23,
+   "wall": 30.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 23,
+   "wall": 26.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_263.lean",
+  "base": {
+   "saved": 17,
+   "wall": 57.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 17,
+   "wall": 26.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_267.lean",
+  "base": {
+   "saved": 0,
+   "wall": 48.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 47.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_270.lean",
+  "base": {
+   "saved": 16,
+   "wall": 45.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 16,
+   "wall": 54.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_275.lean",
+  "base": {
+   "saved": 0,
+   "wall": 30.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 42.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_28.lean",
+  "base": {
+   "saved": 18,
+   "wall": 22.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 18,
+   "wall": 45.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_289.lean",
+  "base": {
+   "saved": 97,
+   "wall": 23.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 97,
+   "wall": 22.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_296.lean",
+  "base": {
+   "saved": 34,
+   "wall": 6.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 34,
+   "wall": 8.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_302.lean",
+  "base": {
+   "saved": 0,
+   "wall": 23.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 20.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_304.lean",
+  "base": {
+   "saved": 14,
+   "wall": 5.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 14,
+   "wall": 15.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_31.lean",
+  "base": {
+   "saved": 0,
+   "wall": 33.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 30.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_313.lean",
+  "base": {
+   "saved": 18,
+   "wall": 66.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 18,
+   "wall": 43.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_314.lean",
+  "base": {
+   "saved": 222,
+   "wall": 11.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 222,
+   "wall": 27.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_323.lean",
+  "base": {
+   "saved": 4,
+   "wall": 39.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 4,
+   "wall": 27.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_327.lean",
+  "base": {
+   "saved": 112,
+   "wall": 26.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 112,
+   "wall": 33.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_329.lean",
+  "base": {
+   "saved": 120,
+   "wall": 18.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 120,
+   "wall": 18.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_33.lean",
+  "base": {
+   "saved": 0,
+   "wall": 33.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 81.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_332.lean",
+  "base": {
+   "saved": 10,
+   "wall": 42.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 10,
+   "wall": 43.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_338.lean",
+  "base": {
+   "saved": 56,
+   "wall": 42.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 56,
+   "wall": 31.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_342.lean",
+  "base": {
+   "saved": 11,
+   "wall": 66.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 11,
+   "wall": 51.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_346.lean",
+  "base": {
+   "saved": 7,
+   "wall": 35.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 7,
+   "wall": 20.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_35.lean",
+  "base": {
+   "saved": 5,
+   "wall": 23.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 5,
+   "wall": 25.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_354.lean",
+  "base": {
+   "saved": 181,
+   "wall": 15.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 181,
+   "wall": 15.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_359.lean",
+  "base": {
+   "saved": 130,
+   "wall": 10.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 130,
+   "wall": 8.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_362.lean",
+  "base": {
+   "saved": 47,
+   "wall": 118.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 47,
+   "wall": 81.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_37.lean",
+  "base": {
+   "saved": 23,
+   "wall": 28.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 23,
+   "wall": 20.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_388.lean",
+  "base": {
+   "saved": 215,
+   "wall": 9.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 215,
+   "wall": 14.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_392.lean",
+  "base": {
+   "saved": 43,
+   "wall": 68.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 43,
+   "wall": 80.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_393.lean",
+  "base": {
+   "saved": 9,
+   "wall": 15.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 9,
+   "wall": 24.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_398.lean",
+  "base": {
+   "saved": 143,
+   "wall": 18.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 143,
+   "wall": 14.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_400.lean",
+  "base": {
+   "saved": 79,
+   "wall": 16.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 79,
+   "wall": 8.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_405.lean",
+  "base": {
+   "saved": 46,
+   "wall": 31.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 46,
+   "wall": 61.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_410.lean",
+  "base": {
+   "saved": 25,
+   "wall": 43.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 25,
+   "wall": 28.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_412.lean",
+  "base": {
+   "saved": 103,
+   "wall": 6.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 103,
+   "wall": 16.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_419.lean",
+  "base": {
+   "saved": 6,
+   "wall": 28.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 6,
+   "wall": 30.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_421.lean",
+  "base": {
+   "saved": 208,
+   "wall": 314.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 208,
+   "wall": 323.4,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_422.lean",
+  "base": {
+   "saved": 48,
+   "wall": 20.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 48,
+   "wall": 52.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_427.lean",
+  "base": {
+   "saved": 119,
+   "wall": 19.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 119,
+   "wall": 12.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_43.lean",
+  "base": {
+   "saved": 0,
+   "wall": 22.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 20.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_432.lean",
+  "base": {
+   "saved": 90,
+   "wall": 13.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 90,
+   "wall": 19.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_437.lean",
+  "base": {
+   "saved": 51,
+   "wall": 26.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 51,
+   "wall": 27.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_44.lean",
+  "base": {
+   "saved": 43,
+   "wall": 22.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 43,
+   "wall": 26.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_440.lean",
+  "base": {
+   "saved": 113,
+   "wall": 10.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 113,
+   "wall": 11.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_441.lean",
+  "base": {
+   "saved": 37,
+   "wall": 46.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 37,
+   "wall": 57.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_451.lean",
+  "base": {
+   "saved": 0,
+   "wall": 38.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 21.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_452.lean",
+  "base": {
+   "saved": 133,
+   "wall": 72.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 133,
+   "wall": 58.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_455.lean",
+  "base": {
+   "saved": 76,
+   "wall": 3.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 76,
+   "wall": 16.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_459.lean",
+  "base": {
+   "saved": 217,
+   "wall": 129.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 217,
+   "wall": 165.6,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_462.lean",
+  "base": {
+   "saved": 55,
+   "wall": 6.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 55,
+   "wall": 6.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_478.lean",
+  "base": {
+   "saved": 0,
+   "wall": 20.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 25.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_48.lean",
+  "base": {
+   "saved": 59,
+   "wall": 16.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 59,
+   "wall": 18.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_482.lean",
+  "base": {
+   "saved": 211,
+   "wall": 164.7,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 211,
+   "wall": 158.2,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_484.lean",
+  "base": {
+   "saved": 12,
+   "wall": 35.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 12,
+   "wall": 28.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_487.lean",
+  "base": {
+   "saved": 179,
+   "wall": 69.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 179,
+   "wall": 130.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_51.lean",
+  "base": {
+   "saved": 132,
+   "wall": 23.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 132,
+   "wall": 21.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_513.lean",
+  "base": {
+   "saved": 0,
+   "wall": 27.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 28.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_55.lean",
+  "base": {
+   "saved": 11,
+   "wall": 24.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 11,
+   "wall": 53.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_568.lean",
+  "base": {
+   "saved": 217,
+   "wall": 17.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 217,
+   "wall": 17.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_59.lean",
+  "base": {
+   "saved": 0,
+   "wall": 19.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 29.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_598.lean",
+  "base": {
+   "saved": 119,
+   "wall": 76.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 119,
+   "wall": 66.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_616.lean",
+  "base": {
+   "saved": 15,
+   "wall": 28.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 15,
+   "wall": 17.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_67.lean",
+  "base": {
+   "saved": 20,
+   "wall": 28.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 20,
+   "wall": 33.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_73.lean",
+  "base": {
+   "saved": 134,
+   "wall": 86.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 134,
+   "wall": 72.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_756.lean",
+  "base": {
+   "saved": 133,
+   "wall": 47.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 133,
+   "wall": 28.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_76.lean",
+  "base": {
+   "saved": 5,
+   "wall": 15.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 5,
+   "wall": 23.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_77.lean",
+  "base": {
+   "saved": 156,
+   "wall": 89.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 156,
+   "wall": 105.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_80.lean",
+  "base": {
+   "saved": 0,
+   "wall": 27.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 20.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_89.lean",
+  "base": {
+   "saved": 244,
+   "wall": 77.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 244,
+   "wall": 87.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_algebra_96.lean",
+  "base": {
+   "saved": 123,
+   "wall": 6.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 123,
+   "wall": 14.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_100.lean",
+  "base": {
+   "saved": 25,
+   "wall": 29.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 25,
+   "wall": 18.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_101.lean",
+  "base": {
+   "saved": 16,
+   "wall": 4.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 16,
+   "wall": 14.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_102.lean",
+  "base": {
+   "saved": 23,
+   "wall": 4.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 23,
+   "wall": 4.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_109.lean",
+  "base": {
+   "saved": 20,
+   "wall": 38.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 20,
+   "wall": 44.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_110.lean",
+  "base": {
+   "saved": 638,
+   "wall": 15.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 638,
+   "wall": 23.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_1124.lean",
+  "base": {
+   "saved": 62,
+   "wall": 9.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 62,
+   "wall": 9.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_12.lean",
+  "base": {
+   "saved": 26,
+   "wall": 5.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 26,
+   "wall": 8.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_127.lean",
+  "base": {
+   "saved": 0,
+   "wall": 5.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 10.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_13.lean",
+  "base": {
+   "saved": 199,
+   "wall": 40.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 199,
+   "wall": 37.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_132.lean",
+  "base": {
+   "saved": 14,
+   "wall": 7.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 14,
+   "wall": 14.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_135.lean",
+  "base": {
+   "saved": 46,
+   "wall": 76.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 46,
+   "wall": 90.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_136.lean",
+  "base": {
+   "saved": 139,
+   "wall": 7.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 139,
+   "wall": 8.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_149.lean",
+  "base": {
+   "saved": 37,
+   "wall": 4.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 37,
+   "wall": 8.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_150.lean",
+  "base": {
+   "saved": 9,
+   "wall": 22.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 9,
+   "wall": 22.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_155.lean",
+  "base": {
+   "saved": 122,
+   "wall": 8.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 122,
+   "wall": 6.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_156.lean",
+  "base": {
+   "saved": 73,
+   "wall": 21.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 73,
+   "wall": 18.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_169.lean",
+  "base": {
+   "saved": 13,
+   "wall": 7.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 13,
+   "wall": 11.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_175.lean",
+  "base": {
+   "saved": 18,
+   "wall": 10.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 18,
+   "wall": 5.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_185.lean",
+  "base": {
+   "saved": 99,
+   "wall": 7.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 99,
+   "wall": 12.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_188.lean",
+  "base": {
+   "saved": 17,
+   "wall": 7.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 17,
+   "wall": 6.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_198.lean",
+  "base": {
+   "saved": 117,
+   "wall": 10.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 117,
+   "wall": 12.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_200.lean",
+  "base": {
+   "saved": 17,
+   "wall": 7.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 17,
+   "wall": 8.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_202.lean",
+  "base": {
+   "saved": 117,
+   "wall": 4.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 117,
+   "wall": 8.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_207.lean",
+  "base": {
+   "saved": 20,
+   "wall": 4.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 20,
+   "wall": 4.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_211.lean",
+  "base": {
+   "saved": 34,
+   "wall": 11.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 34,
+   "wall": 5.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_212.lean",
+  "base": {
+   "saved": 169,
+   "wall": 6.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 169,
+   "wall": 10.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_22.lean",
+  "base": {
+   "saved": 9,
+   "wall": 14.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 9,
+   "wall": 22.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_222.lean",
+  "base": {
+   "saved": 18,
+   "wall": 17.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 18,
+   "wall": 20.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_227.lean",
+  "base": {
+   "saved": 165,
+   "wall": 330.8,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 162,
+   "wall": 376.2,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": -3
+ },
+ {
+  "file": "mathd_numbertheory_229.lean",
+  "base": {
+   "saved": 18,
+   "wall": 5.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 18,
+   "wall": 15.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_234.lean",
+  "base": {
+   "saved": 107,
+   "wall": 63.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 107,
+   "wall": 44.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_235.lean",
+  "base": {
+   "saved": 29,
+   "wall": 6.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 29,
+   "wall": 7.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_236.lean",
+  "base": {
+   "saved": 205,
+   "wall": 43.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 205,
+   "wall": 48.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_237.lean",
+  "base": {
+   "saved": 42,
+   "wall": 5.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 42,
+   "wall": 6.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_239.lean",
+  "base": {
+   "saved": 44,
+   "wall": 7.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 44,
+   "wall": 3.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_24.lean",
+  "base": {
+   "saved": 23,
+   "wall": 4.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 23,
+   "wall": 4.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_247.lean",
+  "base": {
+   "saved": 278,
+   "wall": 32.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 278,
+   "wall": 29.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_252.lean",
+  "base": {
+   "saved": 0,
+   "wall": 13.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 5.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_254.lean",
+  "base": {
+   "saved": 20,
+   "wall": 6.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 20,
+   "wall": 4.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_257.lean",
+  "base": {
+   "saved": 88,
+   "wall": 28.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 88,
+   "wall": 48.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_269.lean",
+  "base": {
+   "saved": 37,
+   "wall": 7.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 37,
+   "wall": 10.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_277.lean",
+  "base": {
+   "saved": 48,
+   "wall": 363.2,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 48,
+   "wall": 406.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_284.lean",
+  "base": {
+   "saved": 161,
+   "wall": 12.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 161,
+   "wall": 8.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_293.lean",
+  "base": {
+   "saved": 60,
+   "wall": 5.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 60,
+   "wall": 11.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_296.lean",
+  "base": {
+   "saved": 51,
+   "wall": 129.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 51,
+   "wall": 107.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_299.lean",
+  "base": {
+   "saved": 31,
+   "wall": 6.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 31,
+   "wall": 9.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_3.lean",
+  "base": {
+   "saved": 62,
+   "wall": 8.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 62,
+   "wall": 4.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_30.lean",
+  "base": {
+   "saved": 43,
+   "wall": 9.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 43,
+   "wall": 9.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_301.lean",
+  "base": {
+   "saved": 152,
+   "wall": 8.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 152,
+   "wall": 18.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_303.lean",
+  "base": {
+   "saved": 39,
+   "wall": 159.0,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 39,
+   "wall": 172.4,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_314.lean",
+  "base": {
+   "saved": 50,
+   "wall": 74.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 50,
+   "wall": 42.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_32.lean",
+  "base": {
+   "saved": 0,
+   "wall": 1920.4,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 1920.4,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_320.lean",
+  "base": {
+   "saved": 347,
+   "wall": 20.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 347,
+   "wall": 14.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_326.lean",
+  "base": {
+   "saved": 65,
+   "wall": 84.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 65,
+   "wall": 102.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_328.lean",
+  "base": {
+   "saved": 259,
+   "wall": 7.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 259,
+   "wall": 18.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_33.lean",
+  "base": {
+   "saved": 109,
+   "wall": 34.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 109,
+   "wall": 62.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_335.lean",
+  "base": {
+   "saved": 95,
+   "wall": 7.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 95,
+   "wall": 19.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_34.lean",
+  "base": {
+   "saved": 22,
+   "wall": 5.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 22,
+   "wall": 10.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_341.lean",
+  "base": {
+   "saved": 84,
+   "wall": 39.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 84,
+   "wall": 66.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_342.lean",
+  "base": {
+   "saved": 12,
+   "wall": 9.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 12,
+   "wall": 18.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_343.lean",
+  "base": {
+   "saved": 26,
+   "wall": 15.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 26,
+   "wall": 9.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_345.lean",
+  "base": {
+   "saved": 31,
+   "wall": 21.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 31,
+   "wall": 12.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_35.lean",
+  "base": {
+   "saved": 14,
+   "wall": 22.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 14,
+   "wall": 32.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_37.lean",
+  "base": {
+   "saved": 5,
+   "wall": 5.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 5,
+   "wall": 12.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_370.lean",
+  "base": {
+   "saved": 119,
+   "wall": 34.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 119,
+   "wall": 11.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_403.lean",
+  "base": {
+   "saved": 34,
+   "wall": 32.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 34,
+   "wall": 17.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_412.lean",
+  "base": {
+   "saved": 0,
+   "wall": 83.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 94.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_42.lean",
+  "base": {
+   "saved": 94,
+   "wall": 42.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 94,
+   "wall": 74.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_430.lean",
+  "base": {
+   "saved": 180,
+   "wall": 298.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 202,
+   "wall": 253.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 22
+ },
+ {
+  "file": "mathd_numbertheory_435.lean",
+  "base": {
+   "saved": 25,
+   "wall": 18.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 25,
+   "wall": 35.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_447.lean",
+  "base": {
+   "saved": 0,
+   "wall": 6.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 16.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_45.lean",
+  "base": {
+   "saved": 19,
+   "wall": 19.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 19,
+   "wall": 12.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_457.lean",
+  "base": {
+   "saved": 11,
+   "wall": 38.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 11,
+   "wall": 46.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_458.lean",
+  "base": {
+   "saved": 100,
+   "wall": 20.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 100,
+   "wall": 7.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_461.lean",
+  "base": {
+   "saved": 0,
+   "wall": 25.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 18.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_466.lean",
+  "base": {
+   "saved": 29,
+   "wall": 8.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 29,
+   "wall": 25.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_48.lean",
+  "base": {
+   "saved": 18,
+   "wall": 33.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 18,
+   "wall": 41.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_5.lean",
+  "base": {
+   "saved": 14,
+   "wall": 37.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 14,
+   "wall": 30.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_517.lean",
+  "base": {
+   "saved": 27,
+   "wall": 25.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 27,
+   "wall": 9.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_521.lean",
+  "base": {
+   "saved": 101,
+   "wall": 62.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 101,
+   "wall": 61.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_541.lean",
+  "base": {
+   "saved": 0,
+   "wall": 1102.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 1065.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_551.lean",
+  "base": {
+   "saved": 14,
+   "wall": 11.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 14,
+   "wall": 16.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_552.lean",
+  "base": {
+   "saved": 77,
+   "wall": 67.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 77,
+   "wall": 66.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_559.lean",
+  "base": {
+   "saved": 298,
+   "wall": 40.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 298,
+   "wall": 33.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_582.lean",
+  "base": {
+   "saved": 161,
+   "wall": 15.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 161,
+   "wall": 16.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_629.lean",
+  "base": {
+   "saved": 18,
+   "wall": 29.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 18,
+   "wall": 24.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_64.lean",
+  "base": {
+   "saved": 33,
+   "wall": 26.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 33,
+   "wall": 18.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_640.lean",
+  "base": {
+   "saved": 29,
+   "wall": 16.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 29,
+   "wall": 13.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_66.lean",
+  "base": {
+   "saved": 17,
+   "wall": 15.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 17,
+   "wall": 9.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_690.lean",
+  "base": {
+   "saved": 27,
+   "wall": 59.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 27,
+   "wall": 56.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_711.lean",
+  "base": {
+   "saved": 84,
+   "wall": 191.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 84,
+   "wall": 143.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_728.lean",
+  "base": {
+   "saved": 176,
+   "wall": 11.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 176,
+   "wall": 20.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_739.lean",
+  "base": {
+   "saved": 18,
+   "wall": 19.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 18,
+   "wall": 6.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_769.lean",
+  "base": {
+   "saved": 7,
+   "wall": 6.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 7,
+   "wall": 13.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_780.lean",
+  "base": {
+   "saved": 182,
+   "wall": 47.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 182,
+   "wall": 81.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_81.lean",
+  "base": {
+   "saved": 17,
+   "wall": 10.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 17,
+   "wall": 11.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_84.lean",
+  "base": {
+   "saved": 40,
+   "wall": 15.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 40,
+   "wall": 14.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_85.lean",
+  "base": {
+   "saved": 28,
+   "wall": 10.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 28,
+   "wall": 6.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_92.lean",
+  "base": {
+   "saved": 165,
+   "wall": 32.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 165,
+   "wall": 26.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_961.lean",
+  "base": {
+   "saved": 14,
+   "wall": 5.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 14,
+   "wall": 8.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "mathd_numbertheory_99.lean",
+  "base": {
+   "saved": 220,
+   "wall": 36.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 220,
+   "wall": 47.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "numbertheory_2dvd4expn.lean",
+  "base": {
+   "saved": 0,
+   "wall": 27.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 16.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "numbertheory_4x3m7y3neq2003.lean",
+  "base": {
+   "saved": 1,
+   "wall": 75.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 1,
+   "wall": 74.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "numbertheory_aoddbdiv4asqpbsqmod8eq1.lean",
+  "base": {
+   "saved": 38,
+   "wall": 107.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 38,
+   "wall": 125.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "numbertheory_nckeqnm1ckpnm1ckm1.lean",
+  "base": {
+   "saved": 84,
+   "wall": 55.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 84,
+   "wall": 38.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "numbertheory_notequiv2i2jasqbsqdiv8.lean",
+  "base": {
+   "saved": 4,
+   "wall": 30.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 4,
+   "wall": 34.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "numbertheory_prmdvsneqnsqmodpeq0.lean",
+  "base": {
+   "saved": 30,
+   "wall": 49.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 30,
+   "wall": 49.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "numbertheory_sqmod3in01d.lean",
+  "base": {
+   "saved": 0,
+   "wall": 36.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 43.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "numbertheory_sqmod4in01d.lean",
+  "base": {
+   "saved": 0,
+   "wall": 28.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 34.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "numbertheory_sumkmulnckeqnmul2pownm1.lean",
+  "base": {
+   "saved": 11,
+   "wall": 147.7,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 136.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "delta": -11
+ },
+ {
+  "file": "numbertheory_x5neqy2p4.lean",
+  "base": {
+   "saved": 0,
+   "wall": 308.2,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 337.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ }
+]

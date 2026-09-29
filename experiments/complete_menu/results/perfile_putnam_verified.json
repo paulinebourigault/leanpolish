@@ -1,0 +1,482 @@
+[
+ {
+  "file": "putnam_1965_b3.lean",
+  "base": {
+   "saved": 707,
+   "wall": 982.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 707,
+   "wall": 967.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1968_a2.lean",
+  "base": {
+   "saved": 181,
+   "wall": 141.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 181,
+   "wall": 129.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1971_b1.lean",
+  "base": {
+   "saved": 12,
+   "wall": 25.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 12,
+   "wall": 29.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1971_b2.lean",
+  "base": {
+   "saved": 261,
+   "wall": 164.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 261,
+   "wall": 175.8,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1975_a1.lean",
+  "base": {
+   "saved": 95,
+   "wall": 196.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 101,
+   "wall": 204.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 6
+ },
+ {
+  "file": "putnam_1975_b1.lean",
+  "base": {
+   "saved": 73,
+   "wall": 39.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 73,
+   "wall": 38.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1977_a3.lean",
+  "base": {
+   "saved": 13,
+   "wall": 25.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 13,
+   "wall": 22.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1978_a5.lean",
+  "base": {
+   "saved": 0,
+   "wall": 1040.6,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 1044.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1986_a1.lean",
+  "base": {
+   "saved": 49,
+   "wall": 18.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 49,
+   "wall": 21.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1986_b1.lean",
+  "base": {
+   "saved": 197,
+   "wall": 23.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 205,
+   "wall": 29.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 8
+ },
+ {
+  "file": "putnam_1988_b1.lean",
+  "base": {
+   "saved": 35,
+   "wall": 20.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 35,
+   "wall": 33.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1990_a1.lean",
+  "base": {
+   "saved": 3,
+   "wall": 41.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 3,
+   "wall": 28.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1991_a2.lean",
+  "base": {
+   "saved": 4,
+   "wall": 139.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 4,
+   "wall": 149.7,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1992_a1.lean",
+  "base": {
+   "saved": 121,
+   "wall": 132.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 121,
+   "wall": 123.8,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_1993_a2.lean",
+  "base": {
+   "saved": 534,
+   "wall": 63.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 532,
+   "wall": 59.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": -2
+ },
+ {
+  "file": "putnam_1998_b1.lean",
+  "base": {
+   "saved": 264,
+   "wall": 300.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 264,
+   "wall": 304.4,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_2000_a2.lean",
+  "base": {
+   "saved": 0,
+   "wall": 196.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 163.5,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_2001_a1.lean",
+  "base": {
+   "saved": 8,
+   "wall": 18.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 8,
+   "wall": 16.3,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_2008_a1.lean",
+  "base": {
+   "saved": 28,
+   "wall": 18.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 28,
+   "wall": 14.9,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_2008_a6.lean",
+  "base": {
+   "saved": 0,
+   "wall": 4.4,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 5.2,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_2010_a4.lean",
+  "base": {
+   "saved": 0,
+   "wall": 4.7,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 4.5,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_2012_a2.lean",
+  "base": {
+   "saved": -4,
+   "wall": 22.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": -4,
+   "wall": 21.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "putnam_2018_b3.lean",
+  "base": {
+   "saved": 0,
+   "wall": 18.0,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 23.1,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "delta": 0
+ },
+ {
+  "file": "sum_squares_of_nonneg.lean",
+  "base": {
+   "saved": 0,
+   "wall": 3.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 4.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ }
+]

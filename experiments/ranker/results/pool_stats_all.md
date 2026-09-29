@@ -1,0 +1,11 @@
+| source | sites | files | mean_valid_per_site | pct_sites_ge1_valid | pct_sites_ge2_valid | pct_ge2_valid_given_ge1 | sites_ge1_acceptable | mean_acceptable_given_ge1 | pct_ge2_acceptable_given_ge1 | pct_first_success_not_shortest | first_success_savings_frac_of_oracle |
+| train_goedel_AB | 13217 | 2400 | 2.54 | 69.88 | 56.34 | 80.63 | 8588 | 3.05 | 77.47 | 13.11 | 1.00 |
+| train_goedel_C | 11085 | 3996 | 2.60 | 76.12 | 54.27 | 71.30 | 7723 | 3.00 | 68.87 | 15.60 | 1.00 |
+| train_goedel_D | 4686 | 1668 | 2.50 | 74.07 | 52.67 | 71.10 | 3174 | 2.92 | 67.74 | 13.14 | 1.00 |
+| mathlib_500 | 24284 | 418 | 0.59 | 31.71 | 14.05 | 44.31 | 3948 | 1.81 | 44.38 | 7.24 | 1.00 |
+| goedel_val | 768 | 169 | 2.81 | 80.34 | 62.76 | 78.12 | 581 | 2.73 | 77.97 | 26.16 | 1.00 |
+| miniF2F | 4969 | 348 | 2.32 | 67.38 | 49.67 | 73.72 | 1995 | 2.56 | 60.45 | 22.06 | 0.99 |
+| PB_verified | 394 | 18 | 1.87 | 67.51 | 45.43 | 67.29 | 140 | 2.44 | 60.00 | 34.29 | 0.97 |
+| AxiomProver | 1231 | 11 | 1.47 | 47.60 | 32.82 | 68.94 | 253 | 2.79 | 69.17 | 24.90 | 0.97 |
+| miniF2F_replica | 4762 | 347 | 2.41 | 71.40 | 51.99 | 72.82 | 1975 | 2.50 | 60.51 | 20.00 | 0.99 |
+| PB_verified_replica | 378 | 18 | 1.76 | 65.34 | 42.86 | 65.59 | 126 | 2.42 | 61.11 | 33.33 | 0.98 |

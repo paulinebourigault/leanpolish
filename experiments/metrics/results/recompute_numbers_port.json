@@ -1,0 +1,1508 @@
+{
+ "integrity": [
+  [
+   "data/eval_sites_minif2f.jsonl",
+   1184,
+   0,
+   true,
+   2043986
+  ],
+  [
+   "data/eval_sites_putnam2025_per_file.jsonl",
+   142,
+   0,
+   true,
+   221782
+  ],
+  [
+   "data/eval_sites_putnam_verified.jsonl",
+   80,
+   0,
+   true,
+   133640
+  ],
+  [
+   "data/sft_train.jsonl",
+   17099,
+   0,
+   true,
+   27395664
+  ],
+  [
+   "data/sft_val.jsonl",
+   437,
+   0,
+   true,
+   664530
+  ],
+  [
+   "exp2_ranker/data/eval_groups_minif2f.jsonl",
+   654,
+   0,
+   true,
+   2580373
+  ],
+  [
+   "exp2_ranker/data/eval_groups_putnam2025_per_file.jsonl",
+   25,
+   0,
+   true,
+   96585
+  ],
+  [
+   "exp2_ranker/data/eval_groups_putnam_verified.jsonl",
+   39,
+   0,
+   true,
+   164474
+  ],
+  [
+   "exp2_ranker/data/train_pairs.jsonl",
+   54375,
+   0,
+   true,
+   78462263
+  ],
+  [
+   "exp2_ranker/selection_scores.jsonl",
+   5624,
+   0,
+   true,
+   1353165
+  ],
+  [
+   "exp2_ranker/selection_scores_frozen.jsonl",
+   5624,
+   0,
+   true,
+   1339508
+  ],
+  [
+   "results/cands_dpo.jsonl",
+   7030,
+   0,
+   true,
+   4739488
+  ],
+  [
+   "results/cands_frozen.jsonl",
+   7030,
+   0,
+   true,
+   10940524
+  ],
+  [
+   "results/cands_frozen_qwen.jsonl",
+   7030,
+   0,
+   true,
+   7450857
+  ],
+  [
+   "results/cands_sft.jsonl",
+   7030,
+   0,
+   true,
+   4734191
+  ],
+  [
+   "results/cands_sft_qwen.jsonl",
+   7030,
+   0,
+   true,
+   4794417
+  ],
+  [
+   "results/screen_results.jsonl",
+   8483,
+   0,
+   true,
+   2846159
+  ],
+  [
+   "results/screen_results_qwen.jsonl",
+   7280,
+   0,
+   true,
+   2309783
+  ],
+  [
+   "results/verify_chunks/agreement_000.jsonl",
+   60,
+   0,
+   true,
+   62604
+  ],
+  [
+   "results/verify_chunks/agreement_000.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   75169
+  ],
+  [
+   "results/verify_chunks/agreement_001.jsonl",
+   60,
+   0,
+   true,
+   46724
+  ],
+  [
+   "results/verify_chunks/agreement_001.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   58128
+  ],
+  [
+   "results/verify_chunks/agreement_002.jsonl",
+   30,
+   0,
+   true,
+   24929
+  ],
+  [
+   "results/verify_chunks/agreement_002.kernel_verified.jsonl",
+   30,
+   0,
+   true,
+   30630
+  ],
+  [
+   "results/verify_chunks/chunk_000.jsonl",
+   60,
+   0,
+   true,
+   48274
+  ],
+  [
+   "results/verify_chunks/chunk_000.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   59677
+  ],
+  [
+   "results/verify_chunks/chunk_001.jsonl",
+   60,
+   0,
+   true,
+   49408
+  ],
+  [
+   "results/verify_chunks/chunk_001.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   60811
+  ],
+  [
+   "results/verify_chunks/chunk_002.jsonl",
+   60,
+   0,
+   true,
+   47131
+  ],
+  [
+   "results/verify_chunks/chunk_002.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   58536
+  ],
+  [
+   "results/verify_chunks/chunk_003.jsonl",
+   60,
+   0,
+   true,
+   49961
+  ],
+  [
+   "results/verify_chunks/chunk_003.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   61362
+  ],
+  [
+   "results/verify_chunks/chunk_004.jsonl",
+   60,
+   0,
+   true,
+   48072
+  ],
+  [
+   "results/verify_chunks/chunk_004.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   59472
+  ],
+  [
+   "results/verify_chunks/chunk_005.jsonl",
+   60,
+   0,
+   true,
+   41703
+  ],
+  [
+   "results/verify_chunks/chunk_005.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   53104
+  ],
+  [
+   "results/verify_chunks/chunk_006.jsonl",
+   21,
+   0,
+   true,
+   15622
+  ],
+  [
+   "results/verify_chunks/chunk_006.kernel_verified.jsonl",
+   21,
+   0,
+   true,
+   19612
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_000.jsonl",
+   60,
+   0,
+   true,
+   40725
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_000.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   52132
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_000.kernel_verified.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   52129
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_001.jsonl",
+   60,
+   0,
+   true,
+   44864
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_001.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   56269
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_001.kernel_verified.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   56269
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_002.jsonl",
+   60,
+   0,
+   true,
+   41849
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_002.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   53249
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_002.kernel_verified.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   53249
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_003.jsonl",
+   60,
+   0,
+   true,
+   44091
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_003.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   55491
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_004.jsonl",
+   10,
+   0,
+   true,
+   6209
+  ],
+  [
+   "results/verify_chunks_dpo/chunk_004.kernel_verified.jsonl",
+   10,
+   0,
+   true,
+   8109
+  ],
+  [
+   "results/verify_chunks_qwen/agreement_000.jsonl",
+   60,
+   0,
+   true,
+   48242
+  ],
+  [
+   "results/verify_chunks_qwen/agreement_000.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   60763
+  ],
+  [
+   "results/verify_chunks_qwen/agreement_001.jsonl",
+   60,
+   0,
+   true,
+   40904
+  ],
+  [
+   "results/verify_chunks_qwen/agreement_001.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   52343
+  ],
+  [
+   "results/verify_chunks_qwen/agreement_002.jsonl",
+   15,
+   0,
+   true,
+   10991
+  ],
+  [
+   "results/verify_chunks_qwen/agreement_002.kernel_verified.jsonl",
+   15,
+   0,
+   true,
+   13845
+  ],
+  [
+   "results/verify_chunks_qwen/chunk_000.jsonl",
+   60,
+   0,
+   true,
+   42789
+  ],
+  [
+   "results/verify_chunks_qwen/chunk_000.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   54235
+  ],
+  [
+   "results/verify_chunks_qwen/chunk_001.jsonl",
+   60,
+   0,
+   true,
+   42822
+  ],
+  [
+   "results/verify_chunks_qwen/chunk_001.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   54250
+  ],
+  [
+   "results/verify_chunks_qwen/chunk_002.jsonl",
+   60,
+   0,
+   true,
+   47041
+  ],
+  [
+   "results/verify_chunks_qwen/chunk_002.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   58488
+  ],
+  [
+   "results/verify_chunks_qwen/chunk_003.jsonl",
+   60,
+   0,
+   true,
+   44323
+  ],
+  [
+   "results/verify_chunks_qwen/chunk_003.kernel_verified.jsonl",
+   60,
+   0,
+   true,
+   55760
+  ],
+  [
+   "results/verify_chunks_qwen/chunk_004.jsonl",
+   53,
+   0,
+   true,
+   35968
+  ],
+  [
+   "results/verify_chunks_qwen/chunk_004.kernel_verified.jsonl",
+   53,
+   0,
+   true,
+   46073
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_000.jsonl",
+   80,
+   0,
+   true,
+   57194
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_000.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   72452
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_001.jsonl",
+   80,
+   0,
+   true,
+   56045
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_001.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   71304
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_002.jsonl",
+   80,
+   0,
+   true,
+   53280
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_002.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   68537
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_003.jsonl",
+   80,
+   0,
+   true,
+   55095
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_003.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   70347
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_004.jsonl",
+   80,
+   0,
+   true,
+   53069
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_004.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   68342
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_005.jsonl",
+   80,
+   0,
+   true,
+   55591
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_005.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   70835
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_006.jsonl",
+   80,
+   0,
+   true,
+   58832
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_006.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   74075
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_007.jsonl",
+   80,
+   0,
+   true,
+   58932
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_007.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   74163
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_008.jsonl",
+   80,
+   0,
+   true,
+   56927
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_008.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   72164
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_009.jsonl",
+   80,
+   0,
+   true,
+   63304
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_009.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   78560
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_010.jsonl",
+   80,
+   0,
+   true,
+   57789
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_010.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   73020
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_011.jsonl",
+   80,
+   0,
+   true,
+   54846
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_011.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   70105
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_012.jsonl",
+   80,
+   0,
+   true,
+   55626
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_012.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   70906
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_013.jsonl",
+   80,
+   0,
+   true,
+   57124
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_013.kernel_verified.jsonl",
+   80,
+   0,
+   true,
+   72390
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_014.jsonl",
+   52,
+   0,
+   true,
+   39199
+  ],
+  [
+   "results/verify_chunks_refmatch/chunk_014.kernel_verified.jsonl",
+   52,
+   0,
+   true,
+   49116
+  ]
+ ],
+ "verify": {
+  "records": 2561,
+  "distinct_keys": 2086,
+  "conflicting_keys": 0,
+  "pass_keys": 1986
+ },
+ "headline": {
+  "minif2f": {
+   "sites": 1184,
+   "teacher_savings": 27622,
+   "teacher_savings_clamped": 27623,
+   "teacher_savings_passverified": 25902,
+   "ref_edits_with_pass_verdict": 1065,
+   "ref_nonpositive_savings": 64,
+   "frozen": {
+    "vs1": 1,
+    "savings1": 28,
+    "recovered_pct": 0.10136847440446022
+   },
+   "frozen_qwen": {
+    "vs1": 6,
+    "savings1": 189,
+    "recovered_pct": 0.6842372022301064
+   },
+   "sft": {
+    "vs1": 1026,
+    "savings1": 26163,
+    "recovered_pct": 94.71797842299617
+   },
+   "sft_qwen": {
+    "vs1": 1000,
+    "savings1": 25317,
+    "recovered_pct": 91.65520237491855
+   },
+   "dpo": {
+    "vs1": 1001,
+    "savings1": 25614,
+    "recovered_pct": 92.73043226413728
+   }
+  },
+  "putnam_verified": {
+   "sites": 80,
+   "teacher_savings": 1359,
+   "teacher_savings_clamped": 1365,
+   "teacher_savings_passverified": 1324,
+   "ref_edits_with_pass_verdict": 71,
+   "ref_nonpositive_savings": 9,
+   "frozen": {
+    "vs1": 0,
+    "savings1": 0,
+    "recovered_pct": 0.0
+   },
+   "frozen_qwen": {
+    "vs1": 0,
+    "savings1": 0,
+    "recovered_pct": 0.0
+   },
+   "sft": {
+    "vs1": 69,
+    "savings1": 1337,
+    "recovered_pct": 98.38116261957322
+   },
+   "sft_qwen": {
+    "vs1": 66,
+    "savings1": 1316,
+    "recovered_pct": 96.83590875643856
+   },
+   "dpo": {
+    "vs1": 68,
+    "savings1": 1333,
+    "recovered_pct": 98.0868285504047
+   }
+  },
+  "putnam2025_per_file": {
+   "sites": 142,
+   "teacher_savings": 1746,
+   "teacher_savings_clamped": 1747,
+   "teacher_savings_passverified": 1664,
+   "ref_edits_with_pass_verdict": 134,
+   "ref_nonpositive_savings": 22,
+   "frozen": {
+    "vs1": 0,
+    "savings1": 0,
+    "recovered_pct": 0.0
+   },
+   "frozen_qwen": {
+    "vs1": 2,
+    "savings1": 32,
+    "recovered_pct": 1.8327605956471935
+   },
+   "sft": {
+    "vs1": 113,
+    "savings1": 1666,
+    "recovered_pct": 95.41809851088202
+   },
+   "sft_qwen": {
+    "vs1": 109,
+    "savings1": 1648,
+    "recovered_pct": 94.38717067583048
+   },
+   "dpo": {
+    "vs1": 104,
+    "savings1": 1618,
+    "recovered_pct": 92.66895761741122
+   }
+  }
+ },
+ "legacy_replication": {
+  "dpo: saved policy, exact=verify_chunks/chunk_* only": {
+   "minif2f": [
+    936,
+    24036
+   ],
+   "putnam_verified": [
+    65,
+    1315
+   ],
+   "putnam2025_per_file": [
+    102,
+    1610
+   ]
+  },
+  "dpo: saved policy, exact=all verify dirs": {
+   "minif2f": [
+    1001,
+    25614
+   ],
+   "putnam_verified": [
+    68,
+    1333
+   ],
+   "putnam2025_per_file": [
+    104,
+    1618
+   ]
+  },
+  "sft: saved policy, exact=verify_chunks/chunk_*": {
+   "minif2f": [
+    1026,
+    26163
+   ],
+   "putnam_verified": [
+    69,
+    1337
+   ],
+   "putnam2025_per_file": [
+    113,
+    1666
+   ]
+  },
+  "sft_qwen: saved policy, exact=verify_chunks_qwen/chunk_*": {
+   "minif2f": [
+    1000,
+    25317
+   ],
+   "putnam_verified": [
+    66,
+    1316
+   ],
+   "putnam2025_per_file": [
+    109,
+    1648
+   ]
+  }
+ },
+ "dpo_delta": {
+  "minif2f | strict_only | pass | verify_chunks_dpo,verify_chunks_qwen": 11,
+  "minif2f | strict_only | pass | verify_chunks_dpo": 54,
+  "putnam_verified | strict_only | pass | verify_chunks_dpo": 3,
+  "putnam2025_per_file | strict_only | pass | verify_chunks_dpo": 2
+ },
+ "refmatch_shorter_without_pass": {},
+ "families": {
+  "minif2f/deletion/frozen": [
+   0,
+   436,
+   0
+  ],
+  "minif2f/deletion/frozen_qwen": [
+   0,
+   436,
+   0
+  ],
+  "minif2f/deletion/sft": [
+   436,
+   436,
+   8122
+  ],
+  "minif2f/deletion/sft_qwen": [
+   436,
+   436,
+   8122
+  ],
+  "minif2f/deletion/dpo": [
+   436,
+   436,
+   8122
+  ],
+  "minif2f/tactic_replacement/frozen": [
+   1,
+   747,
+   28
+  ],
+  "minif2f/tactic_replacement/frozen_qwen": [
+   6,
+   747,
+   189
+  ],
+  "minif2f/tactic_replacement/sft": [
+   590,
+   747,
+   18041
+  ],
+  "minif2f/tactic_replacement/sft_qwen": [
+   564,
+   747,
+   17195
+  ],
+  "minif2f/tactic_replacement/dpo": [
+   565,
+   747,
+   17492
+  ],
+  "minif2f/lemma_extraction/frozen": [
+   0,
+   1,
+   0
+  ],
+  "minif2f/lemma_extraction/frozen_qwen": [
+   0,
+   1,
+   0
+  ],
+  "minif2f/lemma_extraction/sft": [
+   0,
+   1,
+   0
+  ],
+  "minif2f/lemma_extraction/sft_qwen": [
+   0,
+   1,
+   0
+  ],
+  "minif2f/lemma_extraction/dpo": [
+   0,
+   1,
+   0
+  ],
+  "putnam_verified/deletion/frozen": [
+   0,
+   37,
+   0
+  ],
+  "putnam_verified/deletion/frozen_qwen": [
+   0,
+   37,
+   0
+  ],
+  "putnam_verified/deletion/sft": [
+   37,
+   37,
+   975
+  ],
+  "putnam_verified/deletion/sft_qwen": [
+   37,
+   37,
+   975
+  ],
+  "putnam_verified/deletion/dpo": [
+   37,
+   37,
+   975
+  ],
+  "putnam_verified/tactic_replacement/frozen": [
+   0,
+   43,
+   0
+  ],
+  "putnam_verified/tactic_replacement/frozen_qwen": [
+   0,
+   43,
+   0
+  ],
+  "putnam_verified/tactic_replacement/sft": [
+   32,
+   43,
+   362
+  ],
+  "putnam_verified/tactic_replacement/sft_qwen": [
+   29,
+   43,
+   341
+  ],
+  "putnam_verified/tactic_replacement/dpo": [
+   31,
+   43,
+   358
+  ],
+  "putnam2025_per_file/deletion/frozen": [
+   0,
+   85,
+   0
+  ],
+  "putnam2025_per_file/deletion/frozen_qwen": [
+   2,
+   85,
+   32
+  ],
+  "putnam2025_per_file/deletion/sft": [
+   85,
+   85,
+   1500
+  ],
+  "putnam2025_per_file/deletion/sft_qwen": [
+   85,
+   85,
+   1500
+  ],
+  "putnam2025_per_file/deletion/dpo": [
+   85,
+   85,
+   1500
+  ],
+  "putnam2025_per_file/tactic_replacement/frozen": [
+   0,
+   57,
+   0
+  ],
+  "putnam2025_per_file/tactic_replacement/frozen_qwen": [
+   0,
+   57,
+   0
+  ],
+  "putnam2025_per_file/tactic_replacement/sft": [
+   28,
+   57,
+   166
+  ],
+  "putnam2025_per_file/tactic_replacement/sft_qwen": [
+   24,
+   57,
+   148
+  ],
+  "putnam2025_per_file/tactic_replacement/dpo": [
+   19,
+   57,
+   118
+  ]
+ },
+ "delete_control": {
+  "minif2f": {
+   "marker_sites": 437,
+   "delete_matches_reference": 436,
+   "delete_has_pass_verdict": 436,
+   "savings_passverified": 8122,
+   "sites": 1184
+  },
+  "putnam_verified": {
+   "marker_sites": 37,
+   "delete_matches_reference": 37,
+   "delete_has_pass_verdict": 37,
+   "savings_passverified": 975,
+   "sites": 80
+  },
+  "putnam2025_per_file": {
+   "marker_sites": 85,
+   "delete_matches_reference": 85,
+   "delete_has_pass_verdict": 85,
+   "savings_passverified": 1500,
+   "sites": 142
+  }
+ },
+ "bootstrap": {
+  "minif2f/sft": [
+   0.8665540540540541,
+   0.8341257274542289,
+   0.897527267512607
+  ],
+  "minif2f/sft_qwen": [
+   0.8445945945945946,
+   0.8126563836612489,
+   0.875
+  ],
+  "minif2f/dpo": [
+   0.8454391891891891,
+   0.8115942028985508,
+   0.8780282091315722
+  ],
+  "minif2f/sft-sft_qwen": [
+   0.02195945945945946,
+   0.008012677935943032,
+   0.03692128868233381,
+   0.0016
+  ],
+  "minif2f/sft-dpo": [
+   0.021114864864864864,
+   0.009673523282303332,
+   0.03322029239241739,
+   0.0002
+  ],
+  "putnam_verified/sft": [
+   0.8625,
+   0.7580522971652004,
+   0.9661158192090393
+  ],
+  "putnam_verified/sft_qwen": [
+   0.825,
+   0.6792452830188679,
+   0.9347896668548842
+  ],
+  "putnam_verified/dpo": [
+   0.85,
+   0.7213019443385437,
+   0.9516129032258065
+  ],
+  "putnam_verified/sft-sft_qwen": [
+   0.0375,
+   -0.01587301587301582,
+   0.12162986156888582,
+   0.3212
+  ],
+  "putnam_verified/sft-dpo": [
+   0.0125,
+   -0.021505376344086002,
+   0.0714285714285714,
+   0.782
+  ],
+  "putnam2025_per_file/sft": [
+   0.795774647887324,
+   0.5820827679782904,
+   0.9523809523809523
+  ],
+  "putnam2025_per_file/sft_qwen": [
+   0.7676056338028169,
+   0.5563184663536777,
+   0.9306372689292051
+  ],
+  "putnam2025_per_file/dpo": [
+   0.7323943661971831,
+   0.4666666666666667,
+   0.9369387103639072
+  ],
+  "putnam2025_per_file/sft-sft_qwen": [
+   0.028169014084507043,
+   -0.010755610098176813,
+   0.06106976251060218,
+   0.224
+  ],
+  "putnam2025_per_file/sft-dpo": [
+   0.06338028169014084,
+   0.0,
+   0.15000000000000002,
+   0.2026
+  ],
+  "pooled/sft": [
+   0.8591749644381224,
+   0.8264867858789234,
+   0.8909992697176242
+  ],
+  "pooled/sft_qwen": [
+   0.8357041251778093,
+   0.8030391699731158,
+   0.8680793539089297
+  ],
+  "pooled/dpo": [
+   0.8342816500711238,
+   0.797305161995451,
+   0.8704465603260487
+  ],
+  "pooled/sft-sft_qwen": [
+   0.023470839260312945,
+   0.010460068811686324,
+   0.03709267654905174,
+   0.0008
+  ],
+  "pooled/sft-dpo": [
+   0.024893314366998577,
+   0.012241541078502264,
+   0.03848708318796361,
+   0.0
+  ]
+ },
+ "exact_match": {
+  "minif2f/frozen": [
+   0,
+   0,
+   1,
+   41,
+   1184
+  ],
+  "minif2f/frozen_qwen": [
+   0,
+   0,
+   6,
+   26,
+   1184
+  ],
+  "minif2f/sft": [
+   979,
+   926,
+   100,
+   151,
+   1184
+  ],
+  "minif2f/sft_qwen": [
+   950,
+   895,
+   105,
+   174,
+   1184
+  ],
+  "minif2f/dpo": [
+   896,
+   846,
+   155,
+   175,
+   1184
+  ],
+  "putnam_verified/frozen": [
+   0,
+   0,
+   0,
+   0,
+   80
+  ],
+  "putnam_verified/frozen_qwen": [
+   0,
+   0,
+   0,
+   0,
+   80
+  ],
+  "putnam_verified/sft": [
+   66,
+   64,
+   5,
+   9,
+   80
+  ],
+  "putnam_verified/sft_qwen": [
+   66,
+   63,
+   3,
+   5,
+   80
+  ],
+  "putnam_verified/dpo": [
+   60,
+   59,
+   9,
+   9,
+   80
+  ],
+  "putnam2025_per_file/frozen": [
+   0,
+   0,
+   0,
+   0,
+   142
+  ],
+  "putnam2025_per_file/frozen_qwen": [
+   2,
+   2,
+   0,
+   1,
+   142
+  ],
+  "putnam2025_per_file/sft": [
+   130,
+   110,
+   3,
+   5,
+   142
+  ],
+  "putnam2025_per_file/sft_qwen": [
+   123,
+   104,
+   5,
+   9,
+   142
+  ],
+  "putnam2025_per_file/dpo": [
+   106,
+   98,
+   6,
+   8,
+   142
+  ]
+ },
+ "beats_reference": [
+  [
+   "frozen_qwen",
+   "greedy",
+   "minif2f",
+   "mathd_algebra_151.lean",
+   799,
+   10,
+   8,
+   ""
+  ],
+  [
+   "frozen_qwen",
+   1,
+   "minif2f",
+   "amc12a_2002_p12.lean",
+   1132,
+   4,
+   3,
+   ""
+  ],
+  [
+   "frozen_qwen",
+   0,
+   "minif2f",
+   "mathd_algebra_151.lean",
+   799,
+   10,
+   8,
+   ""
+  ],
+  [
+   "frozen_qwen",
+   1,
+   "minif2f",
+   "mathd_algebra_151.lean",
+   799,
+   10,
+   8,
+   ""
+  ],
+  [
+   "frozen_qwen",
+   3,
+   "minif2f",
+   "mathd_algebra_151.lean",
+   799,
+   10,
+   8,
+   ""
+  ]
+ ],
+ "order_control": {
+  "minif2f": [
+   654,
+   654,
+   0,
+   0,
+   0
+  ],
+  "putnam_verified": [
+   39,
+   39,
+   0,
+   0,
+   0
+  ],
+  "putnam2025_per_file": [
+   25,
+   25,
+   0,
+   0,
+   0
+  ]
+ },
+ "selection": {
+  "SFT DeepSeek": {
+   "strict": {
+    "minif2f": {
+     "greedy": 26163.0,
+     "random_of_4": 25855.0,
+     "shortest_of_4": 25370.0,
+     "ranker_of_4": 25730.0,
+     "oracle_of_4": 26247.0
+    },
+    "pooled": {
+     "greedy": 29166.0,
+     "random_of_4": 28832.0,
+     "shortest_of_4": 28354.0,
+     "ranker_of_4": 28720.0,
+     "oracle_of_4": 29250.0
+    },
+    "putnam_verified": {
+     "greedy": 1337.0,
+     "random_of_4": 1322.75,
+     "shortest_of_4": 1333.0,
+     "ranker_of_4": 1333.0,
+     "oracle_of_4": 1337.0
+    },
+    "putnam2025_per_file": {
+     "greedy": 1666.0,
+     "random_of_4": 1654.25,
+     "shortest_of_4": 1651.0,
+     "ranker_of_4": 1657.0,
+     "oracle_of_4": 1666.0
+    }
+   },
+   "saved": {
+    "minif2f": {
+     "greedy": 25995.0,
+     "random_of_4": 25691.75,
+     "shortest_of_4": 25201.0,
+     "ranker_of_4": 25563.0,
+     "oracle_of_4": 26069.0
+    },
+    "putnam_verified": {
+     "greedy": 1322.0,
+     "random_of_4": 1309.25,
+     "shortest_of_4": 1318.0,
+     "ranker_of_4": 1320.0,
+     "oracle_of_4": 1322.0
+    },
+    "putnam2025_per_file": {
+     "greedy": 1388.0,
+     "random_of_4": 1379.25,
+     "shortest_of_4": 1379.0,
+     "ranker_of_4": 1379.0,
+     "oracle_of_4": 1388.0
+    },
+    "pooled": {
+     "greedy": 28705.0,
+     "random_of_4": 28380.25,
+     "shortest_of_4": 27898.0,
+     "ranker_of_4": 28262.0,
+     "oracle_of_4": 28779.0
+    }
+   },
+   "missing_scores": 0
+  },
+  "frozen DeepSeek": {
+   "strict": {
+    "minif2f": {
+     "greedy": 28.0,
+     "random_of_4": 299.25,
+     "shortest_of_4": 869.0,
+     "ranker_of_4": 447.0,
+     "oracle_of_4": 973.0
+    },
+    "pooled": {
+     "greedy": 28.0,
+     "random_of_4": 299.25,
+     "shortest_of_4": 869.0,
+     "ranker_of_4": 447.0,
+     "oracle_of_4": 973.0
+    },
+    "putnam_verified": {
+     "greedy": 0.0,
+     "random_of_4": 0.0,
+     "shortest_of_4": 0.0,
+     "ranker_of_4": 0.0,
+     "oracle_of_4": 0.0
+    },
+    "putnam2025_per_file": {
+     "greedy": 0.0,
+     "random_of_4": 0.0,
+     "shortest_of_4": 0.0,
+     "ranker_of_4": 0.0,
+     "oracle_of_4": 0.0
+    }
+   },
+   "saved": {
+    "minif2f": {
+     "greedy": 28.0,
+     "random_of_4": 343.25,
+     "shortest_of_4": 967.0,
+     "ranker_of_4": 563.0,
+     "oracle_of_4": 1099.0
+    },
+    "putnam_verified": {
+     "greedy": 0.0,
+     "random_of_4": 0.0,
+     "shortest_of_4": 0.0,
+     "ranker_of_4": 0.0,
+     "oracle_of_4": 0.0
+    },
+    "putnam2025_per_file": {
+     "greedy": 0.0,
+     "random_of_4": 0.0,
+     "shortest_of_4": 0.0,
+     "ranker_of_4": 0.0,
+     "oracle_of_4": 0.0
+    },
+    "pooled": {
+     "greedy": 28.0,
+     "random_of_4": 343.25,
+     "shortest_of_4": 967.0,
+     "ranker_of_4": 563.0,
+     "oracle_of_4": 1099.0
+    }
+   },
+   "missing_scores": 0
+  }
+ },
+ "dataset": {
+  "headline_v4_total": {
+   "bytes_original": 52164180,
+   "bytes_saved": 4962398,
+   "bytes_pct": 9.513037490477181,
+   "tokens_original": 9272026,
+   "tokens_saved": 351538,
+   "tokens_pct": 3.7913828110490626,
+   "lines_original": 744613,
+   "lines_saved": 43438,
+   "lines_pct": 5.8336343845729255,
+   "training_pairs": 33402,
+   "rejected_siblings": 65596
+  },
+  "files_with_savings_sum": 12972
+ },
+ "exp7_check": {
+  "seed_matched8": [
+   3803,
+   139490,
+   2.726360312567209
+  ],
+  "axiom_matched8": [
+   966,
+   80107,
+   1.2058871259690165
+  ],
+  "seed_full11": [
+   4678,
+   183199,
+   2.553507388140765
+  ]
+ }
+}

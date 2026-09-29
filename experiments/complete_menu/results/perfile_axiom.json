@@ -1,0 +1,242 @@
+[
+ {
+  "file": "A1/solution.lean",
+  "base": {
+   "saved": 127,
+   "wall": 181.7,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 119,
+   "wall": 182.8,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": -8
+ },
+ {
+  "file": "A2/solution.lean",
+  "base": {
+   "saved": 70,
+   "wall": 143.0,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 70,
+   "wall": 176.8,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "A3/solution.lean",
+  "base": {
+   "saved": 0,
+   "wall": 173.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": false
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 196.1,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": false
+  },
+  "delta": 0
+ },
+ {
+  "file": "A4/solution.lean",
+  "base": {
+   "saved": 22,
+   "wall": 192.4,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 22,
+   "wall": 1804.9,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "A5/solution.lean",
+  "base": {
+   "saved": 0,
+   "wall": 1921.1,
+   "report": false,
+   "fold_budget": true,
+   "err": null,
+   "verified": null
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 1920.0,
+   "report": false,
+   "fold_budget": true,
+   "err": null,
+   "verified": null
+  },
+  "delta": 0
+ },
+ {
+  "file": "A6/solution.lean",
+  "base": {
+   "saved": 97,
+   "wall": 126.5,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 97,
+   "wall": 150.1,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "delta": 0
+ },
+ {
+  "file": "B1/solution.lean",
+  "base": {
+   "saved": 91,
+   "wall": 1774.8,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 1920.4,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "delta": -91
+ },
+ {
+  "file": "B2/solution.lean",
+  "base": {
+   "saved": 59,
+   "wall": 1750.6,
+   "report": true,
+   "fold_budget": false,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 56,
+   "wall": 391.6,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": -3
+ },
+ {
+  "file": "B3/solution.lean",
+  "base": {
+   "saved": 70,
+   "wall": 406.7,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 78,
+   "wall": 197.7,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 8
+ },
+ {
+  "file": "B4/solution.lean",
+  "base": {
+   "saved": 351,
+   "wall": 162.4,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "cm": {
+   "saved": 469,
+   "wall": 157.7,
+   "report": true,
+   "fold_budget": true,
+   "err": null,
+   "verified": true
+  },
+  "delta": 118
+ },
+ {
+  "file": "B5/solution.lean",
+  "base": {
+   "saved": 0,
+   "wall": 1920.2,
+   "report": false,
+   "fold_budget": true,
+   "err": null,
+   "verified": null
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 1920.5,
+   "report": false,
+   "fold_budget": true,
+   "err": null,
+   "verified": null
+  },
+  "delta": 0
+ },
+ {
+  "file": "B6/solution.lean",
+  "base": {
+   "saved": 0,
+   "wall": 1920.3,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "cm": {
+   "saved": 0,
+   "wall": 1920.6,
+   "report": false,
+   "fold_budget": false,
+   "err": null,
+   "verified": null
+  },
+  "delta": 0
+ }
+]

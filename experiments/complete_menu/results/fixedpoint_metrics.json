@@ -1,0 +1,291 @@
+{
+ "PB-verified (19)": {
+  "n_files": 19,
+  "A_total": 22116,
+  "appL_total": 23059,
+  "rounds": [
+   {
+    "round": 1,
+    "changed": 18,
+    "saved_A": 2620,
+    "pct_A": 11.846626876469525,
+    "saved_appL": 2581,
+    "pct_appL": 11.193026583980224,
+    "files_differing": 18
+   },
+   {
+    "round": 2,
+    "changed": 8,
+    "saved_A": 3218,
+    "pct_A": 14.550551636824018,
+    "saved_appL": 3179,
+    "pct_appL": 13.786374083871808,
+    "files_differing": 18
+   },
+   {
+    "round": 3,
+    "changed": 5,
+    "saved_A": 3367,
+    "pct_A": 15.224272020256828,
+    "saved_appL": 3328,
+    "pct_appL": 14.432542608092286,
+    "files_differing": 18
+   },
+   {
+    "round": 4,
+    "changed": 3,
+    "saved_A": 3489,
+    "pct_A": 15.775908844275637,
+    "saved_appL": 3438,
+    "pct_appL": 14.90957977362418,
+    "files_differing": 18
+   },
+   {
+    "round": 5,
+    "changed": 2,
+    "saved_A": 3555,
+    "pct_A": 16.07433532284319,
+    "saved_appL": 3496,
+    "pct_appL": 15.161108460904636,
+    "files_differing": 18
+   },
+   {
+    "round": 6,
+    "changed": 0,
+    "saved_A": 3555,
+    "pct_A": 16.07433532284319,
+    "saved_appL": 3496,
+    "pct_appL": 15.161108460904636,
+    "files_differing": 18
+   }
+  ]
+ },
+ "miniF2F-100 (hybrid_controls subsample)": {
+  "n_files": 100,
+  "A_total": 38433,
+  "appL_total": 38290,
+  "rounds": [
+   {
+    "round": 1,
+    "changed": 96,
+    "saved_A": 8018,
+    "pct_A": 20.862279811620223,
+    "saved_appL": 8177,
+    "pct_appL": 21.35544528597545,
+    "files_differing": 96
+   },
+   {
+    "round": 2,
+    "changed": 35,
+    "saved_A": 10297,
+    "pct_A": 26.79207972315458,
+    "saved_appL": 10357,
+    "pct_appL": 27.048837816662314,
+    "files_differing": 96
+   },
+   {
+    "round": 3,
+    "changed": 16,
+    "saved_A": 11072,
+    "pct_A": 28.808575963364817,
+    "saved_appL": 11081,
+    "pct_appL": 28.939670932358318,
+    "files_differing": 96
+   },
+   {
+    "round": 4,
+    "changed": 11,
+    "saved_A": 11321,
+    "pct_A": 29.45645669086462,
+    "saved_appL": 11324,
+    "pct_appL": 29.574301384173413,
+    "files_differing": 96
+   },
+   {
+    "round": 5,
+    "changed": 5,
+    "saved_A": 11415,
+    "pct_A": 29.70103817032238,
+    "saved_appL": 11412,
+    "pct_appL": 29.804126403760772,
+    "files_differing": 96
+   },
+   {
+    "round": 6,
+    "changed": 2,
+    "saved_A": 11458,
+    "pct_A": 29.81292118752114,
+    "saved_appL": 11453,
+    "pct_appL": 29.911203969704882,
+    "files_differing": 96
+   },
+   {
+    "round": 7,
+    "changed": 2,
+    "saved_A": 11499,
+    "pct_A": 29.919600343454842,
+    "saved_appL": 11494,
+    "pct_appL": 30.018281535648995,
+    "files_differing": 96
+   },
+   {
+    "round": 8,
+    "changed": 1,
+    "saved_A": 11513,
+    "pct_A": 29.956027372310253,
+    "saved_appL": 11508,
+    "pct_appL": 30.054844606946983,
+    "files_differing": 96
+   },
+   {
+    "round": 9,
+    "changed": 0,
+    "saved_A": 11513,
+    "pct_A": 29.956027372310253,
+    "saved_appL": 11508,
+    "pct_appL": 30.054844606946983,
+    "files_differing": 96
+   }
+  ]
+ },
+ "miniF2F (351)": {
+  "n_files": 351,
+  "A_total": 140040,
+  "appL_total": 138382,
+  "rounds": [
+   {
+    "round": 1,
+    "changed": 316,
+    "saved_A": 29388,
+    "pct_A": 20.985432733504712,
+    "saved_appL": 28931,
+    "pct_appL": 20.906620803283666,
+    "files_differing": 316
+   },
+   {
+    "round": 2,
+    "changed": 99,
+    "saved_A": 35291,
+    "pct_A": 25.20065695515567,
+    "saved_appL": 34738,
+    "pct_appL": 25.102975820554697,
+    "files_differing": 316
+   },
+   {
+    "round": 3,
+    "changed": 43,
+    "saved_A": 37370,
+    "pct_A": 26.685232790631247,
+    "saved_appL": 36712,
+    "pct_appL": 26.529461924238703,
+    "files_differing": 316
+   },
+   {
+    "round": 4,
+    "changed": 19,
+    "saved_A": 38146,
+    "pct_A": 27.239360182804912,
+    "saved_appL": 37482,
+    "pct_appL": 27.085892673902674,
+    "files_differing": 316
+   },
+   {
+    "round": 5,
+    "changed": 8,
+    "saved_A": 38344,
+    "pct_A": 27.38074835761211,
+    "saved_appL": 37674,
+    "pct_appL": 27.224639042650054,
+    "files_differing": 316
+   },
+   {
+    "round": 6,
+    "changed": 3,
+    "saved_A": 38449,
+    "pct_A": 27.455726935161383,
+    "saved_appL": 37777,
+    "pct_appL": 27.299070688384326,
+    "files_differing": 316
+   },
+   {
+    "round": 7,
+    "changed": 2,
+    "saved_A": 38490,
+    "pct_A": 27.485004284490145,
+    "saved_appL": 37818,
+    "pct_appL": 27.32869881921059,
+    "files_differing": 316
+   },
+   {
+    "round": 8,
+    "changed": 1,
+    "saved_A": 38504,
+    "pct_A": 27.49500142816338,
+    "saved_appL": 37832,
+    "pct_appL": 27.338815741931754,
+    "files_differing": 316
+   },
+   {
+    "round": 9,
+    "changed": 0,
+    "saved_A": 38504,
+    "pct_A": 27.49500142816338,
+    "saved_appL": 37832,
+    "pct_appL": 27.338815741931754,
+    "files_differing": 316
+   }
+  ]
+ },
+ "Putnam 2025 AxiomProver (12)": {
+  "n_files": 12,
+  "A_total": 133686,
+  "appL_total": 137805,
+  "rounds": [
+   {
+    "round": 1,
+    "changed": 10,
+    "saved_A": 1882,
+    "pct_A": 1.4077764313391081,
+    "saved_appL": 1568,
+    "pct_appL": 1.1378397010268133,
+    "files_differing": 10
+   },
+   {
+    "round": 2,
+    "changed": 6,
+    "saved_A": 2193,
+    "pct_A": 1.640411112607154,
+    "saved_appL": 1817,
+    "pct_appL": 1.3185298066107907,
+    "files_differing": 10
+   },
+   {
+    "round": 3,
+    "changed": 4,
+    "saved_A": 2327,
+    "pct_A": 1.7406459913528716,
+    "saved_appL": 1939,
+    "pct_appL": 1.4070607017161931,
+    "files_differing": 10
+   },
+   {
+    "round": 4,
+    "changed": 1,
+    "saved_A": 2349,
+    "pct_A": 1.7571024639827655,
+    "saved_appL": 1961,
+    "pct_appL": 1.423025289358151,
+    "files_differing": 10
+   },
+   {
+    "round": 5,
+    "changed": 0,
+    "saved_A": 2349,
+    "pct_A": 1.7571024639827655,
+    "saved_appL": 1961,
+    "pct_appL": 1.423025289358151,
+    "files_differing": 10
+   }
+  ]
+ }
+}

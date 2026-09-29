@@ -1,0 +1,26 @@
+[
+  {
+    "prompt": "You are editing a Lean 4 proof. Return only a shorter replacement that\npreserves the goal. Return <DELETE> if the fragment should be removed.\n\n[GOAL]\nx y : Fin 0\n⊢ x ≠ y → (Equiv.swap x y).signAux = -1\n\n[LOCAL CONTEXT]\nle (by decide) hn⟩ : Fin n) ⟨1, lt_of_lt_of_le (by decide) hn⟩) =\n      -1 := by\n  rcases n with (_ | _ | n)\n  · norm_num at hn\n  · norm_num at hn\n  · exact signAux_swap_zero_one' n\n\ntheorem signAux_swap : ∀ {n : ℕ} {x y : Fin n} (_hxy : x ≠ y), signAux (swap x y) = -1\n  | 0, x, y => by intro; exact Fin.elim0 x\n  | 1, x, y => by\n    dsimp [signAux, swap, swapCore]\n    simp only [eq_iff_true_of_subsingleton, not_true, ite_true, le_refl, prod_const,\n               IsEmpty.forall_iff]\n  | n + 2, x, y => fun hxy => by\n    have h2n : 2 ≤ n + 2 := by exact le_add_self\n    rw [← isConj_iff_eq, ← signAux_sw\n\n[ORIGINAL FRAGMENT]\nby intro; exact Fin.elim0 x\n\n[REPLACEMENT]\n",
+    "target": "by omega",
+    "type": "tactic_replacement",
+    "file": "mathlib_optimization/Mathlib/GroupTheory/Perm/Sign.lean"
+  },
+  {
+    "prompt": "You are editing a Lean 4 proof. Return only a shorter replacement that\npreserves the goal. Return <DELETE> if the fragment should be removed.\n\n[GOAL]\n(no local goal)\n\n[LOCAL CONTEXT]\nor equal to 1.\n  have h₃ : 0 ≤ (a * b - 1) ^ 2 := by nlinarith\n  have h₄ : 0 ≤ (b * c - 1) ^ 2 := by nlinarith\n  have h₅ : 0 ≤ (c * a - 1) ^ 2 := by nlinarith\n  -- Use the established inequalities to conclude the proof.\n  have h₆ : 0 ≤ (a * b + b * c + c * a - 3) ^ 2 := by nlinarith\n  have h₇ : 0 ≤ (a * b * c) ^ 2 := by nlinarith\n  have h₈ : 0 ≤ (a + b + c) ^ 2 := by nlinarith\n  -- Use linear arithmetic to complete the proof.\n  field_simp\n  rw [div_le_one] <;> nlinarith\n\n\n[ORIGINAL FRAGMENT]\n  have h₇ : 0 ≤ (a * b * c) ^ 2 := by nlinarith\n\n\n[REPLACEMENT]\n",
+    "target": "<DELETE>",
+    "type": "dead_code_removal",
+    "file": "goedel_workbook/lean_workbook_plus_55832.lean"
+  },
+  {
+    "prompt": "You are editing a Lean 4 proof. Return only a shorter replacement that\npreserves the goal. Return <DELETE> if the fragment should be removed.\n\n[GOAL]\ncase succ.zero\nih : 2 ^ (0 - 1) ≥ 0\n⊢ 2 ^ (0 + 1 - 1) ≥ 0 + 1\n\n[LOCAL CONTEXT]\n\n\n[ORIGINAL FRAGMENT]\nsimp_all [Nat.pow_succ]\n\n[REPLACEMENT]\n",
+    "target": "rfl",
+    "type": "tactic_replacement",
+    "file": "goedel_workbook/lean_workbook_plus_56484.lean"
+  },
+  {
+    "prompt": "You are editing a Lean 4 proof. Return only a shorter replacement that\npreserves the goal. Return <DELETE> if the fragment should be removed.\n\n[GOAL]\n(no local goal)\n\n[LOCAL CONTEXT]\n that \\(a = b = c\\). Substituting \\(a = b = c\\) into the inequalities, we simplify the expressions and verify that both sides of the equivalence hold true.\n  -/\n  -- Given the constraints a ≥ b ≥ c ≥ a, we deduce a = b = c.\n  have h₁ : a = b := by linarith\n  have h₂ : b = c := by linarith\n  have h₃ : c = a := by linarith\n  -- Substitute a = b = c into the inequalities.\n  subst_vars\n  -- Simplify the expressions using algebraic rules.\n  ring_nf\n  -- Verify that both sides of the equivalence hold true.\n  exact ⟨fun h => by linarith, fun h => by linarith⟩\n\n\n[ORIGINAL FRAGMENT]\n  have h₃ : c = a := by linarith\n\n\n[REPLACEMENT]\n",
+    "target": "<DELETE>",
+    "type": "dead_code_removal",
+    "file": "goedel_workbook/lean_workbook_16291.lean"
+  }
+]

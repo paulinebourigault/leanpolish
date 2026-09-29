@@ -1,0 +1,220 @@
+[
+  {
+    "corpus": "goedel",
+    "file": "goedel_workbook/lean_workbook_10208.lean",
+    "baseline_savings": 1,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 1143,
+    "baseline_bytes_shortened": 1142,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "goedel",
+    "file": "goedel_workbook/lean_workbook_6067.lean",
+    "baseline_savings": 24,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 1967,
+    "baseline_bytes_shortened": 1943,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "goedel",
+    "file": "goedel_workbook/lean_workbook_38886.lean",
+    "baseline_savings": 77,
+    "baseline_accepted": 4,
+    "baseline_rejected": 1,
+    "baseline_bytes_original": 2367,
+    "baseline_bytes_shortened": 2290,
+    "baseline_applied": 4,
+    "baseline_l2_applied": 2
+  },
+  {
+    "corpus": "goedel",
+    "file": "goedel_workbook/lean_workbook_plus_41360.lean",
+    "baseline_savings": 175,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 1214,
+    "baseline_bytes_shortened": 1039,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "goedel",
+    "file": "goedel_workbook/lean_workbook_plus_63174.lean",
+    "baseline_savings": 393,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 710,
+    "baseline_bytes_shortened": 317,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "goedel",
+    "file": "goedel_workbook/lean_workbook_40246.lean",
+    "baseline_savings": 555,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 819,
+    "baseline_bytes_shortened": 264,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "goedel",
+    "file": "goedel_workbook/lean_workbook_33488.lean",
+    "baseline_savings": 692,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 1168,
+    "baseline_bytes_shortened": 476,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "goedel",
+    "file": "goedel_workbook/lean_workbook_102.lean",
+    "baseline_savings": 827,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 1224,
+    "baseline_bytes_shortened": 397,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "goedel",
+    "file": "goedel_workbook/lean_workbook_plus_39394.lean",
+    "baseline_savings": 1042,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 1359,
+    "baseline_bytes_shortened": 317,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "goedel",
+    "file": "goedel_workbook/lean_workbook_plus_61403.lean",
+    "baseline_savings": 4263,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 5215,
+    "baseline_bytes_shortened": 952,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "minif2f",
+    "file": "goedel_eval/minif2f_verified/mathd_numbertheory_127.lean",
+    "baseline_savings": 2,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 289,
+    "baseline_bytes_shortened": 287,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "minif2f",
+    "file": "goedel_eval/minif2f_verified/mathd_algebra_393.lean",
+    "baseline_savings": 92,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 623,
+    "baseline_bytes_shortened": 531,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "minif2f",
+    "file": "goedel_eval/minif2f_verified/mathd_algebra_437.lean",
+    "baseline_savings": 221,
+    "baseline_accepted": 6,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 1364,
+    "baseline_bytes_shortened": 1143,
+    "baseline_applied": 6,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "minif2f",
+    "file": "goedel_eval/minif2f_verified/mathd_algebra_142.lean",
+    "baseline_savings": 512,
+    "baseline_accepted": 1,
+    "baseline_rejected": 0,
+    "baseline_bytes_original": 834,
+    "baseline_bytes_shortened": 322,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "minif2f",
+    "file": "goedel_eval/minif2f_verified/mathd_algebra_144.lean",
+    "baseline_savings": 2995,
+    "baseline_accepted": 1,
+    "baseline_rejected": 4,
+    "baseline_bytes_original": 3421,
+    "baseline_bytes_shortened": 426,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "putnam_verified",
+    "file": "goedel_eval/putnam_verified/putnam_1990_a1.lean",
+    "baseline_savings": 12,
+    "baseline_accepted": 1,
+    "baseline_rejected": 2,
+    "baseline_bytes_original": 2293,
+    "baseline_bytes_shortened": 2281,
+    "baseline_applied": 1,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "putnam_verified",
+    "file": "goedel_eval/putnam_verified/putnam_1988_b1.lean",
+    "baseline_savings": 195,
+    "baseline_accepted": 4,
+    "baseline_rejected": 1,
+    "baseline_bytes_original": 1050,
+    "baseline_bytes_shortened": 855,
+    "baseline_applied": 4,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "putnam_verified",
+    "file": "goedel_eval/putnam_verified/putnam_1993_a2.lean",
+    "baseline_savings": 1679,
+    "baseline_accepted": 25,
+    "baseline_rejected": 5,
+    "baseline_bytes_original": 5450,
+    "baseline_bytes_shortened": 3771,
+    "baseline_applied": 25,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "putnam2025",
+    "file": "Putnam2025_AxiomProver/B1/solution.lean",
+    "baseline_savings": 447,
+    "baseline_accepted": 5,
+    "baseline_bytes_original": 65929,
+    "baseline_bytes_shortened": 65482,
+    "baseline_applied": 5,
+    "baseline_l2_applied": 0
+  },
+  {
+    "corpus": "putnam2025",
+    "file": "Putnam2025_AxiomProver/B2/solution.lean",
+    "baseline_savings": 203,
+    "baseline_accepted": 6,
+    "baseline_bytes_original": 20754,
+    "baseline_bytes_shortened": 20551,
+    "baseline_applied": 6,
+    "baseline_l2_applied": 0
+  }
+]

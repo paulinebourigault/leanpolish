@@ -1,0 +1,14 @@
+{
+ "recon_ok": 7708,
+ "skip_not_in_train_split": 1759,
+ "recon_size_neq_bytes_shortened": 349,
+ "skip_missing_source": 54,
+ "skip_val_split": 171,
+ "recon_cleanup_line_mismatch": 11,
+ "pairs_shorten": 6852,
+ "pairs_nochange": 856,
+ "pairs_total": 7708,
+ "total_tokens": 6616529,
+ "mean_tokens": 858.4,
+ "max_tokens": 3868
+}

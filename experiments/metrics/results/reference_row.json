@@ -1,0 +1,50 @@
+{
+ "minif2f/A_port": {
+  "sites": 1184,
+  "paper_def_all_pct": 94.6,
+  "paper_def_tac_pct": 91.6,
+  "strict_pass_all_pct": 85.0,
+  "strict_pass_tac_pct": 76.3,
+  "tok": 27622
+ },
+ "minif2f/B_appL": {
+  "sites": 1184,
+  "paper_def_all_pct": 94.6,
+  "paper_def_tac_pct": 91.6,
+  "strict_pass_all_pct": 85.0,
+  "strict_pass_tac_pct": 76.3,
+  "tok": 27306
+ },
+ "putnam_verified/A_port": {
+  "sites": 80,
+  "paper_def_all_pct": 88.8,
+  "paper_def_tac_pct": 79.1,
+  "strict_pass_all_pct": 83.8,
+  "strict_pass_tac_pct": 69.8,
+  "tok": 1359
+ },
+ "putnam_verified/B_appL": {
+  "sites": 80,
+  "paper_def_all_pct": 88.8,
+  "paper_def_tac_pct": 79.1,
+  "strict_pass_all_pct": 83.8,
+  "strict_pass_tac_pct": 69.8,
+  "tok": 1338
+ },
+ "putnam2025_per_file/A_port": {
+  "sites": 142,
+  "paper_def_all_pct": 84.5,
+  "paper_def_tac_pct": 61.4,
+  "strict_pass_all_pct": 79.6,
+  "strict_pass_tac_pct": 49.1,
+  "tok": 1746
+ },
+ "putnam2025_per_file/B_appL": {
+  "sites": 142,
+  "paper_def_all_pct": 85.2,
+  "paper_def_tac_pct": 63.2,
+  "strict_pass_all_pct": 79.6,
+  "strict_pass_tac_pct": 49.1,
+  "tok": 1458
+ }
+}
