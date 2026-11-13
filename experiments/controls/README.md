@@ -71,3 +71,34 @@ Generations, screen verdicts, compose reports and all output files are in the da
 miniF2F-99 = the 100-file subset minus one linter-baseline artifact (`scripts/minif2f_99.txt`, values in `results/minif2f_99.md`); `tables.md` also gives 100-file values. LLM rewrites use k=16 samples unless stated. Frozen few-shot hybrid with greedy decoding only on AxiomProver: 3.17
 (trained editor: 3.42). Qwen2.5-Coder-32B rewrites: 1–14% of strictly shorter rewrites compile (`tables.md`, C2 cost table).
 The frozen editor's AxiomProver edit mix (397 of 414 applied edits are deletions) is computed from the compose reports in the dataset tarball.
+
+## Matched alternating control, costs, and the release run
+
+`scripts/alternation_control.py` compares the alternation with a frozen and with a trained editor
+under the same schedule, sampling and verification, three sampling seeds each (offline, from the saved
+output files):
+
+```bash
+REPLICATION_DATA=/path/to/replication python3 scripts/alternation_control.py   # -> results/alternation_control.json
+```
+
+| Whole-corpus reduction (%) | PutnamBench-19 | AxiomProver-12 |
+|---|---:|---:|
+| Symbolic fixed point | 16.07 | 1.76 |
+| LeanPolish <-> frozen editor (mean of 3 seeds) | 18.71 | 5.24 |
+| LeanPolish <-> trained editor (mean of 3 seeds) | 18.63 | 4.62 |
+| Frozen alternation − fixed point | +2.63 [+0.76, +4.37] | +3.48 [+2.27, +4.75] |
+| Trained − frozen | −0.08 [−1.62, +1.53] | −0.62 [−2.00, +0.65] |
+
+The gain of the alternation comes from generate-and-verify, not from fine-tuning. The single trained
+run in the table above (20.25 / 5.05) started from a hybrid output produced on other hardware.
+
+* `results/costs.json`: per method and input set, logged LeanPolish rows, REPL checks, fresh file
+  compilations and GPU-seconds, taken from the run logs in the dataset tarball.
+* `results/release_timing.json`: the release run against controlled re-runs of the same binary on
+  PutnamBench-19 (idle machine 11.2%, every core busy 10.4%). Five files carry 99% of the gap between
+  the release run (6.1%) and the clean rerun (11.9%); the two slowest files of the set have no release
+  output.
+
+The output files of every round, the logs and the editor generations are in the
+`experiments/replication` tarball of the dataset.

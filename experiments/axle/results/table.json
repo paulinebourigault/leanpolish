@@ -1,0 +1,35 @@
+{
+ "miniF2F-99": {
+  "n_files": 99,
+  "original_tokens": 38040,
+  "LeanPolish fixed point": 29.760778128286013,
+  "AXLE": 27.116193480546794,
+  "LeanPolish fixed point -> AXLE": 35.88328075709779,
+  "AXLE -> LeanPolish fixed point": 33.97476340694006,
+  "files_LeanPolish_shorter": 58,
+  "files_AXLE_shorter": 26,
+  "AXLE_reported_failures": 1
+ },
+ "PutnamBench-19": {
+  "n_files": 19,
+  "original_tokens": 22116,
+  "LeanPolish fixed point": 16.07433532284319,
+  "AXLE": 25.56068005064207,
+  "LeanPolish fixed point -> AXLE": 28.459034183396636,
+  "AXLE -> LeanPolish fixed point": 28.142521251582565,
+  "files_LeanPolish_shorter": 7,
+  "files_AXLE_shorter": 10,
+  "AXLE_reported_failures": 0
+ },
+ "AxiomProver-12": {
+  "n_files": 12,
+  "original_tokens": 133686,
+  "LeanPolish fixed point": 1.7571024639827655,
+  "AXLE": 0.0,
+  "LeanPolish fixed point -> AXLE": 1.7571024639827655,
+  "AXLE -> LeanPolish fixed point": 1.7571024639827655,
+  "files_LeanPolish_shorter": 10,
+  "files_AXLE_shorter": 0,
+  "AXLE_reported_failures": 7
+ }
+}

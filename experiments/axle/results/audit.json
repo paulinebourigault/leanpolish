@@ -1,0 +1,4147 @@
+{
+ "AXLE|minif2f|aime_1983_p1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|aime_1983_p1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|aime_1983_p1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|aime_1983_p1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|aime_1990_p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|aime_1990_p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|aime_1990_p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|aime_1990_p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|algebra_amgm_sumasqdivbgeqsuma": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|algebra_amgm_sumasqdivbgeqsuma": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|algebra_amgm_sumasqdivbgeqsuma": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|algebra_amgm_sumasqdivbgeqsuma": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|algebra_sqineq_2unitcircatblt1": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|minif2f|algebra_sqineq_2unitcircatblt1": {
+  "status": "unchanged"
+ },
+ "LP_fp_then_AXLE|minif2f|algebra_sqineq_2unitcircatblt1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|algebra_sqineq_2unitcircatblt1": {
+  "status": "unchanged"
+ },
+ "AXLE|minif2f|algebra_sqineq_36azm9asqle36zsq": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|algebra_sqineq_36azm9asqle36zsq": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|algebra_sqineq_36azm9asqle36zsq": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|algebra_sqineq_36azm9asqle36zsq": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|algebra_sqineq_at2malt1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|algebra_sqineq_at2malt1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|algebra_sqineq_at2malt1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|algebra_sqineq_at2malt1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12_2000_p11": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12_2000_p11": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12_2000_p11": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12_2000_p11": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12_2000_p5": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12_2000_p5": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12_2000_p5": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|amc12_2000_p5": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12_2000_p6": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12_2000_p6": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12_2000_p6": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12_2000_p6": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12_2001_p2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12_2001_p2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12_2001_p2": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|amc12_2001_p2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12_2001_p21": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12_2001_p21": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12_2001_p21": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12_2001_p21": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12a_2002_p1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12a_2002_p1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12a_2002_p1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|amc12a_2002_p1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12a_2002_p12": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12a_2002_p12": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12a_2002_p12": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12a_2002_p12": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12a_2003_p25": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12a_2003_p25": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12a_2003_p25": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|amc12a_2003_p25": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12a_2009_p6": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12a_2009_p6": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12a_2009_p6": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12a_2009_p6": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12a_2010_p11": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12a_2010_p11": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12a_2010_p11": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12a_2010_p11": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12a_2013_p8": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12a_2013_p8": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12a_2013_p8": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|amc12a_2013_p8": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12a_2015_p10": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12a_2015_p10": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12a_2015_p10": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12a_2015_p10": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12a_2017_p2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12a_2017_p2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12a_2017_p2": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|amc12a_2017_p2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12a_2020_p7": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12a_2020_p7": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12a_2020_p7": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12a_2020_p7": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12b_2021_p18": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12b_2021_p18": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12b_2021_p18": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12b_2021_p18": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12b_2021_p3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12b_2021_p3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12b_2021_p3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12b_2021_p3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12b_2021_p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12b_2021_p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12b_2021_p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12b_2021_p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|amc12b_2021_p9": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|amc12b_2021_p9": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|amc12b_2021_p9": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|amc12b_2021_p9": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|imo_1964_p2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|imo_1964_p2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|imo_1964_p2": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|imo_1964_p2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|induction_1pxpownlt1pnx": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|induction_1pxpownlt1pnx": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|induction_1pxpownlt1pnx": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|induction_1pxpownlt1pnx": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|induction_divisibility_3div2tooddnp1": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|induction_divisibility_3div2tooddnp1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|induction_divisibility_3div2tooddnp1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|induction_divisibility_3div2tooddnp1": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|induction_divisibility_9div10tonm1": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|minif2f|induction_divisibility_9div10tonm1": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|induction_divisibility_9div10tonm1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|induction_divisibility_9div10tonm1": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_10": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_10": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_10": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_10": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_104": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_104": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_104": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_104": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_107": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_107": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_107": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_107": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_109": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_109": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_109": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_109": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_114": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_114": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_114": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_114": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_125": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_125": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_125": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_125": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_126": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_126": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_126": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_126": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_140": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_140": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_140": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_140": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_141": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_141": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_141": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_141": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_144": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_144": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_144": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_144": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_15": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_15": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_15": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_15": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_151": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_151": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_151": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_151": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_153": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_153": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_153": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_153": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_171": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_171": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_171": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_171": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_176": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_176": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_176": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_176": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_185": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_185": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_185": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_185": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_192": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_192": {
+  "status": "unchanged"
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_192": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_192": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_196": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_196": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_196": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_196": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_206": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_206": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_206": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_206": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_215": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_215": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_215": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_215": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_234": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_234": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_234": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_234": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_24": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_24": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_24": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_24": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_296": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_296": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_296": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_296": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_304": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_304": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_304": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_304": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_359": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_359": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_359": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_359": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_388": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_388": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_388": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_388": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_400": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_400": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_400": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_400": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_412": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_412": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_412": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_412": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_437": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_437": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_437": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_437": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_44": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_44": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_44": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_44": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_462": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_462": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_462": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_462": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_484": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_484": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_484": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_484": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_487": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_487": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_487": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_487": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_513": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_513": {
+  "status": "unchanged"
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_513": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_513": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_55": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_55": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_55": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_55": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_algebra_89": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_algebra_89": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_algebra_89": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_algebra_89": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_100": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_100": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_100": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_100": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_101": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_101": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_101": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_101": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_1124": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_1124": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_1124": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_1124": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_127": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_127": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_127": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_127": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_132": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_132": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_132": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_132": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_156": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_156": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_156": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_156": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_175": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_175": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_175": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_175": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_185": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_185": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_185": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_185": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_207": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_207": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_207": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_207": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_229": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_229": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_229": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_229": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_237": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_237": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_237": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_237": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_24": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_24": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_24": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_24": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_252": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_252": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_252": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_252": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_257": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_257": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_257": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_257": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_293": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_293": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_293": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_293": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_30": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_30": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_30": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_30": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_320": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_320": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_320": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_320": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_326": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_326": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_326": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_326": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_33": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_33": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_33": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_33": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_370": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_370": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_370": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_370": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_403": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_403": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_403": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_403": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_435": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_435": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_435": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_435": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_447": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_447": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_447": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_447": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_457": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_457": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_457": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_457": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_458": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_458": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_458": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_458": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_48": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_48": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_48": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_48": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_5": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_5": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_5": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_5": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_559": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_559": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_559": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_559": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_629": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_629": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_629": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_629": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_711": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_711": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_711": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_711": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|mathd_numbertheory_85": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|mathd_numbertheory_85": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|mathd_numbertheory_85": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|minif2f|mathd_numbertheory_85": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|numbertheory_4x3m7y3neq2003": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|numbertheory_4x3m7y3neq2003": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|minif2f|numbertheory_4x3m7y3neq2003": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|numbertheory_4x3m7y3neq2003": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|minif2f|numbertheory_x5neqy2p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|minif2f|numbertheory_x5neqy2p4": {
+  "status": "unchanged"
+ },
+ "LP_fp_then_AXLE|minif2f|numbertheory_x5neqy2p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|minif2f|numbertheory_x5neqy2p4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1965_b3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1965_b3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1965_b3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1965_b3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1968_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1968_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1968_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1968_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1971_b1": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1971_b1": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1971_b1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1971_b1": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1971_b2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1971_b2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1971_b2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1971_b2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1975_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1975_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1975_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1975_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1975_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1975_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1975_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1975_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1977_a3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1977_a3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1977_a3": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1977_a3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1986_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1986_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1986_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1986_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1986_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1986_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1986_b1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1986_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1988_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1988_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1988_b1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1988_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1990_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1990_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1990_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1990_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1991_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1991_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1991_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1991_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1992_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1992_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1992_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1992_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1993_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1993_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1993_a2": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1993_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_1998_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_1998_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_1998_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_1998_b1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_2000_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_2000_a2": {
+  "status": "unchanged"
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_2000_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_2000_a2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_2001_a1": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_2001_a1": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_2001_a1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_2001_a1": {
+  "status": "PASS",
+  "axioms": [],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_2008_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fixed_point|putnam_verified|putnam_2008_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_2008_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_2008_a1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam_verified|putnam_2012_a2": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam_verified|putnam_2012_a2": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam_verified|putnam_2012_a2": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE_then_LP_fp|putnam_verified|putnam_2012_a2": {
+  "status": "PASS",
+  "axioms": [
+   "propext"
+  ],
+  "n_theorems": 1,
+  "tail": ""
+ },
+ "AXLE|putnam2025|A1": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|A1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 23,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam2025|A1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|A2": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|A2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 26,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam2025|A2": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|A3": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|A3": {
+  "status": "unchanged"
+ },
+ "LP_fp_then_AXLE|putnam2025|A3": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|A4": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|A4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 32,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam2025|A4": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|A5": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|A5": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 52,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam2025|A5": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|A6": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|A6": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 28,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam2025|A6": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|B1": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|B1": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 49,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam2025|B1": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|B2": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|B2": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 28,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam2025|B2": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|B3": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|B3": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 11,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam2025|B3": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|B4": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|B4": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 23,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam2025|B4": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|B5": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|B5": {
+  "status": "PASS",
+  "axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "n_theorems": 66,
+  "tail": ""
+ },
+ "LP_fp_then_AXLE|putnam2025|B5": {
+  "status": "no_output (input kept)"
+ },
+ "AXLE|putnam2025|B6": {
+  "status": "no_output (input kept)"
+ },
+ "LP_fixed_point|putnam2025|B6": {
+  "status": "unchanged"
+ },
+ "LP_fp_then_AXLE|putnam2025|B6": {
+  "status": "no_output (input kept)"
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "description": "PutnamBench-19, one LeanPolish pass with the same binary and inputs. release: the run that produced the dataset; rerun: clean rerun; idle / loaded / loaded_release_limit: controlled re-runs (idle machine; every core busy; every core busy with the release limit of 1,800 s per file). Values are tokens saved per file (primary counter); only files that differ in some run are listed.",
+ "reduction_pct": {
+  "release": 6.144872490504612,
+  "rerun": 11.914451076143969,
+  "idle": 11.22716585277627,
+  "loaded": 10.417797069994574,
+  "loaded_release_limit": 9.952070898896727
+ },
+ "files": {
+  "putnam_1965_b3": {
+   "release": 0,
+   "rerun": 707,
+   "idle": 707,
+   "loaded": 707,
+   "loaded_release_limit": 707
+  },
+  "putnam_1968_a2": {
+   "release": 99,
+   "rerun": 194,
+   "idle": 134,
+   "loaded": 91,
+   "loaded_release_limit": 91
+  },
+  "putnam_1971_b2": {
+   "release": 158,
+   "rerun": 265,
+   "idle": 265,
+   "loaded": 158,
+   "loaded_release_limit": 158
+  },
+  "putnam_1975_a1": {
+   "release": 95,
+   "rerun": 101,
+   "idle": 101,
+   "loaded": 95,
+   "loaded_release_limit": 95
+  },
+  "putnam_1991_a2": {
+   "release": 8,
+   "rerun": 17,
+   "idle": 8,
+   "loaded": 0,
+   "loaded_release_limit": 0
+  },
+  "putnam_1992_a1": {
+   "release": 41,
+   "rerun": 129,
+   "idle": 46,
+   "loaded": 41,
+   "loaded_release_limit": 41
+  },
+  "putnam_1993_a2": {
+   "release": 536,
+   "rerun": 536,
+   "idle": 536,
+   "loaded": 526,
+   "loaded_release_limit": 423
+  },
+  "putnam_1998_b1": {
+   "release": 0,
+   "rerun": 264,
+   "idle": 264,
+   "loaded": 264,
+   "loaded_release_limit": 264
+  }
+ }
+}

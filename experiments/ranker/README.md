@@ -80,3 +80,27 @@ Further numbers:
 * On the Mathlib sample the ranker reaches 53.8% (no goal: 41.3%), against 91.4% for the verifier.
 
 All of these numbers match the saved files in `results/`.
+
+## Ranker inside a search with a budget of Lean checks
+
+`budgeted_search.py` replays the recorded complete-menu runs on all 6,641 held-out states, including
+the 4,253 with no acceptable edit. A policy orders the candidates, spends at most b Lean checks per
+state and keeps the first acceptable edit.
+
+```bash
+DATA_DIR=/path/to/complete_pools_ranker python3 budgeted_search.py      # CPU -> results/budgeted_search.json
+```
+
+| Share of the exhaustive token savings (38,144 tokens) | b = 1 | b = 2 | b = 4 | b = 8 | Checks to try every candidate |
+|---|---:|---:|---:|---:|---:|
+| Symbolic menu order | 7.7% | 38.5% | 46.9% | 75.6% | 63,458 |
+| Shortest string | 7.7% | 7.7% | 38.5% | 73.4% | 64,862 |
+| Per-tactic prior (training pools) | 34.8% | 38.5% | 66.9% | 92.2% | 60,132 |
+| Frozen Qwen-7B log-prob | 47.7% | 60.6% | 73.9% | 89.1% | 58,895 |
+| Frozen DeepSeek-7B log-prob | 63.5% | 75.6% | 89.3% | 97.3% | 56,632 |
+| Trained ranker, no goal | 66.5% | 82.1% | 92.3% | 96.3% | 56,020 |
+| Trained ranker | **81.1%** | **86.8%** | **95.4%** | **99.96%** | **54,886** |
+
+With one check per state the ranker finds an acceptable edit in 27.4% of the states (menu order:
+4.2%; 36.0% have one). Its maximum candidate score also tells states with an acceptable edit from
+the others (AUROC 0.83; frozen DeepSeek 0.79).

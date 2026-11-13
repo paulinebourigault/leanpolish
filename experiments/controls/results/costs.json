@@ -1,0 +1,145 @@
+{
+ "units": {
+  "leanpolish_log_rows": "accepted edits and failed attempts logged by LeanPolish; a lower bound on its in-process tactic checks",
+  "repl_checks": "REPL checks of an editor proposal on its proof state",
+  "file_checks": "fresh whole-file compilations",
+  "gpu_s": "GPU-seconds on one H100 80GB, model load included",
+  "note": "Neural pipelines: mean per seed. Hybrid and alternation start from the release LeanPolish output, whose cost is not included."
+ },
+ "leanpolish_tactic_checks_one_pass_replay": {
+  "PutnamBench-19": 4228,
+  "states": 403,
+  "note": "menu-order first-success replay of the complete pools (see experiments/ranker/budgeted_search.py)"
+ },
+ "PutnamBench-19": {
+  "LeanPolish, one pass (clean rerun)": {
+   "leanpolish_log_rows": 581,
+   "repl_checks": 0,
+   "file_checks": 19,
+   "gpu_s": 0
+  },
+  "LeanPolish fixed point": {
+   "leanpolish_log_rows": 805,
+   "repl_checks": 0,
+   "file_checks": 55,
+   "gpu_s": 0,
+   "rounds": 6
+  },
+  "Hybrid, frozen editor": {
+   "leanpolish_log_rows": 0,
+   "repl_checks": 1048,
+   "file_checks": 36,
+   "gpu_s": 128
+  },
+  "LeanPolish <-> frozen editor, alternated": {
+   "leanpolish_log_rows": 316,
+   "repl_checks": 3000,
+   "file_checks": 160,
+   "gpu_s": 438
+  },
+  "Hybrid, trained editor": {
+   "leanpolish_log_rows": 0,
+   "repl_checks": 839,
+   "file_checks": 43,
+   "gpu_s": 76
+  },
+  "LeanPolish <-> trained editor, alternated": {
+   "leanpolish_log_rows": 365,
+   "repl_checks": 1980,
+   "file_checks": 156,
+   "gpu_s": 202
+  },
+  "Whole-proof rewrite, frozen (16 samples)": {
+   "leanpolish_log_rows": 0,
+   "repl_checks": 0,
+   "file_checks": 47,
+   "gpu_s": 430
+  },
+  "Whole-proof rewrite, trained (16 samples)": {
+   "leanpolish_log_rows": 0,
+   "repl_checks": 0,
+   "file_checks": 134,
+   "gpu_s": 450
+  },
+  "AXLE": {
+   "leanpolish_log_rows": 0,
+   "repl_checks": 0,
+   "file_checks": 18,
+   "gpu_s": 0,
+   "axle_service_s": 191
+  }
+ },
+ "miniF2F-99": {
+  "LeanPolish, one pass (clean rerun)": {
+   "leanpolish_log_rows": 1793,
+   "repl_checks": 0,
+   "file_checks": 99,
+   "gpu_s": 0
+  },
+  "LeanPolish fixed point": {
+   "leanpolish_log_rows": 3315,
+   "repl_checks": 0,
+   "file_checks": 598,
+   "gpu_s": 0,
+   "rounds": 9
+  },
+  "Whole-proof rewrite, frozen (16 samples)": {
+   "leanpolish_log_rows": 0,
+   "repl_checks": 0,
+   "file_checks": 177,
+   "gpu_s": 760
+  },
+  "Whole-proof rewrite, trained (16 samples)": {
+   "leanpolish_log_rows": 0,
+   "repl_checks": 0,
+   "file_checks": 427,
+   "gpu_s": 836
+  },
+  "AXLE": {
+   "leanpolish_log_rows": 0,
+   "repl_checks": 0,
+   "file_checks": 89,
+   "gpu_s": 0,
+   "axle_service_s": 278
+  }
+ },
+ "AxiomProver-12": {
+  "LeanPolish, one pass (clean rerun)": {
+   "leanpolish_log_rows": 446,
+   "repl_checks": 0,
+   "file_checks": 12,
+   "gpu_s": 0
+  },
+  "LeanPolish fixed point": {
+   "leanpolish_log_rows": 613,
+   "repl_checks": 0,
+   "file_checks": 36,
+   "gpu_s": 0,
+   "rounds": 5
+  },
+  "Hybrid, frozen editor": {
+   "leanpolish_log_rows": 0,
+   "repl_checks": 9169,
+   "file_checks": 51,
+   "gpu_s": 677
+  },
+  "LeanPolish <-> frozen editor, alternated": {
+   "leanpolish_log_rows": 188,
+   "repl_checks": 17681,
+   "file_checks": 96,
+   "gpu_s": 1359
+  },
+  "Hybrid, trained editor": {
+   "leanpolish_log_rows": 0,
+   "repl_checks": 7842,
+   "file_checks": 50,
+   "gpu_s": 242
+  },
+  "LeanPolish <-> trained editor, alternated": {
+   "leanpolish_log_rows": 128,
+   "repl_checks": 14601,
+   "file_checks": 99,
+   "gpu_s": 495
+  }
+ }
+}

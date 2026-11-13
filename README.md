@@ -40,6 +40,7 @@ experiments/
   frontier/       frontier-prover corpora (Seed-Prover 1.5, AxiomProver, Aristotle)
   wholeproof/     LLM whole-proof rewriter trained on the release
   self_training/  self-training on verified outputs
+  axle/           comparison with AXLE's simplify_theorems on the same inputs
   metrics/        unified whole-corpus metric, file lists, recomputation scripts
 ```
 
@@ -120,6 +121,10 @@ exact commands. Scripts marked (offline) run on CPU from files shipped here.
 | Table 4, hybrid and editor-alone rows | `E/hybrid/scripts/pipeline.sh`, `analyze.py`, `unified_hybrid.py` | `E/hybrid/results/{metrics.json,unified_hybrid.json,final_table.md}` |
 | Table 4, controls (frozen hybrid, LLM rewrite, composition, alternation, clean rerun) | `E/controls/scripts/*.sh`, `analyze_controls.py`, `make_tables.py` | `E/controls/results/{metrics.json,tables.md,minif2f_99.md}` |
 | §5 whole-proof rewriter | `E/wholeproof/scripts/run.sh`, `analyze.py`, `make_table.py` | `E/wholeproof/results/{metrics.json,table.md}` |
+| Whole-proof replication: seeds, further problems, second base model, sample budgets (offline) | `E/wholeproof/scripts/replication.py` | `E/wholeproof/results/replication.json` |
+| Ranker in a search with a budget of Lean checks (offline) | `E/ranker/budgeted_search.py` | `E/ranker/results/budgeted_search.json` |
+| Matched alternating control (offline); costs; release-run timing | `E/controls/scripts/alternation_control.py` | `E/controls/results/{alternation_control.json,costs.json,release_timing.json}` |
+| Comparison with AXLE (table offline) | `E/axle/run_axle.py`, `rebuild_verify.py`, `compare.py`, `audit.py` | `E/axle/results/{table.json,audit.json}` |
 | §5 self-training | `E/self_training/scripts/run_self_training.sh`, `scripts/eval_metrics.py` | `E/self_training/results/metrics_main.json` |
 | Seed robustness (§4) | `E/hybrid/scripts/seeds_eval.py`, `make_seeds_md.py` | `E/hybrid/results/{seeds/,seeds.md}` |
 | Frontier-prover appendix | `E/frontier/scripts/pipeline.sh`, `aggregate.py`, `make_tables.py`; `E/metrics/frontier_port.py` | `E/frontier/results/{metrics.json,tables.md}` |
@@ -141,8 +146,9 @@ only with a `pass` verdict from the fresh-process verifier and a strictly shorte
 * `experiments/` on the dataset page holds one tarball per experiment with the bulk
   artifacts not included here: `beyond_teacher`, `hybrid_controls`, `frontier_hybrid`,
   `complete_menu_pools`, `complete_menu_runs`, `complete_menu_fixedpoint`,
-  `complete_pools_ranker`, `fewshot`, `self_improve`, `wholeproof`.
-* `adapters/` on the dataset page holds the LoRA adapters of the editors.
+  `complete_pools_ranker`, `fewshot`, `self_improve`, `wholeproof`, `replication`.
+* `adapters/` on the dataset page holds the LoRA adapters of the editors (`deepseek`, `qwen`), the
+  rankers (`ranker`, `ranker_no_goal`) and the whole-proof rewriter (`wholeproof_deepseek`).
 
 ## License
 
