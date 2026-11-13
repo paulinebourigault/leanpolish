@@ -153,6 +153,13 @@
    }
   }
  },
+ "putnam_sets_difference": {
+  "gain_19_minus_gain_add_pp": 2.166942789891092,
+  "ci95": [
+   -1.3189649771099294,
+   6.480092460535874
+  ]
+ },
  "further_minif2f": {
   "miniF2F-rest": {
    "n_files": 252,

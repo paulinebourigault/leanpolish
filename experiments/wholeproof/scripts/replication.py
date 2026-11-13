@@ -18,6 +18,7 @@ Output (`--out`, default results/replication.json):
   seeds            trained vs frozen at 16 samples, per cohort (per-seed values, paired file bootstrap,
                    per-file sign test)
   further_minif2f  the 252 further miniF2F proofs and all 351
+  putnam_sets_difference  difference between the gains on the two PutnamBench sets
   second_model     Qwen2.5-Coder-7B, with the prompt control
   sample_budget    expected result with k of the 16 samples (k = 1, 2, 4, 8, 16), share of proofs
                    shortened, and an equal-budget mix of frozen and trained samples
@@ -148,6 +149,18 @@ def main():
     ds_trained = {s: [f's{s}__simple__d{d}' for d in (42, 43, 44)] for s in DEEPSEEK_SEEDS}
     out['seeds'] = {c: compare(ds_frozen, ds_trained, coh[c])
                     for c in ('miniF2F-99', 'PutnamBench-19', 'PB-add', 'PutnamBench-34')}
+    # ---- do the two PutnamBench sets differ? difference of their gains, independent file bootstrap
+    def gain_samples(ids, rng):
+        ov = tokens(ids)
+        F = np.mean([best16(r, ids) for r in ds_frozen], axis=0)
+        T = np.mean([best16(r, ids) for rs in ds_trained.values() for r in rs], axis=0)
+        idx = rng.integers(0, len(ids), (B, len(ids)))
+        return 100 * (F.sum() - T.sum()) / ov.sum(), 100 * (F[idx].sum(1) - T[idx].sum(1)) / ov[idx].sum(1)
+    rng2 = np.random.default_rng(0)
+    g19, s19 = gain_samples(coh['PutnamBench-19'], rng2)
+    gadd, sadd = gain_samples(coh['PB-add'], rng2)
+    out['putnam_sets_difference'] = {'gain_19_minus_gain_add_pp': float(g19 - gadd),
+                                     'ci95': [float(x) for x in np.percentile(s19 - sadd, [2.5, 97.5])]}
     # ---- further miniF2F problems (decoding seed 42)
     out['further_minif2f'] = {
         'miniF2F-rest': compare(['mfrest_frozen__c2__d42'], {s: [f'mfrest_s{s}__simple__d42'] for s in DEEPSEEK_SEEDS}, coh['miniF2F-rest']),
