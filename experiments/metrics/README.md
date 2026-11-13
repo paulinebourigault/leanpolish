@@ -50,9 +50,9 @@ python3 make_tables.py
 ```
 
 `LEANPOLISH_ROOT` (default: the release root, found from the script location) locates
-`leanpolish/`. `RESULTS_DIR` is the saved learning-experiment record tree (`data/`,
-`exp1_sft_dpo/`, `exp2_ranker/`, `exp4_corpus_variation/`). It is shipped at
-`<release>/results_data/` (the default), so `recompute_numbers.py`, `learning_table_port.py` and
+`leanpolish/`. `RESULTS_DIR` is the saved learning-experiment record tree (`sites/`,
+`sft_dpo/`, `ranker/`, `corpus_variation/`). It is shipped at
+`<release>/saved_records/` (the default), so `recompute_numbers.py`, `learning_table_port.py` and
 `reference_row.py` run offline. Other inputs are under `experiments/` in the HF dataset
 (https://huggingface.co/datasets/leanpolish-anon/lean-proof-compression). `per_file.json` (6 MB)
 is also on HF. Frontier-prover inputs from Aristotle are not redistributed.

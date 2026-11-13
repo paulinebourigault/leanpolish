@@ -1,21 +1,21 @@
 {
  "integrity": [
   [
-   "data/eval_sites_minif2f.jsonl",
+   "sites/eval_sites_minif2f.jsonl",
    1184,
    0,
    true,
    2043986
   ],
   [
-   "data/eval_sites_putnam2025_per_file.jsonl",
+   "sites/eval_sites_putnam2025_per_file.jsonl",
    142,
    0,
    true,
    221782
   ],
   [
-   "data/eval_sites_putnam_verified.jsonl",
+   "sites/eval_sites_putnam_verified.jsonl",
    80,
    0,
    true,
@@ -36,616 +36,616 @@
    664530
   ],
   [
-   "exp1_sft_dpo/cands_dpo.jsonl",
+   "sft_dpo/cands_dpo.jsonl",
    7030,
    0,
    true,
    4641068
   ],
   [
-   "exp1_sft_dpo/cands_frozen.jsonl",
+   "sft_dpo/cands_frozen.jsonl",
    7030,
    0,
    true,
    10940524
   ],
   [
-   "exp1_sft_dpo/cands_frozen_qwen.jsonl",
+   "sft_dpo/cands_frozen_qwen.jsonl",
    7030,
    0,
    true,
    7450857
   ],
   [
-   "exp1_sft_dpo/cands_sft.jsonl",
+   "sft_dpo/cands_sft.jsonl",
    7030,
    0,
    true,
    4635771
   ],
   [
-   "exp1_sft_dpo/cands_sft_qwen.jsonl",
+   "sft_dpo/cands_sft_qwen.jsonl",
    7030,
    0,
    true,
    4695997
   ],
   [
-   "exp1_sft_dpo/screen_results.jsonl",
+   "sft_dpo/screen_results.jsonl",
    8483,
    0,
    true,
    2846159
   ],
   [
-   "exp1_sft_dpo/screen_results_qwen.jsonl",
+   "sft_dpo/screen_results_qwen.jsonl",
    7280,
    0,
    true,
    2309783
   ],
   [
-   "exp1_sft_dpo/verify_chunks/agreement_000.jsonl",
+   "sft_dpo/verify_chunks/agreement_000.jsonl",
    60,
    0,
    true,
    62450
   ],
   [
-   "exp1_sft_dpo/verify_chunks/agreement_000.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks/agreement_000.kernel_verified.jsonl",
    60,
    0,
    true,
    75015
   ],
   [
-   "exp1_sft_dpo/verify_chunks/agreement_001.jsonl",
+   "sft_dpo/verify_chunks/agreement_001.jsonl",
    60,
    0,
    true,
    46150
   ],
   [
-   "exp1_sft_dpo/verify_chunks/agreement_001.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks/agreement_001.kernel_verified.jsonl",
    60,
    0,
    true,
    57554
   ],
   [
-   "exp1_sft_dpo/verify_chunks/agreement_002.jsonl",
+   "sft_dpo/verify_chunks/agreement_002.jsonl",
    30,
    0,
    true,
    24901
   ],
   [
-   "exp1_sft_dpo/verify_chunks/agreement_002.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks/agreement_002.kernel_verified.jsonl",
    30,
    0,
    true,
    30602
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_000.jsonl",
+   "sft_dpo/verify_chunks/chunk_000.jsonl",
    60,
    0,
    true,
    47840
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_000.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks/chunk_000.kernel_verified.jsonl",
    60,
    0,
    true,
    59243
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_001.jsonl",
+   "sft_dpo/verify_chunks/chunk_001.jsonl",
    60,
    0,
    true,
    49002
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_001.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks/chunk_001.kernel_verified.jsonl",
    60,
    0,
    true,
    60405
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_002.jsonl",
+   "sft_dpo/verify_chunks/chunk_002.jsonl",
    60,
    0,
    true,
    46599
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_002.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks/chunk_002.kernel_verified.jsonl",
    60,
    0,
    true,
    58004
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_003.jsonl",
+   "sft_dpo/verify_chunks/chunk_003.jsonl",
    60,
    0,
    true,
    49625
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_003.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks/chunk_003.kernel_verified.jsonl",
    60,
    0,
    true,
    61026
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_004.jsonl",
+   "sft_dpo/verify_chunks/chunk_004.jsonl",
    60,
    0,
    true,
    47596
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_004.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks/chunk_004.kernel_verified.jsonl",
    60,
    0,
    true,
    58996
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_005.jsonl",
+   "sft_dpo/verify_chunks/chunk_005.jsonl",
    60,
    0,
    true,
    41115
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_005.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks/chunk_005.kernel_verified.jsonl",
    60,
    0,
    true,
    52516
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_006.jsonl",
+   "sft_dpo/verify_chunks/chunk_006.jsonl",
    21,
    0,
    true,
    15412
   ],
   [
-   "exp1_sft_dpo/verify_chunks/chunk_006.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks/chunk_006.kernel_verified.jsonl",
    21,
    0,
    true,
    19402
   ],
   [
-   "exp1_sft_dpo/verify_chunks_dpo/chunk_000.jsonl",
+   "sft_dpo/verify_chunks_dpo/chunk_000.jsonl",
    60,
    0,
    true,
    39885
   ],
   [
-   "exp1_sft_dpo/verify_chunks_dpo/chunk_000.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_dpo/chunk_000.kernel_verified.jsonl",
    60,
    0,
    true,
    51292
   ],
   [
-   "exp1_sft_dpo/verify_chunks_dpo/chunk_001.jsonl",
+   "sft_dpo/verify_chunks_dpo/chunk_001.jsonl",
    60,
    0,
    true,
    44024
   ],
   [
-   "exp1_sft_dpo/verify_chunks_dpo/chunk_001.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_dpo/chunk_001.kernel_verified.jsonl",
    60,
    0,
    true,
    55429
   ],
   [
-   "exp1_sft_dpo/verify_chunks_dpo/chunk_002.jsonl",
+   "sft_dpo/verify_chunks_dpo/chunk_002.jsonl",
    60,
    0,
    true,
    41009
   ],
   [
-   "exp1_sft_dpo/verify_chunks_dpo/chunk_002.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_dpo/chunk_002.kernel_verified.jsonl",
    60,
    0,
    true,
    52409
   ],
   [
-   "exp1_sft_dpo/verify_chunks_dpo/chunk_003.jsonl",
+   "sft_dpo/verify_chunks_dpo/chunk_003.jsonl",
    60,
    0,
    true,
    43251
   ],
   [
-   "exp1_sft_dpo/verify_chunks_dpo/chunk_003.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_dpo/chunk_003.kernel_verified.jsonl",
    60,
    0,
    true,
    54651
   ],
   [
-   "exp1_sft_dpo/verify_chunks_dpo/chunk_004.jsonl",
+   "sft_dpo/verify_chunks_dpo/chunk_004.jsonl",
    10,
    0,
    true,
    6069
   ],
   [
-   "exp1_sft_dpo/verify_chunks_dpo/chunk_004.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_dpo/chunk_004.kernel_verified.jsonl",
    10,
    0,
    true,
    7969
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/agreement_000.jsonl",
+   "sft_dpo/verify_chunks_qwen/agreement_000.jsonl",
    60,
    0,
    true,
    48116
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/agreement_000.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_qwen/agreement_000.kernel_verified.jsonl",
    60,
    0,
    true,
    60637
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/agreement_001.jsonl",
+   "sft_dpo/verify_chunks_qwen/agreement_001.jsonl",
    60,
    0,
    true,
    40414
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/agreement_001.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_qwen/agreement_001.kernel_verified.jsonl",
    60,
    0,
    true,
    51853
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/agreement_002.jsonl",
+   "sft_dpo/verify_chunks_qwen/agreement_002.jsonl",
    15,
    0,
    true,
    10991
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/agreement_002.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_qwen/agreement_002.kernel_verified.jsonl",
    15,
    0,
    true,
    13845
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/chunk_000.jsonl",
+   "sft_dpo/verify_chunks_qwen/chunk_000.jsonl",
    60,
    0,
    true,
    42159
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/chunk_000.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_qwen/chunk_000.kernel_verified.jsonl",
    60,
    0,
    true,
    53605
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/chunk_001.jsonl",
+   "sft_dpo/verify_chunks_qwen/chunk_001.jsonl",
    60,
    0,
    true,
    42150
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/chunk_001.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_qwen/chunk_001.kernel_verified.jsonl",
    60,
    0,
    true,
    53578
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/chunk_002.jsonl",
+   "sft_dpo/verify_chunks_qwen/chunk_002.jsonl",
    60,
    0,
    true,
    46453
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/chunk_002.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_qwen/chunk_002.kernel_verified.jsonl",
    60,
    0,
    true,
    57900
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/chunk_003.jsonl",
+   "sft_dpo/verify_chunks_qwen/chunk_003.jsonl",
    60,
    0,
    true,
    43665
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/chunk_003.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_qwen/chunk_003.kernel_verified.jsonl",
    60,
    0,
    true,
    55102
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/chunk_004.jsonl",
+   "sft_dpo/verify_chunks_qwen/chunk_004.jsonl",
    53,
    0,
    true,
    35310
   ],
   [
-   "exp1_sft_dpo/verify_chunks_qwen/chunk_004.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_qwen/chunk_004.kernel_verified.jsonl",
    53,
    0,
    true,
    45415
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_000.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_000.jsonl",
    80,
    0,
    true,
    56074
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_000.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_000.kernel_verified.jsonl",
    80,
    0,
    true,
    71332
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_001.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_001.jsonl",
    80,
    0,
    true,
    54925
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_001.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_001.kernel_verified.jsonl",
    80,
    0,
    true,
    70184
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_002.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_002.jsonl",
    80,
    0,
    true,
    52160
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_002.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_002.kernel_verified.jsonl",
    80,
    0,
    true,
    67417
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_003.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_003.jsonl",
    80,
    0,
    true,
    53975
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_003.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_003.kernel_verified.jsonl",
    80,
    0,
    true,
    69227
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_004.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_004.jsonl",
    80,
    0,
    true,
    51949
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_004.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_004.kernel_verified.jsonl",
    80,
    0,
    true,
    67222
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_005.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_005.jsonl",
    80,
    0,
    true,
    54471
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_005.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_005.kernel_verified.jsonl",
    80,
    0,
    true,
    69715
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_006.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_006.jsonl",
    80,
    0,
    true,
    57712
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_006.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_006.kernel_verified.jsonl",
    80,
    0,
    true,
    72955
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_007.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_007.jsonl",
    80,
    0,
    true,
    57812
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_007.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_007.kernel_verified.jsonl",
    80,
    0,
    true,
    73043
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_008.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_008.jsonl",
    80,
    0,
    true,
    55807
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_008.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_008.kernel_verified.jsonl",
    80,
    0,
    true,
    71044
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_009.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_009.jsonl",
    80,
    0,
    true,
    62184
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_009.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_009.kernel_verified.jsonl",
    80,
    0,
    true,
    77440
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_010.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_010.jsonl",
    80,
    0,
    true,
    56669
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_010.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_010.kernel_verified.jsonl",
    80,
    0,
    true,
    71900
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_011.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_011.jsonl",
    80,
    0,
    true,
    53726
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_011.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_011.kernel_verified.jsonl",
    80,
    0,
    true,
    68985
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_012.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_012.jsonl",
    80,
    0,
    true,
    54506
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_012.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_012.kernel_verified.jsonl",
    80,
    0,
    true,
    69786
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_013.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_013.jsonl",
    80,
    0,
    true,
    56004
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_013.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_013.kernel_verified.jsonl",
    80,
    0,
    true,
    71270
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_014.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_014.jsonl",
    52,
    0,
    true,
    38471
   ],
   [
-   "exp1_sft_dpo/verify_chunks_refmatch/chunk_014.kernel_verified.jsonl",
+   "sft_dpo/verify_chunks_refmatch/chunk_014.kernel_verified.jsonl",
    52,
    0,
    true,
    48388
   ],
   [
-   "exp2_ranker/data/eval_groups_minif2f.jsonl",
+   "ranker/groups/eval_groups_minif2f.jsonl",
    654,
    0,
    true,
    2580373
   ],
   [
-   "exp2_ranker/data/eval_groups_putnam2025_per_file.jsonl",
+   "ranker/groups/eval_groups_putnam2025_per_file.jsonl",
    25,
    0,
    true,
    96585
   ],
   [
-   "exp2_ranker/data/eval_groups_putnam_verified.jsonl",
+   "ranker/groups/eval_groups_putnam_verified.jsonl",
    39,
    0,
    true,
    164474
   ],
   [
-   "exp2_ranker/selection_scores.jsonl",
+   "ranker/selection_scores.jsonl",
    5624,
    0,
    true,
    1353165
   ],
   [
-   "exp2_ranker/selection_scores_frozen.jsonl",
+   "ranker/selection_scores_frozen.jsonl",
    5624,
    0,
    true,
@@ -1460,7 +1460,7 @@
   },
   "files_with_savings_sum": 12972
  },
- "exp7_check": {
+ "frontier_check": {
   "seed_matched8": [
    3803,
    139490,

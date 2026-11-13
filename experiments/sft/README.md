@@ -37,7 +37,7 @@ python train_dpo_lora.py --pairs data_dpo/dpo_pairs.jsonl \
     --model $CKPT_DIR/sft-deepseek/merged --out $CKPT_DIR/dpo-deepseek --merge
 for tag in frozen sft dpo; do                       # frozen: --model deepseek-ai/DeepSeek-Prover-V2-7B
   python gen_candidates.py --model <model> --tag $tag \
-      --sites data/eval_sites_*.jsonl --out cands_$tag.jsonl
+      --sites sites/eval_sites_*.jsonl --out cands_$tag.jsonl
 done
 python screen_candidates.py --cands cands_*.jsonl --root $EVAL_ROOT --workers 6 --out screen_results.jsonl
 python prepare_final_verify.py --cands cands_*.jsonl --screen screen_results.jsonl \
@@ -60,7 +60,7 @@ counter; it is recomputed from the saved candidates and verdicts by
 ## Data and models
 
 Generated candidates, screen results, verdict chunks and held-out eval sites are shipped in
-`<release>/results_data/` (`data/`, `exp1_sft_dpo/`); the training files rebuild from the HF shards
+`<release>/saved_records/` (`sites/`, `sft_dpo/`); the training files rebuild from the HF shards
 with `build_sft_data.py` / `build_dpo_data.py` (seed 42). The SFT and DPO LoRA adapters are under `adapters/`
 (<https://huggingface.co/datasets/leanpolish-anon/lean-proof-compression>).
 

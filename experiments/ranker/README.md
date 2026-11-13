@@ -49,7 +49,7 @@ in `experiments/complete_pools_ranker`; the adapters are in `adapters/`.
 * `label_stability_rerun.json`: validity labels re-checked in a low-parallelism re-run
 * `first_success_order_rule.json`: the menu-order rule on the biased first-success ranking groups
   (`eval_metrics.py --first-success-groups-dir`; the groups are shipped as
-  `results_data/exp2_ranker/data/eval_groups_*.jsonl`). Source of the "Last in menu order" row below
+  `saved_records/ranker/groups/eval_groups_*.jsonl`). Source of the "Last in menu order" row below
 * `train/`: training-loss logs and sample statistics
 
 ## Key numbers (paper, Table 3; top-1 best, %, 2,388 pooled held-out states)

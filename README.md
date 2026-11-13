@@ -28,8 +28,9 @@ leanpolish/                      Lake project and pipeline (run pipeline command
   run_regression_smoke.py, regression_baseline*.json, fixtures/smoke/     smoke test
   lakefile.lean, lean-toolchain, lake-manifest.json, _mathlib_bootstrap.lean
   docs/                          datasheet, Croissant metadata, shard manifest
-results_data/                    saved held-out sites, candidates, screen results and verifier verdicts
-                                 (learning table, ranking/selection, corpus variation)
+saved_records/                   saved model outputs and verifier verdicts that the scripts read to
+                                 recompute the learning tables offline: sites/, sft_dpo/, ranker/,
+                                 corpus_variation/
 experiments/
   sft/            fine-tuning at teacher-selected sites (SFT / DPO), Table 2
   fewshot/        few-shot prompting baseline

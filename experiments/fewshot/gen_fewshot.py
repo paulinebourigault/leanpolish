@@ -33,7 +33,7 @@ Modes:
 
 Usage:
   python gen_fewshot.py --model deepseek-ai/DeepSeek-Prover-V2-7B \
-      --tag fewshot_deepseek --sites data/eval_sites_*.jsonl \
+      --tag fewshot_deepseek --sites sites/eval_sites_*.jsonl \
       --train data/sft_train.jsonl --out cands_fewshot_deepseek.jsonl
 """
 from __future__ import annotations

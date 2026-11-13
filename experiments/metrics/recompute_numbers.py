@@ -2,10 +2,10 @@
 """Recompute the learning-experiment numbers quoted in the paper from saved records.
 
 Read-only. Inputs (environment variables):
-  RESULTS_DIR  saved learning-experiment records (default <release>/results_data), with
-               data/eval_sites_<corpus>.jsonl, exp1_sft_dpo/{cands_*.jsonl, screen_results*.jsonl,
-               verify_chunks*/*.kernel_verified.jsonl}, exp2_ranker/{data/eval_groups_*.jsonl,
-               exp2_metrics.json, selection_*}, exp4_corpus_variation/corpus_variation.json
+  RESULTS_DIR  saved learning-experiment records (default <release>/saved_records), with
+               sites/eval_sites_<corpus>.jsonl, sft_dpo/{cands_*.jsonl, screen_results*.jsonl,
+               verify_chunks*/*.kernel_verified.jsonl}, ranker/{groups/eval_groups_*.jsonl,
+               metrics.json, selection_*}, corpus_variation/corpus_variation.json
   HEADLINE_JSON  dataset headline totals (default <release>/experiments/metrics/results/headline.json)
   OUT_JSON     output (default ./results/recompute_numbers.json next to this script)
 Prints markdown tables to stdout.
@@ -13,7 +13,7 @@ Prints markdown tables to stdout.
 Success policy (strict, "pass-only"):
   a candidate is a success iff its candidate key (sha256 of
   file:start:end:replacement, as in compute_metrics.ckey) has an exact-verifier
-  kernel_verdict == "pass" in ANY saved exp1_sft_dpo/verify_chunks*/*kernel_verified.jsonl
+  kernel_verdict == "pass" in ANY saved sft_dpo/verify_chunks*/*kernel_verified.jsonl
   record, AND count_appL(original) - count_appL(replacement) > 0.
   Reference matches / noops are NOT treated as automatically valid.
   Failures contribute zero savings.
@@ -35,8 +35,8 @@ import os
 HERE = Path(__file__).resolve().parent
 SUPP = Path(os.environ.get("LEANPOLISH_ROOT", HERE.parents[1]))
 ROOT = SUPP / "leanpolish"
-EXP = Path(os.environ.get("RESULTS_DIR", SUPP / "results_data"))
-RES = EXP / "exp1_sft_dpo"
+EXP = Path(os.environ.get("RESULTS_DIR", SUPP / "saved_records"))
+RES = EXP / "sft_dpo"
 HEADLINE_JSON = Path(os.environ.get("HEADLINE_JSON", HERE / "results" / "headline.json"))
 OUT_JSON = Path(os.environ.get("OUT_JSON", HERE / "results" / "recompute_numbers.json"))
 sys.path.insert(0, str(ROOT))
@@ -95,10 +95,10 @@ def pct(a, b):
 
 # ---------------------------------------------------------------- 6. integrity
 integrity = []
-for p in sorted(glob.glob(str(EXP / "data" / "*.jsonl")) + glob.glob(str(RES / "*.jsonl"))
+for p in sorted(glob.glob(str(EXP / "sites" / "*.jsonl")) + glob.glob(str(RES / "*.jsonl"))
                 + glob.glob(str(RES / "verify_chunks*" / "*.jsonl"))
-                + glob.glob(str(EXP / "exp2_ranker" / "data" / "*.jsonl"))
-                + glob.glob(str(EXP / "exp2_ranker" / "*.jsonl"))):
+                + glob.glob(str(EXP / "ranker" / "groups" / "*.jsonl"))
+                + glob.glob(str(EXP / "ranker" / "*.jsonl"))):
     recs, bad, nl = read_jsonl(p)
     integrity.append((str(Path(p).relative_to(EXP)), len(recs), bad, nl,
                       Path(p).stat().st_size))
@@ -133,7 +133,7 @@ def exact_map(globpat):
 
 sites = {}  # (corpus, file, s, e) -> site record
 for c in CORPORA:
-    for r in read_jsonl(EXP / "data" / f"eval_sites_{c}.jsonl")[0]:
+    for r in read_jsonl(EXP / "sites" / f"eval_sites_{c}.jsonl")[0]:
         sk = (r["corpus"], r["file"], int(r["start_byte"]), int(r["end_byte"]))
         r["_fam"] = FAMILY[r["type"]]
         r["_marker"] = "(no local goal)" in r["prompt"]
@@ -407,7 +407,7 @@ def stage(raw):
 rk_rows, rk = [], {}
 tot = [0, 0, 0, 0]
 for c in CORPORA:
-    groups = read_jsonl(EXP / "exp2_ranker" / "data" / f"eval_groups_{c}.jsonl")[0]
+    groups = read_jsonl(EXP / "ranker" / "groups" / f"eval_groups_{c}.jsonl")[0]
     ok = unmapped = ties = multi = 0
     for g in groups:
         st = [stage(x["raw"]) for x in g["candidates"]]
@@ -426,7 +426,7 @@ print("## 5. Search-order-only control (no training)\n")
 print(md(["corpus", "groups", "correct top-1", "top-1", "groups w/ unmapped cand", "stage ties",
           "groups w/ !=1 accepted"], rk_rows))
 
-m = json.loads((EXP / "exp2_ranker" / "exp2_metrics.json").read_text())
+m = json.loads((EXP / "ranker" / "metrics.json").read_text())
 print(md(["method", "corpus", "groups", "top-1", "pairwise", "MRR"],
          [[meth, c, v[c]["groups"], f"{100*v[c]['top1']:.1f}", f"{100*v[c]['pairwise']:.1f}",
            f"{100*v[c]['mrr']:.1f}"]
@@ -436,13 +436,13 @@ print(md(["method", "corpus", "groups", "top-1", "pairwise", "MRR"],
 # selector table: saved vs strict recomputation
 scores = {}
 for f in ("selection_scores.jsonl", "selection_scores_frozen.jsonl"):
-    for r in read_jsonl(EXP / "exp2_ranker" / f)[0]:
+    for r in read_jsonl(EXP / "ranker" / f)[0]:
         scores[(f, r["file"], r["start_byte"], r["end_byte"], r["decoding_index"])] = r["score"]
 sel_rows, selout = [], {}
 for label, tag, sf, jf in (("SFT DeepSeek", "sft", "selection_scores.jsonl", "selection_results.json"),
                            ("frozen DeepSeek", "frozen", "selection_scores_frozen.jsonl",
                             "selection_results_frozen.json")):
-    saved = json.loads((EXP / "exp2_ranker" / jf).read_text())
+    saved = json.loads((EXP / "ranker" / jf).read_text())
     agg = defaultdict(lambda: defaultdict(float))
     missing = 0
     for sk, g in greedy[tag].items():
@@ -476,9 +476,9 @@ print("## 6. JSONL integrity\n")
 print(md(["file", "records", "unparseable lines", "ends with newline", "bytes"],
          [[a, f"{b:,}", c, d, f"{e:,}"] for a, b, c, d, e in integrity]))
 
-# ------------------------------------------------------------- 7. dataset / exp7
+# ------------------------------------------------------------- 7. dataset / frontier corpora
 hv = json.loads(HEADLINE_JSON.read_text())
-cv = json.loads((EXP / "exp4_corpus_variation" / "corpus_variation.json").read_text())
+cv = json.loads((EXP / "corpus_variation" / "corpus_variation.json").read_text())
 ds_rows = []
 for k, v in cv["corpora"].items():
     fc = v.get("full_corpus") or {}
@@ -489,7 +489,7 @@ for k, v in cv["corpora"].items():
                     v.get("paper_token_reduction_pct", "")])
 OUT["dataset"] = {"headline_total": hv["total"],
                   "files_with_savings_sum": sum(v["files_with_savings"] for v in hv["per_corpus"].values())}
-print("## 7. Dataset stats (exp4 corpus_variation.json)\n")
+print("## 7. Dataset stats (corpus_variation.json)\n")
 print(md(["corpus", "files shortened", "accepted", "rejected", "token red. full %",
           "token red. touched %", "accepted edits /1k tok", "paper %"], ds_rows))
 print("headline total:", hv["total"]["training_pairs"], hv["total"]["rejected_siblings"],
@@ -505,8 +505,8 @@ chk = {}
 for name, d in (("seed_matched8", seed8), ("axiom_matched8", axiom8), ("seed_full11", seed11)):
     s, o = sum(v[0] for v in d.values()), sum(v[1] for v in d.values())
     chk[name] = (s, o, 100 * s / o)
-OUT["exp7_check"] = chk
-print("exp7 sums:", chk)
+OUT["frontier_check"] = chk
+print("frontier sums:", chk)
 
 OUT_JSON.write_text(
     json.dumps(OUT, indent=1, default=str))

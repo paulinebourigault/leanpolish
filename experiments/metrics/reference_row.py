@@ -3,7 +3,7 @@
 
 Paper definition: rate = the reference edit is strictly shorter under the counter (reference edits
 are kernel-verified at dataset build). The strict variant additionally requires an exact 'pass'
-verdict in $RESULTS_DIR/exp1_sft_dpo/verify_chunks*. Tok. = sum of the counter's savings over all
+verdict in $RESULTS_DIR/sft_dpo/verify_chunks*. Tok. = sum of the counter's savings over all
 sites (as recompute_numbers.py 'teacher_savings'). Same PASS set / ckey as recompute_numbers.py.
 Input: RESULTS_DIR (see recompute_numbers.py). Output: results/reference_row.json."""
 import os
@@ -14,8 +14,8 @@ HERE = Path(__file__).resolve().parent; ROOT = Path(os.environ.get('LEANPOLISH_R
 sys.path.insert(0, str(ROOT / 'leanpolish'))
 from lean_counter import count_lean_tokens as cA
 from retokenize_appendixL import count_appL as cB
-RES = Path(os.environ.get('RESULTS_DIR', ROOT / 'results_data')); EXP = RES
-RES = RES / 'exp1_sft_dpo'
+RES = Path(os.environ.get('RESULTS_DIR', ROOT / 'saved_records')); EXP = RES
+RES = RES / 'sft_dpo'
 V = defaultdict(set)
 for p in glob.glob(str(RES / 'verify_chunks*' / '*kernel_verified.jsonl')):
     for l in open(p):
@@ -26,7 +26,7 @@ for p in glob.glob(str(RES / 'verify_chunks*' / '*kernel_verified.jsonl')):
 PASS = {k for k, v in V.items() if v == {'pass'}}
 out = {}
 for c in ['minif2f', 'putnam_verified', 'putnam2025_per_file']:
-    rows = [json.loads(l) for l in open(EXP / 'data' / f'eval_sites_{c}.jsonl') if l.strip()]
+    rows = [json.loads(l) for l in open(EXP / 'sites' / f'eval_sites_{c}.jsonl') if l.strip()]
     for nm, f in (('A_port', cA), ('B_appL', cB)):
         ok = tac_ok = tac = tok = sh = tac_sh = 0
         for r in rows:

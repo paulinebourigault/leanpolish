@@ -17,7 +17,7 @@ import glob, hashlib, json, sys
 from collections import Counter, defaultdict
 from retokenize_appendixL import count_appL
 # SFT_RESULTS: directory with verify_chunks*/ and screen_results.jsonl of the learning experiment
-EXP = _os.environ.get('SFT_RESULTS', str(ROOT / 'results_data' / 'exp1_sft_dpo'))
+EXP = _os.environ.get('SFT_RESULTS', str(ROOT / 'saved_records' / 'sft_dpo'))
 gens = {json.loads(l)['site_id']: json.loads(l) for l in open(sys.argv[1])}
 passk, failk = set(), set()
 for p in glob.glob(f'{EXP}/verify_chunks*/*kernel_verified.jsonl'):
@@ -33,7 +33,7 @@ if '--verdicts' in sys.argv:
             r = json.loads(l); newv[(r['site_id'], r['replacement'])] = r['verdict']
 res = defaultdict(Counter); unknown = []
 for c in ('minif2f', 'putnam_verified', 'putnam2025_per_file'):
-    for l in open(f'{EXP}/data/eval_sites_{c}.jsonl'):
+    for l in open(f'{EXP}/sites/eval_sites_{c}.jsonl'):
         s = json.loads(l)
         g = gens[s['attempt_id']]['greedy']
         fam = {'dead_code_removal': 'deletion', 'tactic_replacement': 'tactic', 'l2_replacement': 'lemma'}.get(s['type'], s['type'])

@@ -33,7 +33,7 @@ Environment: `LEAN_PROJECT` (Lake project with Mathlib built; default `<release>
 `LEANPOLISH_ROOT` (release root; inferred from the script location). Script-specific inputs:
 `RUN_ROOT` / `EVAL_ROOT` (`make_bases.py`: unpacked dataset and held-out eval sources),
 `METRICS_DIR` (`unified_hybrid.py`; default `experiments/metrics`), `SFT_RESULTS`
-(`seeds_eval.py`: archived held-out verdicts; default `results_data/exp1_sft_dpo`),
+(`seeds_eval.py`: archived held-out verdicts; default `saved_records/sft_dpo`),
 `SEEDS_DIR` (`make_seeds_md.py`; default `results/seeds`), `FILES_ROOT` and `JOBS` (`recheck.py`).
 
 ```bash
