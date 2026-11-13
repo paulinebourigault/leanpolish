@@ -10,9 +10,8 @@ Table 11):
 * **Fixed-point iteration**: LeanPolish is re-run on its own verified output until no file changes.
   Every round is re-checked in a fresh Lean process.
 
-The patched optimizer is `leanpolish/LeanPolish.lean` and `leanpolish/leanpolish.py` at the
-repository root. `patches/` contains the diff of the complete-menu mode against the first-success
-optimizer, for reference only.
+Both are part of the optimizer in `leanpolish/` (`LeanPolish.lean`, `leanpolish.py`): complete-menu
+mode is the `--complete-menu` flag.
 
 ## Files
 
