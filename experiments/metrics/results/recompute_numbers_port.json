@@ -1473,7 +1473,7 @@
   }
  },
  "dataset": {
-  "headline_v4_total": {
+  "headline_total": {
    "bytes_original": 52164180,
    "bytes_saved": 4962398,
    "bytes_pct": 9.513037490477181,

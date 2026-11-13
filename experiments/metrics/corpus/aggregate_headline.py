@@ -4,7 +4,8 @@
 The script combines existing LeanPolish report trees into one headline JSON
 using full-corpus denominators. It expects each corpus directory to contain the
 standard ``optimization_report.json`` and per-file ``*_report.json`` files.
-Environment: CORPUS_ROOT (run directory, default "."). Output path: first CLI argument.
+Environment: CORPUS_ROOT (run directory, default "."). Output path: first CLI argument
+(default: headline.json in the current directory).
 """
 import json, os, sys
 ROOT=os.environ.get("CORPUS_ROOT",".")  # LeanPolish run directory holding the corpus report trees
@@ -73,6 +74,6 @@ out["total"]=dict(files=TOT["files"],files_shorter=TOT["shorter"],
   lines_original=TOT["Lo"],lines_saved=TOT["Ls"],lines_pct=lp,
   training_pairs=TOT["pairs"],tactic_replacements=TOT["repl"],dead_code_removed=TOT["dcrm"])
 print(f"{'TOTAL':<14} {TOT['files']:>6} {TOT['shorter']:>7} {TOT['Bo']:>11} {TOT['Bs']:>9} {bp:>6.2f} {TOT['To']:>11} {TOT['Ts']:>9} {tp:>6.2f} {TOT['Lo']:>9} {TOT['Ls']:>8} {lp:>6.2f} {TOT['pairs']:>6} {TOT['repl']:>6} {TOT['dcrm']:>5}")
-outpath=os.path.join(os.path.dirname(os.path.abspath(__file__)),"headline_v3.json")
+outpath=sys.argv[1] if len(sys.argv)>1 else "headline.json"
 json.dump(out, open(outpath,"w"), indent=2)
 print(f"# wrote {outpath}", file=sys.stderr)

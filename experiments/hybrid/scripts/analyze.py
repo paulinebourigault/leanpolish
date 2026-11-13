@@ -168,8 +168,8 @@ if __name__ == '__main__':
                   ('putnam_verified', [R / 'screen/putnam_verified_base_k16.jsonl'])):
         k = k16_curve(C, sp)
         if k: metrics['k16'][C] = k
-    old = R / 'metrics_old_sites.json'
-    if old.exists(): metrics['old_sites_reproduction'] = json.load(open(old))
+    teacher_sites = R / 'metrics_old_sites.json'   # teacher-selected sites, file name as in the dataset tarball
+    if teacher_sites.exists(): metrics['teacher_sites_reproduction'] = json.load(open(teacher_sites))
     json.dump(metrics, open(R / 'metrics.json', 'w'), indent=1, ensure_ascii=False)
     json.dump(allex, open(R / 'examples_all.json', 'w'), indent=1, ensure_ascii=False)
     print(json.dumps(metrics, indent=1, ensure_ascii=False)[:3000])

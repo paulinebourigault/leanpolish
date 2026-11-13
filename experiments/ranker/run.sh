@@ -14,7 +14,7 @@
 #   OUT_DIR       metrics output                                              [./results]
 #   BASE_MODEL    ranker backbone / frozen scorer [deepseek-ai/DeepSeek-Prover-V2-7B]
 #   QWEN7B, QWEN32B  frozen baselines [Qwen/Qwen2.5-Coder-7B-Instruct, Qwen/Qwen2.5-Coder-32B-Instruct]
-#   OLD_GROUPS_DIR   first-success ranking groups (eval_groups_*.jsonl) for the order-rule contrast [unset]
+#   FIRST_SUCCESS_GROUPS_DIR   first-success ranking groups (eval_groups_*.jsonl) for the order-rule contrast [unset]
 #   PROCS         parallel Lean processes [16];  MAXS  training-sample cap [80000]
 # Held-out pools are the complete-menu pools of experiments/complete_menu
 # ($DATA_DIR/pools/cm_{minif2f,putnam_verified,axiom}.jsonl.gz); the prebuilt pools are in the
@@ -68,7 +68,7 @@ fi
 if [[ $STAGE == all || $STAGE == eval ]]; then
   SC="$S/rk_full.jsonl $S/rk_nogoal.jsonl $S/lp_dsp7b.jsonl $S/lp_qwen7b.jsonl $S/lp_qwen32b.jsonl"
   EV="minif2f=$P/cm_minif2f.jsonl.gz putnam_verified=$P/cm_putnam_verified.jsonl.gz axiom=$P/cm_axiom.jsonl.gz"
-  OG=(); [[ -n "${OLD_GROUPS_DIR:-}" ]] && OG=(--old-groups-dir "$OLD_GROUPS_DIR")
+  OG=(); [[ -n "${FIRST_SUCCESS_GROUPS_DIR:-}" ]] && OG=(--first-success-groups-dir "$FIRST_SUCCESS_GROUPS_DIR")
   python3 eval_metrics.py --eval-pools $EV --train-pools "$P/goedel_train.jsonl.gz" --scores $SC \
     "${OG[@]}" --out "$OUT_DIR/metrics_heldout_official.json" > "$OUT_DIR/metrics_heldout_official.txt"
   python3 make_results_tables.py "$OUT_DIR/metrics_heldout_official.json" > "$OUT_DIR/tables_heldout_official.md"

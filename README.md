@@ -112,7 +112,7 @@ exact commands. Scripts marked (offline) run on CPU from files shipped here.
 
 | Paper | Script(s) | Output |
 |---|---|---|
-| Table 1 (released records) | `E/metrics/compute_metrics.py`, `make_tables.py`, `corpus/aggregate_headline.py` | `E/metrics/results/{metrics.json,tables.md,headline_v4.json}` |
+| Table 1 (released records) | `E/metrics/compute_metrics.py`, `make_tables.py`, `corpus/aggregate_headline.py` | `E/metrics/results/{metrics.json,tables.md,headline.json}` |
 | Table 2 (teacher-selected sites) (offline) | `E/metrics/recompute_numbers.py`, `learning_table_port.py`, `reference_row.py`; pipeline in `E/sft/` | `E/sft/results/tab_sft.json`, `E/metrics/results/recompute_numbers*.json` |
 | Table 2, 4-shot rows | `E/fewshot/gen_fewshot.py` -> `verify_fewshot.py` -> `compute_fewshot_metrics.py` | `E/fewshot/results/fewshot_metrics.json` |
 | Table 3 (ordering leakage, ranker) | `E/ranker/run.sh` (`run_pools.py` ... `eval_metrics.py`, `bootstrap_ci.py`) | `E/ranker/results/{metrics_heldout_official.json,tables_heldout_official.md,bootstrap_ci.json}` |
@@ -132,7 +132,7 @@ exact commands. Scripts marked (offline) run on CPU from files shipped here.
 | Table 7 (local fact generalization) | `E/metrics/corpus/g3_sample.py` | `E/metrics/results/g3_sample.json` |
 | Table 9 (phase ablation) | `leanpolish.py --skip-phase1 / --skip-l2 / --skip-dead-code / --skip-cleanup / --no-quality-gate / --no-g3` | per-file reports (`aggregate_reports.py`) |
 | Leakage audit | `E/metrics/corpus/dedup_leakage.py`, `E/ranker/leakage_check.py` | `E/metrics/results/dedup_leakage.json`, `E/ranker/results/leakage_goal_overlap.json` |
-| Corpus statistics | `E/metrics/corpus/corpus_stats_v2.py` | `E/metrics/results/corpus_stats_v2.{json,md}` |
+| Corpus statistics | `E/metrics/corpus/corpus_stats.py` | `E/metrics/results/corpus_stats.{json,md}` |
 
 Paper numbers use the comment-skipping Lean-aware counter (`leanpolish/lean_counter.py`,
 a port of `countLeanTokens` in `LeanPolish.lean`); `retokenize_appendixL.py` is the

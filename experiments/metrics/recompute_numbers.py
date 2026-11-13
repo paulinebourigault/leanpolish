@@ -6,7 +6,7 @@ Read-only. Inputs (environment variables):
                data/eval_sites_<corpus>.jsonl, exp1_sft_dpo/{cands_*.jsonl, screen_results*.jsonl,
                verify_chunks*/*.kernel_verified.jsonl}, exp2_ranker/{data/eval_groups_*.jsonl,
                exp2_metrics.json, selection_*}, exp4_corpus_variation/corpus_variation.json
-  HEADLINE_JSON  dataset headline totals (default <release>/experiments/metrics/results/headline_v4.json)
+  HEADLINE_JSON  dataset headline totals (default <release>/experiments/metrics/results/headline.json)
   OUT_JSON     output (default ./results/recompute_numbers.json next to this script)
 Prints markdown tables to stdout.
 
@@ -37,7 +37,7 @@ SUPP = Path(os.environ.get("LEANPOLISH_ROOT", HERE.parents[1]))
 ROOT = SUPP / "leanpolish"
 EXP = Path(os.environ.get("RESULTS_DIR", SUPP / "results_data"))
 RES = EXP / "exp1_sft_dpo"
-HEADLINE_JSON = Path(os.environ.get("HEADLINE_JSON", HERE / "results" / "headline_v4.json"))
+HEADLINE_JSON = Path(os.environ.get("HEADLINE_JSON", HERE / "results" / "headline.json"))
 OUT_JSON = Path(os.environ.get("OUT_JSON", HERE / "results" / "recompute_numbers.json"))
 sys.path.insert(0, str(ROOT))
 from retokenize_appendixL import count_appL  # noqa: E402
@@ -487,12 +487,12 @@ for k, v in cv["corpora"].items():
                     f"{v.get('token_reduction_touched_pct', float('nan')):.2f}",
                     f"{fc.get('accepted_edits_per_1k_tokens', v.get('accepted_edits_per_1k_tokens_touched')):.2f}",
                     v.get("paper_token_reduction_pct", "")])
-OUT["dataset"] = {"headline_v4_total": hv["total"],
+OUT["dataset"] = {"headline_total": hv["total"],
                   "files_with_savings_sum": sum(v["files_with_savings"] for v in hv["per_corpus"].values())}
 print("## 7. Dataset stats (exp4 corpus_variation.json)\n")
 print(md(["corpus", "files shortened", "accepted", "rejected", "token red. full %",
           "token red. touched %", "accepted edits /1k tok", "paper %"], ds_rows))
-print("headline_v4 total:", hv["total"]["training_pairs"], hv["total"]["rejected_siblings"],
+print("headline total:", hv["total"]["training_pairs"], hv["total"]["rejected_siblings"],
       "files_with_savings sum:", OUT["dataset"]["files_with_savings_sum"])
 
 # arithmetic check of the frontier-prover corpus sums (per-problem saved / original tokens)

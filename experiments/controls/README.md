@@ -54,7 +54,8 @@ Generations, screen verdicts, compose reports and all output files are in the da
 ## Results (`results/`)
 
 `metrics.json` (whole-file tokens under three counters, per-condition cost, C2 candidate statistics) and
-`tables.md` (all conditions and counters). Key numbers (% whole-file reduction, Lean-aware counter), as in Table 4:
+`tables.md` (all conditions and counters). Key numbers (% whole-file reduction, Lean-aware counter; single
+runs, with means over seeds for the rewriter and the alternation in `experiments/wholeproof` and below):
 
 | Method | AxiomProver (12) | PutnamBench (19) | miniF2F-99 |
 |---|---:|---:|---:|

@@ -97,7 +97,7 @@
           "name": "Goedel-LM Lean Workbook proofs",
           "revision": null,
           "url": "https://huggingface.co/datasets/Goedel-LM/Lean-workbook-proofs",
-          "version": "HF dataset Goedel-LM/Lean-workbook-proofs (29,750 upstream proofs ingested; 29,985 optimizer attempts after pool expansion, of which 29,676 verified and 11,367 accepted -- see analysis/corpus_stats_v2.json)"
+          "version": "HF dataset Goedel-LM/Lean-workbook-proofs (29,750 upstream proofs ingested; 29,985 optimizer attempts after pool expansion, of which 29,676 verified and 11,367 accepted -- see experiments/metrics/results/corpus_stats.json)"
         },
         "lean_toolchain": "leanprover/lean4:v4.21.0",
         "mathlib_revision": "308445d7985027f538e281e18df29ca16ede2ba3"

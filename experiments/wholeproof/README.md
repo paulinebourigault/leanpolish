@@ -43,9 +43,9 @@ are in the `experiments/wholeproof` tarball. To recompute the metrics from those
 - `table.md`: the same as a table. `build_stats.json`: training-pair construction.
   `adapter_trainstats.json`: optimizer steps and wall time.
 
-## Key numbers (counter A)
+## Key numbers, single run (training seed 42, decoding seed 42; counter A)
 
-| Quantity | Paper | `results/` |
+| Quantity | Reported | `results/` |
 |---|---:|---:|
 | Training pairs (Goedel-Workbook) | 7,708 | 7,708 |
 | Unchanged pairs | 11% | 856 / 7,708 = 11.1% |
@@ -56,8 +56,9 @@ are in the `experiments/wholeproof` tarball. To recompute the metrics from those
 | LeanPolish (release) -> trained rewriter, PutnamBench-verified | 8.36 | 8.36 |
 | Samples yielding a verified shorter proof, trained vs. frozen (miniF2F-100, k=16) | 62% vs. 16% | 62% vs. 16% |
 
-The frozen-rewriter baseline quoted in the paper (12.52 on miniF2F-99, 2.76 on PutnamBench,
-Table 4) is the frozen whole-proof rewrite of `experiments/controls`; the frozen conditions
+Means over training and decoding seeds are in the replication section below. The single-run
+frozen-rewriter baseline (12.52 on miniF2F-99, 2.76 on PutnamBench) is the frozen whole-proof rewrite
+of `experiments/controls`; the frozen conditions
 re-run here with the same gate give 12.52 (C2 prompt) and 6.83 (SFT prompt) on the same 99 files and
 3.05 / 1.92 on PutnamBench-verified at k=16. On Putnam 2025 only 3 of 12 AxiomProver files fit the
 rewriter's context and no rewrite improves on LeanPolish.

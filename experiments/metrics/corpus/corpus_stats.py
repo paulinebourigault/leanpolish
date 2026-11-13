@@ -19,7 +19,7 @@ Output: a JSON dictionary keyed by corpus name and an optional Markdown summary
 table for reporting.
 
 CLI:
-  python experiments/metrics/corpus/corpus_stats_v2.py \\
+  python experiments/metrics/corpus/corpus_stats.py \\
       --layoutA name:dir [--layoutA name:dir ...] \\
       --layoutB name:dir [--layoutB name:dir ...] \\
       --out path.json --markdown path.md
@@ -264,7 +264,7 @@ def _format_markdown(stats: dict) -> str:
             ]
         rows.append(row)
     out = [
-           "Generated from `corpus_stats_v2.json`. L2/G3 aggregate columns are omitted when all values are zero; sample-level G3 statistics are in `g3_sample.json`.",
+           "Generated from `corpus_stats.json`. L2/G3 aggregate columns are omitted when all values are zero; sample-level G3 statistics are in `g3_sample.json`.",
            "",
            "| " + " | ".join(cols) + " |",
            "| " + " | ".join("---" for _ in cols) + " |"]

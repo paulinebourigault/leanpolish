@@ -26,8 +26,8 @@ saved exact-verifier `pass` verdict **and** is strictly shorter.
 | `reference_row.py` | `reference_row.json` | "Reference (pipeline)" row, both counters |
 | `fewshot_port.py`, `frontier_port.py` | `fewshot_metrics_port.json`, `fewshot_results_port.md`, `frontier_port.json` | few-shot and frontier rows under counter A |
 | `make_tables.py` | `tables.tex`, `tables.md`, `tab_sft_port.json` | collected tables |
-| `corpus/aggregate_headline.py` | `headline_v4.json` | released totals (files, accepted, failed siblings) |
-| `corpus/corpus_stats_v2.py` | `corpus_stats_v2.{json,md}` | per-corpus statistics |
+| `corpus/aggregate_headline.py` | `headline.json` | released totals (files, accepted, failed siblings) |
+| `corpus/corpus_stats.py` | `corpus_stats.{json,md}` | per-corpus statistics |
 | `corpus/dedup_leakage.py` | `dedup_leakage.json` | goal-state overlap between training and held-out corpora |
 | `corpus/linter_aggregate.py` | `linter_baseline.{json,md}` | linter baseline |
 | `corpus/g3_sample.py` | `g3_sample.json` | generalization-gate (G3) sample statistics |
@@ -69,8 +69,9 @@ is also on HF. Frontier-prover inputs from Aristotle are not redistributed.
 | Putnam 2025 (AxiomProver) | 12 | 10 | 142 / 125 | 147 / 75 | 1.31 | 1.06 | 12.3 |
 | Total | | 12,972 | 33,402 | 65,596 | | | |
 
-The Files / Accepted / Failed columns count released shard rows (`headline_v4.json`, the
-release totals written by `corpus/aggregate_headline.py`). They include
+The Files / Accepted / Failed columns count released shard rows (`headline.json`, the
+release totals written by `corpus/aggregate_headline.py`; the failed-sibling total is the row count of
+the released `rejected_pairs` shards, `shards/MANIFEST.json`). They include
 92 linter-baseline files (`*_linter.lean`), so 12,880 files are genuine inputs. `metrics.json`
 reports input-file-only counts (for example Goedel 9,966 files / 20,704 edits). The reduction, density
 and tok/edit columns come from `metrics.json` (counter A).

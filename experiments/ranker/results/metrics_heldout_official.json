@@ -1,5 +1,5 @@
 {
-  "old_first_success_groups_order_rule": {
+  "first_success_groups_order_rule": {
     "minif2f": {
       "groups": 654,
       "menu_first_top1": 0.0,

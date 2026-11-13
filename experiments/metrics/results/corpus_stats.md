@@ -1,4 +1,4 @@
-Generated from `corpus_stats_v2.json` and checked against the released shard JSONL rows. L2/G3 aggregate columns are omitted when all values are zero; sample-level G3 statistics are in `g3_sample.json`.
+Generated from `corpus_stats.json` and checked against the released shard JSONL rows. L2/G3 aggregate columns are omitted when all values are zero; sample-level G3 statistics are in `g3_sample.json`.
 
 | Corpus | Layout | Files | Verified | Accepted (files) | Train pairs | Rejected | Bytes saved (Σ) | Median save (B) | p90 (B) | Max (B) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

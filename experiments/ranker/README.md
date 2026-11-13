@@ -47,10 +47,9 @@ in `experiments/complete_pools_ranker`; the adapters are in `adapters/`.
 * `pool_stats_all.{json,md}`: pool statistics per source
 * `leakage_goal_overlap.json`: goal-hash overlap with the training pools
 * `label_stability_rerun.json`: validity labels re-checked in a low-parallelism re-run
-* `old_groups_order_rule.json`: the menu-order rule on the biased first-success ranking groups
-  (`eval_metrics.py --old-groups-dir`; "old" refers to these first-success groups, shipped as
-  `results_data/exp2_ranker/data/eval_groups_*.jsonl`, as opposed to the complete-menu pools).
-  Source of the "Last in menu order" row below
+* `first_success_order_rule.json`: the menu-order rule on the biased first-success ranking groups
+  (`eval_metrics.py --first-success-groups-dir`; the groups are shipped as
+  `results_data/exp2_ranker/data/eval_groups_*.jsonl`). Source of the "Last in menu order" row below
 * `train/`: training-loss logs and sample statistics
 
 ## Key numbers (paper, Table 3; top-1 best, %, 2,388 pooled held-out states)

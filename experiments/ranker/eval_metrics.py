@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Metrics for candidate selection on held-out COMPLETE-menu pools (+ menu-order rule on
-the biased first-success ranking groups, --old-groups-dir, for contrast).  CPU only; model scores are read
+the biased first-success ranking groups, --first-success-groups-dir, for contrast).  CPU only; model scores are read
 from score_models.py outputs.
 
 Per corpus and pooled:
@@ -169,10 +169,10 @@ def menu_idx_of(raw: str) -> int:
     return -1
 
 
-def old_groups_order_rule(old_dir: Path):
+def first_success_order_rule(groups_dir: Path):
     out = {}
     all_first, all_last, n_unk = [], [], 0
-    for fn in sorted(old_dir.glob("eval_groups_*.jsonl")):
+    for fn in sorted(groups_dir.glob("eval_groups_*.jsonl")):
         corpus = fn.stem.replace("eval_groups_", "")
         f_, l_ = [], []
         for line in fn.open():
@@ -198,14 +198,14 @@ def main():
     ap.add_argument("--eval-pools", nargs="*", default=[], help="corpus=path.jsonl.gz")
     ap.add_argument("--train-pools", nargs="*", default=[])
     ap.add_argument("--scores", nargs="*", default=[])
-    ap.add_argument("--old-groups-dir", type=Path, default=None,
+    ap.add_argument("--first-success-groups-dir", type=Path, default=None,
                     help="dir with first-success ranking groups (eval_groups_*.jsonl) for the order-rule contrast")
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
     res = {}
-    if args.old_groups_dir:
-        res["old_first_success_groups_order_rule"] = old_groups_order_rule(args.old_groups_dir)
+    if args.first_success_groups_dir:
+        res["first_success_groups_order_rule"] = first_success_order_rule(args.first_success_groups_dir)
 
     # train-set statistics + per-tactic prior baseline
     tr = [annotate(s) for p in args.train_pools for s in load_sites(p)]
@@ -283,8 +283,8 @@ def main():
             print(f"  {m:45s} top1 {f(v.get('top1_best'))} top1_2p {f(v.get('top1_best_2p'))} "
                   f"valid@1 {f(v.get('top1_valid'))} sav {f(v.get('savings_frac'))} "
                   f"AUROC {f(v.get('auroc_valid'))} within {f(v.get('auroc_within'))}")
-    if "old_first_success_groups_order_rule" in res:
-        print(json.dumps(res["old_first_success_groups_order_rule"], indent=1))
+    if "first_success_groups_order_rule" in res:
+        print(json.dumps(res["first_success_groups_order_rule"], indent=1))
 
 
 if __name__ == "__main__":

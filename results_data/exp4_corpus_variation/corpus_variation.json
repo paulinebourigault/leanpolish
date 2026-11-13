@@ -19,7 +19,7 @@
       "full_corpus": {
         "files": 5793,
         "tokens_original": 13590246,
-        "source": "RunOptimizer/analysis/headline_v3.json (full-corpus Appendix-L retokenization)",
+        "source": "full-corpus totals (comment-counting Lean-aware tokenizer)",
         "denominator_implied_from_paper": false,
         "token_reduction_pct": 0.2912382895791585,
         "accepted_edits_per_1k_tokens": 0.49263273085711623,
@@ -86,7 +86,7 @@
       "full_corpus": {
         "files": 29752,
         "tokens_original": 4336135,
-        "source": "RunOptimizer/analysis/headline_v3.json (full-corpus Appendix-L retokenization)",
+        "source": "full-corpus totals (comment-counting Lean-aware tokenizer)",
         "denominator_implied_from_paper": false,
         "token_reduction_pct": 5.581376041105731,
         "accepted_edits_per_1k_tokens": 4.801972263317447,
@@ -333,7 +333,7 @@
       "full_corpus": {
         "files": 26,
         "tokens_original": 122421,
-        "source": "RunOptimizer/analysis/headline_v3.json (full-corpus Appendix-L retokenization) ('putnam2025' family entry)",
+        "source": "full-corpus totals (comment-counting Lean-aware tokenizer) ('putnam2025' family entry)",
         "denominator_implied_from_paper": false,
         "token_reduction_pct": 1.4262258926164628,
         "accepted_edits_per_1k_tokens": 1.1599317110626444,
@@ -453,7 +453,7 @@
       "full_corpus": {
         "files": 26,
         "tokens_original": 122421,
-        "source": "RunOptimizer/analysis/headline_v3.json (full-corpus Appendix-L retokenization) ('putnam2025' family entry)",
+        "source": "full-corpus totals (comment-counting Lean-aware tokenizer) ('putnam2025' family entry)",
         "denominator_implied_from_paper": false,
         "token_reduction_pct": 1.5781606096993164,
         "accepted_edits_per_1k_tokens": 1.2334485096511218,
@@ -558,12 +558,12 @@
     "File-level metric fields are repeated consistently across all rows of a file in every corpus (0 mismatches).",
     "Every unique file path in every shard has >= 1 accepted edit (unique files == files shortened), i.e. the release contains no untouched files; full-corpus denominators must therefore come from the run-side aggregates (see below).",
     "Rejected rows are siblings at accepted sites: rejected attempt_ids not covered by any accepted row = `mathlib` 0, `goedel` 2, `minif2f` 0, `putnam_bench` 0, `putnam_verified` 0, `putnam2025_per_file` 0, `putnam2025_pool` 0; the attempted-site metric therefore nearly equals accepted-edit density in every corpus.",
-    "Shard-derived touched-file sums reproduce `analysis/headline_v4.json` exactly for mathlib / goedel / minif2f / putnam2025 (e.g. mathlib 7,520,933 tokens, 39,580 saved; goedel 1,208,984 / 242,016; putnam2025 union 120,610 / 1,932); putnam_bench differs slightly from v4 (4,354 vs 4,434 pairs) because v4 predates the final dedup of the shipped shard.",
-    "`mathlib`: reproduced full-corpus token reduction = 0.291% vs paper 0.29% (denominator 13,590,246 tokens from headline_v3).",
-    "`goedel`: reproduced full-corpus token reduction = 5.581% vs paper 5.63% (denominator 4,336,135 tokens from headline_v3).",
+    "Shard-derived touched-file sums reproduce `experiments/metrics/results/headline.json` exactly for mathlib / goedel / minif2f / putnam2025 (e.g. mathlib 7,520,933 tokens, 39,580 saved; goedel 1,208,984 / 242,016; putnam2025 union 120,610 / 1,932); putnam_bench differs slightly from v4 (4,354 vs 4,434 pairs) because v4 predates the final dedup of the shipped shard.",
+    "`mathlib`: reproduced full-corpus token reduction = 0.291% vs paper 0.29% (denominator 13,590,246 tokens, full-corpus totals).",
+    "`goedel`: reproduced full-corpus token reduction = 5.581% vs paper 5.63% (denominator 4,336,135 tokens, full-corpus totals).",
     "`minif2f`: paper 21.20% uses a 339-file denominator absent on this host; shard-conditional value 22.65% bounds it from above and the implied full-corpus token count is 130,278.",
     "`putnam_verified`: paper 8.20% uses a 19-file denominator absent on this host; shard-conditional value 8.48% bounds it from above and the implied full-corpus token count is 16,573.",
-    "`putnam2025_union`: reproduced full-corpus token reduction = 1.578% vs paper 1.43% (denominator 122,421 tokens from headline_v3).",
+    "`putnam2025_union`: reproduced full-corpus token reduction = 1.578% vs paper 1.43% (denominator 122,421 tokens, full-corpus totals).",
     "`goedel` reproduces at 5.58% vs paper 5.63% because the shipped shard is post-dedup (242,016 saved tokens vs 243,981 pre-dedup in headline_v3); `putnam2025_union` gives 1.58% vs paper 1.43% because the paper number is the per-file config alone (1,746 saved tokens -> 1.426%, reproduced exactly by `putnam2025_per_file`), while the union adds pool-only edits (1,932 saved tokens)."
   ]
 }
