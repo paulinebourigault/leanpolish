@@ -90,7 +90,7 @@ state and keeps the first acceptable edit.
 DATA_DIR=/path/to/complete_pools_ranker python3 budgeted_search.py      # CPU -> results/budgeted_search.json
 ```
 
-| Share of the exhaustive token savings (38,144 tokens) | b = 1 | b = 2 | b = 4 | b = 8 | Checks to try every candidate |
+| Share of the exhaustive token savings (38,144 tokens) | b = 1 | b = 2 | b = 4 | b = 8 | Checks with no limit on b |
 |---|---:|---:|---:|---:|---:|
 | Symbolic menu order | 7.7% | 38.5% | 46.9% | 75.6% | 63,458 |
 | Shortest string | 7.7% | 7.7% | 38.5% | 73.4% | 64,862 |
