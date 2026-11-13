@@ -199,7 +199,7 @@ def main():
         # ── pools (cm) ──────────────────────────────────────────────────
         cmpools = pools_by_mode["cm"]
         n_valid, n_sel, n_tried = [], [], []
-        diff_pick, v1_none_cm_some = 0, 0
+        diff_pick, first_success_none_cm_some = 0, 0
         rank_cm = defaultdict(list)
         label_counts = defaultdict(int)
         for pool in cmpools:
@@ -215,7 +215,7 @@ def main():
             if pool["chosen_idx"] is not None:
                 v1 = pool["v1_pick_idx"]
                 if v1 is None or not pool["v1_pick_quality_ok"]:
-                    v1_none_cm_some += 1
+                    first_success_none_cm_some += 1
                 elif v1 != pool["chosen_idx"]:
                     diff_pick += 1
                 oracle = next(x["final_tac"] for x in cands if x["menu_idx"] == pool["chosen_idx"])
@@ -270,8 +270,8 @@ def main():
             "mean_valid_per_site_given_>=1": mean(sites_with_valid),
             "frac_sites_>=2_valid_given_>=1": (sum(1 for v in sites_with_valid if v >= 2) / len(sites_with_valid)) if sites_with_valid else None,
             "n_sites_with_chosen": sum(1 for p in cmpools if p["chosen_idx"] is not None),
-            "n_sites_cm_pick_differs_from_v1_pick": diff_pick,
-            "n_sites_cm_edit_where_v1_no_edit": v1_none_cm_some,
+            "n_sites_cm_pick_differs_from_first_success_pick": diff_pick,
+            "n_sites_cm_edit_where_first_success_no_edit": first_success_none_cm_some,
             "outcome_label_counts": dict(label_counts),
         }
         cm_["ranking_cm_pools_top1_pct"] = {k: 100.0 * mean(v) for k, v in sorted(rank_cm.items())}
@@ -282,7 +282,7 @@ def main():
             for pr in (per_mode["base"][r]["report"] or {}).get("training_pairs", []):
                 if pr.get("type") in ("tactic_replacement", "rejected_attempt"):
                     groups[pr["attempt_id"]].append(pr)
-        rank_v1 = defaultdict(list)
+        rank_first_success = defaultdict(list)
         for gid, rows in groups.items():
             acc = [x for x in rows if x.get("outcome") == "accepted"]
             if not acc or len(rows) < 2:
@@ -293,9 +293,9 @@ def main():
                    x["replacement"]) for x in rows]
             # lengths are compared as emitted (both texts use the same `by ` prefix policy)
             for k, v in rank_rules(pc, oracle, rng).items():
-                rank_v1[k].append(v)
-        cm_["ranking_v1_pools_top1_pct"] = {k: 100.0 * mean(v) for k, v in sorted(rank_v1.items())}
-        cm_["ranking_v1_pools_n_groups_ge2"] = len(next(iter(rank_v1.values()), []))
+                rank_first_success[k].append(v)
+        cm_["ranking_first_success_pools_top1_pct"] = {k: 100.0 * mean(v) for k, v in sorted(rank_first_success.items())}
+        cm_["ranking_first_success_pools_n_groups_ge2"] = len(next(iter(rank_first_success.values()), []))
         metrics[corpus] = cm_
     # cm-only corpora (training pools): export pools, no FS comparison
     for corpus in CM_ONLY:
@@ -353,7 +353,7 @@ def main():
         print("  sites:", {k: v for k, v in m["site_comparison"].items() if k != "examples_different"})
         print("  pools:", m["cm_pools"])
         print("  rank cm:", m["ranking_cm_pools_top1_pct"])
-        print("  rank v1:", m["ranking_v1_pools_top1_pct"])
+        print("  rank first-success:", m["ranking_first_success_pools_top1_pct"])
 
 
 if __name__ == "__main__":

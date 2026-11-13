@@ -5,7 +5,7 @@ A candidate succeeds iff != original, strictly shorter under count_appL and exac
 Teacher sites: vs@1 (greedy) and vs@5 (greedy or any of 4 samples), per corpus x family.
 Hybrid (beyond-teacher) sites: per-site best verified count_appL saving (@1 greedy-only, @5), summed.
 CIs: file-level bootstrap 2000x seed 42; paired differences vs --ref model.
-Usage: eval_metrics.py --sites a.jsonl b.jsonl --verify v1.jsonl .. --model r1=gens_r1.jsonl --model r2n=... --ref r1 --out m.json"""
+Usage: eval_metrics.py --sites a.jsonl b.jsonl --verify verdicts.jsonl .. --model r1=gens_r1.jsonl --model r2n=... --ref r1 --out m.json"""
 import argparse, json, os, random, sys
 from collections import defaultdict
 _HERE = os.path.dirname(os.path.abspath(__file__))

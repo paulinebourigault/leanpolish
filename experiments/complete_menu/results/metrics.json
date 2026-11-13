@@ -228,8 +228,8 @@
       "mean_valid_per_site_given_>=1": 2.7566539923954374,
       "frac_sites_>=2_valid_given_>=1": 0.6768060836501901,
       "n_sites_with_chosen": 140,
-      "n_sites_cm_pick_differs_from_v1_pick": 48,
-      "n_sites_cm_edit_where_v1_no_edit": 0,
+      "n_sites_cm_pick_differs_from_first_success_pick": 48,
+      "n_sites_cm_edit_where_first_success_no_edit": 0,
       "outcome_label_counts": {
         "rejected_kernel": 4696,
         "skipped_length": 476,
@@ -275,13 +275,13 @@
       "valid_only:random": 140,
       "valid_only:shortest_string": 140
     },
-    "ranking_v1_pools_top1_pct": {
+    "ranking_first_success_pools_top1_pct": {
       "earliest_menu": 0.0,
       "latest_menu": 100.0,
       "random": 19.170557111733583,
       "shortest_string": 0.0
     },
-    "ranking_v1_pools_n_groups_ge2": 51
+    "ranking_first_success_pools_n_groups_ge2": 51
   },
   "axiom": {
     "files_without_report": {
@@ -438,8 +438,8 @@
       "mean_valid_per_site_given_>=1": 2.9154676258992804,
       "frac_sites_>=2_valid_given_>=1": 0.6996402877697842,
       "n_sites_with_chosen": 253,
-      "n_sites_cm_pick_differs_from_v1_pick": 63,
-      "n_sites_cm_edit_where_v1_no_edit": 0,
+      "n_sites_cm_pick_differs_from_first_success_pick": 63,
+      "n_sites_cm_edit_where_first_success_no_edit": 0,
       "outcome_label_counts": {
         "rejected_kernel": 12991,
         "valid_not_chosen": 452,
@@ -486,13 +486,13 @@
       "valid_only:random": 253,
       "valid_only:shortest_string": 253
     },
-    "ranking_v1_pools_top1_pct": {
+    "ranking_first_success_pools_top1_pct": {
       "earliest_menu": 0.0,
       "latest_menu": 100.0,
       "random": 20.393231320650678,
       "shortest_string": 0.0
     },
-    "ranking_v1_pools_n_groups_ge2": 31
+    "ranking_first_success_pools_n_groups_ge2": 31
   },
   "axiom_r2": {
     "files_without_report": {
@@ -633,8 +633,8 @@
       "mean_valid_per_site_given_>=1": 3.052863436123348,
       "frac_sites_>=2_valid_given_>=1": 0.724669603524229,
       "n_sites_with_chosen": 227,
-      "n_sites_cm_pick_differs_from_v1_pick": 53,
-      "n_sites_cm_edit_where_v1_no_edit": 0,
+      "n_sites_cm_pick_differs_from_first_success_pick": 53,
+      "n_sites_cm_edit_where_first_success_no_edit": 0,
       "outcome_label_counts": {
         "rejected_kernel": 9681,
         "chosen": 227,
@@ -681,13 +681,13 @@
       "valid_only:random": 227,
       "valid_only:shortest_string": 227
     },
-    "ranking_v1_pools_top1_pct": {
+    "ranking_first_success_pools_top1_pct": {
       "earliest_menu": 0.0,
       "latest_menu": 100.0,
       "random": 19.21207264957265,
       "shortest_string": 0.0
     },
-    "ranking_v1_pools_n_groups_ge2": 36
+    "ranking_first_success_pools_n_groups_ge2": 36
   },
   "minif2f": {
     "files_without_report": {
@@ -1640,8 +1640,8 @@
       "mean_valid_per_site_given_>=1": 3.349789283564118,
       "frac_sites_>=2_valid_given_>=1": 0.7344972907886815,
       "n_sites_with_chosen": 1995,
-      "n_sites_cm_pick_differs_from_v1_pick": 440,
-      "n_sites_cm_edit_where_v1_no_edit": 0,
+      "n_sites_cm_pick_differs_from_first_success_pick": 440,
+      "n_sites_cm_edit_where_first_success_no_edit": 0,
       "outcome_label_counts": {
         "rejected_kernel": 53941,
         "chosen": 1995,
@@ -1688,13 +1688,13 @@
       "valid_only:random": 1995,
       "valid_only:shortest_string": 1995
     },
-    "ranking_v1_pools_top1_pct": {
+    "ranking_first_success_pools_top1_pct": {
       "earliest_menu": 0.0,
       "latest_menu": 100.0,
       "random": 21.976448031135533,
       "shortest_string": 0.0
     },
-    "ranking_v1_pools_n_groups_ge2": 704
+    "ranking_first_success_pools_n_groups_ge2": 704
   },
   "mathlib_b1": {
     "files_without_report": {
@@ -1892,8 +1892,8 @@
       "mean_valid_per_site_given_>=1": 2.1601642710472277,
       "frac_sites_>=2_valid_given_>=1": 0.5995893223819302,
       "n_sites_with_chosen": 359,
-      "n_sites_cm_pick_differs_from_v1_pick": 67,
-      "n_sites_cm_edit_where_v1_no_edit": 0,
+      "n_sites_cm_pick_differs_from_first_success_pick": 67,
+      "n_sites_cm_edit_where_first_success_no_edit": 0,
       "outcome_label_counts": {
         "rejected_kernel": 25034,
         "chosen": 359,
@@ -1940,13 +1940,13 @@
       "valid_only:random": 359,
       "valid_only:shortest_string": 359
     },
-    "ranking_v1_pools_top1_pct": {
+    "ranking_first_success_pools_top1_pct": {
       "earliest_menu": 0.0,
       "latest_menu": 100.0,
       "random": 17.01423097974822,
       "shortest_string": 0.0
     },
-    "ranking_v1_pools_n_groups_ge2": 29
+    "ranking_first_success_pools_n_groups_ge2": 29
   },
   "mathlib_b2": {
     "files_without_report": {
@@ -2134,8 +2134,8 @@
       "mean_valid_per_site_given_>=1": 2.0791974656810983,
       "frac_sites_>=2_valid_given_>=1": 0.4952481520591341,
       "n_sites_with_chosen": 757,
-      "n_sites_cm_pick_differs_from_v1_pick": 140,
-      "n_sites_cm_edit_where_v1_no_edit": 0,
+      "n_sites_cm_pick_differs_from_first_success_pick": 140,
+      "n_sites_cm_edit_where_first_success_no_edit": 0,
       "outcome_label_counts": {
         "rejected_kernel": 38961,
         "chosen": 757,
@@ -2182,13 +2182,13 @@
       "valid_only:random": 757,
       "valid_only:shortest_string": 757
     },
-    "ranking_v1_pools_top1_pct": {
+    "ranking_first_success_pools_top1_pct": {
       "earliest_menu": 0.0,
       "latest_menu": 100.0,
       "random": 19.339536249913607,
       "shortest_string": 0.0
     },
-    "ranking_v1_pools_n_groups_ge2": 53
+    "ranking_first_success_pools_n_groups_ge2": 53
   },
   "mathlib_b3": {
     "files_without_report": {
@@ -2448,8 +2448,8 @@
       "mean_valid_per_site_given_>=1": 2.353182751540041,
       "frac_sites_>=2_valid_given_>=1": 0.5379876796714579,
       "n_sites_with_chosen": 338,
-      "n_sites_cm_pick_differs_from_v1_pick": 74,
-      "n_sites_cm_edit_where_v1_no_edit": 0,
+      "n_sites_cm_pick_differs_from_first_success_pick": 74,
+      "n_sites_cm_edit_where_first_success_no_edit": 0,
       "outcome_label_counts": {
         "rejected_kernel": 21486,
         "chosen": 338,
@@ -2496,13 +2496,13 @@
       "valid_only:random": 338,
       "valid_only:shortest_string": 338
     },
-    "ranking_v1_pools_top1_pct": {
+    "ranking_first_success_pools_top1_pct": {
       "earliest_menu": 0.0,
       "latest_menu": 100.0,
       "random": 17.915873015873014,
       "shortest_string": 0.0
     },
-    "ranking_v1_pools_n_groups_ge2": 25
+    "ranking_first_success_pools_n_groups_ge2": 25
   },
   "mathlib_b4": {
     "files_without_report": {
@@ -2671,8 +2671,8 @@
       "mean_valid_per_site_given_>=1": 2.1646341463414633,
       "frac_sites_>=2_valid_given_>=1": 0.5442073170731707,
       "n_sites_with_chosen": 486,
-      "n_sites_cm_pick_differs_from_v1_pick": 139,
-      "n_sites_cm_edit_where_v1_no_edit": 0,
+      "n_sites_cm_pick_differs_from_first_success_pick": 139,
+      "n_sites_cm_edit_where_first_success_no_edit": 0,
       "outcome_label_counts": {
         "rejected_kernel": 27783,
         "chosen": 486,
@@ -2719,13 +2719,13 @@
       "valid_only:random": 486,
       "valid_only:shortest_string": 486
     },
-    "ranking_v1_pools_top1_pct": {
+    "ranking_first_success_pools_top1_pct": {
       "earliest_menu": 0.0,
       "latest_menu": 100.0,
       "random": 13.769106407995297,
       "shortest_string": 0.0
     },
-    "ranking_v1_pools_n_groups_ge2": 27
+    "ranking_first_success_pools_n_groups_ge2": 27
   },
   "mathlib_b5": {
     "files_without_report": {
@@ -2903,8 +2903,8 @@
       "mean_valid_per_site_given_>=1": 2.1996086105675148,
       "frac_sites_>=2_valid_given_>=1": 0.5264187866927593,
       "n_sites_with_chosen": 385,
-      "n_sites_cm_pick_differs_from_v1_pick": 63,
-      "n_sites_cm_edit_where_v1_no_edit": 0,
+      "n_sites_cm_pick_differs_from_first_success_pick": 63,
+      "n_sites_cm_edit_where_first_success_no_edit": 0,
       "outcome_label_counts": {
         "rejected_kernel": 21243,
         "skipped_length": 3021,
@@ -2951,13 +2951,13 @@
       "valid_only:random": 385,
       "valid_only:shortest_string": 385
     },
-    "ranking_v1_pools_top1_pct": {
+    "ranking_first_success_pools_top1_pct": {
       "earliest_menu": 0.0,
       "latest_menu": 100.0,
       "random": 20.23148148148148,
       "shortest_string": 0.0
     },
-    "ranking_v1_pools_n_groups_ge2": 18
+    "ranking_first_success_pools_n_groups_ge2": 18
   },
   "mathlib_b6": {
     "files_without_report": {
@@ -3195,8 +3195,8 @@
       "mean_valid_per_site_given_>=1": 2.4381720430107525,
       "frac_sites_>=2_valid_given_>=1": 0.6075268817204301,
       "n_sites_with_chosen": 522,
-      "n_sites_cm_pick_differs_from_v1_pick": 53,
-      "n_sites_cm_edit_where_v1_no_edit": 0,
+      "n_sites_cm_pick_differs_from_first_success_pick": 53,
+      "n_sites_cm_edit_where_first_success_no_edit": 0,
       "outcome_label_counts": {
         "rejected_kernel": 32932,
         "skipped_length": 3000,
@@ -3243,13 +3243,13 @@
       "valid_only:random": 522,
       "valid_only:shortest_string": 522
     },
-    "ranking_v1_pools_top1_pct": {
+    "ranking_first_success_pools_top1_pct": {
       "earliest_menu": 0.0,
       "latest_menu": 100.0,
       "random": 18.884491830920403,
       "shortest_string": 0.0
     },
-    "ranking_v1_pools_n_groups_ge2": 42
+    "ranking_first_success_pools_n_groups_ge2": 42
   },
   "_cm_only_pools": {
     "goedel_extra": {

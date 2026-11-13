@@ -202,8 +202,8 @@ def main():
                 pc = [(x.get("rank_in_attempt", 1) if x.get("outcome") != "accepted" else 10**6, x["replacement"]) for x in rows]
                 for kk, v in rank_rules(pc, acc[0]["replacement"], None).items():
                     g1[kk].append(v)
-        c["ranking_v1_groups_top1_pct"] = {kk: 100 * statistics.mean(v) for kk, v in g1.items()}
-        c["ranking_v1_groups_n"] = len(g1.get("random", []))
+        c["ranking_first_success_groups_top1_pct"] = {kk: 100 * statistics.mean(v) for kk, v in g1.items()}
+        c["ranking_first_success_groups_n"] = len(g1.get("random", []))
         res[cname] = c
         print(cname, {m: (v["saved_A"], round(v["pct_A"] or 0, 3)) for m, v in c["modes"].items()}, flush=True)
     OUT.mkdir(parents=True, exist_ok=True)
@@ -251,9 +251,9 @@ def tables(res):
     L.append("| corpus | pool | n | earliest in menu | latest in menu | shortest string | random |")
     L.append("|---|---|---|---|---|---|---|")
     for cn, c in res.items():
-        g = c["ranking_v1_groups_top1_pct"]
+        g = c["ranking_first_success_groups_top1_pct"]
         if g:
-            L.append(f"| {cn} | **v1 released-style group** (winner + earlier failures, ≥2 rows) | {c['ranking_v1_groups_n']} | {f(g['earliest_menu'],1)} | **{f(g['latest_menu'],1)}** | {f(g['shortest_string'],1)} | {f(g['random'],1)} |")
+            L.append(f"| {cn} | **first-success group, as released** (winner + earlier failures, ≥2 rows) | {c['ranking_first_success_groups_n']} | {f(g['earliest_menu'],1)} | **{f(g['latest_menu'],1)}** | {f(g['shortest_string'],1)} | {f(g['random'],1)} |")
         r = c["ranking_top1_pct"]
         for pool, desc in [("all_tried", "CM: all tried candidates"), ("valid_shorter", "CM: valid+shorter only"),
                            ("selectable", "CM: selectable (valid, shorter, gate)"), ("selectable_ge2", "CM: selectable, ≥2 options")]:

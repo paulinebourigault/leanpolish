@@ -110,13 +110,13 @@
    "selectable_ge2:random": 78,
    "valid_shorter:random": 134
   },
-  "ranking_v1_groups_top1_pct": {
+  "ranking_first_success_groups_top1_pct": {
    "earliest_menu": 0.0,
    "latest_menu": 100.0,
    "shortest_string": 0.0,
    "random": 19.170557111733583
   },
-  "ranking_v1_groups_n": 51
+  "ranking_first_success_groups_n": 51
  },
  "Putnam 2025 AxiomProver (12), rerun": {
   "n_files": 12,
@@ -238,13 +238,13 @@
    "selectable_ge2:random": 159,
    "valid_shorter:random": 227
   },
-  "ranking_v1_groups_top1_pct": {
+  "ranking_first_success_groups_top1_pct": {
    "earliest_menu": 0.0,
    "latest_menu": 100.0,
    "shortest_string": 0.0,
    "random": 19.21207264957265
   },
-  "ranking_v1_groups_n": 36
+  "ranking_first_success_groups_n": 36
  },
  "Putnam 2025 AxiomProver (12), first run": {
   "n_files": 12,
@@ -352,13 +352,13 @@
    "selectable_ge2:random": 175,
    "valid_shorter:random": 253
   },
-  "ranking_v1_groups_top1_pct": {
+  "ranking_first_success_groups_top1_pct": {
    "earliest_menu": 0.0,
    "latest_menu": 100.0,
    "shortest_string": 0.0,
    "random": 20.393231320650678
   },
-  "ranking_v1_groups_n": 31
+  "ranking_first_success_groups_n": 31
  },
  "miniF2F-verified (351)": {
   "n_files": 351,
@@ -468,13 +468,13 @@
    "selectable_ge2:random": 1205,
    "valid_shorter:random": 1990
   },
-  "ranking_v1_groups_top1_pct": {
+  "ranking_first_success_groups_top1_pct": {
    "earliest_menu": 0.0,
    "latest_menu": 100.0,
    "shortest_string": 0.0,
    "random": 21.985956305599164
   },
-  "ranking_v1_groups_n": 700
+  "ranking_first_success_groups_n": 700
  },
  "Mathlib sample (300, seed 0)": {
   "n_files": 300,
@@ -596,12 +596,12 @@
    "selectable_ge2:random": 1522,
    "valid_shorter:random": 2847
   },
-  "ranking_v1_groups_top1_pct": {
+  "ranking_first_success_groups_top1_pct": {
    "earliest_menu": 0.0,
    "latest_menu": 100.0,
    "shortest_string": 0.0,
    "random": 18.017454338330626
   },
-  "ranking_v1_groups_n": 194
+  "ranking_first_success_groups_n": 194
  }
 }

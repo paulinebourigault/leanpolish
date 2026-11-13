@@ -32,7 +32,7 @@ print("|---|---|---|---|---|---|---|---|---|---|")
 for c, x in m.items():
     b, k, s, p = x["base"], x["cm"], x["site_comparison"], x["cm_pools"]
     print(f"| {NAMES.get(c,c)} | {b['accepted_tactic_replacements']} | {k['accepted_tactic_replacements']} | {b['accepted_edits_all']} | {k['accepted_edits_all']} | "
-          f"{s['accepted_in_both_same_tactic']} | {s['accepted_in_both_different_tactic']} ({s['different_tactic_cm_shorter']}) | {s['only_base']} | {s['only_cm']} | {p['n_sites_cm_pick_differs_from_v1_pick']} / {p['n_sites_with_chosen']} |")
+          f"{s['accepted_in_both_same_tactic']} | {s['accepted_in_both_different_tactic']} ({s['different_tactic_cm_shorter']}) | {s['only_base']} | {s['only_cm']} | {p['n_sites_cm_pick_differs_from_first_success_pick']} / {p['n_sites_with_chosen']} |")
 print("\n### Runtime per file (wall s, chunk-size 1, concurrent runs on a shared machine)\n")
 print("| corpus | FS mean | CM mean | FS median | CM median | FS total | CM total | CM/FS total |")
 print("|---|---|---|---|---|---|---|---|")
@@ -58,9 +58,9 @@ print("\n### Ranking diagnostic: top-1 accuracy (%) against the chosen candidate
 print("| corpus | pool | n | earliest-in-menu | latest-in-menu | shortest string | random |")
 print("|---|---|---|---|---|---|---|")
 for c, x in m.items():
-    v1 = x["ranking_v1_pools_top1_pct"]
+    v1 = x["ranking_first_success_pools_top1_pct"]
     if v1:
-        print(f"| {NAMES.get(c,c)} | v1 released-style group (winner + failures tried before it; n≥2) | {x['ranking_v1_pools_n_groups_ge2']} | {f(v1['earliest_menu'],1)} | {f(v1['latest_menu'],1)} | {f(v1['shortest_string'],1)} | {f(v1['random'],1)} |")
+        print(f"| {NAMES.get(c,c)} | first-success group, as released (winner + failures tried before it; n≥2) | {x['ranking_first_success_pools_n_groups_ge2']} | {f(v1['earliest_menu'],1)} | {f(v1['latest_menu'],1)} | {f(v1['shortest_string'],1)} | {f(v1['random'],1)} |")
     r, n = x["ranking_cm_pools_top1_pct"], x["ranking_cm_pools_n"]
     for pool, desc in [("all_siblings", "CM: all tried candidates"), ("valid_only", "CM: valid and shorter only"),
                        ("selectable", "CM: selectable (valid, shorter, passes gate)"),

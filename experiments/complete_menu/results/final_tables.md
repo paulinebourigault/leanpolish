@@ -42,27 +42,27 @@
 
 | corpus | pool | n | earliest in menu | latest in menu | shortest string | random |
 |---|---|---|---|---|---|---|
-| PutnamBench-verified (19) | **v1 released-style group** (winner + earlier failures, ≥2 rows) | 51 | 0.0 | **100.0** | 0.0 | 19.2 |
+| PutnamBench-verified (19) | **first-success group, as released** (winner + earlier failures, ≥2 rows) | 51 | 0.0 | **100.0** | 0.0 | 19.2 |
 | PutnamBench-verified (19) | CM: all tried candidates | 134 | 2.2 | 0.0 | 1.1 | 7.2 |
 | PutnamBench-verified (19) | CM: valid+shorter only | 134 | 67.2 | 46.3 | 82.5 | 57.1 |
 | PutnamBench-verified (19) | CM: selectable (valid, shorter, gate) | 134 | 67.2 | 56.0 | 89.6 | 62.2 |
 | PutnamBench-verified (19) | CM: selectable, ≥2 options | 78 | 43.6 | 24.4 | 82.1 | 35.1 |
-| Putnam 2025 AxiomProver (12), rerun | **v1 released-style group** (winner + earlier failures, ≥2 rows) | 36 | 0.0 | **100.0** | 0.0 | 19.2 |
+| Putnam 2025 AxiomProver (12), rerun | **first-success group, as released** (winner + earlier failures, ≥2 rows) | 36 | 0.0 | **100.0** | 0.0 | 19.2 |
 | Putnam 2025 AxiomProver (12), rerun | CM: all tried candidates | 227 | 37.4 | 0.0 | 18.7 | 9.1 |
 | Putnam 2025 AxiomProver (12), rerun | CM: valid+shorter only | 227 | 76.7 | 27.8 | 84.6 | 44.3 |
 | Putnam 2025 AxiomProver (12), rerun | CM: selectable (valid, shorter, gate) | 227 | 76.7 | 45.4 | 95.6 | 52.7 |
 | Putnam 2025 AxiomProver (12), rerun | CM: selectable, ≥2 options | 159 | 66.7 | 22.0 | 93.7 | 32.4 |
-| Putnam 2025 AxiomProver (12), first run | **v1 released-style group** (winner + earlier failures, ≥2 rows) | 31 | 0.0 | **100.0** | 0.0 | 20.4 |
+| Putnam 2025 AxiomProver (12), first run | **first-success group, as released** (winner + earlier failures, ≥2 rows) | 31 | 0.0 | **100.0** | 0.0 | 20.4 |
 | Putnam 2025 AxiomProver (12), first run | CM: all tried candidates | 253 | 35.2 | 0.0 | 17.6 | 9.0 |
 | Putnam 2025 AxiomProver (12), first run | CM: valid+shorter only | 253 | 75.1 | 29.2 | 83.2 | 45.0 |
 | Putnam 2025 AxiomProver (12), first run | CM: selectable (valid, shorter, gate) | 253 | 75.1 | 48.6 | 96.0 | 53.3 |
 | Putnam 2025 AxiomProver (12), first run | CM: selectable, ≥2 options | 175 | 64.0 | 25.7 | 94.3 | 32.5 |
-| miniF2F-verified (351) | **v1 released-style group** (winner + earlier failures, ≥2 rows) | 700 | 0.0 | **100.0** | 0.0 | 22.0 |
+| miniF2F-verified (351) | **first-success group, as released** (winner + earlier failures, ≥2 rows) | 700 | 0.0 | **100.0** | 0.0 | 22.0 |
 | miniF2F-verified (351) | CM: all tried candidates | 1990 | 9.2 | 0.0 | 4.6 | 7.0 |
 | miniF2F-verified (351) | CM: valid+shorter only | 1990 | 77.9 | 36.1 | 80.6 | 51.4 |
 | miniF2F-verified (351) | CM: selectable (valid, shorter, gate) | 1990 | 77.9 | 47.6 | 92.6 | 60.2 |
 | miniF2F-verified (351) | CM: selectable, ≥2 options | 1205 | 63.5 | 13.5 | 87.7 | 34.3 |
-| Mathlib sample (300, seed 0) | **v1 released-style group** (winner + earlier failures, ≥2 rows) | 194 | 0.0 | **100.0** | 0.0 | 18.0 |
+| Mathlib sample (300, seed 0) | **first-success group, as released** (winner + earlier failures, ≥2 rows) | 194 | 0.0 | **100.0** | 0.0 | 18.0 |
 | Mathlib sample (300, seed 0) | CM: all tried candidates | 2847 | 15.0 | 9.3 | 7.8 | 8.8 |
 | Mathlib sample (300, seed 0) | CM: valid+shorter only | 2847 | 81.2 | 50.7 | 89.8 | 65.3 |
 | Mathlib sample (300, seed 0) | CM: selectable (valid, shorter, gate) | 2847 | 81.2 | 51.5 | 90.2 | 65.8 |
