@@ -95,7 +95,16 @@ The gain of the alternation comes from generate-and-verify, not from fine-tuning
 run in the table above (20.25 / 5.05) started from a hybrid output produced on other hardware.
 
 * `results/costs.json`: per method and input set, logged LeanPolish rows, REPL checks, fresh file
-  compilations and GPU-seconds, taken from the run logs in the dataset tarball.
+  compilations and GPU-seconds, taken from the run logs in the dataset tarball. Its
+  `alternation_by_round` block gives the reduction of both alternating editors after each round with
+  the cumulative cost, so the two can be compared at a stated budget:
+
+  | Reduction % (REPL checks; GPU-s) | after round 1 | after round 2 | after round 3 |
+  |---|---|---|---|
+  | PutnamBench-19, frozen editor | 15.52 (1,048; 128) | 17.70 (2,019; 277) | 18.71 (3,000; 438) |
+  | PutnamBench-19, trained editor | 15.93 (839; 76) | 17.80 (1,418; 137) | 18.63 (1,980; 202) |
+  | AxiomProver-12, frozen editor | 4.85 (9,169; 677) | 5.24 (17,681; 1,359) | |
+  | AxiomProver-12, trained editor | 4.45 (7,842; 242) | 4.62 (14,601; 495) | |
 * `results/release_timing.json`: the release run against controlled re-runs of the same binary on
   PutnamBench-19 (idle machine 11.2%, every core busy 10.4%). Five files carry 99% of the gap between
   the release run (6.1%) and the clean rerun (11.9%); the two slowest files of the set have no release

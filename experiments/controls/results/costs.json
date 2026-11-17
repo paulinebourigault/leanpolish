@@ -141,5 +141,106 @@
    "file_checks": 99,
    "gpu_s": 495
   }
+ },
+ "alternation_by_round": {
+  "note": "Mean of three sampling seeds. A round is one editor pass followed by one LeanPolish pass; costs are cumulative and, as above, exclude the release LeanPolish run that produced the inputs. Differences: 95% paired file bootstrap, 100,000 resamples.",
+  "PutnamBench-19": {
+   "frozen editor": {
+    "round 1": {
+     "reduction_pct": 15.52,
+     "repl_checks": 1048,
+     "file_checks": 54,
+     "leanpolish_log_rows": 147,
+     "gpu_s": 128
+    },
+    "round 2": {
+     "reduction_pct": 17.7,
+     "repl_checks": 2019,
+     "file_checks": 115,
+     "leanpolish_log_rows": 239,
+     "gpu_s": 277
+    },
+    "round 3": {
+     "reduction_pct": 18.71,
+     "repl_checks": 3000,
+     "file_checks": 160,
+     "leanpolish_log_rows": 316,
+     "gpu_s": 438
+    }
+   },
+   "trained editor": {
+    "round 1": {
+     "reduction_pct": 15.93,
+     "repl_checks": 839,
+     "file_checks": 62,
+     "leanpolish_log_rows": 156,
+     "gpu_s": 76
+    },
+    "round 2": {
+     "reduction_pct": 17.8,
+     "repl_checks": 1418,
+     "file_checks": 111,
+     "leanpolish_log_rows": 272,
+     "gpu_s": 137
+    },
+    "round 3": {
+     "reduction_pct": 18.63,
+     "repl_checks": 1980,
+     "file_checks": 156,
+     "leanpolish_log_rows": 365,
+     "gpu_s": 202
+    }
+   }
+  },
+  "AxiomProver-12": {
+   "frozen editor": {
+    "round 1": {
+     "reduction_pct": 4.85,
+     "repl_checks": 9169,
+     "file_checks": 63,
+     "leanpolish_log_rows": 124,
+     "gpu_s": 677
+    },
+    "round 2": {
+     "reduction_pct": 5.24,
+     "repl_checks": 17681,
+     "file_checks": 96,
+     "leanpolish_log_rows": 188,
+     "gpu_s": 1359
+    }
+   },
+   "trained editor": {
+    "round 1": {
+     "reduction_pct": 4.45,
+     "repl_checks": 7842,
+     "file_checks": 62,
+     "leanpolish_log_rows": 106,
+     "gpu_s": 242
+    },
+    "round 2": {
+     "reduction_pct": 4.62,
+     "repl_checks": 14601,
+     "file_checks": 99,
+     "leanpolish_log_rows": 128,
+     "gpu_s": 495
+    }
+   }
+  },
+  "trained_minus_frozen_at_similar_budget": {
+   "PutnamBench-19: trained after round 3 minus frozen after round 2": {
+    "gain_pp": 0.93,
+    "ci95": [
+     -0.83,
+     2.52
+    ]
+   },
+   "AxiomProver-12: trained after round 2 minus frozen after round 1": {
+    "gain_pp": -0.23,
+    "ci95": [
+     -1.55,
+     1.01
+    ]
+   }
+  }
  }
 }
