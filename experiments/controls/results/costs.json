@@ -227,11 +227,18 @@
    }
   },
   "trained_minus_frozen_at_similar_budget": {
-   "PutnamBench-19: trained after round 3 minus frozen after round 2": {
+   "PutnamBench-19, similar REPL checks: trained after round 3 minus frozen after round 2": {
     "gain_pp": 0.93,
     "ci95": [
      -0.83,
      2.52
+    ]
+   },
+   "PutnamBench-19, similar GPU-seconds: trained after round 2 minus frozen after round 1": {
+    "gain_pp": 2.28,
+    "ci95": [
+     0.23,
+     4.29
     ]
    },
    "AxiomProver-12: trained after round 2 minus frozen after round 1": {
